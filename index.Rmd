@@ -1,13 +1,42 @@
 ---
-title: "Ouverture des données publiques culturelles en pratique"
-tags: Templates, Talk
-description: View the slide with "Slide Mode".
+title: "L'ouverture des données publiques culturelles en pratique"
+subtitle: "Ministère de la Culture"
+author: "Datactivist"
+date: "`r format(Sys.Date(), '%d %b %Y')`"
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+params:
+  event: L'ouverture des données publiques culturelles en pratique
+  slug: ministere-culture
 ---
 
-# Ouverture des données publiques culturelles en pratique
+layout: true
+  
 
-<!-- Put the link to this slide here so people can follow -->
-slide: https://hackmd.io/@cecileLG/Formation-Min-Culture
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='0px'></center></span></div>")` 
+
+
+---
+
+class: center, middle
+
+Ces slides en ligne : `r paste0("http://datactivist.coop/", params$slug)`
+
+Sources : `r paste0("https://github.com/datactivist/", params$slug)`
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+.reduite[![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)]
 
 ---
 ## Qui sommes nous ?
@@ -102,7 +131,8 @@ C’est en 1995 qu’on en voit le premier usage public aux Etats-Unis dans un r
 
 Dans le langage courant, cela fait .red[**près de 10 ans**] que l'ouverture des données est devenue un élément majeur des politiques publiques numériques. 
 
---- 
+---
+class: center, middle
 
 ##  1.a  Au fait, c'est quoi une donnée ?
 
@@ -111,10 +141,12 @@ Dans le langage courant, cela fait .red[**près de 10 ans**] que l'ouverture des
 
 #### Ecoutez [l'interview de Serge Abiteboul, commissaire scientifique de l’exposition Terradata et directeur de recherche à l’Inria](https://www.youtube.com/watch?v=qqvsiTUJy7k)
 
-{%youtube qqvsiTUJy7k %}
+.center[
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qqvsiTUJy7k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
 
 ---
-## Les données sont partout !
+### Les données sont partout !
 
 <img src="https://datactivist.coop/SPoSGL/sections/img/dataeverywhere.png" height="350"/>
 
@@ -123,20 +155,26 @@ Dans le langage courant, cela fait .red[**près de 10 ans**] que l'ouverture des
  
 ---
 
-## Une définition des données
+### Une définition des données
 
+.pull-left[<img src="https://datactivist.coop/SPoSGL/sections/img/kitchin.png" height="400"/>]
+ 
+.pull-right[
+ 
+> ##### *Les données sont couramment comprises comme les matériaux bruts produits dans l’abstraction du monde en catégories, mesures et toute autre forme de représentation-nombres, caractères, symboles, images, sons, ondes électromagnétiques, bits qui constituent les fondations sur lesquelles l’information et le savoir sont créés.*
 
-<img src="https://datactivist.coop/SPoSGL/sections/img/kitchin.png" height="300">
- 
- 
-> *Les données sont couramment comprises comme les matériaux bruts produits dans l’abstraction du monde en catégories, mesures et toute autre forme de représentation-nombres, caractères, symboles, images, sons, ondes électromagnétiques, bits qui constituent les fondations sur lesquelles l’information et le savoir sont créés.*
-> 
+- Enregistrabilité
+
+- Briques de base "*buildings blocks*")]
+
 ---
 
 ### La pyramide Data-Information-Knowledge-Wisdom
 
-<img src="https://datactivist.coop/SPoSGL/sections/img/dikw_pyramid.svg" height="300"/>
-
+.pull-left[
+[![largeur](https://datactivist.coop/SPoSGL/sections/img/dikw_pyramid.svg)](https://commons.wikimedia.org/w/index.php?curid=37705247)
+]
+.pull-right[
 Attribuée à [Russell Ackoff](http://en.wikipedia.org/wiki/Russell_L._Ackoff) en 1989, elle signfie que :
 
 
@@ -146,7 +184,7 @@ Attribuée à [Russell Ackoff](http://en.wikipedia.org/wiki/Russell_L._Ackoff) e
 - En donnant du sens à la connaissance on obtient de la **.red[sagesse]**.
 
 
-_NB : le haut de la pyramide, est parfois remplacé par "compétence"_
+_NB : le haut de la pyramide, est parfois remplacé par "compétence"_]
 
 ---
 
@@ -162,6 +200,7 @@ Le volume des données créées et traitées ne cesse de croitre en même temps 
 ]
 
 ---
+class: center, middle
 
 ## 1.b  L'industrialisation de la production des données
 
@@ -171,12 +210,14 @@ Le volume des données créées et traitées ne cesse de croitre en même temps 
 Vers 3200 av. J.-C., en Mésopotamie, la civilisation sumérienne a inventé l’écriture d'abord pour mémoriser des comptes (difficile de recenser des têtes de bétail ou des sacs de grains oralement).
 .pull-left[
 ![](http://www.ladressemuseedelaposte.fr/IMG/arton1311-resp500-2.jpg)
-
+]
 .pull-right[
 
 > "La compatibilité a été l'une des premières *success story* de l'écriture ; les premières tablettes comprennent souvent des listes de compte."
-]
+
 .footnote[Source : Abiteboul & Peugeot (2017). *Terra Data : qu'allons nous faire des données numériques ?*, Paris : Le Pommier.]
+]
+
 ---
 
 ### La carte perforée (1884) : le début de la massification des données
@@ -225,23 +266,24 @@ Son logiciel "Visicalc", .red[démocratise la production des données] en propos
 
 ---
 
+class:middle,center
 ### Exercice : Identifiez autour de vous 3 appareils qui collectent des données 
 
 
 ---
+class:inverse,middle,center
 
 # 2 - Les grands principes de l’ouverture des données
 
-
 ---
+### [.red[Les multiples facettes de l'open data :]](https://books.openedition.org/cdf/5005?lang=fr) la transparence
 
-### [.red[Les multiples facettes de l'open data ]](https://books.openedition.org/cdf/5005?lang=fr) : la transparence
+Aller au-delà du droit d'accès et de la réédition des comptes (_accountability_) : réduire les asymétries d'information en accédant au matériau brut de l'information et du savoir
 
-Aller au-delà du droit d'accès et de la rédition des comptes (_accountability_) : réduire les asymétries d'information en accédant au matériau brut de l'information et du savoir
-
-
+.reduite[
+![](https://datactivist.coop/aaf/img/ddhc.png)
+]
 ---
-
 ### [.red[Les multiples facettes de l'open data :]](https://books.openedition.org/cdf/5005?lang=fr) la libre circulation de l’information
 
 Dans la lignée de la cybernétique et du logiciel libre, la circulation des données comme valeur essentielle
@@ -269,10 +311,10 @@ Le nouveau pétrole et les promesses démesurées de croissance
 
 Désiloter l'administration et ouvrir l'innovation, collaborer avec la société civile dans l'élaboration et la mise en œuvre des politiques publiques
 
-.reduite[.center[![](http://www.participation-et-democratie.fr/sites/default/files/democratie_ouverte_0.png)]]
-
+.reduite[.center[![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/D%C3%A9mocratie_Ouverte.png/800px-D%C3%A9mocratie_Ouverte.png)]]
 ---
-### 2.a  L'Open data en quelques dates
+class:center,middle
+## 2.a  L'Open data en quelques dates
 
 ---
 ### 2005 : [L'Open Definition](https://opendefinition.org/)
