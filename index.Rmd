@@ -78,9 +78,9 @@ La médiation de données est aussi fondamentalement une animation de communaut�
 * Spécificités de la mise en oeuvre de l'open data dans le secteur culturel
 
 ---
-## Rappel du programme de la formation 
+## Programme de la formation 
 
-#### Jour 1
+### .red[Jour 1]
 
 1. Origines historiques de l’ouverture des données 
 1. Les grands principes de l’ouverture des données 
@@ -93,9 +93,9 @@ La médiation de données est aussi fondamentalement une animation de communaut�
 1. Tour d’horizon des portails d’open data (CKAN, data.culture.gouv.fr, data.gouv.fr…)
 
 ---
-## Rappel du programme de la formation 
+## Programme de la formation 
 
-#### Jour 2 
+### .red[Jour 2] 
 
 * Identification des données 
 * Négociations et frictions dans l’ouverture des données : comment éviter les obstacles de l’open data ? 
@@ -145,12 +145,14 @@ class: center, middle
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qqvsiTUJy7k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
 
+.footnote[Source : Abiteboul & Peugeot (2017). *Terra Data : qu'allons nous faire des données numériques ?*, Paris : Le Pommier.]
+
 ---
 ### Les données sont partout !
 
 <img src="https://datactivist.coop/SPoSGL/sections/img/dataeverywhere.png" height="350"/>
 
-*source : [The Economist](https://www.emc.com/collateral/analyst-reports/ar-the-economist-data-data-everywhere.pdf)*
+.footnote[source : [The Economist](https://www.emc.com/collateral/analyst-reports/ar-the-economist-data-data-everywhere.pdf)]
  
  
 ---
@@ -182,10 +184,7 @@ Attribuée à [Russell Ackoff](http://en.wikipedia.org/wiki/Russell_L._Ackoff) e
 - **.red[L'information]** pourrait être définie comme des données qui ont été interprétées pour dégager du sens pour des humains.
 - En donnant du sens à de l'information, on obtient de la **.red[connaissance]**
 - En donnant du sens à la connaissance on obtient de la **.red[sagesse]**.
-
-
-_NB : le haut de la pyramide, est parfois remplacé par "compétence"_]
-
+] 
 ---
 
 ### Les données, c'est aussi tout ce qui circule dans un ordinateur
@@ -215,9 +214,7 @@ Vers 3200 av. J.-C., en Mésopotamie, la civilisation sumérienne a inventé l�
 
 > "La compatibilité a été l'une des premières *success story* de l'écriture ; les premières tablettes comprennent souvent des listes de compte."
 
-.footnote[Source : Abiteboul & Peugeot (2017). *Terra Data : qu'allons nous faire des données numériques ?*, Paris : Le Pommier.]
-]
-
+] 
 ---
 
 ### La carte perforée (1884) : le début de la massification des données
@@ -276,51 +273,52 @@ class:inverse,middle,center
 # 2 - Les grands principes de l’ouverture des données
 
 ---
-### [.red[Les multiples facettes de l'open data :]](https://books.openedition.org/cdf/5005?lang=fr) la transparence
+### [.red[Principe n°1 :]](https://books.openedition.org/cdf/5005?lang=fr) la transparence
 
 Aller au-delà du droit d'accès et de la réédition des comptes (_accountability_) : réduire les asymétries d'information en accédant au matériau brut de l'information et du savoir
 
-.reduite[
-![](https://datactivist.coop/aaf/img/ddhc.png)
-]
+.reduite.center[![](https://datactivist.coop/aaf/img/ddhc.png)]
+
 ---
-### [.red[Les multiples facettes de l'open data :]](https://books.openedition.org/cdf/5005?lang=fr) la libre circulation de l’information
+### [.red[Principe n°2 :]](https://books.openedition.org/cdf/5005?lang=fr) la libre circulation de l’information
 
 Dans la lignée de la cybernétique et du logiciel libre, la circulation des données comme valeur essentielle
 
-.reduite.center[![](https://farm7.static.flickr.com/6197/6073305958_19c2bbef40_o.jpg)]
+.center[<img src="https://farm7.static.flickr.com/6197/6073305958_19c2bbef40_o.jpg" height="400"/>]
 
 ---
 
-###  [.red[Les multiples facettes de l'open data :]](https://books.openedition.org/cdf/5005?lang=fr) la demande de données brutes
+###  [.red[Principe n°3 :]](https://books.openedition.org/cdf/5005?lang=fr) la demande de données brutes
 
 Dans la lignée des premières initatives de partage de données scientifiques en génétique ou en astronomie, obtenir les données sous leur forme pré-interprétative pour refaire les calculs
 
-.reduite.center[![](http://images.wisegeek.com/physical-data.jpg)]
+.center[<img src="http://images.wisegeek.com/physical-data.jpg" height="350"/>]
 
 ---
 
-### [.red[Les multiples facettes de l'open data :]](https://books.openedition.org/cdf/5005?lang=fr) l'industrie de la donnée
+### [.red[Principe n°4 :]](https://books.openedition.org/cdf/5005?lang=fr) l'industrie de la donnée
 Le nouveau pétrole et les promesses démesurées de croissance
 
 .reduite[.center[![](https://images.pexels.com/photos/70362/oil-monahans-texas-sunset-70362.jpeg?cs=srgb&dl=dawn-drill-evening-70362.jpg&fm=jpg)]]
 
 ---
 
-### [.red[Les multiples facettes de l'open data :]](https://books.openedition.org/cdf/5005?lang=fr) la modernisation des administrations
+### .red[Principe n°5 :] la modernisation des administrations
 
 Désiloter l'administration et ouvrir l'innovation, collaborer avec la société civile dans l'élaboration et la mise en œuvre des politiques publiques
 
-.reduite[.center[![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/D%C3%A9mocratie_Ouverte.png/800px-D%C3%A9mocratie_Ouverte.png)]]
+.center[![modernisation des administrations](./img/modernisation.jpg)] 
 ---
 class:center,middle
+
 ## 2.a  L'Open data en quelques dates
 
 ---
 ### 2005 : [L'Open Definition](https://opendefinition.org/)
 
-### Une définition juridique des droits de l'usager d'un savoir ouvert
-![](https://datactivist.coop/occitanie/img/opendef.png)]
+#### Une définition juridique des droits de l'usager d'un savoir ouvert
+
+.reduite[.center[![](https://datactivist.coop/occitanie/img/opendef.png)]]
 
 
 ---
@@ -334,56 +332,65 @@ class:center,middle
 **Comment ?** En adoptant une déclaration définissant les grands principes de l'Open Government Data 
 
 
-![](https://datactivist.coop/dataliteracy/img/photofamille.jpg)
+.center[<img src="https://datactivist.coop/dataliteracy/img/photofamille.jpg" height="250"/>]
 
 ---
+class: center, middle
 
 ### 2.b Principes de l'open data définis pendant la conférence de Sébastopol
 
 ---
+class: center, middle
 
-
-#### 1. Des données complètes
+### 1. Des données .red[complètes]
 
 > **Toutes les données publiques doivent être rendues disponibles dans les limites légales liées à la vie privée ou la sécurité**
 ---
+class: center, middle
 
-
-#### 2. Des données primaires
+### 2. Des données .red[primaires]
 
 > **Les données ouvertes sont telles que collectées à la source, non-agrégées avec le plus haut niveau de granularité**
 
 ---
+class: center, middle
 
-#### 3. Des données fraiches (*timely*)
+### 3. Des données .red[fraiches] (*timely*)
 
 > **Les données doivent être disponibles dès qu'elles sont produites**
 
 ---
+class: center, middle
 
-#### 4. Des données accessibles 
+### 4. Des données .red[accessibles] 
 
 > **Les données doivent être utilisables par le plus grand nombre d’usagers potentiels**
 
 ---
+class: center, middle
 
-#### 5. Des données exploitables par les machines 
+### 5. Des données .red[exploitables par les machines] 
+
 > **Les données peuvent être traitées automatiquement par les machines** 
 
 ---
+class: center, middle
 
-#### 6. Des données non discriminatoires 
+### 6. Des données .red[non discriminatoires]
+
 > **Elles peuvent être utilisées par tous sans réclamer un enregistrement préalable**
 > 
 ---
+class: center, middle
 
-#### 7. Des données dans un format ouvert
+### 7. Des données publiée .red[dans un format ouvert]
 
 > **Ce format ne doit pas être la propriété d'une organisation en particulier (.xls) et doit être gouverné par ses usagers**
 
 ---
+class: center, middle
 
-#### 8. Des données dans une licence ouverte
+### 8. Des données publiées .red[sous une licence ouverte]
 
 > **Idéalement dans le domaine public sinon dans une licence conforme à l'[Open Definition](www.opendefinition.org) : Licence Ouverte (CC-BY) ou ODBL (CC-BY-SA)** 
 
@@ -391,12 +398,12 @@ class:center,middle
 ### 2008 : Tim Berners-Lee ["Raw data now"](https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=fr)
 #### La demande de données brutes sous les projecteurs
 
-![](https://datactivist.coop/aaf/img/ted.png)
+.center[.reduite[![](https://datactivist.coop/aaf/img/ted.png)]]
 
 ---
 ### 2010 : [le modèle en 5 étoiles de Tim Berners-Lee](https://5stardata.info/fr/)
 
-![](https://datactivist.coop/aaf/img/5star.png)
+.reduite[.center[![](https://datactivist.coop/aaf/img/5star.png)]]
 
 ---
 ### Des principes techniques sans portée politique
@@ -405,6 +412,8 @@ class:center,middle
 > Une diffusion électronique des déclarations de propagande faites par les dirigeants politiques de la Corée du Nord, par exemple, pourrait satisfaire à ces huit exigences et ne pas promouvoir une transparence ou une responsabilité supplémentaires de la part d'un régime notoirement fermé et opaque."
 >Yu & Robinson (2012) « [The New Ambiguity of Open Government](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2012489) » 
 ---
+class: center, middle
+
 ## 2.c Vers une portée et des soutiens politiques 
 
 ---
@@ -412,13 +421,8 @@ class:center,middle
 
 La formation du Partenariat pour un Gouvernement Ouvert a permis d'exposer plusieurs principes fondateurs
 
-![](https://datactivist.coop/aaf/img/declaration.png)
----
-### [Le fonctionnement du PGO](http://www.opengovpartnership.org/sites/default/files/OGP_Booklet_20160911_FR.pdf)
-.center[.reduite[![](img/opengov.png)]]
----
-### Depuis 2010 : l'ère des classements
-[![](img/odb.png)](https://opendatabarometer.org/)
+.center[<img src="https://datactivist.coop/aaf/img/declaration.png" height="350"/>]
+
 ---
 ### Depuis 2010 : l'ère des classements
 
@@ -428,21 +432,27 @@ La formation du Partenariat pour un Gouvernement Ouvert a permis d'exposer plusi
 
 ![Open Data Index de l'Open Knowledge Foundation](https://datactivist.coop/aaf/img/godi.png)
 ---
+
 ### 2013 : la [charte du G8 sur l'open data](https://www.modernisation.gouv.fr/sites/default/files/fichiers-attaches/charte-g8-ouverture-donnees-publiques-fr.pdf)
+
+.center[![charte G8](./img/charte_G8.png)]
 
 ---
 ### 2015 : la [charte internationale de l'open data](https://opendatacharter.net/)
 
-![](https://datactivist.coop/aaf/img/odcharter.png)
+.center[.reduite[![](https://datactivist.coop/aaf/img/odcharter.png)]]
 
 
 ---
+class: center, middle
 
 # 3. Éléments du cadre juridique de l'open data
 
 ---
 
 ### Un appareil législatif étoffé
+
+
 
 1. **Loi CADA**, dite Loi Informatique et Libertés du 6 janvier 1978.
 1. **Création de la CADA** (Commission d'Accès aux Documents Administratifs)
@@ -467,6 +477,7 @@ Même si la France est le 3e pays à avoir adopté un droit d'accès, la loi CAD
 [![](./img/europam.png)](http://europam.eu/?module=country-profile&country=France)
 
 ---
+class: center, middle
 
 ## 3.a Que dit la Loi pour une république numérique ?
 
@@ -482,13 +493,16 @@ Source :
 http://www.vie-publique.fr/actualite/dossier/loi-internet/republique-numerique-que-change-loi-du-7-octobre-2016.html
 
 ---
+
 ### Premier principe : l'ouverture des données par défaut
 
-→ Les administrations  devront publier en ligne dans un standard ouvert leurs principaux documents, y compris leurs codes sources, ainsi que leurs bases de données qui présentent un intérêt économique, social, sanitaire ou environnemental. 
+> Les administrations  devront publier en ligne dans un standard ouvert leurs principaux documents, y compris leurs codes sources, ainsi que leurs bases de données qui présentent un intérêt économique, social, sanitaire ou environnemental. 
 
-→ Cette obligation concerne les administrations d’État, les collectivités locales de plus de 3 500 habitants, les établissements publics et les organismes privés chargés d’un service public 
 
---- 
+Cette obligation concerne les *administrations d’Etat*, les *collectivités* locales de *plus de 3 500 habitants*, les établissements publics et les organismes privés chargés d’un service public.
+
+
+---
 ### Le périmètre de l'open data par défaut 
 
 L'ouverture concerne un .red[**périmètre très large**] : 
@@ -582,6 +596,7 @@ La mise en ligne de données à caractère personnel sans anonymisation n'est pe
 Hors de ces cas, il faut .red[**[anonymiser les données](https://github.com/SGMAP-AGD/anonymisation/wiki/Guide-de-l'anonymisation)**] : elles ne doivent plus se référer à une personne réelle (exit les noms, identifiants…) et ne doivent plus être spécifiques à un individu mais communes à un ensemble de personnes. L’indexation de ces données par un moteur de recherche externe est proscrite.
 
 ---
+class: center, middle
 
 # 4 État-Plateforme et Open Gov
 
@@ -604,13 +619,13 @@ Plus largement, l'open data s'inscrit dans le mouvement du **gouvernement ouvert
 
 Ce schéma, réalisé par l'association [DémocratieOuverte](https://democratieouverte.org/), résume bien les différents enjeux autour du gouvernement ouvert :
 
-.center[<img src="https://datactivist.coop/SPoSGL/sections/img/gouvouvert.png" height="400"/>] 
+.center[<img src="https://datactivist.coop/SPoSGL/sections/img/gouvouvert.png" height="350"/>] 
 
 
 ---
 ## OGP/PGO : Partenariat pour un Gouvernement Ouvert
 
-.center[<img src="https://datactivist.coop/SPoSGL/sections/img/ogp.png" height="380"/>]
+.center[<img src="https://datactivist.coop/SPoSGL/sections/img/ogp.png" height="200"/>]
 
 En septembre 2011, un partenariat multilatéral s'est créé afin de promouvoir le gouvernement ouvert et traduire ses valeurs en des actions gouvernementales concrètes : **le partenariat pour un gouvernement ouvert** (PGO), aussi appelé **Open Government Partnership** (OGP)
 
@@ -630,9 +645,13 @@ Par exemple :
 Ces engagements font ensuite **l'objet de vérifications et d'audit de la part de chercheurs indépendants** (IRM) tant sur la manière dont ils ont été rédigés/conçus que sur leur efficacité et niveau d'avancement réel
 
 ---
-## OGP/PGO : Partenariat pour un Gouvernement Ouvert
+## Le plan d'action national pour la France
 
 .center[<img src="https://datactivist.coop/SPoSGL/sections/img/pan_france.png" height="200"/>] 
+
+* Le 2è Plan d'action 2018-2020 est en cours
+* Il contient 21 engagementsportés par 12 ministères, 2 juridictions ou autorités indépendantes, et plusieurs agences gouvernementales 
+* Il intervient dans la continuité des chantiers engagés par le gouvernement français sur la transformation numérique de l’Etat 
 
 .footnote[[Lire le Plan d'action national pour la France 2018-2020](https://www.etalab.gouv.fr/wp-content/uploads/2018/04/PlanOGP-FR-2018-2020-VF-FR.pdf)]
 
@@ -640,19 +659,20 @@ Ces engagements font ensuite **l'objet de vérifications et d'audit de la part d
 
 ### Une politique Open Data pilotée au niveau national
 
-####  La mission Etalab
+#### .red[La mission Etalab :]
 
-**Etalab** coordonne la politique d’ouverture et de partage des données publiques (open data)
+* Coordonne la politique d’ouverture et de partage des données publiques (open data)
 
-**Etalab** coordonne les actions des administrations de l’Etat et leur apporte son appui pour faciliter la diffusion et la réutilisation de leurs informations publiques.
+* Coordonne les actions des administrations de l’Etat et leur apporte son appui pour faciliter la diffusion et la réutilisation de leurs informations publiques ;
 
-**Etalab** développe et anime la plateforme d’open data data.gouv.fr destinée à rassembler et à mettre à disposition librement l’ensemble des informations publiques de l’Etat, de ses établissements publics et, si elles le souhaitent, des collectivités territoriales et des personnes de droit public ou de droit privé chargées d’une mission de service public.
+* Développe et anime la plateforme d’open data data.gouv.fr destinée à rassembler et à mettre à disposition l’ensemble des informations publiques de l’Etat, de ses établissements publics et, si elles le souhaitent, des collectivités territoriales et des personnes de droit public ou de droit privé chargées d’une mission de service public ;
 
-**Etalab** coordonne le Service Public de la Donnée.
+* Coordonne le Service Public de la Donnée.
 
-source : https://www.etalab.gouv.fr/
+Source : https://www.etalab.gouv.fr/
 
 ---
+
 ## Data.gouv.fr ?
 
 Data.gouv est la plateforme nationale ouverte des données publiques françaises.
@@ -696,7 +716,7 @@ Data.gouv.fr est la plateforme **nationale** d'open data mais ce n'est pas la se
 ---
 ### La réutilisation : un parcours fait de frictions et de déceptions
 .pull-left[
-[![](img/users.png)](https://thereboot.github.io/moti-personas/)
+[![](https://datactivist.coop/aaf/img/users.png)](https://thereboot.github.io/moti-personas/)
 ]
 .pull-right[
 ####  Des données difficiles à trouver, pas ouvertes partout
@@ -737,93 +757,6 @@ Data.gouv.fr est la plateforme **nationale** d'open data mais ce n'est pas la se
 .footnote[https://index.okfn.org/insights/]
 
 ---
-### Un exemple de données introuvables
-
-Ce fichier contient tous les signes officiels de la qualité et de l'origine (SIQO) : les AOC et AOP, IGP, Label rouge, spécialité traditionnelle garantie, Agriculture biologique… Très utile mais qui peut le trouver sur data.gouv.fr ?
-[![](./img/siqo.png)](https://www.data.gouv.fr/fr/datasets/siqo-publies/)
-
----
-### Un autre exemple de données vraiment introuvables 
-
-Ce jeu de données contient plus de 6000 marchés publics attribués par l'Etat. Mais, malgré mon [signalement](https://www.data.gouv.fr/fr/datasets/aife-de-44785462100045/#discussion-5c5d2857634f41019657c80d-0), tout est fait pour le rendre introuvable !
-
-[.reduite[![](./img/wtfopendata.png)]](https://www.data.gouv.fr/fr/datasets/aife-de-33592022900036-23/)
----
-
-### Le développement de l'open data en France
-
-.reduite.center[![](./img/obsod.png)](http://slides.com/loichay/resultats-odt-oct18#/)
-
----
-
-### Le développement de l'open data en France
-
-.reduite.center[
-[![](./img/carto_obs.png)](https://umap.openstreetmap.fr/fr/map/observatoire-open-data-des-territoires_239529#6/45.806/5.603)
-]
-
----
-
-### Une multitude de portails territoriaux
-
-[![](./img/portailslocaux.gif)](https://airtable.com/shrmZOh5If14Q1PVN/tblwklJPsyayeH5lX?blocks=hide)
-
----
-### Une multitude de portails nationaux
-
-[![](./img/portailsnat.gif)](https://airtable.com/shr3IYfHZW1cVTS3s/tblVtTOudK5Ygpsmj?blocks=hide)
-
-
----
-### Exemple de données ouvertes : la [base SIRENE](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/)
-
-.reduite.center[![](img/sirene.png)]
----
-### La base SIRENE : exemple de cas d'utilisation
-
-.reduite[.center[![](img/ruesoif.png)]]
----
-### Exemple de données ouvertes : la [base adresse nationale](https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/)
-.reduite[.center[![](img/ban.png)]]
-
----
-### Exemple de données ouvertes : les [accidents de la route](https://www.data.gouv.fr/fr/datasets/base-de-donnees-accidents-corporels-de-la-circulation/)
-.reduite.center[![](img/accidents.png)]
----
-##Les accidents de la route
-.reduite.center[![](img/trajetleplussur.png)]
-.footnote[Plus d'accidents sur l'A8 mais surtout plus de véhicules…]
----
-### Les accidents de la route
-.reduite.center[![](img/marsactu.png)]
-.footnote[[Carte par Joël Gombin dans Marsactu](https://joelgombin.github.io/marsactu_accidents/chronique.html)]
----
-### Exemple de données ouvertes : les [inspections des restaurants](https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/)
-.reduite.center[![](img/aliminfos.png)]
-.footnote[[Résultats des contrôles officiels sanitaires : dispositif d'information « Alim’confiance »](https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/)]
----
-### Les inspections des restaurants
-.reduite[.center[![](img/resto.png)]]
-.footnote[[155 établissements dont l'hygiène doit être corrigée de manière urgente ](https://dgal.opendatasoft.com/explore/dataset/export_alimconfiance/table/?disjunctive.filtre&disjunctive.app_libelle_activite_etablissement&disjunctive.ods_type_activite&refine.synthese_eval_sanit=A+corriger+de+mani%C3%A8re+urgente)]
----
-### Exemple de données ouvertes : le [répertoire national des élus](https://www.data.gouv.fr/fr/datasets/donnees-du-repertoire-national-des-elus/)
-
-.reduite.center[
-![](./img/repelus.png)
-]
-
----
-### Exemple de données ouvertes : les [valeurs foncières](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/#_)
-
-![](./img/dvf.png)
----
-### Les valeurs foncières
-
-.reduite.center[
-[![](./img/meilleursagents.png)](https://www.meilleursagents.com/prix-immobilier/dvf/aix-en-provence-13100/avenue-saint-jerome-1108044769/)
-]
-
----
 class: inverse, center, middle
 
 # Le  cycle de l'ouverture des données
@@ -832,7 +765,7 @@ class: inverse, center, middle
 ### Open Data Pipeline : les principales étapes de l'ouverture
 
 .reduite.center[
-![](./img/logigramme.png)
+![](https://datactivist.coop/occitanie/img/logigramme.png)
 ]
 
 ---
@@ -848,7 +781,7 @@ Edwards, P. N. et al. (2011) [‘Science friction: Data, metadata, and collabora
 ### Identifier
 
 .pull-left[
-![](./img/identifier.png)
+![](https://datactivist.coop/occitanie/img/identifier.png)
 ]
 
 .pull-right[
@@ -863,40 +796,10 @@ Edwards, P. N. et al. (2011) [‘Science friction: Data, metadata, and collabora
 ]
 
 ---
-### L’inventaire : un processus au long cours
-
-.pull-left[
-[![](./img/iden_etalab.png)](https://www.data.gouv.fr/fr/datasets/recensement-indicatif-des-donnees-publiques-issues-des-services-publics-de-letat/)
-]
-.pull-right[
-* L’utopie de l’inventaire exhaustif
-
-
-* Une démarche progressive et exploratoire
-
-
-* Question : comment qualifier les données ?
-
-
-* A lier aux processus de plan d’occupation des sols des DSI
-
-]
----
-### Les tableaux de gestion des archivistes comme support à l'identification 
-
-![](./img/tableaugestion.png)
-
----
-
-### S'appuyer sur le recensement pour connaitre données ouvrables
-
-[![](./img/recen.gif)](https://medium.com/datactivist/qui-a-ouvert-quoi-le-recensement-des-donn%C3%A9es-des-villes-est-maintenant-ouvert-b7f697135c1f)
-
----
 ### Valider
 
 .pull-left[
-![](./img/valider.png)
+![](https://datactivist.coop/occitanie/img/valider.png)
 ]
 
 .pull-right[
@@ -926,7 +829,7 @@ Edwards, P. N. et al. (2011) [‘Science friction: Data, metadata, and collabora
 ### Éditer
 
 .pull-left[
-![](./img/editer.png)
+![](https://datactivist.coop/occitanie/img/editer.png)
 ]
 
 .pull-right[
@@ -945,22 +848,24 @@ _data editing_: les opérations par lesquelles les statisticiens traitent et tra
 ---
 ### Le sprint qualité des données de la FING
 
-Petit exercice : en groupe, sélectionnez un jeu de données et essayer d'appliquer 5 points de contrôle 
-[![](./img/sprint.png)](https://infolabs.io/sprint-qualite)
+Le “sprint qualité” est une méthodologie sur un temps court, 2h30, qui vise l’amélioration significative de la qualité d’un, et un seul, jeu de données.
+
+Petit exercice : en groupe, sélectionnez un jeu de données et essayez d'appliquer 5 points de contrôle 
+[![](https://datactivist.coop/occitanie/img/sprint.png)](https://infolabs.io/sprint-qualite)
 
 ---
 ### [Dataproofer](http://dataproofer.org/) : un outil de contrôle automatique de la qualité
 
-![](./img/dataproofer.png)
+![](https://datactivist.coop/occitanie/img/dataproofer.png)
 ---
 ### [WTFCSV](https://databasic.io/en/wtfcsv/) pour prévisualiser et contrôler un jeu de données
 
-![](./img/wtfcsv.png)
+![](https://datactivist.coop/occitanie/img/wtfcsv.png)
 ---
 ### Standardiser
 
 .pull-left[
-![](./img/standardiser.png)
+![](https://datactivist.coop/occitanie/img/standardiser.png)
 ]
 
 .pull-right[
@@ -975,27 +880,13 @@ Petit exercice : en groupe, sélectionnez un jeu de données et essayer d'appliq
 ---
 ### Passage en CSV : bien plus que “enregistrer sous”
 
-[![](./img/excel1.png)](http://fr.slideshare.net/christophelibertidf/bonnes-pratiquesexcel-cc27juin2013)
-
----
-### Passage en CSV : bien plus que “enregistrer sous”
-
-[![](./img/excel2.png)](http://fr.slideshare.net/christophelibertidf/bonnes-pratiquesexcel-cc27juin2013)
----
-### Passage en CSV : bien plus que “enregistrer sous”
-
-[![](./img/excel3.png)](http://fr.slideshare.net/christophelibertidf/bonnes-pratiquesexcel-cc27juin2013)
-
----
-### Passage en CSV : bien plus que “enregistrer sous”
-
-.reduite.center[![](./img/excel4.png)](http://fr.slideshare.net/christophelibertidf/bonnes-pratiquesexcel-cc27juin2013)
+[![](https://datactivist.coop/occitanie/img/excel1.png)](http://fr.slideshare.net/christophelibertidf/bonnes-pratiquesexcel-cc27juin2013)
 
 ---
 ### Publier
 
 .pull-left[
-![](./img/publier.png)
+![](https://datactivist.coop/occitanie/img/publier.png)
 ]
 
 .pull-right[
@@ -1010,14 +901,14 @@ Petit exercice : en groupe, sélectionnez un jeu de données et essayer d'appliq
 ### [Datasheet for Datasets](https://teamopendata.org/t/traduction-et-adaptation-du-modele-de-description-des-donnees-datasheet-for-datasets/1400) : un modèle de documentation des données
 
 .reduite.center[
-![](./img/datasheet.png)
+![](https://datactivist.coop/occitanie/img/datasheet.png)
 ]
 
 ---
 ### Mettre à jour
 
 .pull-left[
-![](./img/update.png)
+![](https://datactivist.coop/occitanie/img/update.png)
 ]
 
 .pull-right[
@@ -1045,7 +936,7 @@ Petit exercice : en groupe, sélectionnez un jeu de données et essayer d'appliq
 ### Les bénéfices de l'open data
 
 .pull-left[
-![](./img/obs.png)
+![](https://datactivist.coop/occitanie/img/obs.png)
 ]
 .pull-right[
 En petits groupes, analysez les [données brutes](https://docs.google.com/spreadsheets/d/1pua5fDx8gtF3R9tce9wE7wmT0ksIFjscOO7DS723iHY/edit#gid=0) et syntéhtisez  : 
