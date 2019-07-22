@@ -82,15 +82,15 @@ La médiation de données est aussi fondamentalement une animation de communaut�
 
 ### .red[Jour 1]
 
-1. Origines historiques de l’ouverture des données 
-1. Les grands principes de l’ouverture des données 
-1. Cadre juridique de l’ouverture des données 
-1. Open government et Etat plateforme : l’ouverture des données dans la modernisation de l’Etat 
-1. Les success stories de l’open data culturel 
-1. La conception d’une stratégie d’open data : principaux leviers politiques, organisationnels, économiques 
-1. Aperçu des principaux acteurs politiques, économiques et associatifs de l’open data 
-1. Les formats de données 
-1. Tour d’horizon des portails d’open data 
+* Origines historiques de l’ouverture des données 
+* Les grands principes de l’ouverture des données 
+* Cadre juridique de l’ouverture des données 
+* Open government et Etat plateforme : l’ouverture des données dans la modernisation de l’Etat 
+* Les success stories de l’open data culturel 
+* La conception d’une stratégie d’open data : principaux leviers politiques, organisationnels, économiques 
+* Aperçu des principaux acteurs politiques, économiques et associatifs de l’open data 
+* Les formats de données 
+* Tour d’horizon des portails d’open data 
 
 ---
 ## Programme de la formation 
@@ -383,7 +383,7 @@ class: center, middle
 ---
 class: center, middle
 
-### 7. Des données publiée .red[dans un format ouvert]
+### 7. Des données publiées .red[dans un format ouvert]
 
 > **Ce format ne doit pas être la propriété d'une organisation en particulier (.xls) et doit être gouverné par ses usagers**
 
@@ -424,6 +424,13 @@ La formation du Partenariat pour un Gouvernement Ouvert a permis d'exposer plusi
 .center[<img src="https://datactivist.coop/aaf/img/declaration.png" height="350"/>]
 
 ---
+
+### [Le fonctionnement du PGO](http://www.opengovpartnership.org/sites/default/files/OGP_Booklet_20160911_FR.pdf)
+
+.center[.reduite[![](https://datactivist.coop/aaf/img/opengov.png)]]
+
+---
+
 ### Depuis 2010 : l'ère des classements
 
 **[Le baromètre international de l'Open Data](https://index.okfn.org/place/)** est un classement de référence, tout comme l'Open Data Index de l'Open Knowledge Foundation
@@ -471,6 +478,17 @@ class: inverse, center, middle
 .footnote[Il faudrait maintenant désigner la loi comme le Code des relations entre le public et l'administration (CRPA) qui, dans son [livre 3](https://www.legifrance.gouv.fr/affichCode.do;jsessionid=BDF8EC0BD562E214CCD9A5ADD435D690.tplgfr42s_1?idSectionTA=LEGISCTA000031367685&cidTexte=LEGITEXT000031366350&dateTexte=20190429), codifie le droit d'accès et de réutilisation mais il est encore moins connu que la loi CADA…]
 
 ---
+
+### Le guide CADA-CNIL : le document de référence
+
+Ce guide constitue une bonne source de référence. Nous avons publié sa [fiche de lecture](https://teamopendata.org/t/guide-commun-cnil-et-cada-open-data-rgpd/1320) sur la plateforme TeamOpenData.
+
+.reduite[.center[
+[![](https://datactivist.coop/aaf/img/guide.png)](https://www.cnil.fr/sites/default/files/atoms/files/guide_open_data.pdf)
+]]
+
+---
+
 ### La loi CADA : un point noir dans la transparence de la vie publique
 
 Même si la France est le 3e pays à avoir adopté un droit d'accès, la loi CADA n'est pas un outil fort de la transparence de la vie publique. Ses principaux défauts : l'absence de sanctions et une procédure longue qui décourage les demandeurs et favorise le contournement par les administrations. 
@@ -623,7 +641,7 @@ Ce schéma, réalisé par l'association [DémocratieOuverte](https://democratieo
 
 
 ---
-## OGP/PGO : Partenariat pour un Gouvernement Ouvert
+### OGP/PGO : Partenariat pour un Gouvernement Ouvert
 
 .center[<img src="https://datactivist.coop/SPoSGL/sections/img/ogp.png" height="200"/>]
 
@@ -632,7 +650,7 @@ En septembre 2011, un partenariat multilatéral s'est créé afin de promouvoir 
 Initialement fondé par 8 pays (Brésil, Indonésie, Mexique, Norvège, Philippines, Afrique du Sud, Royaume-Uni et États-Unis), le PGO en compte désormais 70, dont la France
 
 ---
-## OGP/PGO : Partenariat pour un Gouvernement Ouvert
+### OGP/PGO : Partenariat pour un Gouvernement Ouvert
 
 Pour rejoindre le partenariat, il faut avoir été "coopté" par des acteurs de la société civile (ex: association type Amnesty International) qui viennent témoigner de la bonne volonté du gouvernement.
 
@@ -645,7 +663,7 @@ Par exemple :
 Ces engagements font ensuite **l'objet de vérifications et d'audit de la part de chercheurs indépendants** (IRM) tant sur la manière dont ils ont été rédigés/conçus que sur leur efficacité et niveau d'avancement réel
 
 ---
-## Le plan d'action national pour la France
+### Le plan d'action national pour la France
 
 .center[<img src="https://datactivist.coop/SPoSGL/sections/img/pan_france.png" height="200"/>] 
 
@@ -913,11 +931,10 @@ class: inverse, center, middle
 
 ## Ouvrir ses données : les étapes
 
-![](https://datactivist.coop/openbelgium/img/etapes.png)
+![](./img/demarche_open-data.png)
 
-???
-
-L'institution est toujours la première réutilisatrice de ses propres données
+.footnote[Source: Open Data France. "L’ouverture des données publiques par et pour les collectivités locales".
+Mettre en oeuvre un projet open data : principes et travaux pratiques]
 
 ---
 ## Réussir sa stratégie d'ouverture des données 
@@ -1057,9 +1074,11 @@ class: inverse, center, middle
 
 ### 1 - Les acteurs politiques
 
-* Etalab
-* Mission Société Numérique de l'Agence du Numérique
-* 
+* **Etalab** : Coordonne la politique d’ouverture et de partage des données publiques 
+* **DITP** : Expérimente l’intelligence artificielle dans les administrations avec Etalab et la DINSIC
+* **DINSIC** : Soutient la diffusion de la culture numérique (utilisations des données, recours aux méthodes agiles) et la coopération avec la société civile et les écosystèmes innovants (open data, gouvernement ouvert). 
+* **Mission Société Numérique de l'Agence du Numérique** : Structure les acteurs de l’accompagnement au numérique (ou médiation numérique) et les stratégies numériques des territoires, dont l'open data fait partie.
+
 
 ---
 class: inverse, center, middle
@@ -1162,19 +1181,45 @@ class: inverse, center, middle
 
 ---
 
----
+### Les grandes fonctionnalités .red[d’un portail open data]
+
+Un portail open data est un espace de présentation des données publiques ouvertes comprenant idéalement les grandes fonctions suivantes :
+
+* recherche des jeux de données
+* présentation détaillées des jeux de données
+* accès aux données brutes open data, sous différents formats, y compris API
+* présentation graphique des données quand cela est possible
+* outils d'extraction ou de transfert des données
+* dispositifs éditoriaux pour animer le projet open data
 
 
 ---
 
+### Les diverses solutions disponibles
+
+* **Un portail spécifique**
+
+C'est le cas de [data.culture.gouv.fr](https://data.culture.gouv.fr/pages/home/)
+
+![](./img/data.culture.gouv.fr.png)
+
+* **Héberger ses données sur Data.gouv.fr**
+
+La plateforme de diffusion de données publiques (« open data ») de l'État français a été lancée en 2011, et avec la version qu'on lui connait, en 2014. 
+
+> Le design de la plate-forme en ligne montre qu’elle met en avant un « écosystème » où sont censés évoluer
+divers acteurs : les producteurs publics de données, les citoyens internautes réutilisateurs et des développeurs indépendants, créateurs des applications et services permettant cette réutilisation. 
+
+.footnote[Mabi Clément, « La plate-forme « data.gouv.fr » ou l’open data à la française », Informations sociales, 2015/5 (n° 191), p. 52-59. [URL](https://www.cairn.info/revue-informations-sociales-2015-5-page-52.htm)]
 
 ---
 
+### Les solutions techniques ou offres d’hébergement de portail en France
 
----
-class: inverse, center, middle
-
-# JOUR 2
+* Opendatasoft
+* CKAN 
+* DKAN
+* SOCRATA
 
 ---
 
