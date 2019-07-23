@@ -1351,7 +1351,7 @@ Petit exercice : en groupe, sélectionnez un jeu de données et essayez d'appliq
 ---
 ### Passage en CSV : bien plus que “enregistrer sous”
 
-[![](https://datactivist.coop/occitanie/img/excel1.png)](http://fr.slideshare.net/christophelibertidf/bonnes-pratiquesexcel-cc27juin2013)
+[![](https://datactivist.coop/occitanie/img/excel3.png)](http://fr.slideshare.net/christophelibertidf/bonnes-pratiquesexcel-cc27juin2013)
 
 ---
 ### Publier
