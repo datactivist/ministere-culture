@@ -75,7 +75,7 @@ La médiation de données est aussi fondamentalement une animation de communaut�
 
 **Vos attentes spécifiques :** 
 * Problématiques liées aux données du secteur culturel
-* Spécificités de la mise en oeuvre de l'open data dans le secteur culturel
+* Spécificités de la mise en œuvre de l'open data dans le secteur culturel
 
 ---
 ## Programme de la formation 
