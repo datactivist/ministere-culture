@@ -2,7 +2,7 @@
 title: "L'ouverture des données publiques culturelles en pratique"
 subtitle: "Ministère de la Culture"
 author: "Datactivist"
-date: "`r format(Sys.Date(), '%d %b %Y')`"
+date: "`r format(Sys.Date(), '%d %B %Y')`"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -17,7 +17,7 @@ params:
 ---
 
 layout: true
-  
+
 
 `r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='0px'></center></span></div>")` 
 
@@ -462,8 +462,17 @@ class: inverse, center, middle
 
 
 1. **Loi CADA**, dite Loi Informatique et Libertés du 6 janvier 1978.
+
 1. **Création de la CADA** (Commission d'Accès aux Documents Administratifs)
+
 1. **Création de la CNIL** (Commission Nationale Informatique et Libertés)
+
+1. **Directive INSPIRE** de 2007
+
+1. **Directive PSI** de 2013
+
+1. **Loi Valter** de 2015
+
 1. **Loi pour une République Numérique** (loi Lemaire) du 7 octobre 2016.
 
 ---
