@@ -819,7 +819,7 @@ http://collections.albert-kahn.hauts-de-seine.fr/
 
 * L'[open data culture en 2 minutes](http://www.dailymotion.com/video/xyqrun_tutoriel-de-l-open-data-culture_news) : vidéo tutoriel
 
-* Le rapport .[Ouverture et partage des données publiques culturelles] (http://www.culturecommunication.gouv.fr/content/download/94768/851739/version/1/file/201312_Rapport_Open_Data_Culturel.pdf) (*publié en décembre 2013*)
+* Le rapport [Ouverture et partage des données publiques culturelles](http://www.culturecommunication.gouv.fr/content/download/94768/851739/version/1/file/201312_Rapport_Open_Data_Culturel.pdf) (*publié en décembre 2013*)
 
 * Le [guide data culture](http://www.culturecommunication.gouv.fr/var/culture/storage/culture_mag/donnees_culturelles2013/index.htm) (*publié en mars 2013*)
 
