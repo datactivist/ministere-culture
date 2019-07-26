@@ -1,8 +1,8 @@
 ---
-title: "L'ouverture des données publiques culturelles en pratique"
+title: "Open Data : comprendre les enjeux de l'ouverture des données publiques culturelles"
 subtitle: "Ministère de la Culture"
 author: "Datactivist"
-date: "`r format(Sys.Date(), '%d %B %Y')`"
+date: ""
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -12,7 +12,7 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 params:
-  event: L'ouverture des données publiques culturelles en pratique
+  event: Open Data comprendre les enjeux de l'ouverture des données publiques culturelles
   slug: ministere-culture
 ---
 
@@ -39,63 +39,40 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 .reduite[![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)]
 
 ---
-## Qui sommes nous ?
-
-- Datactivist est un .red[**pure player de l’open data**] créé en 2016, par Samuel Goëta et Joël Gombin.
-
-- Se positionnant sur .red[**toutes les étapes du travail d’ouverture des données**], Datactivist travaille tant avec les producteurs de données qu’avec les réutilisateurs et participe à l’appropriation des données par chacun.
-
-- Nous appliquons nos propres .red[**valeurs**] : nous sommes une coopérative ; nos supports de formation et nos contenus sont librement réutilisables, publiés en licence Creative Commons.
-
-- Une approche issue de la recherche : voir notamment **https://datactivist.coop/these**. 
-
-- Nous animons la communauté [#TeamOpenData](https://teamopendata.org).
-
----
-## Nos activités
-
-- Conseil sur les .red[**stratégies d’ouverture de données**] : nous aidons les organisations dans la conception et la mise en œuvre de leur stratégie d’ouverture de données.
-
-
-- .red[**Accompagnement dans la réutilisation de données ouvertes**] : nous aidons les organisations à utiliser les données au quotidien. 
-
-- .red[**Sensibilisation et formation à la donnée**] : nous formons à la culture générale des données, nous enseignons les grands principes et bonnes pratiques de l'open data et nous introduisons à la data science. 
-
-- .red[**Médiation de données**] : nous organisons des hackathons, des open data camps, des expéditions de données...
-
-
-La médiation de données est aussi fondamentalement une animation de communauté(s). 
-
----
 ### Rappel des objectifs de la formation 
 
-> * Appréhender le contexte et les opportunités d’une politique Open Data.  
-> * Appréhender les outils pour la mise à disposition des données et leur réutilisation. 
-> * Présentation de cas pratiques appliqués aux données culturelles.
+#### .red[Jour 1] - Open Data : comprendre les enjeux de l'ouverture des données publiques culturelles
+> * Appréhender le contexte et les opportunités d’une politique Open Data dans la culture.
 
-**Vos attentes spécifiques :** 
-* Problématiques liées aux données du secteur culturel
-* Spécificités de la mise en œuvre de l'open data dans le secteur culturel
+> * Découvrir des cas pratiques appliqués aux données culturelles.
+
+> * Comprendre les problématiques liées aux données du secteur culturel
+
+#### .red[Jour 2] - Open Data : l'ouverture des données publiques culturelles en pratique
+
+> * Connaitre comment mettre en oeuvre l'open data dans le secteur culturel
+
+> * Appréhender les outils et les bonnes pratiques pour la mise à disposition des données et leur réutilisation. 
 
 ---
-## Programme de la formation 
+### Programme de la formation 
 
-### .red[Jour 1]
+#### .red[Jour 1] - Open Data : comprendre les enjeux de l'ouverture des données publiques culturelles
 
 * Origines historiques de l’ouverture des données 
 * Les grands principes de l’ouverture des données 
 * Cadre juridique de l’ouverture des données 
-* Open government et Etat plateforme : l’ouverture des données dans la modernisation de l’Etat 
-* Les success stories de l’open data culturel 
+* Gouvernement ouvert et Etat plateforme : l’ouverture des données dans la modernisation de l’Etat 
+* Cas d'étude de l’open data culturel 
 * La conception d’une stratégie d’open data : principaux leviers politiques, organisationnels, économiques 
 * Aperçu des principaux acteurs politiques, économiques et associatifs de l’open data 
 * Les formats de données 
 * Tour d’horizon des portails d’open data 
 
 ---
-## Programme de la formation 
+### Programme de la formation 
 
-### .red[Jour 2] 
+#### .red[Jour 2] - Open Data : l'ouverture des données publiques culturelles en pratique
 
 * Identification des données 
 * Négociations et frictions dans l’ouverture des données : comment éviter les obstacles de l’open data ? 
@@ -110,31 +87,7 @@ La médiation de données est aussi fondamentalement une animation de communaut�
 
 class: inverse, center, middle
 
-# 1 - Origines historiques de l’ouverture des données
-
----
-### La DDHC : le texte fondateur de l'open data ?
-
-Aller au-delà du droit d'accès et de la réédition des comptes (_accountability_) : réduire les asymétries d'information en accédant au matériau brut de l'information et du savoir
-
-
-![](https://datactivist.coop/occitanie/img/ddhc.png)
-
-
----
-
-### Open data : un terme récent
-
-Le terme est apparu pour la première fois dans les années 1970 dans les accords qu’a signés la NASA avec des pays partenaires en vue du partage de données satellitaires. 
-
-C’est en 1995 qu’on en voit le premier usage public aux Etats-Unis dans un rapport de la National Academy of Science intitutlé "_On the Full and Open Exchange of Scientific Data_".
-
-Dans le langage courant, cela fait .red[**près de 10 ans**] que l'ouverture des données est devenue un élément majeur des politiques publiques numériques. 
-
----
-class: center, middle
-
-##  1.a  Au fait, c'est quoi une donnée ?
+# 1 - Au fait, c'est quoi une donnée ?
 
 ---
 ### Introduction 
@@ -199,88 +152,36 @@ Le volume des données créées et traitées ne cesse de croitre en même temps 
 ]
 
 ---
-class: center, middle
-
-## 1.b  L'industrialisation de la production des données
-
----
-
-### La tablette mésopotanienne : inscrire une réalité complexe
-Vers 3200 av. J.-C., en Mésopotamie, la civilisation sumérienne a inventé l’écriture d'abord pour mémoriser des comptes (difficile de recenser des têtes de bétail ou des sacs de grains oralement).
-.pull-left[
-![](http://www.ladressemuseedelaposte.fr/IMG/arton1311-resp500-2.jpg)
-]
-.pull-right[
-
-> "La compatibilité a été l'une des premières *success story* de l'écriture ; les premières tablettes comprennent souvent des listes de compte."
-
-] 
----
-
-### La carte perforée (1884) : le début de la massification des données
-
-Apparue au départ dans les métiers à tisser, les carte perforées contiennent des informations représentées par la présence ou l'absence de trous dans une position donnée.
-
-.pull-left[
-.middle[![](https://upload.wikimedia.org/wikipedia/commons/f/f2/Hollerith_punched_card.jpg)]
-]
-.pull-right[
-Elles sont les premières mémoires de masse utilisées dans l'informatique au XIXe siècle.
-
-En 1884, Herman Hollerith a déposé un brevet pour une machine à cartes perforées destinée à accélérer la production de statistiques pour les gouvernements. Deux ans plus tard, il crée IBM le géant de l'informatique.  
-]
-
----
-
-### Les bases de données relationnelles (1970)
-
-Les bases de données relationnelles facilitent grandement le traitement des données puisqu'elles pparaissent à travers une interface utilisateur : « il faut protéger les futurs usagers de grandes banques de données d’avoir à connaitre comment les données sont organisées dans la machine » (Codd 1970). 
-
-.pull-left[
-![](https://www.ntirety.com/wp-content/uploads/2017/05/database-schema-1895779_1280-1080x675.png)]
-
-.pull-right[
-
-D’un point de vue physique, les données sont inscrites dans des tables et reliées entre elles par un schéma et des identifiants uniques. Cela permet de traiter de plus grands volumes, de développer des données plus complexes et d'éviter des erreurs de saisie.
-]
-
----
-### Le tableur (1979) : *data to the people*
-
-En 1979, Dan Bricklin, un ancien analyste financier exaspéré par les techniques de calcul encore manuelles, a imaginé une technique de calcul visible (« *Visible Calculator* »). 
-
-Son logiciel "Visicalc", .red[démocratise la production des données] en proposant le système de la feuille de calcul sur laquelle les données peuvent être directement manipulées : 
-
-> "La facilité d’utilisation de Visicalc provenait du fait que l’utilisateur n’avait pas besoin de connaitre de langage de programmation. Sur cet aspect, Visicalc était **l’équivalent du traitement de texte** dans lequel un utilisateur arrange directement l’impression de la page, à l’opposé des systèmes d’écriture où l’utilisateur devait inscrire un ensemble d’inscriptions pour mettre en page le texte." ([Campbell-Kelly, 2007](http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780198508410.001.0001/acprof-9780198508410))
----
-
-### Le tableur (1979) : *data to the people*
-
-.center[ Dan Bricklin et Bob Frankston ont inventé le tableur, le premier logiciel de calcul de masse. Découvrez en 5 minutes leur invention : 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2a5ex5QlocQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-]
-
----
 
 class:middle,center
 ### Exercice : Identifiez autour de vous 3 appareils qui collectent des données 
 
-
 ---
 class:inverse,middle,center
 
-# 2 - Les grands principes de l’ouverture des données
+# 2 - Origines historiques de l'open data
 
 ---
-### [.red[Principe n°1 :]](https://books.openedition.org/cdf/5005?lang=fr) la transparence
+### Open data : un terme récent
+
+Le terme est apparu pour la première fois dans les années 1970 dans les accords qu’a signés la NASA avec des pays partenaires en vue du partage de données satellitaires. 
+
+C’est en 1995 qu’on en voit le premier usage public aux Etats-Unis dans un rapport de la National Academy of Science intitutlé "_On the Full and Open Exchange of Scientific Data_". Dans le langage courant, cela fait .red[**près de 10 ans**] que l'ouverture des données est devenue un élément majeur des politiques publiques numériques. 
+
+--
+
+Mais, bien avant cela, l'open data s'inscrit dans une série de continuités historiques qui en font un **mouvement aux multiples facettes…**
+---
+### [.red[Facette n°1 :]](https://books.openedition.org/cdf/5005?lang=fr) la transparence
 
 Aller au-delà du droit d'accès et de la réédition des comptes (_accountability_) : réduire les asymétries d'information en accédant au matériau brut de l'information et du savoir
 
-.reduite.center[![](https://datactivist.coop/aaf/img/ddhc.png)]
+.reduite[
+![](https://datactivist.coop/aaf/img/ddhc.png)
+]
 
 ---
-### [.red[Principe n°2 :]](https://books.openedition.org/cdf/5005?lang=fr) la libre circulation de l’information
+### [.red[Facette n°2 :]](https://books.openedition.org/cdf/5005?lang=fr) la libre circulation de l’information
 
 Dans la lignée de la cybernétique et du logiciel libre, la circulation des données comme valeur essentielle
 
@@ -288,7 +189,7 @@ Dans la lignée de la cybernétique et du logiciel libre, la circulation des don
 
 ---
 
-###  [.red[Principe n°3 :]](https://books.openedition.org/cdf/5005?lang=fr) la demande de données brutes
+###  [.red[Facette n°3 :]](https://books.openedition.org/cdf/5005?lang=fr) la demande de données brutes
 
 Dans la lignée des premières initatives de partage de données scientifiques en génétique ou en astronomie, obtenir les données sous leur forme pré-interprétative pour refaire les calculs
 
@@ -296,22 +197,18 @@ Dans la lignée des premières initatives de partage de données scientifiques e
 
 ---
 
-### [.red[Principe n°4 :]](https://books.openedition.org/cdf/5005?lang=fr) l'industrie de la donnée
+### [.red[Facette n°4 :]](https://books.openedition.org/cdf/5005?lang=fr) l'industrie de la donnée
 Le nouveau pétrole et les promesses démesurées de croissance
 
 .reduite[.center[![](https://images.pexels.com/photos/70362/oil-monahans-texas-sunset-70362.jpeg?cs=srgb&dl=dawn-drill-evening-70362.jpg&fm=jpg)]]
 
 ---
 
-### .red[Principe n°5 :] la modernisation des administrations
+### .red[Facette n°5 :] la modernisation des administrations
 
 Désiloter l'administration et ouvrir l'innovation, collaborer avec la société civile dans l'élaboration et la mise en œuvre des politiques publiques
 
 .center[![modernisation des administrations](./img/modernisation.jpg)] 
----
-class:center,middle
-
-## 2.a  L'Open data en quelques dates
 
 ---
 ### 2005 : [L'Open Definition](https://opendefinition.org/)
@@ -334,17 +231,18 @@ class:center,middle
 
 .center[<img src="https://datactivist.coop/dataliteracy/img/photofamille.jpg" height="250"/>]
 
----
-class: center, middle
-
-### 2.b Principes de l'open data définis pendant la conférence de Sébastopol
-
+------
+class:middle, center
+![](https://datactivist.coop/dataliteracy/img/session.jpg)
+# Revue des principes
 ---
 class: center, middle
 
 ### 1. Des données .red[complètes]
 
 > **Toutes les données publiques doivent être rendues disponibles dans les limites légales liées à la vie privée ou la sécurité**
+
+C'est le **principe d'open data par défaut** que nous aborderons en détail à la suite. 
 ---
 class: center, middle
 
@@ -353,11 +251,39 @@ class: center, middle
 > **Les données ouvertes sont telles que collectées à la source, non-agrégées avec le plus haut niveau de granularité**
 
 ---
+### .red[Trouver] des données granulaires
+
+.pull-left[
+
+Le portail Data Culture basé sur la solution OpenDataSoft permet de trouver rapidement les données plus granulaires en triant les données par le nombre d'enregistrements dans le catalogue de données. 
+![](./img/granularite.png)
+]
+
+--
+.pull-right[
+On trouvera ainsi facilement la [base Joconde](https://data.culture.gouv.fr/explore/dataset/base-joconde-extrait/information/) qui décrit les oeuvres des musées de France et contient environ 600 000 notices.
+
+![](./img/joconde.png)
+
+]
+
+---
 class: center, middle
 
 ### 3. Des données .red[fraiches] (*timely*)
 
 > **Les données doivent être disponibles dès qu'elles sont produites**
+
+---
+### .red[Un exemple de] données temps réel
+
+La ville d'Issy les Moulineaux ouvre les [données temps réel de l'affluence](https://data.issy.com/explore/dataset/affluences-temps-reel/map/?sort=open&refine.secondary_name=M%C3%A9diath%C3%A8que+d%27Issy-les-Moulineaux&location=15,48.83064,2.26653&basemap=mapbox.streets) dans ses structures dont la médiathèque. Ces données sont exploitées notamment par l'application [Affluences](https://www.affluences.com/).
+
+.reduite[
+.center[
+![](./img/issy.png)
+]
+]
 
 ---
 class: center, middle
@@ -372,6 +298,20 @@ class: center, middle
 ### 5. Des données .red[exploitables par les machines] 
 
 > **Les données peuvent être traitées automatiquement par les machines** 
+
+---
+### .red[Exemple :] le nombre de flashs par radars en France
+
+.pull-left[
+Le ministère de l'Intérieur publie les statistiques du nombre de flashs sur les radars en France mais sous la forme de fichiers PDF. Ces tableaux de données sont inexploitables par les machines, on ne peut pas les importer simplement dans un outil d'analyse de données. 
+
+![]()
+]
+.pull-right[
+A la suite d'une conversation sur [TeamOpenData](), un citoyen a extrait ces données avec l'outil [Tabula](tabula.technology) et les a republié sur data.gouv.fr dans un format lisible par les machines. Plusieurs cartes ont été produites à la suite. 
+]
+
+]
 
 ---
 class: center, middle
@@ -411,23 +351,6 @@ class: center, middle
 >"Il peut être vrai en un sens qu'un régime devient plus ouvert chaque fois qu'il fournit des données ouvertes supplémentaires, même pour les sujets banals et apolitiques, mais il est facile d'imaginer qu'un régime fermé pourrait divulguer de grandes quantités de données conformes à ces huit exigences [de Sébastopol] **sans pour autant accroître sa responsabilité réelle en tant que gouvernement **. 
 > Une diffusion électronique des déclarations de propagande faites par les dirigeants politiques de la Corée du Nord, par exemple, pourrait satisfaire à ces huit exigences et ne pas promouvoir une transparence ou une responsabilité supplémentaires de la part d'un régime notoirement fermé et opaque."
 >Yu & Robinson (2012) « [The New Ambiguity of Open Government](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2012489) » 
----
-class: center, middle
-
-## 2.c Vers une portée et des soutiens politiques 
-
----
-### 2011 : [la déclaration pour un gouvernement ouvert](https://www.opengovpartnership.org/d-claration-commune-pour-un-gouvernement-ouvert)
-
-La formation du Partenariat pour un Gouvernement Ouvert a permis d'exposer plusieurs principes fondateurs
-
-.center[<img src="https://datactivist.coop/aaf/img/declaration.png" height="350"/>]
-
----
-
-### [Le fonctionnement du PGO](http://www.opengovpartnership.org/sites/default/files/OGP_Booklet_20160911_FR.pdf)
-
-.center[.reduite[![](https://datactivist.coop/aaf/img/opengov.png)]]
 
 ---
 
