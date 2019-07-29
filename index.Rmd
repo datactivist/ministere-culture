@@ -231,6 +231,49 @@ Désiloter l'administration et ouvrir l'innovation, collaborer avec la société
 
 .center[<img src="https://datactivist.coop/dataliteracy/img/photofamille.jpg" height="250"/>]
 
+---
+### Des principes techniques sans portée politique
+
+>"Il peut être vrai en un sens qu'un régime devient plus ouvert chaque fois qu'il fournit des données ouvertes supplémentaires, même pour les sujets banals et apolitiques, mais il est facile d'imaginer qu'un régime fermé pourrait divulguer de grandes quantités de données conformes à ces huit exigences [de Sébastopol] **sans pour autant accroître sa responsabilité réelle en tant que gouvernement **. 
+> Une diffusion électronique des déclarations de propagande faites par les dirigeants politiques de la Corée du Nord, par exemple, pourrait satisfaire à ces huit exigences et ne pas promouvoir une transparence ou une responsabilité supplémentaires de la part d'un régime notoirement fermé et opaque."
+>Yu & Robinson (2012) « [The New Ambiguity of Open Government](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2012489) » 
+
+---
+### 2008 : Tim Berners-Lee ["Raw data now"](https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=fr)
+#### La demande de données brutes sous les projecteurs
+
+.center[.reduite[![](https://datactivist.coop/aaf/img/ted.png)]]
+
+---
+### 2010 : [le modèle en 5 étoiles de Tim Berners-Lee](https://5stardata.info/fr/)
+
+.reduite[.center[![](https://datactivist.coop/aaf/img/5star.png)]]
+
+
+### Depuis 2010 : l'ère des classements
+
+**[Le baromètre international de l'Open Data](https://index.okfn.org/place/)** est un classement de référence, tout comme l'Open Data Index de l'Open Knowledge Foundation
+
+![baromètre international de l'Open Data](https://datactivist.coop/aaf/img/odb.png)
+
+![Open Data Index de l'Open Knowledge Foundation](https://datactivist.coop/aaf/img/godi.png)
+---
+
+### 2013 : la [charte du G8 sur l'open data](https://www.modernisation.gouv.fr/sites/default/files/fichiers-attaches/charte-g8-ouverture-donnees-publiques-fr.pdf)
+
+.center[![charte G8](./img/charte_G8.png)]
+
+---
+### 2015 : la [charte internationale de l'open data](https://opendatacharter.net/)
+
+.center[.reduite[![](https://datactivist.coop/aaf/img/odcharter.png)]]
+
+---
+class: inverse, center, middle
+
+# 3. Revue des principes de l'open data 
+
+
 ------
 class:middle, center
 ![](https://datactivist.coop/dataliteracy/img/session.jpg)
@@ -333,45 +376,6 @@ class: center, middle
 ### 8. Des données publiées .red[sous une licence ouverte]
 
 > **Idéalement dans le domaine public sinon dans une licence conforme à l'[Open Definition](www.opendefinition.org) : Licence Ouverte (CC-BY) ou ODBL (CC-BY-SA)** 
-
----
-### 2008 : Tim Berners-Lee ["Raw data now"](https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=fr)
-#### La demande de données brutes sous les projecteurs
-
-.center[.reduite[![](https://datactivist.coop/aaf/img/ted.png)]]
-
----
-### 2010 : [le modèle en 5 étoiles de Tim Berners-Lee](https://5stardata.info/fr/)
-
-.reduite[.center[![](https://datactivist.coop/aaf/img/5star.png)]]
-
----
-### Des principes techniques sans portée politique
-
->"Il peut être vrai en un sens qu'un régime devient plus ouvert chaque fois qu'il fournit des données ouvertes supplémentaires, même pour les sujets banals et apolitiques, mais il est facile d'imaginer qu'un régime fermé pourrait divulguer de grandes quantités de données conformes à ces huit exigences [de Sébastopol] **sans pour autant accroître sa responsabilité réelle en tant que gouvernement **. 
-> Une diffusion électronique des déclarations de propagande faites par les dirigeants politiques de la Corée du Nord, par exemple, pourrait satisfaire à ces huit exigences et ne pas promouvoir une transparence ou une responsabilité supplémentaires de la part d'un régime notoirement fermé et opaque."
->Yu & Robinson (2012) « [The New Ambiguity of Open Government](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2012489) » 
-
----
-
-### Depuis 2010 : l'ère des classements
-
-**[Le baromètre international de l'Open Data](https://index.okfn.org/place/)** est un classement de référence, tout comme l'Open Data Index de l'Open Knowledge Foundation
-
-![baromètre international de l'Open Data](https://datactivist.coop/aaf/img/odb.png)
-
-![Open Data Index de l'Open Knowledge Foundation](https://datactivist.coop/aaf/img/godi.png)
----
-
-### 2013 : la [charte du G8 sur l'open data](https://www.modernisation.gouv.fr/sites/default/files/fichiers-attaches/charte-g8-ouverture-donnees-publiques-fr.pdf)
-
-.center[![charte G8](./img/charte_G8.png)]
-
----
-### 2015 : la [charte internationale de l'open data](https://opendatacharter.net/)
-
-.center[.reduite[![](https://datactivist.coop/aaf/img/odcharter.png)]]
-
 
 ---
 class: inverse, center, middle
