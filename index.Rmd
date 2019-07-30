@@ -211,6 +211,11 @@ Désiloter l'administration et ouvrir l'innovation, collaborer avec la société
 .center[![modernisation des administrations](./img/modernisation.jpg)] 
 
 ---
+class: center, middle
+
+# Quelques dates jalon dans l'histoire mondiale de l'open data
+
+---
 ### 2005 : [L'Open Definition](https://opendefinition.org/)
 
 #### Une définition juridique des droits de l'usager d'un savoir ouvert
@@ -269,15 +274,135 @@ Désiloter l'administration et ouvrir l'innovation, collaborer avec la société
 .center[.reduite[![](https://datactivist.coop/aaf/img/odcharter.png)]]
 
 ---
+
+
+class: center, middle
+
+## Les origines de l'open data en France 
+
+---
+
+### Une politique Open Data pilotée au niveau national
+
+#### .red[La mission Etalab :]
+
+La mission Etalab est créée en 2011 et rattachée au secrétariat général de la modernisation de l’action publique (SGMAP), et placée sous l’autorité du Premier Ministre.
+
+* Coordonne la politique d’ouverture et de partage des données publiques (open data)
+
+* Coordonne les actions des administrations de l’Etat et leur apporte son appui pour faciliter la diffusion et la réutilisation de leurs informations publiques ;
+
+* Développe et anime la plateforme nationale data.gouv.fr 
+
+* Coordonne le Service Public de la Donnée.
+
+*  Anime le réseau des coordinateurs Open Data désignés pour chaque ministère.
+
+Source : https://www.etalab.gouv.fr/
+
+
+---
+
+## Data.gouv.fr ?
+
+Data.gouv est la plateforme nationale ouverte des données publiques françaises.
+Elle a été conçue et inaugurée en 2011, par la mission Etalab, puis refondue en 2013.
+
+.center[<img src="https://datactivist.coop/SPoSGL/sections/img/datagouvfr.png" height="250"/>] 
+
+On y trouve des milliers de jeux de données, provenant principalement de producteurs publics (Ministère de l'intérieur, Agence française de développement, Insee, Ville de Paris, Région Bretagne, CNIL...) mais aussi de producteurs tiers (OpenStreetMap, OpenFoodFacts...)
+
+---
+## Au-delà de data.gouv.fr
+
+Data.gouv.fr est la plateforme **nationale** d'open data mais ce n'est pas la seule plateforme publique qui met à disposition des données ouvertes. Il existe :
+
++ Des plateformes open data gérées par les **collectivités territoriales**. Par exemple, [Paris Data](https://opendata.paris.fr/explore/?sort=modified), [la Région Occitanie](https://data.laregion.fr/pages/accueil/), [l'agglomération de Saint-Malo](https://data.stmalo-agglomeration.fr/page/accueil/)...
+
++ Des plateformes open data gérées par des **ministères**. Exemple : [data.education.gouv.fr](https://data.education.gouv.fr/pages/accueil/)
+
++ Des plateformes open data gérées par des **entreprises**. Exemple [DataNova](https://datanova.laposte.fr/page/accueil/) (La Poste)
+
++ Des jeux de données directement publiés sur le site des producteurs de données, sans plateforme dédiée. Exemple : Insee
+
+---
+class: center, middle
+
+## Et au Ministère de la Culture : 
+
+---
+
+### Les dates à retenir
+
+.red[2011] : Le ministère s'engage dans la politique gouvernementale en faveur de l’ouverture et du partage des données publiques. Les premiers jeux de données sont publiés par le Ministère sur data.gouv.fr
+
+.red[2013] : Adoption de la première feuille de route « open data culturel »
+
+.red[2014] : La BnF ouvre ses métadonnées descriptives en "Licence Ouverte" (plus de 12 millions de notices bibliographiques, 2,5 millions de notices d'autorité validées)
+
+.red[2014 / 2015] : Publication de la feuille de route «Métadonnées culturelles et transition Web 3.0» et diffusion des guides de référence en matière de transition technologique vers le Web sémantique
+
+.red[2016] : Ouverture du portail data.cuture.gouv.fr
+
+.red[2017] : Les Archives nationales optent pour l’ouverture et la gratuité des données
+
+.red[2018] : Une nouvelle feuille de route stratégique
+
+
+---
+
 class: inverse, center, middle
 
-# 3. Revue des principes de l'open data 
+# 3. Les principaux enjeux de l'open data 
+
+---
+
+### La transparence de la vie publique et la participation citoyenne à l’action publique
 
 
-------
-class:middle, center
-![](https://datactivist.coop/dataliteracy/img/session.jpg)
-# Revue des principes
+* Exemple avec **Le grand débat national**, mars 2019
+
+![](./img/grand_debat.png)
+
+---
+
+### L’efficacité de l’action publique : amélioration de la qualité des services publics 
+
+* Exemple : .red[sauver des vies en mer] en prévenant les accidents maritimes
+
+![](./img/previ-sauvetage.png)
+
+---
+
+### Le développement de l’attractivité des territoires
+
+* Le portail .red[*DATAtourisme*]
+
+![](./img/DATAtourisme.jpg)
+
+---
+
+### Le soutien à l’innovation économique et sociale
+
+* Les données des **valeurs foncières** reprises par le site meilleurs agents, avril 2019
+
+![](./img/dvf_meilleurs_agents.png)
+
+
+---
+
+### Une opportunité en matière de démocratisation culturelle et de transmission des savoirs
+
+* Le projet **UrbanHist** à Toulouse
+
+.center[<img src="./img/urbanhist.jpg" height="350"/>]
+
+---
+
+class: inverse, center, middle
+
+# 4. Revue des principes d'ouverture des données 
+
 ---
 class: center, middle
 
@@ -336,6 +461,19 @@ class: center, middle
 > **Les données doivent être utilisables par le plus grand nombre d’usagers potentiels**
 
 ---
+
+### Exemple les Archives de la Planète .red[du musée Albert Kahn]
+
+> **La réutilisation commerciale des images est interdite**
+
+* La collection d'autochromes d'Albert Kahn de 72 000 photographies en couleur sur plaques de verre prises entre 1909 et 1931 dans plus de 50 pays, 
+
+.center[![](./img/collections.albert-kahn.png)]
+
+http://collections.albert-kahn.hauts-de-seine.fr/
+
+
+---
 class: center, middle
 
 ### 5. Des données .red[exploitables par les machines] 
@@ -380,7 +518,7 @@ class: center, middle
 ---
 class: inverse, center, middle
 
-# 3. Éléments du cadre juridique de l'open data
+# 3. Éléments du cadre juridique et historique de l'open data
 
 ---
 
@@ -425,9 +563,9 @@ Ce guide constitue une bonne source de référence. Nous avons publié sa [fiche
 
 ---
 
-### La loi CADA : un point noir dans la transparence de la vie publique
+### La loi CADA : quelques imperfections
 
-Même si la France est le 3e pays à avoir adopté un droit d'accès, la loi CADA n'est pas un outil fort de la transparence de la vie publique. Ses principaux défauts : l'absence de sanctions et une procédure longue qui décourage les demandeurs et favorise le contournement par les administrations. 
+Même si la France est le 3e pays à avoir adopté un droit d'accès, la loi CADA n'est pas un outil fort de la transparence de la vie publique. Ses principaux défauts : l'absence de sanctions et une procédure longue qui décourage les demandeurs d'information et de données.
 [![](./img/europam.png)](http://europam.eu/?module=country-profile&country=France)
 
 ---
@@ -550,6 +688,57 @@ La mise en ligne de données à caractère personnel sans anonymisation n'est pe
 Hors de ces cas, il faut .red[**[anonymiser les données](https://github.com/SGMAP-AGD/anonymisation/wiki/Guide-de-l'anonymisation)**] : elles ne doivent plus se référer à une personne réelle (exit les noms, identifiants…) et ne doivent plus être spécifiques à un individu mais communes à un ensemble de personnes. L’indexation de ces données par un moteur de recherche externe est proscrite.
 
 ---
+
+### Zoom sur le régime de la réutilisation des données et le régime dérogatoire pour le secteur culturel
+
+Le code des relations entre le public et l'administration (CRPA) pose le red.[principe de la gratuité de la réutilisation]. **La tarification est l’exception et n’est autorisée que dans deux cas** : 
+
+* Lorsque les administrations sont tenues de couvrir par des recettes propres une part substantielle des coûts liés à l’accomplissement de leurs missions de service public (25 % minimum). Cette disposition ne concerne aucun établissement culturel. 
+
+* Lorsque la réutilisation porte sur « des informations issues des opérations de numérisation des fonds et des collections des bibliothèques, y compris des bibliothèques universitaires, des musées et des archives et, le cas échéant, sur des informations qui y sont associées lorsque ces dernières sont commercialisées conjointement ». 
+
+> Les données publiques nativement numériques ne peuvent pas faire l'objet d'une redevance.
+
+---
+
+### Réutiliser des informations publiques dans le domaine de la culture
+
+> La réutilisation d'informations publiques ne peut faire l'objet d'un droit d'exclusivité accordé à un tiers, sauf si un tel droit est nécessaire à l'exercice d'une mission de service public. Lorsqu'un tel droit est accordé, la période d'exclusivité ne peut dépasser dix ans. 
+
+**Lorsqu'un droit d'exclusivité est accordé pour "les besoins de la numérisation de ressources culturelles", la période d'exclusivité peut être supérieure à dix ans sans dépasser quinze ans.** 
+
+L'application d’une redevance est un recours permis par la loi, pas une obligation : 
+
+> En juillet 2017, les Archives nationales se sont engagées dans l’Open data en consacrant le principe de gratuité pour toute réutilisation aux ressources libres de droits qu’elles conservent.
+
+---
+
+### Les données .red[à exclure du périmètre de l'Open data]
+
+L'open data par défaut ne concerne pas toutes les données, il existe quelques exceptions : 
+
+
+> * Les données couvertes par un secret protégé par le CRPA
+> * Les informations sur laquelle des tiers détiennent des droits de propriété intellectuelle
+> * Les informations contenant des données à caractère personnel ou pouvant affecter la vie privée des citoyens
+
+---
+
+#### Les données couvertes par un secret protégé par le CRPA
+
+Un document ne peut être communiqué que sous réserve des secrets couverts au titre des dispositions du CRPA. De même un document ne peut être publié qu'après avoir fait l'objet d'un traitement permettant d'occulter les mentions protégées.
+
+#### Les informations sur laquelle des tiers détiennent des droits de propriété intellectuelle
+
+Pour déterminer s'il existe des droits d'auteur sur un contenu culturel, vous pouvez consulter le guide publié par le ministère de la Culture "Guide ouverture et réutilisation des informations publiques numériques du secteur culturel", chapitre II « Principes fondamentaux de la propriété littéraire et artistique communs à l’ensemble des champs culturels ».
+
+---
+
+### Projet : Le calculateur du domaine public pour identifier les oeuvres libres de partage
+
+![](./img/calculateur-domaine-public.png)
+
+---
 class: inverse, center, middle
 
 # 4 État-Plateforme et Open Gov
@@ -608,46 +797,6 @@ Ces engagements font ensuite **l'objet de vérifications et d'audit de la part d
 * Il intervient dans la continuité des chantiers engagés par le gouvernement français sur la transformation numérique de l’Etat 
 
 .footnote[[Lire le Plan d'action national pour la France 2018-2020](https://www.etalab.gouv.fr/wp-content/uploads/2018/04/PlanOGP-FR-2018-2020-VF-FR.pdf)]
-
----
-
-### Une politique Open Data pilotée au niveau national
-
-#### .red[La mission Etalab :]
-
-* Coordonne la politique d’ouverture et de partage des données publiques (open data)
-
-* Coordonne les actions des administrations de l’Etat et leur apporte son appui pour faciliter la diffusion et la réutilisation de leurs informations publiques ;
-
-* Développe et anime la plateforme d’open data data.gouv.fr destinée à rassembler et à mettre à disposition l’ensemble des informations publiques de l’Etat, de ses établissements publics et, si elles le souhaitent, des collectivités territoriales et des personnes de droit public ou de droit privé chargées d’une mission de service public ;
-
-* Coordonne le Service Public de la Donnée.
-
-Source : https://www.etalab.gouv.fr/
-
----
-
-## Data.gouv.fr ?
-
-Data.gouv est la plateforme nationale ouverte des données publiques françaises.
-Elle a été conçue et inaugurée en 2011, par la mission Etalab, puis refondue en 2013.
-
-.center[<img src="https://datactivist.coop/SPoSGL/sections/img/datagouvfr.png" height="250"/>] 
-
-On y trouve des milliers de jeux de données, provenant principalement de producteurs publics (Ministère de l'intérieur, Agence française de développement, Insee, Ville de Paris, Région Bretagne, CNIL...) mais aussi de producteurs tiers (OpenStreetMap, OpenFoodFacts...)
-
----
-## Au-delà de data.gouv.fr
-
-Data.gouv.fr est la plateforme **nationale** d'open data mais ce n'est pas la seule plateforme publique qui met à disposition des données ouvertes. Il existe :
-
-+ Des plateformes open data gérées par les **collectivités territoriales**. Par exemple, [Paris Data](https://opendata.paris.fr/explore/?sort=modified), [la Région Occitanie](https://data.laregion.fr/pages/accueil/), [l'agglomération de Saint-Malo](https://data.stmalo-agglomeration.fr/page/accueil/)...
-
-+ Des plateformes open data gérées par des **ministères**. Exemple : [data.education.gouv.fr](https://data.education.gouv.fr/pages/accueil/)
-
-+ Des plateformes open data gérées par des **entreprises**. Exemple [DataNova](https://datanova.laposte.fr/page/accueil/) (La Poste)
-
-+ Des jeux de données directement publiés sur le site des producteurs de données, sans plateforme dédiée. Exemple : Insee
 
 ---
 
@@ -713,26 +862,6 @@ Les experts des institutions ont collaboré pendant quatre ans avec plusieurs la
 (*ici au Festival de Piano de la Roque d'Anthéron*)
 
 ]
-
-
----
-### Les Archives de la Planète .red[du musée Albert Kahn]
-
-* La collection d'autochromes d'Albert Kahn de 72 000 photographies en couleur sur plaques de verre prises entre 1909 et 1931 dans plus de 50 pays, est disponible en open data.
-
-* Le fonds iconographique est disponible sous la forme d’un jeu de données accessible à partir **du portail open data Hauts-de-Seine.**
-
-* Une **politique d’ouverture des données culturelles** et d’**accès à la culture pour tous**, mise en oeuvre par le Département des Hauts-de-Seine
-
-
-
----
-
-### Un site dédié
-
-.center[![](./img/collections.albert-kahn.png)]
-
-http://collections.albert-kahn.hauts-de-seine.fr/
 
 ---
 
