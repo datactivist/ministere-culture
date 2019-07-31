@@ -1,0 +1,321 @@
+---
+title: "Open Data : comprendre les enjeux de l'ouverture des données publiques culturelles. Jour 2"
+subtitle: "Ministère de la Culture"
+author: "Datactivist"
+date: ""
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+params:
+  event: Open Data comprendre les enjeux de l'ouverture des données publiques culturelles. JOUR 2
+  slug: ministere-culture
+---
+
+layout: true
+  
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'></center></span></div>")` 
+
+
+---
+
+class: center, middle
+
+Ces slides en ligne : `r paste0("http://datactivist.coop/", params$slug)`
+
+Sources : `r paste0("https://github.com/datactivist/", params$slug)`
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
+
+
+---
+
+### Programme de la formation 
+
+#### .red[Jour 2] - Open Data : l'ouverture des données publiques culturelles en pratique
+
+* Identification des données 
+* Les formats de données 
+* Négociations et frictions dans l’ouverture des données : comment éviter les obstacles de l’open data ? 
+* Extraction des données 
+* Conversion et mise en qualité des données 
+* Publication des données culturelles et production de métadonnées 
+* Animation de l’open data et incitations à la réutilisation de données 
+* Gouvernance des données et gestion de la relation avec les réutilisateurs 
+
+
+---
+class: inverse, center, middle
+
+### L’enjeu de qualité des données
+
+---
+
+### Des formats qui diffèrent suivant la localisation des données 
+
+→ Où se trouvent les données ?
+→ Sous quel format sont-elles conservées ?
+
+![](./img/formats_donnees.png)
+
+---
+
+### Les formats ouverts
+
+Les formats ouverts favorisent l’intéropérabilité : les
+données pourront être réutilisées indépendamment du logiciel qui a été utilisé pour
+les créer.
+
+Les principaux formats ouverts sont :
+* **Texte brut** : ASCII (.txt) / sans extension
+* **Texte formaté** : TeX (.tex), OpenDocument Text (.odt), Hypertext Markup
+Language (.htm ou .html), XHTML (.xhtml), Feuilles de style en cascade (.css)
+* **Données brutes** : CSV (.csv) / sans extension, JSON (.json), XML (.xml)
+* **Données géographiques** : KML (.kml), SHP (.shp)
+
+---
+
+### Les formats de données structurées
+
+.pull-left[
+
+**JSON**
+> JSON est un format de fichier tabulaire utile pour un traitement simplifié par les ordinateurs. 
+
+**XML**
+> XML est un format largement utilisé pour l’échange de données, car il conserve la structure des données et la façon dont les fichiers sont construits, et permet aux développeurs d’écrire des parties de la documentation avec les données sans interférer avec leur lecture.
+
+]
+
+.pull-right[
+
+**CSV**
+> Les fichiers CSV sont compacts et permetttent de transférer de larges ensembles de données en conservant la même structure.  Il s’agit d’un fichier texte composé uniquement de caractères organisés de façon tabulaire.
+
+![](./img/format_csv.png)
+
+]
+
+---
+
+### Les formats propriétaires 
+
+Les formats des fichiers sont nombreux et sont spécifiques à des types de fichier : texte, audio, vidéo,
+image, tableur, etc. On peut distinguer les formats dits ouverts aux formats dits fermés. 
+
+Les formats fermés n'appartiennent pas au domaine public. Leur recette de fabrication est cachée, et vous serez le plus souvent contraint d'avoir le logiciel adéquat pour pouvoir lire et
+modifier un fichier convenablement. Par exemple pour lire un fichier au format .doc (Microsoft Word), vous serez contraint d'avoir le logiciel Word.
+
+* **Des alternatives à la suite Microsoft**
+
+Microsoft a tenté d'ouvrir les formats de sa suite Microsoft Office. Toutes ses extensions terminant
+par un x (.docx, .pptx, .xlsx) sont des formats sortis dans un but d'interopérabilité. Toutefois leur
+aspect ouvert fait encore débat. 
+
+> Tous les formats propriétaires ne sont pas fermés. Pour reprendre le cas d'Adobe, son format
+.pdf est devenu un standard (norme ISO). Tout le monde peut ouvrir un fichier PDF.
+
+---
+
+### Ce que les formats impliquent pour .red[le traitement des données]
+
+Afin de pouvoir traiter, analyser, lire ou visualiser des données, il faut pouvoir les manipuler. 
+Le format est important parce qu'il détermine les opérations de traitement nécessaires à la réutilisation de données. 
+
+![](./img/format_et_traitement_donnees.png)
+
+---
+
+### Accessibilité des formats des données .red[pour les humains et pour les machines]
+
+![](./img/accesibilite_formats_donnees.png)
+
+.footnote[Source : Françoise Paquienséguy, Valentyna Dymytrova. Livrable 1.2 Analyse de portails métropolitains de données ouvertes à l’échelle internationale. Rapport de recherche 1.2, Equipe d’accueil lyonnaise en Sciences de l’information et de la communication. 2017. ffhal-01449348f] 
+
+---
+
+### [WTFCSV](https://databasic.io/en/wtfcsv/) : un outil pour prévisualiser un jeu de données en .csv
+
+![](https://datactivist.coop/occitanie/img/wtfcsv.png)
+
+---
+
+class: inverse, center, middle
+
+# Le cycle de l'ouverture des données
+
+---
+### Open Data Pipeline : les principales étapes de l'ouverture
+
+.reduite.center[
+![](https://datactivist.coop/occitanie/img/logigramme.png)
+]
+
+---
+### La circulation des données provoque des frictions
+
+
+>Chaque mouvement de données à travers une interface a un coût en temps, en énergie et en attention humaine. Chaque interface entre les groupes et les organisations, ainsi qu'entre les machines, représente un point de résistance où les données peuvent être brouillées, mal interprétées ou perdues. 
+>Dans les systèmes sociaux, la friction des données consomme de l'énergie et produit de la turbulence et de la chaleur - c'est-à-dire des conflits, des désaccords et des processus indisciplinés et inexacts.
+
+Edwards, P. N. et al. (2011) [‘Science friction: Data, metadata, and collaboration’](https://journals.sagepub.com/doi/abs/10.1177/0306312711413314), _Social Studies of Science_, 41(5)
+
+---
+### Identifier
+
+.pull-left[
+![](https://datactivist.coop/occitanie/img/identifier.png)
+]
+
+.pull-right[
+* Rencontrer les agents
+
+* Etudier les données ouvertes par d'autres collectivités
+
+* Cartographier les données
+
+* Documenter les données
+
+]
+
+---
+### Valider
+
+.pull-left[
+![](https://datactivist.coop/occitanie/img/valider.png)
+]
+
+.pull-right[
+* Evaluer les jeux de données
+
+* Prioriser l’ouverture 
+
+* Valider l’ouverture par la hiérarchie
+
+]
+
+---
+### Quelques “bonnes raisons organisationnelles” de ne pas ouvrir des données
+
+* Des données encastrées dans les systèmes d’information : explorer les bases de données, reconstruire les schémas et extraire les données
+
+
+* Des données qui peuvent servir à des usagers malveillants : prévoir les risques et les dangers de l’ouverture
+
+
+* Des données qui n’ont pas été pensées pour l’ouverture : améliorer leur qualité et leur intelligibilité 
+
+
+* Des données trop “sensibles” pour être ouvertes : la transparence, un mandat à obtenir 
+
+---
+### Éditer
+
+.pull-left[
+![](https://datactivist.coop/occitanie/img/editer.png)
+]
+
+.pull-right[
+_data editing_: les opérations par lesquelles les statisticiens traitent et transforment les données issues des sources administratives (Desrosières 2005) 
+
+* Anonymiser des données 
+
+* Enlever la sensibilité de données qui ne pouvaient pas être publiées
+
+* Rendre intelligible les acronymes 
+
+* Améliorer la qualité des données
+
+]
+
+---
+### Le sprint qualité des données de la FING
+
+Le “sprint qualité” est une méthodologie sur un temps court, 2h30, qui vise l’amélioration significative de la qualité d’un, et un seul, jeu de données.
+
+Petit exercice : en groupe, sélectionnez un jeu de données et essayez d'appliquer 5 points de contrôle 
+[![](https://datactivist.coop/occitanie/img/sprint.png)](https://infolabs.io/sprint-qualite)
+
+---
+### [Dataproofer](http://dataproofer.org/) : un outil de contrôle automatique de la qualité
+
+![](https://datactivist.coop/occitanie/img/dataproofer.png)
+---
+### Standardiser
+
+.pull-left[
+![](https://datactivist.coop/occitanie/img/standardiser.png)
+]
+
+.pull-right[
+* Convertir les données dans un format ouvert (spécifications techniques publiques et sans restriction d'accès ni de mise en œuvre) et lisible par les machines
+
+* Adopter des spécifications partagées : GTFS, DECP, IATI, OCDS, socle commun des données locales…
+
+* Transformer les données
+
+]
+
+---
+### Passage en CSV : bien plus que “enregistrer sous”
+
+[![](https://datactivist.coop/occitanie/img/excel3.png)](http://fr.slideshare.net/christophelibertidf/bonnes-pratiquesexcel-cc27juin2013)
+
+---
+### Publier
+
+.pull-left[
+![](https://datactivist.coop/occitanie/img/publier.png)
+]
+
+.pull-right[
+* Importer les données sur le portail
+
+* Décrire les champs du fichier
+
+* Documenter les métadonnées
+]
+
+---
+### [Datasheet for Datasets](https://teamopendata.org/t/traduction-et-adaptation-du-modele-de-description-des-donnees-datasheet-for-datasets/1400) : un modèle de documentation des données
+
+.reduite.center[
+![](https://datactivist.coop/occitanie/img/datasheet.png)
+]
+
+---
+### Mettre à jour
+
+.pull-left[
+![](https://datactivist.coop/occitanie/img/update.png)
+]
+
+.pull-right[
+
+* Mettre à jour manuellement ou automatiser l’ouverture
+
+* Conserver les données
+
+* Prendre en compte les retours des usagers
+
+]
+
+---
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [joel@datactivist.coop](mailto:joel@datactivist.coop)
+
+
