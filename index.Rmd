@@ -726,7 +726,7 @@ http://www.vie-publique.fr/actualite/dossier/loi-internet/republique-numerique-q
 > Les administrations  devront publier en ligne dans un standard ouvert leurs principaux documents, y compris leurs codes sources, ainsi que leurs bases de données qui présentent un intérêt économique, social, sanitaire ou environnemental. 
 
 
-Cette obligation concerne les *administrations d’Etat*, les *collectivités* locales de *plus de 3 500 habitants*, les établissements publics et les organismes privés chargés d’un service public.
+Cette obligation concerne les *administrations d’Etat*, les *collectivités* locales de *plus de 3 500 habitants*, les établissements publics et les organismes privés chargés d’un service public de plus de 50 agents.
 
 
 ---
@@ -737,6 +737,15 @@ L'ouverture concerne un .red[**périmètre très large**] :
 * les "bases de données"
 * les données "dont la publication présente un intérêt économique, social, sanitaire ou environnemental".
 Rares sont donc les données publiques qui ne sont pas concernées par cette obligation d'ouverture. 
+
+---
+
+### Les licences par défaut 
+
+La Loi pour une République Numérique prévoit deux licences à utiliser par défaut par les administrations pour accompagner la réutilisation gratuite de leurs données s :
+
+* **1 - La licence ouverte v2.0 (LO)**, qui permet la réutilisation la plus large possible, autorisant la reproduction, la redistribution, l’adaptation et l’exploitation commerciale des données ; 
+* **La licence Open Database License (ODbL)**, qui autorise les utilisateurs à partager, modifier et utiliser librement une base de données à condition que la rediffusion soit effectuée dans des conditions identiques (« share alike »).
 
 ---
 

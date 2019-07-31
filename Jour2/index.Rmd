@@ -1,7 +1,7 @@
 ---
-title: "Open Data : comprendre les enjeux de l'ouverture des données publiques culturelles. Jour 2"
+title: "Open Data : comprendre les enjeux de l'ouverture des données publiques culturelles."
 subtitle: "Ministère de la Culture"
-author: "Datactivist"
+author: "Jour 2"
 date: ""
 output:
   SlidesDatactivist::moon_reader:
@@ -12,7 +12,7 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 params:
-  event: Open Data comprendre les enjeux de l'ouverture des données publiques culturelles. JOUR 2
+  event: Open Data comprendre les enjeux de l'ouverture des données publiques culturelles. Jour 2
   slug: ministere-culture
 ---
 
@@ -56,6 +56,186 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 
 ---
+
+
+---
+
+class: inverse, center, middle
+
+# 6 La conception d’une stratégie d’open data
+
+---
+
+class: middle
+
+### Comment ouvrir ses données : .red[les différentes étapes] pratiques à suivre
+
+* **Étape 1** : Sélectionner les données
+* **Étape 2** : Préparer les données
+* **Étape 3** : Diffuser et valoriser les données
+
+---
+
+### Étape 1 : .red[Sélectionner les données]
+
+* Effectuer un état des lieux permettant de faire .red[**l’inventaire des données existantes.**] 
+Cette opération permet également d'identifier d’éventuelles contraintes à l'ouverture et ainsi d'envisager les actions concrètes à mener.
+
+* Enclencher la démarche en priorisant l’ouverture de certains jeux de données. 
+.red[**Préférez les données demandées ou attendues par les réutilisateurs ou par des communautés**], comme par exemple : les données de fréquentation, de subvention, les données évènementielles et les images entrées dans le domaine public qui sont particulièrement recherchées.
+
+.center[<img src="./img/donnees-culturelles-etape1.png" height="280"/>]
+
+---
+
+### Etape 2 : Préparer les données
+
+#### Définir et documenter les jeux de données et leurs métadonnées
+
+Joindre au fichier de données, à chaque fois que cela est utile, une notice explicative permettant de rendre les 
+données plus explicites, et d'en éclairer l'usage possible. .red[**Ces informations sont indispensables et donnent un maximum de visibilité à vos données dans les moteurs de recherche**.] 
+
+Cette notice pourra comprendre les éléments suivants : 
+
+* La description générale du fichier
+* Le contexte et les possibles alertes sur l’interprétation de la donnée (par exemple, préciser la fermeture d'un établissement et indiquer la période concernée afin d'expliquer la baisse de fréquentation observée, etc.)
+* Le détail des ruptures de séries et son historique
+* Un dictionnaire des différentes variables présentes dans le fichier, la signification en clair des codes des libellés des champs. 
+
+---
+
+### Etape 2 : Préparer les données
+
+#### Choisir le format de mise à disposition
+
+Les données doivent être téléchargeables dans un « standard ouvert », c'est à dire dans un format ouvert aisément réutilisable et exploitable par un système de traitement automatisé et pérenne.
+
+Voici quelques exemples de formats « ouverts » conseillés pour la diffusion des jeux de données en ligne : 
+
+* CSV, ODS, XLSX (données tabulaires),
+* JSON, XML, RDF (données hiérarchiques),
+* PNG, JPEG, TIFF (image),
+* SHP, KML, GeoJSON (données géographiques),
+* X3D (données 3D).
+
+---
+
+### Etape 2 : Préparer les données
+
+#### Veiller à la qualité des données
+
+Quelques principes à retenir :
+
+* Mettre à disposition des séries chronologiques les plus longues possibles avec la granularité la plus fine, tout en respectant le secret de la vie privée et le secret statistique ; 
+* Compléter vos fichiers par les données de géolocalisation quand cela est possible ;
+* Compléter l'adresse postale par le code INSEE (afin de faciliter la géolocalisation dans le cas des noms de villes homonymes) ;
+* Utiliser la norme ISO 8601 pour les dates, format : « AAAA-MM-JJ ».
+
+#### Choisir la licence de réutilisation
+
+Le contrat de licence de réutilisation permet de déterminer les droits et obligations réciproques des parties. Il est important que toutes les réutilisations, y compris celles consenties à titre gratuit, soient conditionnées à l'acceptation d'un contrat, et que l'usager en soit clairement informé. 
+
+
+---
+### Réussir sa stratégie d'ouverture des données 
+
+- Au-delà de l'obligation légale : .red[**poser les objectifs**] poursuivis par la stratégie
+
+- Se donner les moyens de connaître la .red[**demande de données**] pour y répondre 
+
+- Travailler à la .red[**qualité des données**], garante d'usages réels
+
+- Mener le projet d'ouverture des données comme un projet de modernisation de l'administration (transversalité, agilité, lean...)
+
+---
+### Des politiques d'open data "de l'offre"
+
+.pull-left[
+### En théorie
+
+#### Toutes les données sont ouvertes sous leur forme brute dès leur production
+
+]
+.pull-right[
+
+
+### En pratique
+
+#### L’administration choisit quelles données ouvrir, comment les ouvrir, quand et ce qu’elles contiennent
+
+]
+
+---
+### La réutilisation : un parcours fait de frictions et de déceptions
+.pull-left[
+[![](https://datactivist.coop/aaf/img/users.png)](https://thereboot.github.io/moti-personas/)
+]
+.pull-right[
+####  Des données difficiles à trouver, pas ouvertes partout
+
+####  Granularité temporelle et spatiale souvent trop faible
+
+####  Des données souvent inutilisables : manque de documentation
+
+####  Des données pas mises à jour
+
+####  Des portails qui ciblent les développeurs
+
+]
+
+---
+### Le problème de la qualité des données
+
+> **Les données des gouvernements sont souvent incomplètes, pas actualisées, de mauvaise qualité et fragmentaires.** 
+
+> Dans la plupart des cas, les catalogues ou portails de données ouvertes sont alimentés manuellement, conséquence d’une approche informelle de la gestion des données. 
+
+> De plus, les procédures, les calendriers et les responsabilités des institutions publiques chargées de leur gestion manquent souvent de clarté. Ainsi, de manière générale, la gestion et la publication des données ouvertes sont fragiles et sujettes à des erreurs multiples.
+
+.footnote[Source : 
+[Rapport mondial du 4e Open Data Barometer](https://opendatabarometer.org/4thedition/report/?lang=fr)
+]
+---
+### Des données bien cachées
+.pull-left[
+![](https://index.okfn.org/images/Datagapsclean.jpg)
+]
+.pull-right[
+"La découvrabilité des données est un défi majeur. Nous avons des portails et des registres de données, mais les organismes gouvernementaux qui relèvent d'un seul gouvernement national publient toujours les données de différentes façons et à différents endroits (...).
+
+**La découvrabilité des données est une condition préalable pour que les données ouvertes réalisent leur potentiel et, actuellement, la plupart des données sont très difficiles à trouver**."]
+
+
+.footnote[https://index.okfn.org/insights/]
+
+---
+
+### Résumé : les facteurs clés de succès
+
+
+* Obtenir un soutien au plus haut niveau
+
+* Configurer l’organisation pour l’ouverture 
+
+* Faciliter la découverte et l’utilisation des données 
+
+* Rester à l'écoute et interagir avec les usagers 
+
+---
+### Exercice : les bénéfices de l'open data
+
+.pull-left[
+![](https://datactivist.coop/occitanie/img/obs.png)
+]
+.pull-right[
+En petits groupes, analysez les [données brutes](https://docs.google.com/spreadsheets/d/1pua5fDx8gtF3R9tce9wE7wmT0ksIFjscOO7DS723iHY/edit#gid=0) et syntéhtisez  : 
+* La production d’effets bénéfiques ou d’externalités positives
+* L'optimisation de la collecte et du partage des données
+* L'amélioration de la qualité des données
+* La production d'effets négatifs ou d'impacts contre-productifs
+]
+
+
 class: inverse, center, middle
 
 ### L’enjeu de qualité des données
@@ -317,5 +497,4 @@ class: inverse, center, middle
 # Merci !
 
 Contact : [joel@datactivist.coop](mailto:joel@datactivist.coop)
-
 
