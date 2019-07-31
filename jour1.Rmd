@@ -76,7 +76,7 @@ class: inverse, center, middle
 ---
 ### Introduction 
 
-#### Ecoutez [l'interview de Serge Abiteboul, commissaire scientifique de l’exposition Terradata et directeur de recherche à l’Inria](https://www.youtube.com/watch?v=qqvsiTUJy7k)
+#### .red[Ecoutez] [l'interview de Serge Abiteboul, commissaire scientifique de l’exposition Terradata et directeur de recherche à l’Inria](https://www.youtube.com/watch?v=qqvsiTUJy7k)
 
 .center[
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qqvsiTUJy7k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -85,7 +85,7 @@ class: inverse, center, middle
 .footnote[Source : Abiteboul & Peugeot (2017). *Terra Data : qu'allons nous faire des données numériques ?*, Paris : Le Pommier.]
 
 ---
-### Les données sont partout !
+### .red[Les données] sont partout !
 
 <img src="https://datactivist.coop/SPoSGL/sections/img/dataeverywhere.png" height="350"/>
 
@@ -94,7 +94,7 @@ class: inverse, center, middle
  
 ---
 
-### Une définition des données
+### .red[Une définition] des données
 
 .pull-left[<img src="https://datactivist.coop/SPoSGL/sections/img/kitchin.png" height="400"/>]
  
@@ -108,7 +108,7 @@ class: inverse, center, middle
 
 ---
 
-### La pyramide Data-Information-Knowledge-Wisdom
+### .red[La pyramide] Data-Information-Knowledge-Wisdom
 
 .pull-left[
 [![largeur](https://datactivist.coop/SPoSGL/sections/img/dikw_pyramid.svg)](https://commons.wikimedia.org/w/index.php?curid=37705247)
@@ -124,7 +124,7 @@ Attribuée à [Russell Ackoff](http://en.wikipedia.org/wiki/Russell_L._Ackoff) e
 ] 
 ---
 
-### Les données, c'est aussi tout ce qui circule dans un ordinateur
+### .red[Les données], c'est aussi tout ce qui circule dans un ordinateur
 
 Les données ne sont pas seulement le fondement du savoir, elles sont aussi la base de l'informatique. Tout ce qui circule dans un ordinateur, ce sont des données.
 
@@ -146,7 +146,7 @@ class:inverse,middle,center
 # 2 - Origines historiques de l'open data
 
 ---
-### Open data : un terme récent
+### .red[Open data] : un terme récent
 
 Le terme est apparu pour la première fois dans les années 1970 dans les accords qu’a signés la NASA avec des pays partenaires en vue du partage de données satellitaires. 
 
@@ -154,7 +154,7 @@ C’est en 1995 qu’on en voit le premier usage public aux Etats-Unis dans un r
 
 ---
 
-### Que signifie “Open” dans un contexte culturel ?
+### Que signifie .red[“Open”] dans un contexte culturel ?
 
 * **L’Open Content** (les contenus ouverts) est la mise à disposition gratuite sur Internet des reproductions numériques des œuvres sous une licence garantissant leur libre accès et leur réutilisation par tous, sans restriction technique, juridique ou financière.
 
@@ -235,10 +235,12 @@ class: center, middle
 .center[<img src="https://datactivist.coop/dataliteracy/img/photofamille.jpg" height="250"/>]
 
 ---
-### Des principes techniques sans portée politique
+### .red[Des principes techniques] sans portée politique
 
 >"Il peut être vrai en un sens qu'un régime devient plus ouvert chaque fois qu'il fournit des données ouvertes supplémentaires, même pour les sujets banals et apolitiques, mais il est facile d'imaginer qu'un régime fermé pourrait divulguer de grandes quantités de données conformes à ces huit exigences [de Sébastopol] **sans pour autant accroître sa responsabilité réelle en tant que gouvernement **. 
 > Une diffusion électronique des déclarations de propagande faites par les dirigeants politiques de la Corée du Nord, par exemple, pourrait satisfaire à ces huit exigences et ne pas promouvoir une transparence ou une responsabilité supplémentaires de la part d'un régime notoirement fermé et opaque."
+>
+>
 >Yu & Robinson (2012) « [The New Ambiguity of Open Government](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2012489) » 
 
 ---
@@ -280,7 +282,7 @@ class: center, middle
 
 ---
 
-### Les acteurs politiques de l'open data
+### Les .red[acteurs politiques] de l'open data
 
 * **Etalab** : Coordonne la politique d’ouverture et de partage des données publiques 
 * **DITP** : Expérimente l’intelligence artificielle dans les administrations avec Etalab et la DINSIC
@@ -290,7 +292,7 @@ class: center, middle
 
 ---
 
-### Une politique Open Data pilotée au niveau national
+### .red[Une politique Open Data] pilotée au niveau national
 
 .red[**La mission Etalab** :] est créée en 2011 et rattachée au secrétariat général de la modernisation de l’action publique (SGMAP), placée sous l’autorité du Premier Ministre.
 
@@ -308,7 +310,7 @@ Source : https://www.etalab.gouv.fr/
 
 ---
 
-## Data.gouv.fr ?
+### Data.gouv.fr ?
 
 Data.gouv est la plateforme nationale ouverte des données publiques françaises.
 Elle a été conçue et inaugurée en 2011, par la mission Etalab, puis refondue en 2013.
@@ -318,7 +320,7 @@ Elle a été conçue et inaugurée en 2011, par la mission Etalab, puis refondue
 On y trouve des milliers de jeux de données, provenant principalement de producteurs publics (Ministère de l'intérieur, Agence française de développement, Insee, Ville de Paris, Région Bretagne, CNIL...) mais aussi de producteurs tiers (OpenStreetMap, OpenFoodFacts...)
 
 ---
-## Au-delà de data.gouv.fr
+### Au-delà de .red[data.gouv.fr]
 
 Data.gouv.fr est la plateforme **nationale** d'open data mais ce n'est pas la seule plateforme publique qui met à disposition des données ouvertes. Il existe :
 
@@ -337,7 +339,7 @@ class: center, middle
 
 ---
 
-### Les dates importantes à retenir
+### Les .red[dates importantes] à retenir
 
 .red[**2011**] : Le ministère s'engage dans la politique gouvernementale en faveur de l’ouverture et du partage des données publiques. Les premiers jeux de données sont publiés par le Ministère sur data.gouv.fr
 
@@ -366,7 +368,7 @@ Le portail des données ouvertes du ministère de la Culture met à disposition 
 
 ---
 
-### Possibilité d'héberger ses données sur data.gouv .red[pour les établissements publics]
+### Possibilité d'héberger ses données sur data.gouv.fr .red[pour les établissements publics]
 
 Pour les établissements publics, la mise à disposition des données est à effectuer sur le site .red[data.gouv.fr.]
 
@@ -397,7 +399,7 @@ class: inverse, center, middle
 
 ---
 
-### La transparence de la vie publique et la participation citoyenne à l’action publique
+### .red[La transparence de la vie publique] et la participation citoyenne à l’action publique
 
 
 * Exemple avec **Le grand débat national**, mars 2019
@@ -406,7 +408,7 @@ class: inverse, center, middle
 
 ---
 
-### L’efficacité de l’action publique : amélioration de la qualité des services publics 
+### .red[L’efficacité de l’action publique] : amélioration de la qualité des services publics 
 
 * Exemple : .red[sauver des vies en mer] en prévenant les accidents maritimes
 
@@ -414,7 +416,7 @@ class: inverse, center, middle
 
 ---
 
-### Le développement de l’attractivité des territoires
+### Le développement de .red[l’attractivité des territoires]
 
 * Le portail .red[*DATAtourisme*]
 
@@ -422,7 +424,7 @@ class: inverse, center, middle
 
 ---
 
-### Le soutien à l’innovation économique et sociale
+### Le soutien à .red[l’innovation économique et sociale]
 
 * Les données des **valeurs foncières** reprises par le site meilleurs agents, avril 2019
 
@@ -431,7 +433,7 @@ class: inverse, center, middle
 
 ---
 
-### Une opportunité en matière de démocratisation culturelle et de transmission des savoirs
+### Une opportunité en matière de .red[démocratisation culturelle et de transmission des savoirs]
 
 * Le projet **UrbanHist** à Toulouse
 
@@ -441,7 +443,7 @@ class: inverse, center, middle
 
 class: inverse, center, middle
 
-# 4. Revue des principes d'ouverture des données 
+# 4. Revue des principes de l'ouverture des données 
 
 .footnote[D'après les "eight principles of open government data" définis les 7-8 décembre 2007 à Sébastopol. Source: [opengovdata.org](https://opengovdata.org/)]
 
@@ -504,9 +506,9 @@ class: center, middle
 
 ---
 
-### Exemple les Archives de la Planète .red[du musée Albert Kahn]
+### .red[Contre-exemple] : les Archives de la Planète du musée Albert Kahn
 
-> **La réutilisation commerciale des images est interdite**
+> **La réutilisation commerciale des images y est interdite**
 
 * La collection d'autochromes d'Albert Kahn de 72 000 photographies en couleur sur plaques de verre prises entre 1909 et 1931 dans plus de 50 pays, 
 
@@ -555,7 +557,7 @@ Pour consulter ou télécharger les données du portail DataTourisme, il faut s'
 
 .pull-right[
 
-Suite au signalement de cette obligation et à une discussion sur TeamOpenData, ces données ont finalement été rendues accessibles à tous sur le portail Data.gouv.fr
+Suite au signalement de cette obligation et à une [discussion sur TeamOpenData](https://teamopendata.org/t/lancement-de-la-plateforme-datatourisme/145/18?u=samgoeta), ces données ont finalement été rendues accessibles à tous sur le portail [data.gouv.fr](https://www.data.gouv.fr/fr/datasets/datatourisme-la-base-nationale-des-donnees-du-tourisme-en-open-data/)
 
 ![](./img/DATAtourisme_dataGouv.png)
 
@@ -571,7 +573,7 @@ class: center, middle
 
 ---
 
-### Exemples courants de fichiers excels publiés
+### .red[Exemples courants] de fichiers excels publiés
 
 .pull-left[
 
@@ -583,7 +585,9 @@ A éviter : police ou colonnes en couleur pour signifier une légende particuli�
 
 .pull-right[
 
-#### Ce fichier de la fréquentation des musées en France a depuis été mis à jour sur Data-Culture et Data-Gouv
+#### Ce fichier de la [fréquentation des musées en France](https://data.culture.gouv.fr/explore/dataset/frequentation-des-musees-de-france/information/?disjunctive.new_name) a depuis été mis à jour sur Data-Culture avec une infographie. 
+
+![](./img/frequentation.png)
 
 ]
 
@@ -608,7 +612,7 @@ Ces droits s'entendent y compris pour des utilisations commerciales.
 
 ### Les musées départementaux .red[de la Haute-Saône]
 
-> Afin de donner de la visibilité à la collection des musées départementaux, et à travers elle à la collectivité détentrice de cette collection, d'envisager l'enrichissement de cette collection et des données associées via cette mise en ligne et de diffuser de la culture, **le réseau de musées a réalisé un partenariat avec l’encyclopédie Wikipédia**, pour diffuser des donnés sous licence libre. 
+> Afin de donner de la visibilité à la collection des musées départementaux, et à travers elle à la collectivité détentrice de cette collection, d'envisager l'enrichissement de cette collection et des données associées via cette mise en ligne et de diffuser de la culture, **le réseau de musées a réalisé un partenariat avec l’encyclopédie Wikipédia**, pour diffuser [les données d'images haute définition des collections départementales](https://commons.wikimedia.org/wiki/Commons:Mus%C3%A9es_d%C3%A9partementaux_de_la_Haute-Sa%C3%B4ne) sous licence libre. 
 
 .pull-left[
 *Le château de Champlitte, qui abrite le musée départemental d'Arts et Traditions populaires.*
@@ -625,8 +629,12 @@ class: inverse, center, middle
 # 3. Éléments du cadre juridique et historique de l'open data
 
 ---
+class: center, middle
 
-### Un appareil législatif étoffé
+## 3.a La loi CADA : fondement de la transparence administrative
+---
+
+### Un appareil législatif .red[étoffé]
 
 
 
@@ -660,7 +668,7 @@ timevis(data, loadDependencies = FALSE, width = "715px", height = "350px")
 
 ---
 
-### 1978 : La loi CADA, vers le "droit de savoir"
+### .red[1978] : La loi CADA, vers le "droit de savoir"
 * Le fondement : la .red[Déclaration des Droits de l'Homme et du Citoyen de 1789] dans son article 15, "la Société a le droit de demander compte à tout Agent public de son administration." 
 
 * Le droit d'accès des citoyens à l'information publique émerge en **1978 avec la loi dite CADA** du nom de la Commission d'Accès aux Documents Administratifs. 
@@ -671,24 +679,24 @@ timevis(data, loadDependencies = FALSE, width = "715px", height = "350px")
 
 ---
 
-### Le guide CADA-CNIL : le document de référence
+### .red[Le guide CADA-CNIL] : le document de référence
 
 Ce guide constitue une bonne source de référence. Nous avons publié sa [fiche de lecture](https://teamopendata.org/t/guide-commun-cnil-et-cada-open-data-rgpd/1320) sur la plateforme TeamOpenData.
 
-.center[<img src="https://datactivist.coop/aaf/img/guide.png" height="200"/>]
+.center[<img src="https://datactivist.coop/aaf/img/guide.png" height="300"/>]
 
 [Source : Guide Open Data Cnil](https://www.cnil.fr/sites/default/files/atoms/files/guide_open_data.pdf)
 
 ---
 
-### La loi CADA : quelques imperfections
+### .red[La loi CADA] : quelques imperfections
 
-Même si la France est le 3e pays à avoir adopté un droit d'accès, la loi CADA n'est pas un outil fort de la transparence de la vie publique. Ses principaux défauts : l'absence de sanctions et une procédure longue qui décourage les demandeurs d'information et de données.
+Même si la France est le 3e pays à avoir adopté un droit d'accès, la loi CADA n'est pas un outil fort de la transparence de la vie publique. Ses principaux défauts : l'absence de sanctions et une procédure longue qui souvent décourage les demandeurs d'information et de données.
 [![](https://datactivist.coop/aaf/img/europam.png)](http://europam.eu/?module=country-profile&country=France)
 
 ---
 
-### Un droit d'accès très faible au regard des standards internationaux
+### Un droit d'accès très faible .red[au regard des standards internationaux]
 
 .pull-left[Paradoxe : la France a une législation parmi les plus ambitieuses au monde en matière d'open data mais le droit d'accès y est un des plus mauvais au monde… 
 
@@ -704,12 +712,51 @@ L'open data est comme la Tour de Pise : un très bel édifice posé sur des fond
 
 
 ---
-class: center, middle
+### .red[Les conditions d'exercice] du droit d'accès
 
-## 3.a Que dit la Loi pour une république numérique ?
+.red[ Une définition très large des documents administratifs]
+> Les documents administratifs peuvent revêtir de nombreuses formes (dossiers, rapports, études, comptes rendus, procès-verbaux, statistiques, directives, instructions, circulaires, codes sources, etc.) et adopter tout support (écrit, enregistrement sonore ou visuel, forme numérique ou informatique). 
+
+Le droit d'accès s'appplique aux documents administratifs produits dans le cadre d'une .red[mission de service public] ie :
+> Une mission d'intérêt général sous le contrôle de l'administration et qui est dotée à cette fin de prérogatives de puissance publique est chargée de l'exécution d'un service public. 
+
+Il ne s’exerce que si l’administration a effectivement en sa possession le document demandé, que si le document est formellement **achevé**, qu'il existe et qu'il n'est pas **préparatoire à une décision administrative** en cours. 
 
 ---
-### La loi est promulguée le 7 oct. 2016
+### .red[Les exclusions] au droit d'accès
+
+Le droit d'accès .red[**ne doit pas porter atteinte aux secrets protégés**] : 
+- le fonctionnement de l'État : délibérations du Gouvernement, secret de la défense nationale, la conduite de la politique extérieure de la France, la sûreté de l'État…
+- la protection de la vie privée
+- le secret médical
+- le secret des affaires (secret des procédés, des informations économiques et financières et
+des stratégies commerciales ou industrielle)
+- les mentions portant une appréciation ou un jugement de valeur sur une personne physique ou
+faisant apparaître un comportement d'une personne pouvant lui porter préjudice…
+
+Le document ne peut être publié qu'après avoir fait l'objet d'un traitement permettant
+d'.red[**occulter les mentions protégées**]. L’administration n’est pas tenue de publier un document lorsque “les travaux d’occultation dénatureraient ou videraient de sens le document” ou si “le document est indivisible ou l’occultation est trop complexe”.
+---
+### Le cas des .red[données personnelles]
+
+La prohibition de la communication à des tiers ne porte pas sur les données personnelles en général, mais .red[**sur les données à caractère personnel relevant de la vie privée**] des personnes concernées (âge, coordonnées personnelles, situation patrimoniale et financière, sympathies politiques, les croyances religieuses…)
+
+La mise en ligne de données à caractère personnel sans anonymisation n'est permise que dans .red[**trois cas**] :
+1. une disposition législative contraire le prévoit (exemple : [Transparence Santé](https://www.data.gouv.fr/fr/datasets/transparence-sante-1/))
+2. si les personnes intéressées ont donné leur accord (consentement au sens de l’article 4 du RGPD)
+3. les documents relevant de [l’article D312-3-1 du CRPA](https://www.legifrance.gouv.fr/affichTexte.do;jsessionid=51E99AF738C12521572D6A7F6C8C03E8.tplgfr23s_1?cidTexte=JORFTEXT000037797147&dateTexte=&oldAction=rechJO&categorieLien=id&idJO=JORFCONT000037796937)
+
+
+Hors de ces cas, il faut .red[**[anonymiser les données](https://github.com/SGMAP-AGD/anonymisation/wiki/Guide-de-l'anonymisation)**] : elles ne doivent plus se référer à une personne réelle (exit les noms, identifiants…) et ne doivent plus être spécifiques à un individu mais communes à un ensemble de personnes. L’indexation de ces données par un moteur de recherche externe est proscrite.
+
+
+---
+class: center, middle
+
+## 3.b Synthèse des apports de la loi pour une République numérique
+
+---
+### La loi est promulguée le .red[7 octobre 2016]
 
 Elle a pour objectifs de : 
 * Encourager l’innovation et l’économie numérique
@@ -721,26 +768,28 @@ http://www.vie-publique.fr/actualite/dossier/loi-internet/republique-numerique-q
 
 ---
 
-### Premier principe : l'ouverture des données par défaut
+### .red[Premier principe] : l'ouverture des données par défaut
 
 > Les administrations  devront publier en ligne dans un standard ouvert leurs principaux documents, y compris leurs codes sources, ainsi que leurs bases de données qui présentent un intérêt économique, social, sanitaire ou environnemental. 
 
 
-Cette obligation concerne les *administrations d’Etat*, les *collectivités* locales de *plus de 3 500 habitants*, les établissements publics et les organismes privés chargés d’un service public.
+Cette obligation concerne toutes les *administrations*, établissements publics, collectivités et organismes privés chargés d’un service public à deux conditions : être dôté d'au moins **50 agents** et, pour les collectivités locales, concerner au moins **3500 habitants**.
 
 
 ---
-### Le périmètre de l'open data par défaut 
+### .red[Le périmètre] de l'open data par défaut 
 
 L'ouverture concerne un .red[**périmètre très large**] : 
 * les documents communiqués suite à des demandes CADA
 * les "bases de données"
 * les données "dont la publication présente un intérêt économique, social, sanitaire ou environnemental".
+
+
 Rares sont donc les données publiques qui ne sont pas concernées par cette obligation d'ouverture. 
 
 ---
 
-### La définition des données
+### La .red[définition] des données
 
 Le guide CADA-CNIL rappelle la **définition des "bases de données"**
 
@@ -754,7 +803,7 @@ Le document donne également une **définition de ce qu'est une "donnée"** :
 
 ---
 
-### Deuxième principe : création d’un service public de la donnée
+### .red[Deuxième principe] : création d’un service public de la donnée
 
 → La loi souhaite faciliter la réutilisation des principales bases de données de l’État par les acteurs privés ou publics (entreprises, associations, chercheurs, etc.), en leur garantissant un niveau élevé de qualité de service.
 
@@ -763,7 +812,7 @@ Le document donne également une **définition de ce qu'est une "donnée"** :
 
 ---
 
-### Les 9 jeux de données  du Service Public de la Donnée
+### Les 9 jeux de données du .red[Service Public de la Donnée]
 
 * Le répertoire des entreprises et des établissements (base Sirene)
 * Le répertoire national des associations (RNA),
@@ -778,20 +827,18 @@ Le document donne également une **définition de ce qu'est une "donnée"** :
 Source : https://www.data.gouv.fr/en/reference
 
 ---
+### .red[Troisième principe] : l'utilisation de standards ouverts
+<img style="float:right; margin:10px"  src="https://datactivist.coop/aaf/img/openstand.png">
 
-### Open data = Licence ouverte + Format ouvert
+Afin de faciliter la réutilisation des données par les machines, la loi pour une République Numérique consacre **l'utilisation de standards ouverts** pour la communication des documents administratifs. 
 
-* **Les données sont publiées dans un format ouvert** : Ce format ne doit pas être la propriété d'une organisation en particulier comme Excel ou PDF (Microsoft) 
-* **Les données sont publiées dans une licence ouverte** : Idéalement dans le domaine public sinon dans une licence conforme à l'Open Definition : Licence Ouverte (CC-BY) ou ODBL (CC-BY-SA)
-* **Les données sont exploitables par les machines** : Les données peuvent être traitées automatiquement par les machines
-* **Les données sont non discriminatoires** : Elles peuvent être utilisées par tous sans réclamer un enregistrement préalable sur le site qui les publie
-* **Des données primaires** : Les données ouvertes sont telles que collectées à la source, non-agrégées avec le plus haut niveau de granularité
+L’administration est dorénavant tenue, lorsqu’elle communique un document administratif au format électronique, de le mettre à disposition du citoyen **"dans un standard ouvert, aisément réutilisable et exploitable par un système de traitement automatisé"**. 
 
-Contre exemple : https://www.data.gouv.fr/fr/datasets/comptage-voyageur-sur-rer/ 
+Concrètement, cela devrait empêcher la publication de fichiers PDF là où un fichier CSV pourrait être diffusé.
 
 
 ---
-### Loi pour une République numérique : une limitation des licences
+### .red[Quatrième principe] : une limitation des licences
 
 La loi **limite par décret les licences** qui peuvent être utilisées par les administrations. Le [décret du 27 avril 2017](https://www.legifrance.gouv.fr/eli/decret/2017/4/27/2017-638/jo/texte) autorise deux licences : 
 
@@ -805,50 +852,14 @@ Utiliser une autre licence impose une **homologation** auprès de la DINSIC avec
 
 ---
 
-### Zoom sur les licences
+### .red[Zoom sur] les licences
 
 ![image alt](https://datactivist.coop/aaf/img/licences.png)
 
 ---
+class: center, middle
 
-### Open Content et contenus sous .red[licences Creative Commons]
-
-**Les œuvres placées sous licences Creative Commons ne sont pas pour autant libres de droit, ni gratuites.** Le titulaire des droits détermine les conditions précises dans lesquelles l’œuvre peut être partagée et réutilisée.  
-
-* **CC-BY (By Yourself : par vous-même)** : le réutilisateur doit “créditer l’œuvre, intégrer un lien vers la licence et indiquer si des modifications ont été effectuées à l’œuvre”. En doit français, l’option correspond approximativement au droit de paternité.
-
-* **CC-BY-SA (Share Alike : partage à l’identique)** : le réutilisateur doit créditer l’œuvre et utiliser la même licence pour toutes les œuvres dérivées. Il s’agit d’une licence “contaminante” ou “virale”, analogue au copyleft.
-
-* **CC-BY-NC (Non Commercial)** : le réutilisateur doit créditer l’œuvre et ne pas en faire un “usage commercial”. La définition de “commercial” reste floue en pratique, faute d’accord au sein de la communauté.
-
----
-
-### Les licences (suite)
-
-* **CC-BY-ND (Non Derivative : non-dérivé)** : le réutilisateur doit créditer l’œuvre et ne peut diffuser d’altérations (modifications, transformations).
-
-* **CC-BY-NC-SA (Non Commercial / Share Alike)** : le réutilisateur doit créditer l’œuvre et ne pas en faire un “usage commercial”. Ces restrictions affectent toutes les œuvres dérivées - à la manière du copyleft.
-
-
-* **CC-BY-NC-ND (Non Commercial / Non Derivative)** : le réutilisateur doit créditer l’œuvre ; il ne peut ni en faire un usage commercial ni publier des créations dérivées.
-
-* **CC0 (domaine public)** : les restrictions sont levées autant que la législation existante le permet afin de construire une forme de placement volontaire et anticipé dans le domaine public. Ainsi, dans les pays où le droit moral est mal établi, ces licences permettent de lever l’obligation d’attribution de la paternité de l’œuvre à un auteur.
-
-> .red[**Seuls les contenus mis à disposition sous licence CC0 ou Public Domain peuvent être considérés comme ouverts dans le sens de la culture libre**]
-
-
----
-### Le cas des données personnelles
-
-La prohibition de la communication à des tiers ne porte pas sur les données personnelles en général, mais .red[**sur les données à caractère personnel relevant de la vie privée**] des personnes concernées (âge, coordonnées personnelles, situation patrimoniale et financière, sympathies politiques, les croyances religieuses…)
-
-La mise en ligne de données à caractère personnel sans anonymisation n'est permise que dans .red[**trois cas**] :
-1. une disposition législative contraire le prévoit (exemple : [Transparence Santé](https://www.data.gouv.fr/fr/datasets/transparence-sante-1/))
-2. si les personnes intéressées ont donné leur accord (consentement au sens de l’article 4 du RGPD)
-3. les documents relevant de [l’article D312-3-1 du CRPA](https://www.legifrance.gouv.fr/affichTexte.do;jsessionid=51E99AF738C12521572D6A7F6C8C03E8.tplgfr23s_1?cidTexte=JORFTEXT000037797147&dateTexte=&oldAction=rechJO&categorieLien=id&idJO=JORFCONT000037796937)
-
-
-Hors de ces cas, il faut .red[**[anonymiser les données](https://github.com/SGMAP-AGD/anonymisation/wiki/Guide-de-l'anonymisation)**] : elles ne doivent plus se référer à une personne réelle (exit les noms, identifiants…) et ne doivent plus être spécifiques à un individu mais communes à un ensemble de personnes. L’indexation de ces données par un moteur de recherche externe est proscrite.
+## 3.c Les spécificités de l'ouverture des données culturelles
 
 ---
 
@@ -864,7 +875,7 @@ Le code des relations entre le public et l'administration (CRPA) pose le .red[pr
 
 ---
 
-### Réutiliser des informations publiques dans le domaine de la culture
+### Réutiliser des informations publiques .red[dans le domaine de la culture]
 
 > La réutilisation d'informations publiques ne peut faire l'objet d'un droit d'exclusivité accordé à un tiers, sauf si un tel droit est nécessaire à l'exercice d'une mission de service public. Lorsqu'un tel droit est accordé, la période d'exclusivité ne peut dépasser dix ans. 
 
@@ -875,40 +886,13 @@ L'application d’une redevance est un recours permis par la loi, pas une obliga
 > En juillet 2017, les Archives nationales se sont engagées dans l’Open data en consacrant le principe de gratuité pour toute réutilisation aux ressources libres de droits qu’elles conservent.
 
 ---
-
-### Les données .red[à exclure du périmètre de l'Open data]
-
-L'open data par défaut ne concerne pas toutes les données, il existe quelques exceptions : 
-
-
-> * Les données couvertes par un secret protégé par le CRPA
-> * Les informations sur laquelle des tiers détiennent des droits de propriété intellectuelle
-> * Les informations contenant des données à caractère personnel ou pouvant affecter la vie privée des citoyens
-
----
-
-#### Les données couvertes par un secret protégé par le CRPA
-
-Un document ne peut être communiqué que sous réserve des secrets couverts au titre des dispositions du CRPA. De même un document ne peut être publié qu'après avoir fait l'objet d'un traitement permettant d'occulter les mentions protégées.
-
-#### Les informations sur laquelle des tiers détiennent des droits de propriété intellectuelle
-
-Pour déterminer s'il existe des droits d'auteur sur un contenu culturel, vous pouvez consulter le guide publié par le ministère de la Culture "Guide ouverture et réutilisation des informations publiques numériques du secteur culturel", chapitre II « Principes fondamentaux de la propriété littéraire et artistique communs à l’ensemble des champs culturels ».
-
----
-
-### Projet : Le calculateur du domaine public pour identifier les oeuvres libres de partage
-
-![](./img/calculateur-domaine-public.png)
-
----
 class: inverse, center, middle
 
-# 4 État-Plateforme et Open Gov
+# 4 État-Plateforme et gouvernement ouvert
 
 ---
 
-### Gouvernement Ouvert et Open Data
+### .red[Gouvernement Ouvert] et Open Data
 
 Rappel : l'open data n'est pas qu'une pratique d'ouverture et de publication de données, c'est également un **mouvement et une philosophie relatif à un meilleur accès à  l'information publique**.
 
@@ -921,7 +905,7 @@ Plus largement, l'open data s'inscrit dans le mouvement du **gouvernement ouvert
 + Une plus forte .red[**collaboration**] au sein des administrations publiques (casser les silos) et à l'extérieur (travailler avec des acteurs associatifs, privés) pour concevoir et mettre en oeuvre les politiques publiques
 
 ---
-## Gouvernement Ouvert
+### Gouvernement Ouvert
 
 Ce schéma, réalisé par l'association [DémocratieOuverte](https://democratieouverte.org/), résume bien les différents enjeux autour du gouvernement ouvert :
 
@@ -929,7 +913,7 @@ Ce schéma, réalisé par l'association [DémocratieOuverte](https://democratieo
 
 
 ---
-### OGP/PGO : Partenariat pour un Gouvernement Ouvert
+### .red[OGP/PGO] : Partenariat pour un Gouvernement Ouvert
 
 .center[<img src="https://datactivist.coop/SPoSGL/sections/img/ogp.png" height="200"/>]
 
@@ -938,7 +922,7 @@ En septembre 2011, un partenariat multilatéral s'est créé afin de promouvoir 
 Initialement fondé par 8 pays (Brésil, Indonésie, Mexique, Norvège, Philippines, Afrique du Sud, Royaume-Uni et États-Unis), le PGO en compte désormais 70, dont la France
 
 ---
-### OGP/PGO : Partenariat pour un Gouvernement Ouvert
+### .red[OGP/PGO] : Partenariat pour un Gouvernement Ouvert
 
 Pour rejoindre le partenariat, il faut avoir été "coopté" par des acteurs de la société civile (ex: association type Amnesty International) qui viennent témoigner de la bonne volonté du gouvernement.
 
@@ -951,7 +935,7 @@ Par exemple :
 Ces engagements font ensuite **l'objet de vérifications et d'audit de la part de chercheurs indépendants** (IRM) tant sur la manière dont ils ont été rédigés/conçus que sur leur efficacité et niveau d'avancement réel
 
 ---
-### Le plan d'action national pour la France
+### Le .red[plan d'action national] pour la France
 
 .center[<img src="https://datactivist.coop/SPoSGL/sections/img/pan_france.png" height="200"/>] 
 
@@ -1032,7 +1016,7 @@ Les experts des institutions ont collaboré pendant quatre ans avec plusieurs la
 
 ---
 
-### L'application Overture 
+### L'application .red[Overture] 
 
 .pull-left[
 
@@ -1052,9 +1036,9 @@ Les experts des institutions ont collaboré pendant quatre ans avec plusieurs la
 
 ---
 
-### Les collections en ligne : le Rijksstudio
+### .red[Les collections en ligne] : le Rijksstudio
 
-Lancé en 2012 pendant la période de travaux du red.[Rijksmuseum d’Amsterdam], le Rijksstudio est d’abord le catalogue en ligne des collections de l’institution. 
+Lancé en 2012 pendant la période de travaux du .red[Rijksmuseum d’Amsterdam], le Rijksstudio est d’abord le catalogue en ligne des collections de l’institution. 
 
 ![](./img/rijksstudio.png)
 
@@ -1079,7 +1063,7 @@ Ses pages sont indexées par les moteurs de recherche.
 
 ---
 
-### Data.BnF se dote d'une API permettant les réutilisations
+### .red[Data.BnF] se dote d'une API permettant les réutilisations
 
 Exemple : .red[**Gallicarte**], un projet de géolocalisation des résultats de recherche dans Gallica
 
@@ -1114,7 +1098,7 @@ services pour être en phase avec une société plus diverse que celle pour laqu
 
 ---
 
-### Pour quelles motivations ?
+### Pour quelles .red[motivations ?]
 
 * **Rendre accessible une collection tandis que le bâtiment est fermé** ou en l’absence (c’est le cas de petits musées) de portail des collections
 * **Donner une visibilité aux œuvres** par leur remploi dans l’écriture des articles de Wikipédia, ou les inscrire dans le référencement sémantique multilingue que permet le développement du projet Wikidata. 
@@ -1137,16 +1121,14 @@ En effet, les articles Wikipédia jouent un rôle important de “porte d’entr
 
 .red[**OpenGLAM**] est un réseau mondial de personnes et d'organisations engagées à ouvrir du contenu et des données détenues par des galeries d'art, des bibliothèques, des archives et des musées.
 
-* **GLAM** : Galleries, Libraries, Archives and Museums.
-
-.center[![](./img/open-GLAM.png)]
-
----
-
-### Influence des GLAMs et Open Content
 
 
-> Avec d’autres collections nord-américaines importantes comme celles du Walters Museum (2011), ou du Los Angeles County Museum of Art (2013), le mouvement OpenGLAM bénéficie de l’engagement de plusieurs grands musées aux collections majoritairement placées dans le domaine public. 
+.pull-left[![](./img/open-GLAM.png)
+**GLAM** : Galleries, Libraries, Archives and Museums.
+]
+
+.pull-right[
+> Avec d’autres collections nord-américaines importantes comme celles du Walters Museum (2011), ou du Los Angeles County Museum of Art (2013), le mouvement OpenGLAM bénéficie de l’engagement de plusieurs grands musées aux collections majoritairement placées dans le domaine public. ]
 
 ---
 ### Les politiques Open Content : .red[Cleveland Museum of Arts (U.S)]
@@ -1210,184 +1192,6 @@ Exemple : **impliquer une école de graphisme à réaliser des visualisations**
 * Une évaluation de l'histoire de la collecte au Met et de l'évolution des pratiques de collecte au fil de l'histoire du Met
 
 .center[<img src="./img/Dataviz_parsons_Met.jpg" height="200"/>]
-
----
-
-class: inverse, center, middle
-
-# 6 La conception d’une stratégie d’open data
-
----
-
-class: middle
-
-### Comment ouvrir ses données : .red[les différentes étapes] pratiques à suivre
-
-* **Étape 1** : Sélectionner les données
-* **Étape 2** : Préparer les données
-* **Étape 3** : Diffuser et valoriser les données
-
----
-
-### Étape 1 : .red[Sélectionner les données]
-
-* Effectuer un état des lieux permettant de faire .red[**l’inventaire des données existantes.**] 
-Cette opération permet également d'identifier d’éventuelles contraintes à l'ouverture et ainsi d'envisager les actions concrètes à mener.
-
-* Enclencher la démarche en priorisant l’ouverture de certains jeux de données. 
-.red[**Préférez les données demandées ou attendues par les réutilisateurs ou par des communautés**], comme par exemple : les données de fréquentation, de subvention, les données évènementielles et les images entrées dans le domaine public qui sont particulièrement recherchées.
-
-.center[<img src="./img/donnees-culturelles-etape1.png" height="280"/>]
-
----
-
-### Etape 2 : Préparer les données
-
-#### Définir et documenter les jeux de données et leurs métadonnées
-
-Joindre au fichier de données, à chaque fois que cela est utile, une notice explicative permettant de rendre les 
-données plus explicites, et d'en éclairer l'usage possible. .red[**Ces informations sont indispensables et donnent un maximum de visibilité à vos données dans les moteurs de recherche**.] 
-
-Cette notice pourra comprendre les éléments suivants : 
-
-* La description générale du fichier
-* Le contexte et les possibles alertes sur l’interprétation de la donnée (par exemple, préciser la fermeture d'un établissement et indiquer la période concernée afin d'expliquer la baisse de fréquentation observée, etc.)
-* Le détail des ruptures de séries et son historique
-* Un dictionnaire des différentes variables présentes dans le fichier, la signification en clair des codes des libellés des champs. 
-
----
-
-### Etape 2 : Préparer les données
-
-#### Choisir le format de mise à disposition
-
-Les données doivent être téléchargeables dans un « standard ouvert », c'est à dire dans un format ouvert aisément réutilisable et exploitable par un système de traitement automatisé et pérenne.
-
-Voici quelques exemples de formats « ouverts » conseillés pour la diffusion des jeux de données en ligne : 
-
-* CSV, ODS, XLSX (données tabulaires),
-* JSON, XML, RDF (données hiérarchiques),
-* PNG, JPEG, TIFF (image),
-* SHP, KML, GeoJSON (données géographiques),
-* X3D (données 3D).
-
----
-
-### Etape 2 : Préparer les données
-
-#### Veiller à la qualité des données
-
-Quelques principes à retenir :
-
-* Mettre à disposition des séries chronologiques les plus longues possibles avec la granularité la plus fine, tout en respectant le secret de la vie privée et le secret statistique ; 
-* Compléter vos fichiers par les données de géolocalisation quand cela est possible ;
-* Compléter l'adresse postale par le code INSEE (afin de faciliter la géolocalisation dans le cas des noms de villes homonymes) ;
-* Utiliser la norme ISO 8601 pour les dates, format : « AAAA-MM-JJ ».
-
-#### Choisir la licence de réutilisation
-
-Le contrat de licence de réutilisation permet de déterminer les droits et obligations réciproques des parties. Il est important que toutes les réutilisations, y compris celles consenties à titre gratuit, soient conditionnées à l'acceptation d'un contrat, et que l'usager en soit clairement informé. 
-
-
----
-### Réussir sa stratégie d'ouverture des données 
-
-- Au-delà de l'obligation légale : .red[**poser les objectifs**] poursuivis par la stratégie
-
-- Se donner les moyens de connaître la .red[**demande de données**] pour y répondre 
-
-- Travailler à la .red[**qualité des données**], garante d'usages réels
-
-- Mener le projet d'ouverture des données comme un projet de modernisation de l'administration (transversalité, agilité, lean...)
-
----
-### Des politiques d'open data "de l'offre"
-
-.pull-left[
-### En théorie
-
-#### Toutes les données sont ouvertes sous leur forme brute dès leur production
-
-]
-.pull-right[
-
-
-### En pratique
-
-#### L’administration choisit quelles données ouvrir, comment les ouvrir, quand et ce qu’elles contiennent
-
-]
-
----
-### La réutilisation : un parcours fait de frictions et de déceptions
-.pull-left[
-[![](https://datactivist.coop/aaf/img/users.png)](https://thereboot.github.io/moti-personas/)
-]
-.pull-right[
-####  Des données difficiles à trouver, pas ouvertes partout
-
-####  Granularité temporelle et spatiale souvent trop faible
-
-####  Des données souvent inutilisables : manque de documentation
-
-####  Des données pas mises à jour
-
-####  Des portails qui ciblent les développeurs
-
-]
-
----
-### Le problème de la qualité des données
-
-> **Les données des gouvernements sont souvent incomplètes, pas actualisées, de mauvaise qualité et fragmentaires.** 
-
-> Dans la plupart des cas, les catalogues ou portails de données ouvertes sont alimentés manuellement, conséquence d’une approche informelle de la gestion des données. 
-
-> De plus, les procédures, les calendriers et les responsabilités des institutions publiques chargées de leur gestion manquent souvent de clarté. Ainsi, de manière générale, la gestion et la publication des données ouvertes sont fragiles et sujettes à des erreurs multiples.
-
-.footnote[Source : 
-[Rapport mondial du 4e Open Data Barometer](https://opendatabarometer.org/4thedition/report/?lang=fr)
-]
----
-### Des données bien cachées
-.pull-left[
-![](https://index.okfn.org/images/Datagapsclean.jpg)
-]
-.pull-right[
-"La découvrabilité des données est un défi majeur. Nous avons des portails et des registres de données, mais les organismes gouvernementaux qui relèvent d'un seul gouvernement national publient toujours les données de différentes façons et à différents endroits (...).
-
-**La découvrabilité des données est une condition préalable pour que les données ouvertes réalisent leur potentiel et, actuellement, la plupart des données sont très difficiles à trouver**."]
-
-
-.footnote[https://index.okfn.org/insights/]
-
----
-
-### Résumé : les facteurs clés de succès
-
-
-* Obtenir un soutien au plus haut niveau
-
-* Configurer l’organisation pour l’ouverture 
-
-* Faciliter la découverte et l’utilisation des données 
-
-* Rester à l'écoute et interagir avec les usagers 
-
----
-### Exercice : les bénéfices de l'open data
-
-.pull-left[
-![](https://datactivist.coop/occitanie/img/obs.png)
-]
-.pull-right[
-En petits groupes, analysez les [données brutes](https://docs.google.com/spreadsheets/d/1pua5fDx8gtF3R9tce9wE7wmT0ksIFjscOO7DS723iHY/edit#gid=0) et syntéhtisez  : 
-* La production d’effets bénéfiques ou d’externalités positives
-* L'optimisation de la collecte et du partage des données
-* L'amélioration de la qualité des données
-* La production d'effets négatifs ou d'impacts contre-productifs
-]
-
 
 ---
 class: inverse, center, middle
