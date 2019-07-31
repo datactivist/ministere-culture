@@ -26,7 +26,7 @@ layout: true
 
 class: center, middle
 
-Ces slides en ligne : `r paste0("http://datactivist.coop/", params$slug)`
+Ces slides en ligne :https://datactivist.coop/ministere-culture/jour1.html
 
 Sources : `r paste0("https://github.com/datactivist/", params$slug)`
 
@@ -54,6 +54,8 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 > * Appréhender les outils et les bonnes pratiques pour la mise à disposition des données et leur réutilisation. 
 
+> * Comprendre les contraintes des réutilisateurs pour respecter les bonnes pratiques de l'ouverture
+
 ---
 ### Programme de la formation 
 
@@ -65,7 +67,6 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 * Cadre juridique de l’ouverture des données culturelles
 * Gouvernement ouvert et Etat plateforme : l’ouverture des données dans la modernisation de l’Etat 
 * Plusieurs cas d'étude de l’open data culturel 
-* La conception d’une stratégie d’open data : principaux leviers politiques, organisationnels, économiques 
 
 ---
 
