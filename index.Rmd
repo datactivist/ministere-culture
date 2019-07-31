@@ -749,6 +749,18 @@ La Loi pour une République Numérique prévoit deux licences à utiliser par d�
 
 ---
 
+### L'utilisation de .red[standards ouverts]
+<img style="float:right; margin:10px"  src="https://datactivist.coop/aaf/img/openstand.png">
+
+Afin de faciliter la réutilisation des données par les machines, la loi pour une République Numérique consacre **l'utilisation de standards ouverts** pour la communication des documents administratifs. 
+
+L’administration est dorénavant tenue, lorsqu’elle communique un document administratif au format électronique, de le mettre à disposition du citoyen **"dans un standard ouvert, aisément réutilisable et exploitable par un système de traitement automatisé"**. 
+
+Concrètement, cela devrait empêcher la publication de fichiers PDF là où un fichier CSV pourrait être diffusé.
+
+
+---
+
 ### La définition des données
 
 Le guide CADA-CNIL rappelle la **définition des "bases de données"**
