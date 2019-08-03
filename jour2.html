@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Open Data : comprendre les enjeux de l’ouverture des données publiques culturelles. Jour 2</title>
+    <title>Open Data : comprendre les enjeux de l’ouverture des données publiques culturelles.</title>
     <meta charset="utf-8">
-    <meta name="author" content="Datactivist" />
+    <meta name="author" content="Jour 2" />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/datactivist.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/datactivist-fonts.css" rel="stylesheet" />
@@ -12,9 +12,9 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# Open Data : comprendre les enjeux de l’ouverture des données publiques culturelles. Jour 2
+# Open Data : comprendre les enjeux de l’ouverture des données publiques culturelles.
 ## Ministère de la Culture
-### Datactivist
+### Jour 2
 
 ---
 
@@ -22,7 +22,7 @@ class: center, middle, inverse, title-slide
 layout: true
   
 
-&lt;div class='my-footer'&gt;&lt;span&gt;Open Data comprendre les enjeux de l'ouverture des données publiques culturelles. JOUR 2&lt;/span&gt; &lt;center&gt;&lt;div class=logo&gt;&lt;img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'&gt;&lt;/center&gt;&lt;/span&gt;&lt;/div&gt; 
+&lt;div class='my-footer'&gt;&lt;span&gt;Open Data comprendre les enjeux de l'ouverture des données publiques culturelles. Jour 2&lt;/span&gt; &lt;center&gt;&lt;div class=logo&gt;&lt;img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'&gt;&lt;/center&gt;&lt;/span&gt;&lt;/div&gt; 
 
 
 ---
@@ -60,12 +60,41 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 ---
 
+### Rappel de la .red[journée précédente]
+
+#### Maintenant vous savez :
+
+* Définir l'open data et ses principes d'ouverture
+* Définir les différentes notions "d'open" dans le domaine de la culture
+* Quel est le cadre juridique s'appliquant en France et ses spécificités concernant les oeuvres culturelles
+* Quels sont les enjeux et les motivations de l'ouverture de données dans le domaine de la culture
+* Raconter quelques projets emblématiques en France et à l'international
+
+---
+
+### Aujourd'hui, vous allez .red[apprendre à :]
+
+#### Concevoir une stratégie Open Data
+* Sélection, préparation, diffusion
+
+#### Comprendre la qualité nécessaire des données à publier 
+* Les formats, complétude, trouvabilité
+
+#### Préparer des données et s'initier au travail nécessaire à la publication
+* Ouvrir un fichier .csv, trouver les erreurs, les corriger, rendre le fichier publiable
+
+#### Évaluer des opportunités d'ouverture de données
+
+---
+class: inverse, center, middle
+
+&gt; #### Derrière chaque fichier se cache une découverte
 
 ---
 
 class: inverse, center, middle
 
-# 6 La conception d’une stratégie d’open data
+# 1 - Concevoir une stratégie open data
 
 ---
 
@@ -151,45 +180,50 @@ Le contrat de licence de réutilisation permet de déterminer les droits et obli
 - Mener le projet d'ouverture des données comme un projet de modernisation de l'administration (transversalité, agilité, lean...)
 
 ---
-### Des politiques d'open data "de l'offre"
+### Les politiques open data .red["de l'offre"]
 
 .pull-left[
-### En théorie
+#### En théorie
 
-#### Toutes les données sont ouvertes sous leur forme brute dès leur production
+&gt; #### Toutes les données sont ouvertes sous leur forme brute dès leur production
 
 ]
 .pull-right[
 
 
-### En pratique
+#### En pratique
 
-#### L’administration choisit quelles données ouvrir, comment les ouvrir, quand et ce qu’elles contiennent
+&gt; #### L’administration choisit quelles données ouvrir, comment les ouvrir, quand et ce qu’elles contiennent
 
 ]
 
 ---
-### La réutilisation : un parcours fait de frictions et de déceptions
+### Conséquence pour .red[les réutilisations] 
+
+#### Un parcours fait de frictions et de déceptions
 .pull-left[
 [![](https://datactivist.coop/aaf/img/users.png)](https://thereboot.github.io/moti-personas/)
 ]
 .pull-right[
-####  Des données difficiles à trouver, pas ouvertes partout
 
-####  Granularité temporelle et spatiale souvent trop faible
+* ####  Des données difficiles à trouver, pas ouvertes partout
 
-####  Des données souvent inutilisables : manque de documentation
+* ####  Granularité temporelle et spatiale souvent trop faible
 
-####  Des données pas mises à jour
+* ####  Des données souvent inutilisables : manque de documentation
 
-####  Des portails qui ciblent les développeurs
+* #### Des données pas mises à jour
+
+* #### Des portails qui ciblent les développeurs
 
 ]
 
 ---
-### Le problème de la qualité des données
+### L'importance de la .red[qualité des données]
 
-&gt; **Les données des gouvernements sont souvent incomplètes, pas actualisées, de mauvaise qualité et fragmentaires.** 
+#### .red[Une remarque récurrente :]
+
+&gt; **Les données publiques sont souvent incomplètes, non actualisées, de mauvaise qualité et fragmentaires.** 
 
 &gt; Dans la plupart des cas, les catalogues ou portails de données ouvertes sont alimentés manuellement, conséquence d’une approche informelle de la gestion des données. 
 
@@ -199,53 +233,9 @@ Le contrat de licence de réutilisation permet de déterminer les droits et obli
 [Rapport mondial du 4e Open Data Barometer](https://opendatabarometer.org/4thedition/report/?lang=fr)
 ]
 ---
-### Des données bien cachées
-.pull-left[
-![](https://index.okfn.org/images/Datagapsclean.jpg)
-]
-.pull-right[
-"La découvrabilité des données est un défi majeur. Nous avons des portails et des registres de données, mais les organismes gouvernementaux qui relèvent d'un seul gouvernement national publient toujours les données de différentes façons et à différents endroits (...).
-
-**La découvrabilité des données est une condition préalable pour que les données ouvertes réalisent leur potentiel et, actuellement, la plupart des données sont très difficiles à trouver**."]
 
 
-.footnote[https://index.okfn.org/insights/]
-
----
-
-### Résumé : les facteurs clés de succès
-
-
-* Obtenir un soutien au plus haut niveau
-
-* Configurer l’organisation pour l’ouverture 
-
-* Faciliter la découverte et l’utilisation des données 
-
-* Rester à l'écoute et interagir avec les usagers 
-
----
-### Exercice : les bénéfices de l'open data
-
-.pull-left[
-![](https://datactivist.coop/occitanie/img/obs.png)
-]
-.pull-right[
-En petits groupes, analysez les [données brutes](https://docs.google.com/spreadsheets/d/1pua5fDx8gtF3R9tce9wE7wmT0ksIFjscOO7DS723iHY/edit#gid=0) et syntéhtisez  : 
-* La production d’effets bénéfiques ou d’externalités positives
-* L'optimisation de la collecte et du partage des données
-* L'amélioration de la qualité des données
-* La production d'effets négatifs ou d'impacts contre-productifs
-]
-
-
-class: inverse, center, middle
-
-### L’enjeu de qualité des données
-
----
-
-### Des formats qui diffèrent suivant la localisation des données 
+### Les formats, un gage de qualité  
 
 → Où se trouvent les données ?
 → Sous quel format sont-elles conservées ?
@@ -332,174 +322,276 @@ Le format est important parce qu'il détermine les opérations de traitement né
 
 ![](https://datactivist.coop/occitanie/img/wtfcsv.png)
 
+
+
+---
+### La découvrabilité : un .red[enjeu crucial]
+.pull-left[
+![](https://index.okfn.org/images/Datagapsclean.jpg)
+]
+.pull-right[
+"La découvrabilité des données est un défi majeur. Nous avons des portails et des registres de données, mais les organismes gouvernementaux qui relèvent d'un seul gouvernement national publient toujours les données de différentes façons et à différents endroits (...).
+
+**La découvrabilité des données est une condition préalable pour que les données ouvertes réalisent leur potentiel. Or, actuellement la plupart des données sont très difficiles à trouver**."]
+
+
+.footnote[Source : [Classement mondial de l'Open Data](https://index.okfn.org/insights/)]
+
+---
+
+### Résumé : les .red[facteurs clés de succès] d'une stratégie open data
+
+
+#### Obtenir un soutien au plus haut niveau
+* Pour mettre en oeuvre les moyens et les ressources à déployer
+
+#### Configurer l’organisation pour l’ouverture
+* Organiser la gouvernance, les circuits de validation 
+
+#### Faciliter la découverte et l’utilisation des données 
+* Faire attention au référencement, à la qualité des métadonnées 
+
+#### Rester à l'écoute et interagir avec les usagers 
+* Prévoir des boucles de participation
+
+---
+### Exercice : les bénéfices de l'open data
+
+.pull-left[
+![](https://datactivist.coop/occitanie/img/obs.png)
+]
+.pull-right[
+En petits groupes, analysez les [données brutes](https://docs.google.com/spreadsheets/d/1pua5fDx8gtF3R9tce9wE7wmT0ksIFjscOO7DS723iHY/edit#gid=0) et syntéhtisez  : 
+* La production d’effets bénéfiques ou d’externalités positives
+* L'optimisation de la collecte et du partage des données
+* L'amélioration de la qualité des données
+* La production d'effets négatifs ou d'impacts contre-productifs
+]
+
 ---
 
 class: inverse, center, middle
 
-# Le cycle de l'ouverture des données
+# Réutiliser les données
 
 ---
-### Open Data Pipeline : les principales étapes de l'ouverture
+### Travail des données, .red[les étapes :]
 
 .reduite.center[
-![](https://datactivist.coop/occitanie/img/logigramme.png)
+![](./img/Data_pipeline_FR_transparent.png)
 ]
 
 ---
-### La circulation des données provoque des frictions
+
+### 1- Définir .red[les données] que l'on souhaite utiliser
 
 
-&gt;Chaque mouvement de données à travers une interface a un coût en temps, en énergie et en attention humaine. Chaque interface entre les groupes et les organisations, ainsi qu'entre les machines, représente un point de résistance où les données peuvent être brouillées, mal interprétées ou perdues. 
-&gt;Dans les systèmes sociaux, la friction des données consomme de l'énergie et produit de la turbulence et de la chaleur - c'est-à-dire des conflits, des désaccords et des processus indisciplinés et inexacts.
-
-Edwards, P. N. et al. (2011) [‘Science friction: Data, metadata, and collaboration’](https://journals.sagepub.com/doi/abs/10.1177/0306312711413314), _Social Studies of Science_, 41(5)
-
----
-### Identifier
+#### Que cherche-t-on à savoir, à comprendre, à mesurer ? 
 
 .pull-left[
-![](https://datactivist.coop/occitanie/img/identifier.png)
-]
 
-.pull-right[
-* Rencontrer les agents
-
-* Etudier les données ouvertes par d'autres collectivités
-
-* Cartographier les données
-
-* Documenter les données
-
-]
-
----
-### Valider
-
-.pull-left[
-![](https://datactivist.coop/occitanie/img/valider.png)
-]
-
-.pull-right[
-* Evaluer les jeux de données
-
-* Prioriser l’ouverture 
-
-* Valider l’ouverture par la hiérarchie
-
-]
-
----
-### Quelques “bonnes raisons organisationnelles” de ne pas ouvrir des données
-
-* Des données encastrées dans les systèmes d’information : explorer les bases de données, reconstruire les schémas et extraire les données
-
-
-* Des données qui peuvent servir à des usagers malveillants : prévoir les risques et les dangers de l’ouverture
-
-
-* Des données qui n’ont pas été pensées pour l’ouverture : améliorer leur qualité et leur intelligibilité 
-
-
-* Des données trop “sensibles” pour être ouvertes : la transparence, un mandat à obtenir 
-
----
-### Éditer
-
-.pull-left[
-![](https://datactivist.coop/occitanie/img/editer.png)
-]
-
-.pull-right[
-_data editing_: les opérations par lesquelles les statisticiens traitent et transforment les données issues des sources administratives (Desrosières 2005) 
-
-* Anonymiser des données 
-
-* Enlever la sensibilité de données qui ne pouvaient pas être publiées
-
-* Rendre intelligible les acronymes 
-
-* Améliorer la qualité des données
-
-]
-
----
-### Le sprint qualité des données de la FING
-
-Le “sprint qualité” est une méthodologie sur un temps court, 2h30, qui vise l’amélioration significative de la qualité d’un, et un seul, jeu de données.
-
-Petit exercice : en groupe, sélectionnez un jeu de données et essayez d'appliquer 5 points de contrôle 
-[![](https://datactivist.coop/occitanie/img/sprint.png)](https://infolabs.io/sprint-qualite)
-
----
-### [Dataproofer](http://dataproofer.org/) : un outil de contrôle automatique de la qualité
-
-![](https://datactivist.coop/occitanie/img/dataproofer.png)
----
-### Standardiser
-
-.pull-left[
-![](https://datactivist.coop/occitanie/img/standardiser.png)
-]
-
-.pull-right[
-* Convertir les données dans un format ouvert (spécifications techniques publiques et sans restriction d'accès ni de mise en œuvre) et lisible par les machines
-
-* Adopter des spécifications partagées : GTFS, DECP, IATI, OCDS, socle commun des données locales…
-
-* Transformer les données
-
-]
-
----
-### Passage en CSV : bien plus que “enregistrer sous”
-
-[![](https://datactivist.coop/occitanie/img/excel3.png)](http://fr.slideshare.net/christophelibertidf/bonnes-pratiquesexcel-cc27juin2013)
-
----
-### Publier
-
-.pull-left[
-![](https://datactivist.coop/occitanie/img/publier.png)
-]
-
-.pull-right[
-* Importer les données sur le portail
-
-* Décrire les champs du fichier
-
-* Documenter les métadonnées
-]
-
----
-### [Datasheet for Datasets](https://teamopendata.org/t/traduction-et-adaptation-du-modele-de-description-des-donnees-datasheet-for-datasets/1400) : un modèle de documentation des données
-
-.reduite.center[
-![](https://datactivist.coop/occitanie/img/datasheet.png)
-]
-
----
-### Mettre à jour
-
-.pull-left[
-![](https://datactivist.coop/occitanie/img/update.png)
+![](./img/1-definir.png)
 ]
 
 .pull-right[
 
-* Mettre à jour manuellement ou automatiser l’ouverture
-
-* Conserver les données
-
-* Prendre en compte les retours des usagers
+* La fréquentation d'un établissement ?
+* La localisation .
+* Le profil des visiteurs ?
+* Les chiffres d’adhésion ?
 
 ]
+
+---
+
+
+### 2 - Trouver .red[les données] que l'on souhaite utiliser
+
+
+#### Où trouve-t-on les données que l’on a définies, sont-elles ouvertes ou pas ? Peut-on toutes les trouver ? Sont-elles à jour, organisées ?
+
+
+.pull-left[
+
+![](./img/2-trouver.png)
+
+]
+
+.pull-right[
+
+* Plateforme open data du Ministère
+* Collections en ligne
+* Wikipedia
+* FlickR Commons
+* Articles
+* Rapports
+Etc..
+
+
+]
+
+---
+
+### 3 - Comment récupère-t-on .red[ces données ?]
+
+
+#### Sont-elles faciles à récupérer ? Doit-on scraper, télécharger ?
+ 
+
+.pull-left[
+
+![](./img/3-recuperer.png)
+
+]
+
+.pull-right[
+
+#### Méthodes de récupération de données : 
+
+* Scrapping / Aspirer
+* Faire des requêtes API
+* Télécharger
+* Copier-coller
+
+
+
+]
+
+---
+
+### 4 - Vérifier .red[les données ?]
+
+
+#### Est-ce que toutes les sources des documents où on est allé récupérer les données sont citées ? Que nous disent les metadata des données ?
+
+ 
+
+.pull-left[
+
+![](./img/4-verifier.png)
+
+Nous devons vérifier si les données sont valides, vérifier et lire les métadonnées, la méthodologie de collecte, si nous savons qui a organisé l'ensemble de données et que c'est une source crédible.
+
+
+]
+
+.pull-right[
+
+#### Méthodes de récupération de données : 
+
+* Scrapping / Aspirer
+* Faire des requêtes API
+* Télécharger
+* Copier-coller
+
+
+
+]
+
+---
+
+### 5 - A-t-on besoin de nettoyer .red[les données ?]
+
+
+#### Un des plus grands défis rencontré est les erreurs.
+
+.pull-left[
+
+![](./img/5-nettoyer.png)
+
+Ceux qui publient les données ne les remarquent pas toujours, dans d’autres cas, elles sont humaines et résultent de la mauvaise saisie de données.
+
+
+]
+
+.pull-right[
+
+#### Erreurs fréquentes
+* Le mauvais format pour les dates
+* Les représentations multiples
+* Les doublons
+* Les fautes d’orthographe
+
+#### Outils pour nettoyer les données :
+* Open Refine
+* R (tidydata), Python
+
+]
+
+---
+### 6 - Quelle analyse faire des .red[données collectées ?]
+
+
+#### Que peut-on conclure à partir des données collectées et des questions posées initialement ?
+
+.pull-left[
+
+![](./img/6-analyser.png)
+
+
+
+
+]
+
+.pull-right[
+
+* Suivre une évolution
+* Mettre en perspective
+* Analyse sociologique
+* Améliorer le dispositif ?
+
+]
+
+---
+
+### 7 - Comment présenter .red[ces données ?]
+
+
+#### Quel graphique utiliser pour quelle visualisation ?
+
+.pull-left[
+
+![](./img/7-presenter.png)
+
+
+]
+
+.pull-right[
+
+#### Outils de dataviz
+
+* DataViz catalogue
+https://datavizcatalogue.com/
+
+* Datawrapper
+https://www.datawrapper.de/
+
+* Infogram   
+https://infogram.com/
+
+
+]
+
+---
+
+### Vous êtes prêts pour participer au 
+
+![](https://codingdavinci.de/img/english-infos/collage.jpg)
+
+Un hackathon allemand sur la thématique des données culturelles ouvertes. Fondé à Berlin en 2014, l'événement associe des institutions du patrimoine culturel au public afin de développer des prototypes à destination des institutions publiques du domaine de la culture et du patrimoine.
+
+---
+### Bibliographie 
+
+* **Camille Domange** : Ouverture et partage des données publiques culturelles (2013) 
+
+* **Nicolas Poulain**, « Les musées départementaux de la Haute-Saône et Wikipédia : de l'institution à la contribution », La Lettre de l’OCIM [En ligne], 164 | 2016, mis en ligne le 01 mars 2017, consulté le 31 juillet 2019. URL : http://journals.openedition.org/ocim/1642 ; DOI : 10.4000/ocim.1642
+
 
 ---
 class: inverse, center, middle
 
 # Merci !
-
-Contact : [joel@datactivist.coop](mailto:joel@datactivist.coop)
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
