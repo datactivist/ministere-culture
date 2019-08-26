@@ -39,7 +39,7 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 .reduite[![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)]
 
 ---
-### Rappel des objectifs de la formation 
+### Rappel des .red[objectifs de la formation]
 
 #### Open Data : comprendre les enjeux de l'ouverture des données publiques culturelles
 > * Appréhender le contexte et les opportunités d’une politique Open Data dans la culture.
@@ -50,7 +50,7 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 
 ---
-### Programme de la formation 
+### .red[Programme] de la formation
 
 #### Open Data : comprendre les enjeux de l'ouverture des données publiques culturelles
 
@@ -78,13 +78,14 @@ class: inverse, center, middle
  
 > ##### *Les données sont couramment comprises comme les matériaux bruts produits dans l’abstraction du monde en catégories, mesures et toute autre forme de représentation-nombres, caractères, symboles, images, sons, ondes électromagnétiques, bits qui constituent les fondations sur lesquelles l’information et le savoir sont créés.*
 
-Cette définition est une des rares à s'extraire des discours entourant les données ou leurs infrastructures. L'auteur de cet ouvrage de référence en sociologie s'attache à définir précisément l'ontologie et l'épistémologie de la donnée. 
+Cette définition est une des rares à s'extraire des discours entourant les données ou leurs infrastructures. L'auteur de cet ouvrage de référence en sociologie s'attache à définir précisément l'ontologie et l'épistémologie de la donnée.
+]
 
 ---
 
 ### Une .red[définition des "bases de données"]
 
-Source : Le guide Cada-Cnil sur l'open data 
+Source : [Source : Guide Open Data Cnil](https://www.cnil.fr/sites/default/files/atoms/files/guide_open_data.pdf) 
 
 > On entend par base de données un recueil d'œuvres, de données ou d'autres éléments indépendants, disposés de manière systématique ou méthodique, et individuellement accessibles par des moyens électroniques ou par tout autre moyen (art L112-3 du code de la propriété intellectuelle)
 
@@ -710,46 +711,6 @@ Crédits	© Musée départemental d’Arts et Traditions populaires
 .pull-right[
 <img src="./img/chateau-musee-70.png" height="250"/>
 ]
-
----
-class: inverse, center, middle
-
-# 3. Éléments du cadre juridique et historique de l'open data
-
-
----
-
-### .red[Le guide CADA-CNIL] : le document de référence
-
-Ce guide constitue une bonne source de référence. Nous avons publié sa [fiche de lecture](https://teamopendata.org/t/guide-commun-cnil-et-cada-open-data-rgpd/1320) sur la plateforme TeamOpenData.
-
-.center[<img src="https://datactivist.coop/aaf/img/guide.png" height="300"/>]
-
-[Source : Guide Open Data Cnil](https://www.cnil.fr/sites/default/files/atoms/files/guide_open_data.pdf)
-
----
-
-### .red[La loi CADA] : quelques imperfections
-
-Même si la France est le 3e pays à avoir adopté un droit d'accès, la loi CADA n'est pas un outil fort de la transparence de la vie publique. Ses principaux défauts : l'absence de sanctions et une procédure longue qui souvent décourage les demandeurs d'information et de données.
-[![](https://datactivist.coop/aaf/img/europam.png)](http://europam.eu/?module=country-profile&country=France)
-
----
-
-### Un droit d'accès très faible .red[au regard des standards internationaux]
-
-.pull-left[Paradoxe : la France a une législation parmi les plus ambitieuses au monde en matière d'open data mais le droit d'accès à l'information y est un des plus mauvais au monde…
-
-La France est classée .red[105e sur 123] du classement mondial des lois d'accès à l'information publique RTI Rating.
-[www.rti-rating.org](https://www.rti-rating.org/country-data/)
-
-L'open data est comme la Tour de Pise : un très bel édifice posé sur des fondations instables.
-]
-
-.pull-right[
-![](https://datactivist.coop/aaf/img/rti.png)
-] 
-
 
 ---
 class: center, middle
