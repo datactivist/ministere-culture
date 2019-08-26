@@ -3,7 +3,7 @@
   <head>
     <title>Open Data : comprendre les enjeux de l’ouverture des données publiques culturelles.</title>
     <meta charset="utf-8">
-    <meta name="author" content="Jour 1" />
+    <meta name="author" content="" />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/datactivist.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/datactivist-fonts.css" rel="stylesheet" />
@@ -19,7 +19,6 @@ class: center, middle, inverse, title-slide
 
 # Open Data : comprendre les enjeux de l’ouverture des données publiques culturelles.
 ## Ministère de la Culture
-### Jour 1
 
 ---
 
@@ -27,7 +26,7 @@ class: center, middle, inverse, title-slide
 layout: true
 
 
-&lt;div class='my-footer'&gt;&lt;span&gt;Open Data comprendre les enjeux de l'ouverture des données publiques culturelles. JOUR 1&lt;/span&gt; &lt;center&gt;&lt;div class=logo&gt;&lt;img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='0px'&gt;&lt;/center&gt;&lt;/span&gt;&lt;/div&gt; 
+&lt;div class='my-footer'&gt;&lt;span&gt;Open Data, comprendre les enjeux de l'ouverture des données publiques culturelles&lt;/span&gt; &lt;center&gt;&lt;div class=logo&gt;&lt;img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='0px'&gt;&lt;/center&gt;&lt;/span&gt;&lt;/div&gt; 
 
 
 ---
@@ -49,61 +48,36 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 ---
 ### Rappel des objectifs de la formation 
 
-#### .red[Jour 1] - Open Data : comprendre les enjeux de l'ouverture des données publiques culturelles
+#### Open Data : comprendre les enjeux de l'ouverture des données publiques culturelles
 &gt; * Appréhender le contexte et les opportunités d’une politique Open Data dans la culture.
 
 &gt; * Découvrir des cas pratiques appliqués aux données culturelles.
 
 &gt; * Comprendre les problématiques liées aux données du secteur culturel
 
-#### .red[Jour 2] - Open Data : l'ouverture des données publiques culturelles en pratique
-
-&gt; * Connaitre comment mettre en oeuvre l'open data dans le secteur culturel
-
-&gt; * Appréhender les outils et les bonnes pratiques pour la mise à disposition des données et leur réutilisation. 
-
-&gt; * Comprendre les contraintes des réutilisateurs pour respecter les bonnes pratiques de l'ouverture
 
 ---
 ### Programme de la formation 
 
-#### .red[Jour 1] - Open Data : comprendre les enjeux de l'ouverture des données publiques culturelles
+#### Open Data : comprendre les enjeux de l'ouverture des données publiques culturelles
 
 * Origines historiques de l’ouverture des données 
 * Les grands principes de l’ouverture des données 
 * Enjeux de l'ouverture des données
 * Cadre juridique de l’ouverture des données culturelles
 * Gouvernement ouvert et Etat plateforme : l’ouverture des données dans la modernisation de l’Etat 
-* Plusieurs cas d'étude de l’open data culturel 
+* Plusieurs cas d'étude de l’open data culturel
+* Concevoir une stratégie d'ouverture de données : quelques grands principes.
 
 ---
 
 class: inverse, center, middle
 
-# 1 - Au fait, c'est quoi une donnée ?
+# 1 - Comprendre la donnée 
 
 ---
-### Introduction 
 
-#### .red[Ecoutez] [l'interview de Serge Abiteboul, commissaire scientifique de l’exposition Terradata et directeur de recherche à l’Inria](https://www.youtube.com/watch?v=qqvsiTUJy7k)
-
-.center[
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/qqvsiTUJy7k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-]
-
-.footnote[Source : Abiteboul &amp; Peugeot (2017). *Terra Data : qu'allons nous faire des données numériques ?*, Paris : Le Pommier.]
-
----
-### .red[Les données] sont partout !
-
-&lt;img src="https://datactivist.coop/SPoSGL/sections/img/dataeverywhere.png" height="350"/&gt;
-
-.footnote[source : [The Economist](https://www.emc.com/collateral/analyst-reports/ar-the-economist-data-data-everywhere.pdf)]
- 
- 
----
-
-### .red[Une définition] des données
+### .red[Une définition générale] des données 
 
 .pull-left[&lt;img src="https://datactivist.coop/SPoSGL/sections/img/kitchin.png" height="400"/&gt;]
  
@@ -111,9 +85,7 @@ class: inverse, center, middle
  
 &gt; ##### *Les données sont couramment comprises comme les matériaux bruts produits dans l’abstraction du monde en catégories, mesures et toute autre forme de représentation-nombres, caractères, symboles, images, sons, ondes électromagnétiques, bits qui constituent les fondations sur lesquelles l’information et le savoir sont créés.*
 
-- Enregistrabilité
-
-- Briques de base "*buildings blocks*")]
+Cette définition est une des rares à s'extraire des discours entourant les données ou leurs infrastructures. L'auteur de cet ouvrage de référence en sociologie s'attache à définir précisément l'ontologie et l'épistémologie de la donnée. 
 
 ---
 
@@ -124,7 +96,6 @@ class: inverse, center, middle
 ]
 .pull-right[
 Attribuée à [Russell Ackoff](http://en.wikipedia.org/wiki/Russell_L._Ackoff) en 1989, elle signfie que :
-
 
 - Les **.red[données]** sont la matière "brute" de l'information conçues plutôt pour des machines.
 - **.red[L'information]** pourrait être définie comme des données qui ont été interprétées pour dégager du sens pour des humains.
@@ -143,11 +114,6 @@ Pensez à votre abonnement téléphonique, chaque mois, vous payez pour consomme
 
 Le volume des données créées et traitées ne cesse de croitre en même temps que les capacités de calcul des ordinateurs. 
 ]
-
----
-
-class:middle,center
-### Exercice : Identifiez autour de vous 3 appareils qui collectent des données 
 
 ---
 class:inverse,middle,center
@@ -227,7 +193,7 @@ class: center, middle
 
 #### Une définition juridique des droits de l'usager d'un savoir ouvert
 
-.reduite[.center[![](https://datactivist.coop/occitanie/img/opendef.png)]]
+.reduite[.center[![](./img/open_definition_FR.png)]]
 
 
 ---
@@ -243,27 +209,14 @@ class: center, middle
 
 .center[&lt;img src="https://datactivist.coop/dataliteracy/img/photofamille.jpg" height="250"/&gt;]
 
----
-### .red[Des principes techniques] sans portée politique
-
-&gt;"Il peut être vrai en un sens qu'un régime devient plus ouvert chaque fois qu'il fournit des données ouvertes supplémentaires, même pour les sujets banals et apolitiques, mais il est facile d'imaginer qu'un régime fermé pourrait divulguer de grandes quantités de données conformes à ces huit exigences [de Sébastopol] **sans pour autant accroître sa responsabilité réelle en tant que gouvernement **. 
-&gt; Une diffusion électronique des déclarations de propagande faites par les dirigeants politiques de la Corée du Nord, par exemple, pourrait satisfaire à ces huit exigences et ne pas promouvoir une transparence ou une responsabilité supplémentaires de la part d'un régime notoirement fermé et opaque."
-&gt;
-&gt;
-&gt;Yu &amp; Robinson (2012) « [The New Ambiguity of Open Government](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2012489) » 
 
 ---
-### 2008 : Tim Berners-Lee ["Raw data now"](https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=fr)
+### 2008 : Tim Berners-Lee ["Des données brutes maintenant !"](https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=fr)
 #### La demande de données brutes sous les projecteurs
 
 .center[.reduite[![](https://datactivist.coop/aaf/img/ted.png)]]
 
 ---
-### 2010 : [le modèle en 5 étoiles de Tim Berners-Lee](https://5stardata.info/fr/)
-
-.reduite[.center[![](https://datactivist.coop/aaf/img/5star.png)]]
-
-
 ### Depuis 2010 : l'ère des classements
 
 **[Le baromètre international de l'Open Data](https://index.okfn.org/place/)** est un classement de référence, tout comme l'Open Data Index de l'Open Knowledge Foundation
@@ -280,7 +233,7 @@ class: center, middle
 ---
 ### 2015 : la [charte internationale de l'open data](https://opendatacharter.net/)
 
-.center[.reduite[![](https://datactivist.coop/aaf/img/odcharter.png)]]
+.center[.reduite[![](./img/open-data-charter_FR.png)]]
 
 ---
 
@@ -291,31 +244,15 @@ class: center, middle
 
 ---
 
-### Les .red[acteurs politiques] de l'open data
+### Les .red[acteurs publics] de l'open data
 
-* **Etalab** : Coordonne la politique d’ouverture et de partage des données publiques 
+* **DINSIC - Etalab** : Crée en 2011, la mission coordonne la politique d’ouverture et de partage des données publiques, et anime la plateforme nationale data.gouv.fr 
 * **DITP** : Expérimente l’intelligence artificielle dans les administrations avec Etalab et la DINSIC
 * **DINSIC** : Soutient la diffusion de la culture numérique (utilisations des données, recours aux méthodes agiles) et la coopération avec la société civile et les écosystèmes innovants (open data, gouvernement ouvert). 
 * **Mission Société Numérique de l'Agence du Numérique** : Structure les acteurs de l’accompagnement au numérique (ou médiation numérique) et les stratégies numériques des territoires, dont l'open data fait partie.
-* **DIN** (Département de l'innovation numérique au Secrétariat général du Ministère de la Culture) : chargé d’identifier les informations publiques du ministère et de ses établissements culturels produites dans le cadre des missions de service public, de coordonner le recensement, la qualification des informations publiques, et la mise à disposition des données ouvertes qui ont vocation à être librement accessibles et gratuitement réutilisables.
 
----
-
-### .red[Une politique Open Data] pilotée au niveau national
-
-.red[**La mission Etalab** :] est créée en 2011 et rattachée au secrétariat général de la modernisation de l’action publique (SGMAP), placée sous l’autorité du Premier Ministre.
-
-* Coordonne la politique d’ouverture et de partage des données publiques (open data)
-
-* Coordonne les actions des administrations de l’Etat et leur apporte son appui pour faciliter la diffusion et la réutilisation de leurs informations publiques ;
-
-* Développe et anime la plateforme nationale data.gouv.fr 
-
-* Coordonne le Service Public de la Donnée.
-
-* Anime le réseau des coordinateurs Open Data désignés pour chaque ministère.
-
-Source : https://www.etalab.gouv.fr/
+Au ministère de la Culture :
+* **DIN** (Département de l'innovation numérique au Secrétariat général du Ministère) : chargé d’identifier les informations publiques du ministère et de ses établissements culturels produites dans le cadre des missions de service public, de coordonner le recensement, la qualification des informations publiques, et la mise à disposition des données ouvertes qui ont vocation à être librement accessibles et gratuitement réutilisables.
 
 ---
 
@@ -340,6 +277,19 @@ Data.gouv.fr est la plateforme **nationale** d'open data mais ce n'est pas la se
 + Des plateformes open data gérées par des **entreprises**. Exemple [DataNova](https://datanova.laposte.fr/page/accueil/) (La Poste)
 
 + Des jeux de données directement publiés sur le site des producteurs de données, sans plateforme dédiée. Exemple : Insee
+
+---
+
+### Les grandes fonctionnalités .red[d’un portail open data]
+
+Un portail open data est un espace de présentation des données publiques ouvertes comprenant idéalement les grandes fonctions suivantes :
+
+* recherche des jeux de données
+* présentation détaillées des jeux de données
+* accès aux données brutes open data, sous différents formats, y compris API
+* présentation graphique des données quand cela est possible
+* outils d'extraction ou de transfert des données
+* dispositifs éditoriaux pour animer le projet open data
 
 ---
 class: center, middle
@@ -370,14 +320,14 @@ class: center, middle
 
 ![](./img/data.culture.gouv.fr.png)
 
-Le portail des données ouvertes du ministère de la Culture met à disposition les données de l'administration centrale, d'une DRAC ou d'un SCN et moissonne automatiquement ces données sur data.gouv.fr, pour pouvoir les exposer sur les deux plateformes à la fois. 
+Le portail des données ouvertes du ministère de la Culture met à disposition les données de l'administration centrale, d'une DRAC ou d'un SCN, référence les données des établissements publics et moissonne automatiquement ces données sur data.gouv.fr, pour pouvoir les exposer sur les deux plateformes à la fois. 
 
 
 *Pour toute information sur la mise à disposition de nouveaux jeux de données, contacter le département de l’innovation numérique (SG/SCPCI) via l’onglet « Contact » de la plateforme data.culture.gouv.fr.*
 
 ---
 
-### Possibilité d'héberger ses données sur data.gouv.fr .red[pour les établissements publics]
+### .red[Pour les établissements publics] : des données hébergées sur data.gouv.fr, visibles sur data.culture.fr
 
 Pour les établissements publics, la mise à disposition des données est à effectuer sur le site .red[data.gouv.fr.]
 
@@ -388,17 +338,9 @@ Cela implique la création d’une page dédiée à l'établissement, puis la pu
 &gt; **Le ministère mettra en place les mécanismes nécessaires pour que toutes les données publiées de cette façon soient ensuite automatiquement visibles sur data.culture.gouv.fr.**
 
 ---
+class: inverse, center, middle
 
-### Les grandes fonctionnalités .red[d’un portail open data]
-
-Un portail open data est un espace de présentation des données publiques ouvertes comprenant idéalement les grandes fonctions suivantes :
-
-* recherche des jeux de données
-* présentation détaillées des jeux de données
-* accès aux données brutes open data, sous différents formats, y compris API
-* présentation graphique des données quand cela est possible
-* outils d'extraction ou de transfert des données
-* dispositifs éditoriaux pour animer le projet open data
+### Exercice : Créer votre première datavisualisation avec les données de data.culture.gouv.fr ! 
 
 ---
 
@@ -411,9 +353,9 @@ class: inverse, center, middle
 ### .red[La transparence de la vie publique] et la participation citoyenne à l’action publique
 
 
-* Exemple avec **Le grand débat national**, mars 2019
+* Exemple avec les **Données essentielles des conventions de subvention**, année 2018
 
-![](./img/grand_debat.png)
+![](./img/donnees_conventions_subvention.png)
 
 ---
 
@@ -665,13 +607,13 @@ class: center, middle
 
 ### Frise chronologique de l'évolution du .red[cadre législatif] en France
 
-<div id="htmlwidget-7b2100525b824b41470c" class="timevis html-widget" style="width:715px;height:350px;">
+<div id="htmlwidget-82c27d4728d8af478dab" class="timevis html-widget" style="width:715px;height:350px;">
 <div class="btn-group zoom-menu">
 <button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
 <button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
 </div>
 </div>
-<script type="application/json" data-for="htmlwidget-7b2100525b824b41470c">{"x":{"items":[{"id":"1","content":"Loi CADA","start":"1978-07-17"},{"id":"2","content":"Directive PSI","start":"2003-11-17"},{"id":"3","content":"Directive INSPIRE","start":"2007-03-14"},{"id":"4","content":"Révision de la directive PSI","start":"2013-06-13"},{"id":"5","content":"Loi Notre","start":"2015-08-07"},{"id":"6","content":"Loi Valter","start":"2015-12-28"},{"id":"7","content":"Loi pour une République Numérique","start":"2016-10-07"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":"350px","api":[]},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-82c27d4728d8af478dab">{"x":{"items":[{"id":"1","content":"Loi CADA","start":"1978-07-17"},{"id":"2","content":"Directive PSI","start":"2003-11-17"},{"id":"3","content":"Directive INSPIRE","start":"2007-03-14"},{"id":"4","content":"Révision de la directive PSI","start":"2013-06-13"},{"id":"5","content":"Loi Notre","start":"2015-08-07"},{"id":"6","content":"Loi Valter","start":"2015-12-28"},{"id":"7","content":"Loi pour une République Numérique","start":"2016-10-07"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":"350px","api":[]},"evals":[],"jsHooks":[]}</script>
 
 ---
 
