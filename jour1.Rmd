@@ -501,7 +501,7 @@ Cela implique la création d’une page dédiée à l'établissement, puis la pu
 
 ### Culture : trois types de données .red[concernées par l’ouverture]  
 
-* 1 - Les données statistiques et économiques des institutions culturelles (fréquentation, recettes, subventions, etc.) 
+* 1 - Les données statistiques et économiques des institutions culturelles (fréquentation, recettes, subventions, etc.)
 * 2 - Les métadonnées culturelles, c’est-à dire les notices bibliographiques et plus largement les données associées aux œuvres (localisation, description, auteur, œuvres associées, prix, propriétaire) 
 * 3 - Les fichiers images et copies numériques des œuvres **entrées dans le domaine public**. 
 
