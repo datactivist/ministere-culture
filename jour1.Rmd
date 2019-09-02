@@ -83,7 +83,7 @@ Cette définition est une des rares à s'extraire des discours entourant les don
 
 ---
 
-### Une .red[définition des "bases de données"]
+### Une définition .red[des "bases de données"]
 
 Source : [Source : Guide Open Data Cnil](https://www.cnil.fr/sites/default/files/atoms/files/guide_open_data.pdf) 
 
@@ -137,7 +137,7 @@ C’est en 1995 qu’on en voit le premier usage public aux Etats-Unis dans un r
 
 ---
 
-### Open data, les débuts : 
+### Open data, .red[les débuts] : 
 
 Au début des années 2010, c’est dans le cadre d’un .red[mouvement international] que l’ouverture des données publiques connaît en France un nouvel élan. L’initiative vient du monde anglo-saxon, **les États-Unis et le Royaume-Uni mettant en place au même moment des plateformes gouvernementales de partage des données
 publiques, dans une démarche dite d’open data**. 
@@ -152,9 +152,9 @@ Le contexte est alors marqué par l’essor considérable des technologies et de
 ---
 class: inverse, center, middle
 
-### L'open data s'inscrit dans une série de continuités historiques qui en font un **mouvement aux multiples facettes…**
+#### L'open data s'inscrit dans une série de continuités historiques qui en font un **mouvement aux multiples facettes…**
 
-Il est important de connaître ses fondements philosophiques pour mieux comprendre ses déclinaisons locales et verticales.
+> Il est important de connaître ses fondements philosophiques pour mieux comprendre ses déclinaisons locales et verticales.
 
 ---
 
@@ -171,20 +171,24 @@ Il est important de connaître ses fondements philosophiques pour mieux comprend
 
 ---
 
-### Principes du Logiciel Libre 
+### .red[Principes] du Logiciel Libre 
 
 **Les quatre libertés fondamentales** 
 
 * La liberté d'utilisation d'un programme 
 * La liberté d'étudier le fonctionnement d'un programme 
 * La liberté de modifier un programme 
-* La liberté de distribuer un programme 
+* La liberté de distribuer un programme
+
+.center[<img src="./img/Linux_penguin.png" height="250"/>]
 
 > Il faut penser à travers ces principes à la libre expression et liberté d'utilisation, non pas à la gratuité
 
 ---
 
-### Des principes du logiciel libre aux facettes de l'open data
+### Des principes du logiciel libre .red[aux facettes de l'open data]
+
+**Brève introduction aux principales facettes** : 
 
 * La transparence
 * La libre circulation de l'information
@@ -311,7 +315,8 @@ class: center, middle
 
 ## Quelques dates jalon dans .red[l'histoire mondiale de l'open data]
 
---- 
+---
+
 ### 2005 : [L'Open Definition](https://opendefinition.org/)
 
 #### Une définition juridique des droits de l'usager d'un savoir ouvert
@@ -323,17 +328,15 @@ class: center, middle
 ### 2007 : [la rencontre de Sebastopol aux États-Unis](https://opengovdata.org/)
 
 
-**Quoi ?** Une rencontre de l'Open Governement Group à Sebastopol (Californie), siège des éditions O'Reilly
+**Quoi ?** Une rencontre de l'Open Governement Group à Sebastopol (Californie), le siège des éditions O'Reilly
 
 **Pourquoi ?** : Influencer le futur président des Etats Unis pour faire avancer l'open data
 
 **Comment ?** En adoptant une déclaration définissant les grands principes de l'Open Government Data 
 
-Ces principes sont fondamentaux dans le futur développement de politiques nationales d’ouverture des données. 
-Ils sont issus de la culture du mouvement du Libre dont les protagonistes sont à l'origine de cette rencontre et réflexion. 
+> Ces principes sont fondamentaux dans le futur développement de politiques nationales d’ouverture des données. Ils sont issus de la culture du mouvement du Libre dont les protagonistes sont à l'origine de cette rencontre et réflexion. 
 
-
-.center[<img src="https://datactivist.coop/dataliteracy/img/photofamille.jpg" height="250"/>]
+.center[<img src="https://datactivist.coop/dataliteracy/img/photofamille.jpg" height="150"/>]
 
 
 ---
@@ -343,22 +346,28 @@ Ils sont issus de la culture du mouvement du Libre dont les protagonistes sont �
 .center[.reduite[![](https://datactivist.coop/aaf/img/ted.png)]]
 
 ---
-### Depuis 2010 : l'ère des classements
+### Depuis 2010 : .red[l'ère des classements]
 
 La France a très vite cherché à s’inscrire dans la dynamique de l'open data, non sans succès en termes de reconnaissance internationale : 
 
-* La France se classe ainsi quatrième selon le dernier classement (2016) de l’Open Data Index établi par l’Open Knowledge Foundation, derrière Taïwan, l’Australie et la Grande-Bretagne)
+* **La France se classe ainsi quatrième** selon le dernier classement (2016) de l’Open Data Index établi par l’Open Knowledge Foundation, derrière Taïwan, l’Australie et la Grande-Bretagne.
 
-* L’année 2016-2017, la France prend la présidence du Partenariat pour le gouvernement ouvert, une organisation internationale ayant pour objet de promouvoir une gouvernance co-construite entre citoyens et administrations et qui promeut l'ouverture des données comme outil d'information et de participation aux décisions publiques. (*Nous y reviendrons également*)
+* L’année 2016-2017, **la France prend la présidence du Partenariat pour le Gouvernement Ouvert**, une organisation internationale ayant pour objet de promouvoir une gouvernance co-construite entre citoyens et administrations et qui promeut l'ouverture des données comme outil d'information et de participation aux décisions publiques. (*Nous y reviendrons également*)
 
 
 ---
 
+### Le baromètre international de l'Open Data
+
 **[Le baromètre international de l'Open Data](https://index.okfn.org/place/)** est un classement de référence, tout comme l'Open Data Index de l'Open Knowledge Foundation, organisation internationale ayant pour objet de promouvoir la transparence des données publiques.
 
 ![baromètre international de l'Open Data](https://datactivist.coop/aaf/img/odb.png)
+---
+
+### L'Open Data Index de l'Open Knowledge Foundation
 
 ![Open Data Index de l'Open Knowledge Foundation](https://datactivist.coop/aaf/img/godi.png)
+
 ---
 
 ### 2013 : la [charte du G8 sur l'open data](https://www.modernisation.gouv.fr/sites/default/files/fichiers-attaches/charte-g8-ouverture-donnees-publiques-fr.pdf)
@@ -389,7 +398,7 @@ La France a très vite cherché à s’inscrire dans la dynamique de l'open data
 
 class: inverse, center, middle
 
-## Les origines de l'open data .red[en France]
+## Les origines de l'open data en France
 
 ---
 
@@ -492,8 +501,8 @@ Cela implique la création d’une page dédiée à l'établissement, puis la pu
 
 ### Culture : trois types de données .red[concernées par l’ouverture]  
 
-* 1 - Les données statistiques et économiques des institutions culturelles (fréquentation, recettes, subventions, etc. ) ; 
-* 2 - Les métadonnées culturelles, c’est-à dire les notices bibliographiques et plus largement les données associées aux œuvres (localisation ; description ; auteur ; œuvres associées ; prix ; propriétaire) ; 
+* 1 - Les données statistiques et économiques des institutions culturelles (fréquentation, recettes, subventions, etc.) 
+* 2 - Les métadonnées culturelles, c’est-à dire les notices bibliographiques et plus largement les données associées aux œuvres (localisation, description, auteur, œuvres associées, prix, propriétaire) 
 * 3 - Les fichiers images et copies numériques des œuvres **entrées dans le domaine public**. 
 
 > Important : les œuvres protégées par le droit d’auteur ou un droit voisin ne peuvent faire l’objet d’un droit de réutilisation, mais les œuvres entrées dans le domaine public relèvent pleinement de l’ouverture des données publiques.
@@ -967,7 +976,7 @@ Initialement fondé par 8 pays (Brésil, Indonésie, Mexique, Norvège, Philippi
 
 ---
 
-### Les engagements du Ministère de la Culture
+### Les engagements du .red[Ministère de la Culture]
 
 Dans les engagement 5 et 9 concernant *l'action des administrateurs ministériels des données* et *l'accompagnement de la mise en œuvre du principe d’ouverture par défaut*, ainsi que l'ouverture de l’administration à de nouvelles compétences
 et initiatives *d’innovation ouverte* au sein de l’Etat, le *Ministère de la Culture* s'engage à :
@@ -1234,7 +1243,7 @@ Exemple : **impliquer une école de graphisme à réaliser des visualisations**
 
 class: inverse, center, middle
 
-# 1 - Concevoir une stratégie open data
+# 6 - Concevoir une stratégie open data
 
 ---
 
@@ -1267,10 +1276,11 @@ class: middle
 * **De nombreux profils et équipes doivent s'emparer de l'open data**
 
 [![](https://datactivist.coop/aaf/img/users.png)](https://thereboot.github.io/moti-personas/)
-]
-.pull-right[
 
 Une bonne stratégie consiste à réduire les frictions :
+
+]
+.pull-right[
 
 * ####  Rendre les données moins difficiles à trouver (*enjeu de trouvabilité*)
 
