@@ -580,7 +580,10 @@ Un hackathon allemand sur la thématique des données culturelles ouvertes. Fond
 ---
 ### Bibliographie 
 
-* **Camille Domange** : Ouverture et partage des données publiques culturelles (2013) 
+* **Camille Domange** : Ouverture et partage des données publiques culturelles, 209 pages (2013) 
+https://www.ladocumentationfrancaise.fr/rapports-publics/144000037/index.shtml
+Editeur : Ministère de la culture et de la communication
+
 
 * **Nicolas Poulain**, « Les musées départementaux de la Haute-Saône et Wikipédia : de l'institution à la contribution », La Lettre de l’OCIM [En ligne], 164 | 2016, mis en ligne le 01 mars 2017, consulté le 31 juillet 2019. URL : http://journals.openedition.org/ocim/1642 ; DOI : 10.4000/ocim.1642
 
