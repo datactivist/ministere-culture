@@ -48,12 +48,11 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 * Conception d'une stratégie open data
 * Identification des données 
 * Les formats de données 
-* Négociations et frictions dans l’ouverture des données : comment éviter les obstacles de l’open data ? 
-* Extraction des données 
-* Conversion et mise en qualité des données 
+* Frictions à l’ouverture des données : comment éviter les obstacles de l’open data ? 
+* Mise en qualité des données 
 * Publication des données culturelles et production de métadonnées 
-* Animation de l’open data et incitations à la réutilisation de données 
-* Gouvernance des données et gestion de la relation avec les réutilisateurs 
+* Animation de l’open data et incitations à la réutilisation de données
+* Gestion de la relation avec les utilisateurs
 
 
 ---
@@ -185,6 +184,13 @@ class: middle
 
 ---
 
+class: inverse, center, middle
+
+# Etape 1 : Sélectionner les données
+
+
+---
+
 ### Étape 1 : .red[Sélectionner les données]
 
 * Effectuer un état des lieux permettant de faire .red[**l’inventaire des données existantes.**] 
@@ -222,6 +228,11 @@ Cette opération permet également d'identifier d’éventuelles contraintes à 
 * Les données financières : aide, ressource, subvention, budget.. 
 * L'offre culturelle : bases de données de collections (métadonnées + images)
 * Les agendas, événements, programmations
+
+---
+class: inverse, center, middle
+
+# Etape 2 : Préparer les données
 
 ---
 
@@ -310,6 +321,13 @@ Microsoft a tenté d'ouvrir les formats de sa suite Microsoft Office. Toutes ses
 ]
 
 ---
+### Comprendre le travail de réutilisation des données, .red[les étapes :]
+
+.reduite.center[
+![](./img/Data_pipeline_FR_transparent.png)
+]
+
+---
 
 ### Veiller à la .red[qualité des données]
 
@@ -338,6 +356,11 @@ Le contrat de licence de réutilisation permet de déterminer les droits et obli
 ### [WTFCSV](https://databasic.io/en/wtfcsv/) : un outil pour prévisualiser un jeu de données en .csv
 
 ![](https://datactivist.coop/occitanie/img/wtfcsv.png)
+
+---
+class: inverse, center, middle
+
+# Étape 3 : Diffuser et valoriser les données
 
 ---
 
@@ -436,19 +459,23 @@ Cela implique la création d’une page dédiée à l'établissement, puis la pu
 
 ---
 
-### Questions et .red[exercice de groupe]
+### .red[Data.BnF] se dote d'une API permettant les réutilisations
 
-> * Par groupe de deux, sélectionnez un ensemble de données de data.culture.gouv et décrivez-le avec des metadonnées les plus exhaustives possibles. 
+Exemple : .red[**Gallicarte**], un projet de géolocalisation des résultats de recherche dans Gallica
 
-> * Est-ce que le Ministère de la Culture dispose d'une liste de métadonnées requises pour la publication de données ouvertes ?
+Ce projet consiste à afficher les résultats d’une recherche effectuée dans Gallica (Bibliothèque numérique de la BnF) sur une carte, et de visualiser, par exemple, l’ensemble d’un fonds photographique géolocalisé. Pour le grand public, la carte comme mode d‘affichage est d’utilisation simple. 
+
+.center[<img src="./img/gallicarte.jpeg" height="200"/>] 
+
+En savoir plus :  [Un projet issu du Hackathon de la BnF](http://gallicastudio.bnf.fr/projets-collaboratifs/gallicarte-un-projet-de-g%C3%A9olocalisation-des-r%C3%A9sultats-de-recherche-dans)
 
 ---
 
 ### Questions et .red[exercice de groupe]
 
-> *  Y a-t-il une offre et une demande pour les données publiques ouvertes au sein de votre structure ? Si oui, qui fournit quoi à qui ?
+> * Par groupe de deux, sélectionnez un ensemble de données de data.culture.gouv et décrivez-le avec des metadonnées les plus exhaustives possibles. 
 
-> * D’après vous, quels sont les obstacles principaux pour la publication de données publiques ouvertes au sein de votre structure ?
+> * Est-ce que votre organisation dispose d'une liste de métadonnées requises pour la publication de données ouvertes ?
 
 ---
 ### Exercice : les bénéfices de l'open data
@@ -499,37 +526,73 @@ class: inverse, center, middle
 
 ---
 
-### Susciter les usages externes
+### Susciter les .red[usages externes]
 
 * Editorialiser les données brutes en proposant des représentations visuelles facilitant leur lecture (graphiques,
 cartographies, etc.), par exemple la carte des institutions culturelles partenaires du site Histoire des Arts, les tendances clés sur la fréquentation des musées.
 * Communiquer pour promouvoir et faire connaître les données ouvertes auprès des communautés des utilisateurs et
-réutilisateurs potentiels lors d'événéments. 
+réutilisateurs potentiels lors d'événéments (rencontre, hackathon, concours, appel à projets, etc.).
 
-> Par exemple au Panorama des Festivals, fonds de la guerre 14-18 en Bretagne, découvrir les musées des régions Provence Alpes Côte-d’Azur et de l'Occitanie.
+---
 
-* Animer et acculturer la communauté des utilisateurs externes, pour les inciter et renforcer leur capacité à (ré)utiliser les données pour leurs propres usages.
-* Organiser des événements pour stimuler et encourager la (ré)utilisation des données ouvertes (rencontre, hackathon, concours, appel à projets, etc.).
+### Susciter les réutilisations avec .red[un programme de partenariats]
+
+Exemple : **impliquer une école de graphisme à réaliser des visualisations**
+
+* Analyse de la [représentation du genre](https://churc.github.io/MajorStudio1/) dans la collection d'art moderne et contemporain du Met
+* Une [analyse de la forme des œuvres d'art au Met's Costume Institute](https://3milychu.github.io/pages/kmeansfashion.html), utilisant l'apprentissage automatique pour découvrir de nouvelles relations entre les objets au-delà des métadonnées disponibles.
+* Une évaluation de l'histoire de la collecte au Met et de l'évolution des pratiques de collecte au fil de l'histoire du Met
+
+.center[<img src="./img/Dataviz_parsons_Met.jpg" height="200"/>]
+
+---
+
+### Open GLAM : une communauté engagée et .red[un réseau mondial] 
+
+.red[**OpenGLAM**] est un réseau mondial de personnes et d'organisations engagées à ouvrir du contenu et des données détenues par des galeries d'art, des bibliothèques, des archives et des musées.
+
+
+.pull-left[![](./img/open-GLAM.png)
+**GLAM** : Galleries, Libraries, Archives and Museums.
+]
+
+.pull-right[
+> Avec d’autres collections nord-américaines importantes comme celles du Walters Museum (2011), ou du Los Angeles County Museum of Art (2013), le mouvement OpenGLAM bénéficie de l’engagement de plusieurs grands musées aux collections majoritairement placées dans le domaine public. ]
+
+---
+
+### Animer et acculturer une communauté de réutilisateurs
+
+
 * Communiquer sur la démarche, mobiliser et interagir avec les réutilisateurs (associations, entreprises, acteurs de l’enseignement et de la recherche, médias et journalistes, citoyens) pour s’assurer que les données ouvertes correspondent à leurs attentes et soient effectivement réutilisées et valorisées.
 * Améliorer les données produites, compléter ou produire de nouvelles données en s’appuyant sur la contribution et
 l’engagement citoyen (crowdsourcing).
 
 ---
-### Comprendre le travail de réutilisation des données, .red[les étapes :]
 
-.reduite.center[
-![](./img/Data_pipeline_FR_transparent.png)
-]
-
----
-
----
-
-### Vous êtes prêts pour participer au 
+### Un exemple d'événement encourageant .red[les réutilisations]
 
 ![](https://codingdavinci.de/img/english-infos/collage.jpg)
 
 Un hackathon allemand sur la thématique des données culturelles ouvertes. Fondé à Berlin en 2014, l'événement associe des institutions du patrimoine culturel au public afin de développer des prototypes à destination des institutions publiques du domaine de la culture et du patrimoine.
+
+---
+
+### Quels avantages à verser une collection sur une .red[plateforme collaborative] ?
+
+À l’instar du Metropolitan Museum of Art, **de plus en plus nombreuses sont les institutions qui choisissent de verser les images de leurs collections sous licence ouverte** sur des plates-formes collaboratives comme Flickr ou Wikimédia. 
+
+* Possibilités pour la recherche, l’innovation et la créativité de cette rencontre entre des collections de qualité bien documentées et l’encyclopédie collaborative en ligne. 
+
+* Forte augmentation des consultations et des réutilisations en différentes langues, ainsi qu’un effet d’attraction vers le site du musée lui-même et son portail des collections.
+
+---
+
+### Questions et .red[exercice de groupe]
+
+> *  #### Y a-t-il une offre et une demande pour les données publiques ouvertes au sein de votre organisation ? Si oui, qui fournit quoi à qui ?
+
+> * #### D’après vous, quels sont les obstacles principaux pour la publication de données publiques ouvertes au sein de votre organisation ?
 
 ---
 ### Bibliographie 
@@ -538,9 +601,15 @@ Un hackathon allemand sur la thématique des données culturelles ouvertes. Fond
 https://www.ladocumentationfrancaise.fr/rapports-publics/144000037/index.shtml
 Editeur : Ministère de la culture et de la communication
 
-
 * **Nicolas Poulain**, « Les musées départementaux de la Haute-Saône et Wikipédia : de l'institution à la contribution », La Lettre de l’OCIM [En ligne], 164 | 2016, mis en ligne le 01 mars 2017, consulté le 31 juillet 2019. URL : http://journals.openedition.org/ocim/1642 ; DOI : 10.4000/ocim.1642
 
+* **Droits des images, histoire de l’art et société**, Rapport sur les régimes de diffusion des images patrimoniales et leur impact sur la recherche, l’enseignement et la mise en valeur des collections publiques.
+Programme Images/Usages, Institut national d’histoire de l’art. 
+Octobre 2018
+
+* **Guide de bonnes pratiques en matière de propriété littéraire et artistique**, réalisé dans le cadre du Programme national de Numérisation et de Valorisation des contenus culturels en 2017. [*Télécharger le guide*] (http://www.culture.gouv.fr/Media/Thematiques/Innovation-numerique/Folder/Livrables-GT-Numerisation/Guide-de-bonnes-pratiques-en-matiere-de-propriete-litteraire-et-artistique)
+
+* **Guide Open Data Cnil** Source : [Site de la CNIL](https://www.cnil.fr/sites/default/files/atoms/files/guide_open_data.pdf)
 
 ---
 class: inverse, center, middle
