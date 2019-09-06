@@ -85,11 +85,14 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 ---
 
-### Culture : trois types de données .red[concernées par l’ouverture]  
+### Culture : principales catégories de données .red[concernées par l’ouverture]  
 
-* 1 - Les données statistiques et économiques des institutions culturelles (fréquentation, recettes, subventions, etc.)
-* 2 - Les métadonnées culturelles, c’est-à dire les notices bibliographiques et plus largement les données associées aux œuvres (localisation, description, auteur, œuvres associées, prix, propriétaire) 
-* 3 - Les fichiers images et copies numériques des œuvres **entrées dans le domaine public**. 
+* Les **données statistiques** des institutions culturelles : fréquentation, entrées, équipements
+* Les **bases de données des collections** : métadonnées et plus largement les données associées aux œuvres (localisation, description, auteur, œuvres associées, prix, propriétaire) avec images ou sans image
+* Les **listes de structures** : musées, monuments, cinéma, etc.
+* Les référentiels ou nomenclatures 
+* Les données de type **agenda**, événements, programmations
+* Les **données financières** : financement, ressources, budgets annuels, subventions
 
 > Important : les œuvres protégées par le droit d’auteur ou un droit voisin ne peuvent faire l’objet d’un droit de réutilisation, mais les œuvres entrées dans le domaine public relèvent pleinement de l’ouverture des données publiques.
 
@@ -596,6 +599,12 @@ Un hackathon allemand sur la thématique des données culturelles ouvertes. Fond
 * Possibilités pour la recherche, l’innovation et la créativité de cette rencontre entre des collections de qualité bien documentées et l’encyclopédie collaborative en ligne. 
 
 * Forte augmentation des consultations et des réutilisations en différentes langues, ainsi qu’un effet d’attraction vers le site du musée lui-même et son portail des collections.
+
+---
+
+class: inverse, center, middle
+
+### Exercice : Créer votre première datavisualisation avec les données de data.culture.gouv.fr  
 
 ---
 
