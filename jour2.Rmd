@@ -343,7 +343,14 @@ Quelques principes à retenir :
 
 #### Choisir la licence de réutilisation
 
-Le contrat de licence de réutilisation permet de déterminer les droits et obligations réciproques des parties. Il est important que toutes les réutilisations, y compris celles consenties à titre gratuit, soient conditionnées à l'acceptation d'un contrat, et que l'usager en soit clairement informé. 
+Le contrat de licence de réutilisation permet de déterminer les droits et obligations réciproques des parties. Il est important que toutes les réutilisations, y compris celles consenties à titre gratuit, soient conditionnées à l'acceptation d'un contrat, et que l'usager en soit clairement informé. La loi pour une République Numérique prévoit deux licences possibles : la Licence Ouverte ou ODBL
+
+---
+
+### Zoom sur les licences ouvertes et ODBL 
+
+![image alt](https://datactivist.coop/aaf/img/licences.png)
+
 
 ---
 
@@ -359,6 +366,17 @@ Le contrat de licence de réutilisation permet de déterminer les droits et obli
 ### [WTFCSV](https://databasic.io/en/wtfcsv/) : un outil pour prévisualiser un jeu de données en .csv
 
 ![](https://datactivist.coop/occitanie/img/wtfcsv.png)
+
+---
+
+### Exercice : .red[réalisez un fichier .csv de qualité]
+
+> **À vous maintenant** !
+
+* Utilisez les bonnes pratiques et apprenez à réaliser un fichier de type tableur sans erreur
+* Puis, à produire ensuite un fichier .CSV répondant aux critères de publication en open data
+
+![](./img/exercice_csv.png)
 
 ---
 class: inverse, center, middle
@@ -478,7 +496,7 @@ En savoir plus :  [Un projet issu du Hackathon de la BnF](http://gallicastudio.b
 
 > * Par groupe de deux, sélectionnez un ensemble de données de data.culture.gouv et décrivez-le avec des metadonnées les plus exhaustives possibles. 
 
-> * Est-ce que votre organisation dispose d'une liste de métadonnées requises pour la publication de données ouvertes ?
+> * Est-ce que votre service, direction ou établissement, dispose d'une liste de métadonnées requises pour la publication de données ouvertes ?
 
 ---
 ### Exercice : les bénéfices de l'open data
@@ -530,13 +548,21 @@ class: middle
 
 ---
 
-### Encourager les réutilisations internes
+### Encourager les .red[réutilisations internes]
 
 * Sensibiliser, faire connaître et démontrer l’intérêt de l’ouverture des données auprès des décideurs et des agents.
 * Inciter les services producteurs à ouvrir les données qu’ils produisent et à utiliser les données ouvertes pour leurs propres usages.
 * Diffuser une culture de la donnée au sein de l’organisation afin d’accompagner le développement des usages et favoriser la transformation de l’action publique (pilotage, évaluation, etc.) à partir des données.
 * Favoriser les **échanges entre pairs** pour partager des retours d’expérience et des bonnes pratiques.
 * Animer et acculturer les communautés d’utilisateurs internes afin de renforcer leur capacité à (ré)utiliser les données pour leurs propres besoins.
+
+---
+
+class: inverse, center, middle
+
+### Exercice : Créer votre première datavisualisation avec les données de data.culture.gouv.fr  
+
+*À partir de l’onglet « Carte » de data.culture.gouv.fr, nous allons apprendre à créer une carte avec plusieurs jeux de données, ou à ajouter plusieurs calques et filtres.* 
 
 ---
 
@@ -602,17 +628,11 @@ Un hackathon allemand sur la thématique des données culturelles ouvertes. Fond
 
 ---
 
-class: inverse, center, middle
-
-### Exercice : Créer votre première datavisualisation avec les données de data.culture.gouv.fr  
-
----
-
 ### Questions et .red[exercice de groupe]
 
-> *  #### Y a-t-il une offre et une demande pour les données publiques ouvertes au sein de votre organisation ? Si oui, qui fournit quoi à qui ?
+> *  #### Y a-t-il une offre et une demande pour les données publiques ouvertes au sein de votre service, direction ou établissement ? Si oui, qui fournit quoi à qui ?
 
-> * #### D’après vous, quels sont les obstacles principaux pour la publication de données publiques ouvertes au sein de votre organisation ?
+> * #### D’après vous, quels sont les obstacles principaux pour la publication de données publiques ouvertes au sein de votre service, direction ou établissement ?
 
 ---
 ### Bibliographie 
