@@ -171,7 +171,7 @@ class: inverse, center, middle
 
 ---
 
-### .red[Principes] du Logiciel Libre 
+### .red[Les principes] du logiciel Libre 
 
 **Les quatre libertés fondamentales** 
 
@@ -186,14 +186,18 @@ class: inverse, center, middle
 
 ---
 
-### Des principes du logiciel libre .red[aux facettes de l'open data]
+### Open data : un mouvement .red[aux multiples facettes]
 
 **Brève introduction aux principales facettes** : 
 
 * La transparence
+
 * La libre circulation de l'information
+
 * La demande de données brutes
+
 * L'industrie de la donnée
+
 * La modernisation des administrations
 
 
@@ -265,7 +269,7 @@ class: inverse, center, middle
 
 ---
 
-### .red[ La participation citoyenne à l’action publique]
+### La participation citoyenne .red[à l’action publique]
 
 * Exemple : le Grand Débat National, mars 2019
 
@@ -357,14 +361,14 @@ La France a très vite cherché à s’inscrire dans la dynamique de l'open data
 
 ---
 
-### Le baromètre international de l'Open Data
+### .red[Le baromètre international] de l'open data
 
 **[Le baromètre international de l'Open Data](https://index.okfn.org/place/)** est un classement de référence, tout comme l'Open Data Index de l'Open Knowledge Foundation, organisation internationale ayant pour objet de promouvoir la transparence des données publiques.
 
 ![baromètre international de l'Open Data](https://datactivist.coop/aaf/img/odb.png)
 ---
 
-### L'Open Data Index de l'Open Knowledge Foundation
+### .red[L'Open Data Index] de l'Open Knowledge Foundation
 
 ![Open Data Index de l'Open Knowledge Foundation](https://datactivist.coop/aaf/img/godi.png)
 
@@ -414,7 +418,7 @@ Au ministère de la Culture :
 
 ---
 
-### Data.gouv.fr ?
+### Data.gouv.fr .red[?]
 
 Data.gouv est la plateforme nationale ouverte des données publiques françaises.
 Elle a été conçue et inaugurée en 2011, par la mission Etalab, puis refondue en 2013.
@@ -443,16 +447,21 @@ Data.gouv.fr est la plateforme **nationale** d'open data mais ce n'est pas la se
 Un portail open data est un espace de présentation des données publiques ouvertes comprenant idéalement les grandes fonctions suivantes :
 
 * recherche des jeux de données
+
 * présentation détaillées des jeux de données
+
 * accès aux données brutes open data, sous différents formats, y compris API
-* présentation graphique des données quand cela est possible
+
+* présentation graphique et cartographique des données quand cela est possible
+
 * outils d'extraction ou de transfert des données
+
 * dispositifs éditoriaux pour animer le projet open data
 
 ---
 class: center, middle
 
-## Et au .red[Ministère de la Culture]
+### Et au .red[Ministère de la Culture]
 
 > Le ministère de la culture s’est doté en avril 2013 d’une « feuille de route open data », comportant dix actions pour une stratégie numérique de diffusion et de réutilisation des données publiques numériques du secteur culturel. 
 
@@ -512,7 +521,7 @@ Cela implique la création d’une page dédiée à l'établissement, puis la pu
 
 ---
 
-### Le saviez-vous ?
+### Le saviez-vous .red[?]
 
 Suite à une consultation publique menée par le ministère qui invitait les citoyens à répondre à la question : “quelles sont les données publiques culturelles stratégiques que vous souhaitez voir ouvertes à la réutilisation libre et gratuite ?”
 
@@ -532,12 +541,14 @@ class: inverse, center, middle
 
 ---
 
-### .red[Droit d’ouverture des données publiques] en France
+### .red[Du droit d'accès] au droit de réutilisation des données publiques en France
 
 Trois grandes étapes caractérisent en France la **construction d’un droit de l’ouverture des données publiques** : 
 
 * 1 - La création du droit d’accès aux documents administratifs
+
 * 2 - La création du droit de réutilisation des informations publiques
+
 * 3 - Le développement d’une politique active d’ouverture des données, assorti d’un essor de la gratuité. 
 
 
@@ -628,7 +639,9 @@ Cette obligation concerne toutes les *administrations*, établissements publics,
 
 L'ouverture concerne un .red[**périmètre très large**] : 
 * les documents communiqués suite à des demandes CADA
+
 * les "bases de données"
+
 * les données "dont la publication présente un intérêt économique, social, sanitaire ou environnemental".
 
 
@@ -685,12 +698,12 @@ Utiliser une autre licence impose une **homologation** auprès de la DINSIC avec
 
 ---
 
-### .red[Les conditions d'exercice] du droit d'accès aux données et documents administratifs
+### .red[Les conditions d'exercice] du droit d'accès aux documents administratifs
 
-.red[ Une définition très large des documents administratifs]
+Une définition .red[très large] des documents administratifs
 > Les documents administratifs peuvent revêtir de nombreuses formes (dossiers, rapports, études, comptes rendus, procès-verbaux, statistiques, directives, instructions, circulaires, codes sources, etc.) et adopter tout support (écrit, enregistrement sonore ou visuel, forme numérique ou informatique). 
 
-Le droit d'accès s'appplique aux documents administratifs produits dans le cadre d'une .red[mission de service public] ie :
+Le droit d'accès s'appplique dans le cadre d'une .red[mission de service public] ie :
 > Une mission d'intérêt général sous le contrôle de l'administration et qui est dotée à cette fin de prérogatives de puissance publique est chargée de l'exécution d'un service public. 
 
 Il ne s’exerce que si l’administration a effectivement en sa possession le document demandé, que si le document est formellement **achevé**, qu'il existe et qu'il n'est pas **préparatoire à une décision administrative** en cours. 
@@ -752,7 +765,7 @@ L'application d’une redevance est un recours permis par la loi, pas une obliga
 
 class: inverse, center, middle
 
-# Prenons maintenant connaissance des principes généraux d'ouverture des données et regardons leur application concrète
+## Prenons maintenant connaissance des principes généraux d'ouverture des données et regardons leur application concrète
 
 .footnote[Tels que définis dans les "huit principes des données publiques ouvertes", définis les 7-8 décembre 2007 lors de la rencontre Sébastopol, citée plus haut. Source: [opengovdata.org](https://opengovdata.org/)]
 
@@ -908,7 +921,7 @@ Ces droits s'entendent y compris pour des utilisations commerciales.
 
 ---
 
-### Zoom sur les licences ouvertes et ODBL 
+### Zoom sur les licences ouvertes et .red[ODBL] 
 
 ![image alt](https://datactivist.coop/aaf/img/licences.png)
 
@@ -1263,12 +1276,14 @@ class: middle
 ### Comment ouvrir ses données : .red[les différentes étapes] pratiques à suivre
 
 * **Étape 1** : Sélectionner les données
+
 * **Étape 2** : Préparer les données
+
 * **Étape 3** : Diffuser et valoriser les données
 
 ---
 
-### Réussir sa stratégie d'ouverture des données 
+### .red[Réussir sa stratégie] d'ouverture des données 
 
 - Au-delà de l'obligation légale : .red[**poser les objectifs**] poursuivis par la stratégie
 
