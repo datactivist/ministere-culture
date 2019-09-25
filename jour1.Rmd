@@ -100,7 +100,7 @@ Le document donne également une **définition de ce qu'est une "donnée"** :
 ### .red[La pyramide] Data-Information-Knowledge-Wisdom
 
 .pull-left[
-[![largeur](https://datactivist.coop/SPoSGL/sections/img/dikw_pyramid.svg)](https://commons.wikimedia.org/w/index.php?curid=37705247)
+[![largeur](./img/pyramid.svg)](https://commons.wikimedia.org/w/index.php?curid=37705247)
 ]
 .pull-right[
 Attribuée à [Russell Ackoff](http://en.wikipedia.org/wiki/Russell_L._Ackoff) en 1989, elle signfie que :
@@ -120,7 +120,7 @@ Les données ne sont pas seulement le fondement du savoir, elles sont aussi la b
 .pull-right[
 Pensez à votre abonnement téléphonique, chaque mois, vous payez pour consommer un certain volume de données quantifié en octet ou en bit. 
 
-Le volume des données créées et traitées ne cesse de croitre en même temps que les capacités de calcul des ordinateurs. 
+Le volume des données créées et traitées ne cesse de croître en même temps que les capacités de calcul des ordinateurs. 
 ]
 
 ---
