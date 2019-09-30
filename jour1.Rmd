@@ -160,11 +160,11 @@ class: inverse, center, middle
 
 ### L'influence de la .red[culture du logiciel libre]
 
-> Le mouvement de l'open data est largement **influencé par le mouvement du logiciel libre** qui lui précède de quelques décennies, et dont les créateurs participèrent à en dessiner les contours, notamment en 2007, lors de la conférence de Sébastopol sur laquelle nous reviendrons. 
+> Le mouvement de l'open data est largement **influencé par le mouvement du logiciel libre** qui le précède de quelques décennies, et dont les créateurs participèrent à en dessiner les contours, notamment en 2007, lors de la conférence de Sebastopol sur laquelle nous reviendrons. 
 
 **Comment ?**
 
-* Historiquement venu des pratiques des chercheurs en informatique des années 70-80, le partage d'information, de données et un modèle de la recherche scientifique de l'époque. 
+* Historiquement venu des pratiques des chercheurs en informatique des années 70-80, le partage d'information, de données est un modèle de la recherche scientifique de l'époque. 
 * À partir de 1980, des licences d'utilisation des logiciels prévues pour limiter la liberté de l'utilisateur apparaissent.
 * 1983 : Réaction d'un chercheur du MIT (Richard Stallman) avec le projet GNU (le logiciel, une forme de connaissance scientifique, qui doit être partagée) formalise le concept de Logiciel Libre.
 * 1985: Création de la Fondation pour le Logiciel Libre et rédaction de la General Public License, GPL 
