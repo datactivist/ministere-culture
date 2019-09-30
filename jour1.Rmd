@@ -738,7 +738,7 @@ Hors de ces cas, il faut .red[**[anonymiser les données](https://github.com/SGM
 
 ---
 
-### Zoom sur le régime de la réutilisation des données et .red[le régime dérogatoire pour le secteur culturel]
+### La réutilisation des données et .red[le régime dérogatoire pour le secteur culturel]
 
 Le code des relations entre le public et l'administration (CRPA) pose le .red[principe de la gratuité de la réutilisation]. **La tarification est l’exception et n’est autorisée que dans deux cas** : 
 
