@@ -1061,7 +1061,7 @@ Les experts des institutions ont collaboré pendant quatre ans avec plusieurs la
 
 .pull-left[
 
-#### Fiche descriptive des données de performance d'une oeuvre musicale
+#### Fiche descriptive des données de performance d'une œuvre musicale
 
 ![](./img/Fiche-descriptive-performance-Doremus.png)
 
