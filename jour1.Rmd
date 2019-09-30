@@ -246,11 +246,11 @@ Désiloter l'administration et ouvrir l'innovation, collaborer avec la société
 
 * **L’Open Content** (les contenus ouverts) est la mise à disposition gratuite sur Internet des reproductions numériques des œuvres sous une licence garantissant leur libre accès et leur réutilisation par tous, sans restriction technique, juridique ou financière.
 
-* **L’Open Access** (le libre accès) est la mise à disposition en ligne de contenus numériques, soit sous licences libres (Creative commons, etc.), soit sous un des régimes de propriété intellectuelle.
+* **L’Open Access** (le libre accès) est la mise à disposition gratuite en ligne de contenus numériques, sous licences libres (Creative commons, etc.) ou non.
 
 * **L’Open Knowledge** (la culture libre) est un mouvement social qui promeut la liberté de distribuer et de modifier des œuvres de l’esprit sous la forme d’œuvres libres. Il puise sa philosophie dans celle du logiciel libre en l’appliquant à la culture et à l’information.
 
-* **L’Open Data** (les données ouvertes), est la mise à disposition gratuite sur Internet de données .red[sous réserve que des tiers ne détiennent pas des droit de propriété intellectuelle sur ces informations.]
+* **L’Open Data** (les données ouvertes), est la mise à disposition gratuite sur Internet de données sous une licence libre. Diverses exceptions peuvent y faire obstacle, dont des .red[droits de propriété intellectuelle détenus par des tiers].
 
 ---
 
