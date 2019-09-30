@@ -1201,7 +1201,7 @@ En effet, les articles Wikipédia jouent un rôle important de “porte d’entr
 > Avec d’autres collections nord-américaines importantes comme celles du Walters Museum (2011), ou du Los Angeles County Museum of Art (2013), le mouvement OpenGLAM bénéficie de l’engagement de plusieurs grands musées aux collections majoritairement placées dans le domaine public. ]
 
 ---
-### Les politiques Open Content : .red[Cleveland Museum of Arts (U.S)]
+### Les politiques Open Content : .red[Cleveland Museum of Arts (US)]
 
 Le 23 janvier 2019, le Cleveland Museum of Art a annoncé qu'il devenait une institution en libre accès, utilisant la désignation Creative Commons Zero (CC0) pour les images et les données haute résolution liées à sa collection. 
 
@@ -1228,7 +1228,7 @@ En outre, des parties des informations sur les collections (métadonnées) de pl
 
 * Toutes les images issues d'œuvres du domaine public de la collection du Met sont disponibles sous la licence Creative Commons Zero (CC0)
 
-* Pour faciliter la recherche de ces images sur leur site Web, il est possible de filtrer les recherches par oeuvres tombant dans le domaine public. Toutes les images en Open Access sont marquées du logo CC0 sur leur page web respective.
+* Pour faciliter la recherche de ces images sur leur site Web, il est possible de filtrer les recherches par œuvres appartenant au domaine public. Toutes les images en Open Access sont marquées du logo CC0 sur leur page web respective.
 
 .center[<img src="./img/MET_download_icon.jpg" height="250"/>] 
 
@@ -1326,7 +1326,7 @@ Une bonne stratégie consiste à réduire les frictions :
 
 
 #### Obtenir un soutien au plus haut niveau
-* Pour mettre en oeuvre les moyens et les ressources à déployer
+* Pour mettre en œuvre les moyens et les ressources à déployer
 
 #### Configurer l’organisation pour l’ouverture
 * Organiser la gouvernance, les circuits de validation 
