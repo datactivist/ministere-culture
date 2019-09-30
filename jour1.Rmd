@@ -160,11 +160,11 @@ class: inverse, center, middle
 
 ### L'influence de la .red[culture du logiciel libre]
 
-> Le mouvement de l'open data est largement **influencé par le mouvement du logiciel libre** qui lui précède de quelques décennies, et dont les créateurs participèrent à en dessiner les contours, notamment en 2007, lors de la conférence de Sébastopol sur laquelle nous reviendrons. 
+> Le mouvement de l'open data est largement **influencé par le mouvement du logiciel libre** qui le précède de quelques décennies, et dont les créateurs participèrent à en dessiner les contours, notamment en 2007, lors de la conférence de Sebastopol sur laquelle nous reviendrons. 
 
 **Comment ?**
 
-* Historiquement venu des pratiques des chercheurs en informatique des années 70-80, le partage d'information, de données et un modèle de la recherche scientifique de l'époque. 
+* Historiquement venu des pratiques des chercheurs en informatique des années 70-80, le partage d'information, de données est un modèle de la recherche scientifique de l'époque. 
 * À partir de 1980, des licences d'utilisation des logiciels prévues pour limiter la liberté de l'utilisateur apparaissent.
 * 1983 : Réaction d'un chercheur du MIT (Richard Stallman) avec le projet GNU (le logiciel, une forme de connaissance scientifique, qui doit être partagée) formalise le concept de Logiciel Libre.
 * 1985: Création de la Fondation pour le Logiciel Libre et rédaction de la General Public License, GPL 
@@ -246,11 +246,11 @@ Désiloter l'administration et ouvrir l'innovation, collaborer avec la société
 
 * **L’Open Content** (les contenus ouverts) est la mise à disposition gratuite sur Internet des reproductions numériques des œuvres sous une licence garantissant leur libre accès et leur réutilisation par tous, sans restriction technique, juridique ou financière.
 
-* **L’Open Access** (le libre accès) est la mise à disposition en ligne de contenus numériques, soit sous licences libres (Creative commons, etc.), soit sous un des régimes de propriété intellectuelle.
+* **L’Open Access** (le libre accès) est la mise à disposition gratuite en ligne de contenus numériques, sous licences libres (Creative commons, etc.) ou non.
 
 * **L’Open Knowledge** (la culture libre) est un mouvement social qui promeut la liberté de distribuer et de modifier des œuvres de l’esprit sous la forme d’œuvres libres. Il puise sa philosophie dans celle du logiciel libre en l’appliquant à la culture et à l’information.
 
-* **L’Open Data** (les données ouvertes), est la mise à disposition gratuite sur Internet de données .red[sous réserve que des tiers ne détiennent pas des droit de propriété intellectuelle sur ces informations.]
+* **L’Open Data** (les données ouvertes), est la mise à disposition gratuite sur Internet de données sous une licence libre. Diverses exceptions peuvent y faire obstacle, dont des .red[droits de propriété intellectuelle détenus par des tiers].
 
 ---
 
@@ -738,7 +738,7 @@ Hors de ces cas, il faut .red[**[anonymiser les données](https://github.com/SGM
 
 ---
 
-### Zoom sur le régime de la réutilisation des données et .red[le régime dérogatoire pour le secteur culturel]
+### La réutilisation des données et .red[le régime dérogatoire pour le secteur culturel]
 
 Le code des relations entre le public et l'administration (CRPA) pose le .red[principe de la gratuité de la réutilisation]. **La tarification est l’exception et n’est autorisée que dans deux cas** : 
 
@@ -1061,7 +1061,7 @@ Les experts des institutions ont collaboré pendant quatre ans avec plusieurs la
 
 .pull-left[
 
-#### Fiche descriptive des données de performance d'une oeuvre musicale
+#### Fiche descriptive des données de performance d'une œuvre musicale
 
 ![](./img/Fiche-descriptive-performance-Doremus.png)
 
@@ -1201,7 +1201,7 @@ En effet, les articles Wikipédia jouent un rôle important de “porte d’entr
 > Avec d’autres collections nord-américaines importantes comme celles du Walters Museum (2011), ou du Los Angeles County Museum of Art (2013), le mouvement OpenGLAM bénéficie de l’engagement de plusieurs grands musées aux collections majoritairement placées dans le domaine public. ]
 
 ---
-### Les politiques Open Content : .red[Cleveland Museum of Arts (U.S)]
+### Les politiques Open Content : .red[Cleveland Museum of Arts (US)]
 
 Le 23 janvier 2019, le Cleveland Museum of Art a annoncé qu'il devenait une institution en libre accès, utilisant la désignation Creative Commons Zero (CC0) pour les images et les données haute résolution liées à sa collection. 
 
@@ -1228,7 +1228,7 @@ En outre, des parties des informations sur les collections (métadonnées) de pl
 
 * Toutes les images issues d'œuvres du domaine public de la collection du Met sont disponibles sous la licence Creative Commons Zero (CC0)
 
-* Pour faciliter la recherche de ces images sur leur site Web, il est possible de filtrer les recherches par oeuvres tombant dans le domaine public. Toutes les images en Open Access sont marquées du logo CC0 sur leur page web respective.
+* Pour faciliter la recherche de ces images sur leur site Web, il est possible de filtrer les recherches par œuvres appartenant au domaine public. Toutes les images en Open Access sont marquées du logo CC0 sur leur page web respective.
 
 .center[<img src="./img/MET_download_icon.jpg" height="250"/>] 
 
@@ -1326,7 +1326,7 @@ Une bonne stratégie consiste à réduire les frictions :
 
 
 #### Obtenir un soutien au plus haut niveau
-* Pour mettre en oeuvre les moyens et les ressources à déployer
+* Pour mettre en œuvre les moyens et les ressources à déployer
 
 #### Configurer l’organisation pour l’ouverture
 * Organiser la gouvernance, les circuits de validation 
