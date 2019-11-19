@@ -368,6 +368,15 @@ Le contrat de licence de réutilisation permet de déterminer les droits et obli
 ![](https://datactivist.coop/occitanie/img/wtfcsv.png)
 
 ---
+### OpenRefine : .red[pour éditer ou traiter] des données en masse
+
+> **OpenRefine est un outil gratuit de traitement de données en masse**
+> Il se télécharge sur l'ordinateur et permet de faire des opérations de traitement de données sur de gros fichiers, qu'Excel ne peut pas traiter. 
+
+
+![](img/open_refine.jpg)
+
+---
 
 ### Exercice : .red[réalisez un fichier .csv de qualité]
 
@@ -611,6 +620,9 @@ En février 2011, dans le cadre du partenariat, un wikipédien est venu en rési
 Exemple : le [plafond de la galerie des batailles](http://commons.wikimedia.org/wiki/File:Schlachtengalerie_Decke.jpg?uselang=fr) a remporté  le concours Wiki Loves Monuments en 2011 (concours photo mondial visant à valoriser les monuments historiques).
 
 > Au-delà, cela a permis de changer les mentalités en interne : Wikipedia est maintenant regardé avec bienveillance par les équipes scientifiques du château.
+
+<img src="https://datactivist.coop/SPoSGL/sections/img/Wikimedia_Versailles.JPG" height="250"/>
+
 
 ---
 
