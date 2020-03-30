@@ -58,7 +58,7 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 * Les grands principes de l’ouverture des données 
 * Enjeux de l'ouverture des données
 * Cadre juridique de l’ouverture des données culturelles
-* Gouvernement ouvert et Etat plateforme : l’ouverture des données dans la modernisation de l’Etat 
+* Gouvernement ouvert et État plateforme : l’ouverture des données dans la modernisation de l’État 
 * Plusieurs cas d'étude de l’open data culturel
 * Concevoir une stratégie d'ouverture de données : quelques grands principes.
 
@@ -133,7 +133,7 @@ class:inverse,middle,center
 
 Le terme est apparu pour la première fois dans les années 1970 dans les accords qu’a signés la NASA avec des pays partenaires en vue du partage de données satellitaires. 
 
-C’est en 1995 qu’on en voit le premier usage public aux Etats-Unis dans un rapport de la National Academy of Science intitutlé "_On the Full and Open Exchange of Scientific Data_". Dans le langage courant, cela fait .red[**près de 10 ans**] que l'ouverture des données est devenue un élément majeur des politiques publiques numériques. 
+C’est en 1995 qu’on en voit le premier usage public aux États-Unis dans un rapport de la National Academy of Science intitutlé "_On the Full and Open Exchange of Scientific Data_". Dans le langage courant, cela fait .red[**près de 10 ans**] que l'ouverture des données est devenue un élément majeur des politiques publiques numériques. 
 
 ---
 
@@ -334,7 +334,7 @@ class: center, middle
 
 **Quoi ?** Une rencontre de l'Open Governement Group à Sebastopol (Californie), le siège des éditions O'Reilly
 
-**Pourquoi ?** : Influencer le futur président des Etats Unis pour faire avancer l'open data
+**Pourquoi ?** : Influencer le futur président des États-Unis pour faire avancer l'open data
 
 **Comment ?** En adoptant une déclaration définissant les grands principes de l'Open Government Data 
 
@@ -591,7 +591,7 @@ timevis(data, loadDependencies = FALSE, width = "715px", height = "350px")
 
 * Le droit d'accès des citoyens à l'information publique émerge en **1978 avec la loi dite CADA** du nom de la Commission d'Accès aux Documents Administratifs. 
 
-* La France était le .red[3e pays au monde] après la Suède en 1766 et les Etats-Unis en 1966 avec le Freedom of Information Act (FOIA) en 1966  à accorder un "droit de savoir" avec pour but d'améliorer les relations entre le public et l'administration.
+* La France était le .red[3e pays au monde] après la Suède en 1766 et les États-Unis en 1966 avec le Freedom of Information Act (FOIA) en 1966  à accorder un "droit de savoir" avec pour but d'améliorer les relations entre le public et l'administration.
 
 .footnote[Il faudrait maintenant désigner la loi comme le Code des relations entre le public et l'administration (CRPA) qui, dans son [livre 3](https://www.legifrance.gouv.fr/affichCode.do;jsessionid=BDF8EC0BD562E214CCD9A5ADD435D690.tplgfr42s_1?idSectionTA=LEGISCTA000031367685&cidTexte=LEGITEXT000031366350&dateTexte=20190429), codifie le droit d'accès et de réutilisation mais il est encore moins connu que la loi CADA…]
 
@@ -666,7 +666,7 @@ L'ouverture concerne un .red[**périmètre très large**] :
 * Le référentiel à grande échelle (RGE),
 * La base adresse nationale (BAN),
 * Le répertoire opérationnel des métiers et des emplois (ROME),
-* Le référentiel de l’organisation administrative de l’Etat,
+* Le référentiel de l’organisation administrative de l’État,
 * Le code officiel géographique (COG).
 
 Source : https://www.data.gouv.fr/en/reference
@@ -1003,7 +1003,7 @@ Initialement fondé par 8 pays (Brésil, Indonésie, Mexique, Norvège, Philippi
 ### Les engagements du .red[Ministère de la Culture]
 
 Dans les engagement 5 et 9 concernant *l'action des administrateurs ministériels des données* et *l'accompagnement de la mise en œuvre du principe d’ouverture par défaut*, ainsi que l'ouverture de l’administration à de nouvelles compétences
-et initiatives *d’innovation ouverte* au sein de l’Etat, le *Ministère de la Culture* s'engage à :
+et initiatives *d’innovation ouverte* au sein de l’État, le *Ministère de la Culture* s'engage à :
 
 * Fournir et formaliser un accompagnement pédagogique sur les spécificités de l'ouverture, de la diffusion et de la réutilisation des contenus culturels ;
 * Accompagner les opérateurs publics à ouvrir et diffuser leurs informations publiques ;
