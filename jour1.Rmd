@@ -408,9 +408,9 @@ class: inverse, center, middle
 
 ### Les .red[acteurs publics] de l'open data
 
-* **DINSIC - Etalab** : Crée en 2011, la mission coordonne la politique d’ouverture et de partage des données publiques, et anime la plateforme nationale data.gouv.fr 
+* **DINUM - Etalab** : Crée en 2011, la mission coordonne la politique d’ouverture et de partage des données publiques, et anime la plateforme nationale data.gouv.fr 
 * **DITP** : Expérimente l’intelligence artificielle dans les administrations avec Etalab et la DINSIC
-* **DINSIC** : Soutient la diffusion de la culture numérique (utilisations des données, recours aux méthodes agiles) et la coopération avec la société civile et les écosystèmes innovants (open data, gouvernement ouvert). 
+* **DINUM** : Soutient la diffusion de la culture numérique (utilisations des données, recours aux méthodes agiles) et la coopération avec la société civile et les écosystèmes innovants (open data, gouvernement ouvert). 
 * **Mission Société Numérique de l'Agence du Numérique** : Structure les acteurs de l’accompagnement au numérique et les stratégies numériques des territoires, dont l'open data fait partie.
 
 Au ministère de la Culture :
