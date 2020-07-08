@@ -26,7 +26,7 @@ layout: true
 
 class: center, middle
 
-Ces slides en ligne :https://datactivist.coop/ministere-culture/jour1.html
+Ces slides en ligne :https://datactivist.coop/ministere-culture/classevirtuelle072020.html
 
 Sources : `r paste0("https://github.com/datactivist/", params$slug)`
 
@@ -48,6 +48,8 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 > * Comprendre les problématiques liées aux données du secteur culturel
 
+> * Maitriser les enjeux liés à la qualité des données publiques pour faciliter la réutilisation
+
 
 ---
 ### .red[Programme] de la formation
@@ -60,6 +62,19 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 * L’ouverture des données et la modernisation de l’Etat 
 * Les projets emblématique de l'Open Data culturel
 * Concevoir une stratégie d'ouverture de données : quelques grands principes.
+
+---
+
+--
+class: middle, center
+
+### Avant de commencer
+
+## Présentons nous
+
+![](https://raw.githubusercontent.com/datactivist/aaf/master/img/pdr.png)
+
+.footnote[[Public Domain Review](https://publicdomainreview.org/collection/engravings-from-a-french-ice-skating-manual-1813)]
 
 ---
 
@@ -219,7 +234,7 @@ Dans la lignée des premières initatives de partage de données scientifiques e
 
 ---
 
-### [.red[Facette n°4 :]](https://books.openedition.org/cdf/5005?lang=fr) l'industrie de la donnée
+### [.red[Facette n°4 :]](https://books.openedition.org/cdf/5005?lang=fr) les industries de la donnée
 Le nouveau pétrole et les promesses démesurées de croissance
 
 .reduite[.center[![](https://images.pexels.com/photos/70362/oil-monahans-texas-sunset-70362.jpeg?cs=srgb&dl=dawn-drill-evening-70362.jpg&fm=jpg)]]
@@ -234,15 +249,28 @@ Désiloter l'administration et ouvrir l'innovation, collaborer avec la société
 
 ---
 
+class: inverse
+
+### Selon vous, quelle facette et la plus porteuse actuellement ?
+
+#### A - La transparence
+#### B - La libre circulation de l'information
+#### C - La demande de données brutes
+#### D - Les industries de la données
+#### E - La modernisation des administrations
+
+---
+
+
 ### Que signifie .red[“Open”] dans un contexte culturel ?
 
 * **L’Open Content** (les contenus ouverts) est la mise à disposition gratuite sur Internet des reproductions numériques des œuvres sous une licence garantissant leur libre accès et leur réutilisation par tous, sans restriction technique, juridique ou financière.
 
 * **L’Open Access** (le libre accès) est la mise à disposition gratuite en ligne de contenus numériques, sous licences libres (Creative commons, etc.) ou non.
 
-* **L’Open Knowledge** (la culture libre) est un mouvement social qui promeut la liberté de distribuer et de modifier des œuvres de l’esprit sous la forme d’œuvres libres. Il puise sa philosophie dans celle du logiciel libre en l’appliquant à la culture et à l’information.
-
 * **L’Open Data** (les données ouvertes), est la mise à disposition gratuite sur Internet de données sous une licence libre. Diverses exceptions peuvent y faire obstacle, dont des .red[droits de propriété intellectuelle détenus par des tiers].
+
+* **L’Open Knowledge** (la culture libre) est un mouvement social qui promeut la liberté de distribuer et de modifier des œuvres de l’esprit sous la forme d’œuvres libres. Il puise sa philosophie dans celle du logiciel libre en l’appliquant à la culture et à l’information.
 
 ---
 
@@ -259,14 +287,6 @@ class: inverse, center, middle
 
 <img src="./img/donnees_conventions_subvention.png" height="300"/>
 
----
-
-### La participation citoyenne .red[à l’action publique]
-
-* Exemple : le Grand Débat National, mars 2019
-
-
-![](./img/grand_debat.png)
 
 ---
 
@@ -300,6 +320,19 @@ class: inverse, center, middle
 * Le projet **UrbanHist** à Toulouse
 
 .center[<img src="./img/urbanhist.jpg" height="350"/>]
+
+---
+
+class: inverse
+
+### Quel enjeu vous semble le meilleur levier pour convaincre ?
+
+#### A - La transparence de la vie publique et la participation citoyenne à l'action publique
+#### B - L'efficacité de l'action publique
+#### C - Le développement de l'attractivité des territoires
+#### D - Le soutien à l'innovation économique et sociale
+#### E - La démocratisation culturelle et la transmission des savoirs
+
 
 ---
 class: inverse, center, middle
@@ -587,6 +620,19 @@ timevis(data, loadDependencies = FALSE, width = "715px", height = "350px")
 
 .footnote[Il faudrait maintenant désigner la loi comme le Code des relations entre le public et l'administration (CRPA) qui, dans son [livre 3](https://www.legifrance.gouv.fr/affichCode.do;jsessionid=BDF8EC0BD562E214CCD9A5ADD435D690.tplgfr42s_1?idSectionTA=LEGISCTA000031367685&cidTexte=LEGITEXT000031366350&dateTexte=20190429), codifie le droit d'accès et de réutilisation mais il est encore moins connu que la loi CADA…]
 
+---
+### Un droit d'accès très faible au regard des standards internationaux
+
+.pull-left[Paradoxe : la France a une législation parmi les plus ambitieuses au monde en matière d'open data mais le droit d'accès y est un des plus mauvais au monde… 
+
+La France est classée .red[105e sur 123] du classement mondial des lois d'accès à l'information publique RTI Rating.
+
+L'open data est comme la Tour de Pise : un très bel édifice posé sur des fondations instables.
+]
+
+.pull-right[
+[![](./img/rti.png)](https://www.rti-rating.org/country-data/)
+]
 ---
 
 ### La création du .red[droit de réutilisation des informations publiques] avec la Directive ISP/PSI
@@ -1248,31 +1294,25 @@ class: inverse, center, middle
 ### Le festival [.red[Cultures Remix]](https://medium.com/canope-idf/r%C3%A8glement-du-festival-culturesremix-e8b61e7fc028) par Réseau Canopé
 
 .pull-left[
-![](https://miro.medium.com/max/1600/1*HSR2VoMkIUMFv3WP-bTFTA.jpeg)
+![](https://miro.medium.com/max/1600/1*HSR2VoMkIUMFv3WP-bTFTA.jpeg)]
 
-]
 .pull-right[
 
-![](https://pbs.twimg.com/media/DzqzQHnX4AEOF1a?format=jpg&name=medium)
-
+![](https://pbs.twimg.com/media/DzqzQHnX4AEOF1a?format=jpg&name=medium)]
 
 ---
+
 ### Incrustation
 
 
-.pull-left[
+.center[<img src="./img/incrustezvous1.png"/>] 
 
-![](img/incrustezvous1.png)
+---
 
-]
+### Incrustation
 
-]
-.pull-right[
 
-![](img/incrustezvous2.png)
-
-]
-
+.center[<img src="./img/incrustezvous2.png"/>] 
 
 ---
 
