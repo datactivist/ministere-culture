@@ -1131,24 +1131,21 @@ Les experts des institutions ont collaboré pendant quatre ans avec plusieurs la
 * Lancé en 2012 pendant la période de travaux du [.red[Rijksmuseum d’Amsterdam]](https://www.rijksmuseum.nl/en), le [Rijksstudio](https://www.rijksmuseum.nl/en/rijksstudio) est d’abord le catalogue en ligne des collections de l’institution. Son innovation principale est la place accordée aux utilisateurs, qui, une fois inscrits, peuvent créer leurs propres albums thématiques et télécharger toutes les images d’œuvres entrées dans le domaine public, librement et en haute définition.
 
 ---
-### Les politiques Open Content : .red[Cleveland Museum of Arts (US)]
+### Les politiques .red[Open Content]
 
-Le 23 janvier 2019, le Cleveland Museum of Art a annoncé qu'il devenait une institution en libre accès, utilisant la désignation Creative Commons Zero (CC0) pour les images et les données haute résolution liées à sa collection. 
+Le Rijksmuseum, le Cleveland Museum of Arts, le MET ou encore Paris Musées ont fait le choix de proposer des reproductions numériques de leurs oeuvres en Open Content.
 
-Le public a la possibilité de partager, collaborer, remixer et réutiliser les images de plus de 30 000 œuvres d'art appartenant au domaine public de la collection, à des fins commerciales et non commerciales.
+Toutes les images issues d'œuvres du domaine public de leur collection sont disponibles sous la licence Creative Commons Zero (CC0). Le public a la possibilité de partager, collaborer, remixer et réutiliser les images à des fins commerciales et non commerciales.
 
-En outre, des parties des informations sur les collections (métadonnées) de plus de 61 000 œuvres d'art, appartenant au domaine public et aux œuvres soumises à des droits d'auteur ou à d'autres restrictions, sont également disponibles.
+.pull-left[Au MET, pour faciliter la recherche, il est possible de filtrer par œuvres appartenant au domaine public. Toutes les images en Open Access sont marquées du logo CC0]
 
 
----
+.pull-right[ 
 
-### Les politiques Open Content : .red[le MET Museum]
+.center[<img src="./img/MET_download_icon.jpg" height="200"/>]
 
-* Toutes les images issues d'œuvres du domaine public de la collection du Met sont disponibles sous la licence Creative Commons Zero (CC0)
+]
 
-* Pour faciliter la recherche de ces images sur leur site Web, il est possible de filtrer les recherches par œuvres appartenant au domaine public. Toutes les images en Open Access sont marquées du logo CC0 sur leur page web respective.
-
-.center[<img src="./img/MET_download_icon.jpg" height="250"/>] 
 
 ---
 
