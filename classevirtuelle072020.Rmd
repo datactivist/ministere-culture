@@ -64,8 +64,6 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 * Concevoir une stratégie d'ouverture de données : quelques grands principes.
 
 ---
-
---
 class: middle, center
 
 ### Avant de commencer
