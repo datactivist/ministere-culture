@@ -1,0 +1,531 @@
+---
+title: "Open Data : comprendre les enjeux de l'ouverture des données publiques culturelles."
+subtitle: "Ministère de la Culture"
+author: ""
+date: ""
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+params:
+  event: Open Data, comprendre les enjeux de l'ouverture des données publiques culturelles
+  slug: ministere-culture
+---
+
+layout: true
+
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='0px'></center></span></div>")` 
+
+
+---
+
+class: center, middle
+
+Ces slides en ligne :https://datactivist.coop/ministere-culture/jour1.html
+
+Sources : `r paste0("https://github.com/datactivist/", params$slug)`
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+.reduite[![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)]
+
+---
+### Rappel des .red[objectifs de la formation]
+
+#### Open Data : comprendre les enjeux de l'ouverture des données publiques culturelles
+> * Appréhender le contexte et les opportunités d’une politique Open Data dans la culture.
+
+> * Découvrir des cas pratiques appliqués aux données culturelles.
+
+> * Comprendre les problématiques liées aux données du secteur culturel
+
+
+---
+### .red[Programme] de la formation
+
+#### Open Data : comprendre les enjeux de l'ouverture des données publiques culturelles
+
+* Le mouvement Open Data 
+* L'histoire de l'Open Data 
+* Cadre juridique de l’ouverture des données culturelles
+* L’ouverture des données et la modernisation de l’Etat 
+* Les projets emblématique de l'Open Data culturel
+* Concevoir une stratégie d'ouverture de données : quelques grands principes.
+
+---
+
+class: inverse, center, middle
+
+# 1 - Le mouvement Open Data
+
+---
+
+### .red[Une définition générale] des données 
+
+.pull-left[<img src="https://datactivist.coop/SPoSGL/sections/img/kitchin.png" height="400"/>]
+ 
+.pull-right[
+ 
+##### Les données sont couramment comprises comme les matériaux bruts produits dans l’abstraction du monde en catégories, mesures et toute autre forme de représentation-nombres, caractères, symboles, images, sons, ondes électromagnétiques, bits qui constituent les fondations sur lesquelles l’information et le savoir sont créés.
+
+Cette définition est une des rares à s'extraire des discours entourant les données ou leurs infrastructures. L'auteur de cet ouvrage de référence en sociologie s'attache à définir précisément l'ontologie et l'épistémologie de la donnée.
+]
+
+---
+
+### Une définition .red[des "bases de données"]
+
+Source : [Source : Guide Open Data Cnil](https://www.cnil.fr/sites/default/files/atoms/files/guide_open_data.pdf) 
+
+> On entend par base de données un recueil d'œuvres, de données ou d'autres éléments indépendants, disposés de manière systématique ou méthodique, et individuellement accessibles par des moyens électroniques ou par tout autre moyen (art L112-3 du code de la propriété intellectuelle)
+
+> En d’autres termes il s’agit d’un ensemble de données organisé en vue de son utilisation par des programmes correspondant à des applications distinctes et de manière à faciliter l'évolution indépendante des données et des programmes (en anglais : data base)
+
+Le document donne également une **définition de ce qu'est une "donnée"** :
+
+> Une donnée correspond à la représentation d'une information sous une forme conventionnelle destinée à faciliter son traitement (en anglais : data).
+
+---
+
+### .red[La donnée], le plus petit élément d'information
+
+.pull-left[
+![largeur](https://datactivist.coop/uploads/dataarrow.png)]
+
+.pull-right[
+- Les **.red[données]** sont la matière "brute" de l'information.
+- **.red[L'information]** obtenue après interprétation des données.
+- En créant des liens entre les informations, on obtient de la **.red[connaissance]**
+- Donner du sens aux connaissances permet de se déclarer **.red[compétent]**.
+] 
+---
+
+### .red[Les données], c'est aussi tout ce qui circule dans un ordinateur
+
+Les données ne sont pas seulement le fondement du savoir, elles sont aussi la base de l'informatique. Tout ce qui circule dans un ordinateur, ce sont des données.
+
+.pull-left[![](https://datactivist.coop/SPoSGL/sections/img/volume.png)]
+.pull-right[
+Pensez à votre abonnement téléphonique, chaque mois, vous payez pour consommer un certain volume de données quantifié en octet ou en bit. 
+
+Le volume des données créées et traitées ne cesse de croître en même temps que les capacités de calcul des ordinateurs. 
+]
+
+---
+### .red[Open data] : un terme récent
+
+Le terme est apparu pour la première fois dans les années 1970 dans les accords qu’a signés la NASA avec des pays partenaires en vue du partage de données satellitaires. 
+
+C’est en 1995 qu’on en voit le premier usage public aux Etats-Unis dans un rapport de la National Academy of Science intitutlé "_On the Full and Open Exchange of Scientific Data_". Dans le langage courant, cela fait .red[**près de 10 ans**] que l'ouverture des données est devenue un élément majeur des politiques publiques numériques. 
+
+---
+
+### Open data, .red[les débuts] : 
+
+Au début des années 2010, c’est dans le cadre d’un .red[mouvement international] que l’ouverture des données publiques connaît en France un nouvel élan. L’initiative vient du monde anglo-saxon, **les États-Unis et le Royaume-Uni mettant en place au même moment des plateformes gouvernementales de partage des données
+publiques, dans une démarche dite d’open data**. 
+
+Les objectifs de ce mouvement d’ouverture des données publiques sont à la fois
+
+* .red[citoyens] : une plus grande transparence de l’action publique garantit un meilleur contrôle démocratique
+* .red[économiques] : les données de l’administration peuvent être le support de nombreuses activités économiques et devraient être diffusées aussi largement que possible. 
+
+Le contexte est alors marqué par l’essor considérable des technologies et de l’économique numérique.
+
+---
+class: inverse, center, middle
+
+#### L'open data s'inscrit dans une série de continuités historiques qui en font un **mouvement aux multiples facettes…**
+
+> Il est important de connaître ses fondements philosophiques pour mieux comprendre ses déclinaisons locales et verticales.
+
+---
+
+### L'influence de la .red[culture du logiciel libre]
+
+> Le mouvement de l'open data est largement **influencé par le mouvement du logiciel libre** qui le précède de quelques décennies, et dont les créateurs participèrent à en dessiner les contours, notamment en 2007, lors de la conférence de Sebastopol sur laquelle nous reviendrons. 
+
+**Comment ?**
+
+* Historiquement venu des pratiques des chercheurs en informatique des années 70-80, le partage d'information, de données est un modèle de la recherche scientifique de l'époque. 
+* À partir de 1980, des licences d'utilisation des logiciels prévues pour limiter la liberté de l'utilisateur apparaissent.
+* 1983 : Réaction d'un chercheur du MIT (Richard Stallman) avec le projet GNU (le logiciel, une forme de connaissance scientifique, qui doit être partagée) formalise le concept de Logiciel Libre.
+* 1985: Création de la Fondation pour le Logiciel Libre et rédaction de la General Public License, GPL 
+
+---
+
+### .red[Les principes] du logiciel Libre 
+
+**Les quatre libertés fondamentales** 
+
+* La liberté d'utilisation d'un programme 
+* La liberté d'étudier le fonctionnement d'un programme 
+* La liberté de modifier un programme 
+* La liberté de distribuer un programme
+
+.center[<img src="./img/Linux_penguin.png" height="250"/>]
+
+> Il faut penser à travers ces principes à la libre expression et liberté d'utilisation, non pas à la gratuité
+
+---
+
+### Open data : un mouvement .red[aux multiples facettes]
+
+**Brève introduction aux principales facettes** : 
+
+* La transparence
+
+* La libre circulation de l'information
+
+* La demande de données brutes
+
+* L'industrie de la donnée
+
+* La modernisation des administrations
+
+
+---
+### [.red[Facette n°1 :]](https://books.openedition.org/cdf/5005?lang=fr) la transparence
+
+Aller au-delà du droit d'accès et de la réédition des comptes (_accountability_) : réduire les asymétries d'information en accédant au matériau brut de l'information et du savoir
+
+.reduite[
+![](https://datactivist.coop/aaf/img/ddhc.png)
+]
+
+---
+### [.red[Facette n°2 :]](https://books.openedition.org/cdf/5005?lang=fr) la libre circulation de l’information
+
+Dans la lignée de la cybernétique et du logiciel libre, la circulation des données comme valeur essentielle
+
+.center[<img src="https://farm7.static.flickr.com/6197/6073305958_19c2bbef40_o.jpg" height="400"/>]
+
+---
+
+###  [.red[Facette n°3 :]](https://books.openedition.org/cdf/5005?lang=fr) la demande de données brutes
+
+Dans la lignée des premières initatives de partage de données scientifiques en génétique ou en astronomie, obtenir les données sous leur forme pré-interprétative pour refaire les calculs
+
+.center[<img src="https://datactivist.coop/uploads/taberror.jpg" height="350"/>]
+
+---
+
+### [.red[Facette n°4 :]](https://books.openedition.org/cdf/5005?lang=fr) l'industrie de la donnée
+Le nouveau pétrole et les promesses démesurées de croissance
+
+.reduite[.center[![](https://images.pexels.com/photos/70362/oil-monahans-texas-sunset-70362.jpeg?cs=srgb&dl=dawn-drill-evening-70362.jpg&fm=jpg)]]
+
+---
+
+### .red[Facette n°5 :] la modernisation des administrations
+
+Désiloter l'administration et ouvrir l'innovation, collaborer avec la société civile dans l'élaboration et la mise en œuvre des politiques publiques
+
+.center[![modernisation des administrations](./img/modernisation.jpg)] 
+
+---
+
+### Que signifie .red[“Open”] dans un contexte culturel ?
+
+* **L’Open Content** (les contenus ouverts) est la mise à disposition gratuite sur Internet des reproductions numériques des œuvres sous une licence garantissant leur libre accès et leur réutilisation par tous, sans restriction technique, juridique ou financière.
+
+* **L’Open Access** (le libre accès) est la mise à disposition gratuite en ligne de contenus numériques, sous licences libres (Creative commons, etc.) ou non.
+
+* **L’Open Knowledge** (la culture libre) est un mouvement social qui promeut la liberté de distribuer et de modifier des œuvres de l’esprit sous la forme d’œuvres libres. Il puise sa philosophie dans celle du logiciel libre en l’appliquant à la culture et à l’information.
+
+* **L’Open Data** (les données ouvertes), est la mise à disposition gratuite sur Internet de données sous une licence libre. Diverses exceptions peuvent y faire obstacle, dont des .red[droits de propriété intellectuelle détenus par des tiers].
+
+---
+
+class: inverse, center, middle
+
+# Les principaux enjeux de l'open data 
+
+---
+
+### .red[La transparence de la vie publique] et la participation citoyenne à l’action publique
+
+
+* Exemple avec les **Données essentielles des conventions de subvention**, année 2018
+
+<img src="./img/donnees_conventions_subvention.png" height="300"/>
+
+---
+
+### La participation citoyenne .red[à l’action publique]
+
+* Exemple : le Grand Débat National, mars 2019
+
+
+![](./img/grand_debat.png)
+
+---
+
+### .red[L’efficacité de l’action publique] : amélioration de la qualité des services publics 
+
+* Exemple : .red[sauver des vies en mer] en prévenant les accidents maritimes
+
+![](./img/previ-sauvetage.png)
+
+---
+
+### Le développement de .red[l’attractivité des territoires]
+
+* Le portail .red[*DATAtourisme*]
+
+![](./img/DATAtourisme.jpg)
+
+---
+
+### Le soutien à .red[l’innovation économique et sociale]
+
+* Les données des **valeurs foncières** reprises par le site meilleurs agents, avril 2019
+
+![](./img/dvf_meilleurs_agents.png)
+
+
+---
+
+### Une opportunité en matière de .red[démocratisation culturelle et de transmission des savoirs]
+
+* Le projet **UrbanHist** à Toulouse
+
+.center[<img src="./img/urbanhist.jpg" height="350"/>]
+
+---
+class: inverse, center, middle
+
+# L'histoire de l'Open Data en France et dans le monde
+
+---
+class: center, middle
+
+## Quelques dates jalon dans .red[l'histoire mondiale de l'open data]
+
+---
+
+### 2005 : [L'Open Definition](https://opendefinition.org/)
+
+#### Une définition juridique des droits de l'usager d'un savoir ouvert
+
+.reduite[.center[![](./img/open_definition_FR.png)]]
+
+
+---
+### 2007 : [la rencontre de Sebastopol aux États-Unis](https://opengovdata.org/)
+
+
+**Quoi ?** Une rencontre de l'Open Governement Group à Sebastopol (Californie), le siège des éditions O'Reilly
+
+**Pourquoi ?** : Influencer le futur président des Etats Unis pour faire avancer l'open data
+
+**Comment ?** En adoptant une déclaration définissant les grands principes de l'Open Government Data 
+
+> Ces principes sont fondamentaux dans le futur développement de politiques nationales d’ouverture des données. Ils sont issus de la culture du mouvement du Libre dont les protagonistes sont à l'origine de cette rencontre et réflexion. 
+
+.center[<img src="https://datactivist.coop/dataliteracy/img/photofamille.jpg" height="150"/>]
+
+
+---
+### 2008 : Tim Berners-Lee ["Des données brutes maintenant !"](https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=fr)
+#### La demande de données brutes sous les projecteurs
+
+.center[.reduite[![](https://datactivist.coop/aaf/img/ted.png)]]
+
+---
+### Depuis 2010 : .red[l'ère des classements]
+
+La France a très vite cherché à s’inscrire dans la dynamique de l'open data, non sans succès en termes de reconnaissance internationale : 
+
+* **La France se classe ainsi quatrième** selon le dernier classement (2016) de l’Open Data Index établi par l’Open Knowledge Foundation, derrière Taïwan, l’Australie et la Grande-Bretagne.
+
+* L’année 2016-2017, **la France prend la présidence du Partenariat pour le Gouvernement Ouvert**, une organisation internationale ayant pour objet de promouvoir une gouvernance co-construite entre citoyens et administrations et qui promeut l'ouverture des données comme outil d'information et de participation aux décisions publiques. (*Nous y reviendrons également*)
+
+
+---
+
+### .red[Le baromètre international] de l'open data
+
+**[Le baromètre international de l'Open Data](https://index.okfn.org/place/)** est un classement de référence, tout comme l'Open Data Index de l'Open Knowledge Foundation, organisation internationale ayant pour objet de promouvoir la transparence des données publiques.
+
+![baromètre international de l'Open Data](https://datactivist.coop/aaf/img/odb.png)
+---
+
+### .red[L'Open Data Index] de l'Open Knowledge Foundation
+
+![Open Data Index de l'Open Knowledge Foundation](https://datactivist.coop/aaf/img/godi.png)
+
+---
+
+### 2013 : la [charte du G8 sur l'open data](https://www.modernisation.gouv.fr/sites/default/files/fichiers-attaches/charte-g8-ouverture-donnees-publiques-fr.pdf)
+
+.center[![charte G8](./img/charte_G8.png)]
+
+---
+### 2015 : la [charte internationale de l'open data](https://opendatacharter.net/)
+
+.center[.reduite[![](./img/open-data-charter_FR.png)]]
+
+---
+
+### Conclusion : des .red[principes et une définition] qui se normalisent
+
+* **.red[Une première définition du savoir ouvert] avec l'Open Definition** : "Ouvert signifie que tout le monde peut librement accéder, utiliser, modifier et partager ( *des données ou informations* ) dans n'importe quel but, sous réserve d'exigences qui en préservent la provenance et l'ouverture."
+
+* **Des principes appropriables par les gouvernements** : le travail du G8 en 2013 et plus tard de la Charte Internationale de l'Open Data rend les principes intégrables par les gouvernements.  
+
+
+> Les données ouvertes deviennent des données auxquelles l’accès est totalement public et libre de droit, au même titre que l’exploitation et la réutilisation.
+
+> Les données ouvertes culturelles présentent des particularités juridiques que nous allons détailler par la suite
+
+> **Sur ces bases, la France déploie sa politique nationale de données ouvertes**
+
+---
+
+class: inverse, center, middle
+
+## L'open data en France
+
+---
+
+### Les .red[acteurs publics] de l'open data
+
+* **DINUM - Etalab** : Crée en 2011, la mission coordonne la politique d’ouverture et de partage des données publiques, et anime la plateforme nationale data.gouv.fr 
+* **DITP** : Expérimente l’intelligence artificielle dans les administrations avec Etalab et la DINSIC
+* **DINUM** : Soutient la diffusion de la culture numérique (utilisations des données, recours aux méthodes agiles) et la coopération avec la société civile et les écosystèmes innovants (open data, gouvernement ouvert). 
+* **Mission Société Numérique de l'Agence du Numérique** : Structure les acteurs de l’accompagnement au numérique et les stratégies numériques des territoires, dont l'open data fait partie.
+
+Au ministère de la Culture :
+* **DIN** (Département de l'innovation numérique) : chargé d’identifier au ministère et dans les établissements culturels, les informations produites dans le cadre des missions de service public, de coordonner leur recensement, leur qualification, et la mise à disposition en données ouvertes qui ont vocation à être librement accessibles et gratuitement réutilisables. ( _n’hésitez pas à le contacter pour toute question sur l'Open data_ )
+
+---
+
+### Data.gouv.fr .red[?]
+
+Data.gouv est la plateforme nationale ouverte des données publiques françaises.
+Elle a été conçue et inaugurée en 2011, par la mission Etalab, puis refondue en 2013.
+
+.center[<img src="https://datactivist.coop/SPoSGL/sections/img/datagouvfr.png" height="250"/>] 
+
+On y trouve des milliers de jeux de données, provenant principalement de producteurs publics (Ministère de l'intérieur, Agence française de développement, Insee, Ville de Paris, Région Bretagne, CNIL...) mais aussi de producteurs tiers (OpenStreetMap, OpenFoodFacts...)
+
+---
+### Au-delà de .red[data.gouv.fr]
+
+Data.gouv.fr est la plateforme **nationale** d'open data mais ce n'est pas la seule plateforme publique qui met à disposition des données ouvertes. Il existe :
+
++ Des plateformes open data gérées par les **collectivités territoriales**. Par exemple, [Paris Data](https://opendata.paris.fr/explore/?sort=modified), [la Région Occitanie](https://data.laregion.fr/pages/accueil/), [l'agglomération de Saint-Malo](https://data.stmalo-agglomeration.fr/page/accueil/)...
+
++ Des plateformes open data gérées par des **ministères**. Exemple : [data.culture.gouv.fr](https://data.culture.gouv.fr/pages/home/)
+
++ Des plateformes open data gérées par des **entreprises**. Exemple [DataNova](https://datanova.laposte.fr/page/accueil/) (La Poste)
+
++ Des jeux de données directement publiés sur le site des producteurs de données, sans plateforme dédiée. Exemple : l'Insee.
+
+---
+
+### Les grandes fonctionnalités .red[d’un portail open data]
+
+Un portail open data est un espace de présentation des données publiques ouvertes comprenant idéalement les grandes fonctions suivantes :
+
+* recherche des jeux de données
+
+* présentation détaillées des jeux de données
+
+* accès et extraction des données brutes, sous différents formats, y compris API
+
+* présentation graphique et cartographique des données quand cela est possible
+
+* visibilité sur les réutilisations
+
+* fonctionnalités pour animer la communauté
+
+---
+class: center, middle
+
+### Et au .red[Ministère de la Culture]
+
+> Le ministère de la culture s’est doté en avril 2013 d’une « feuille de route open data », comportant dix actions pour une stratégie numérique de diffusion et de réutilisation des données publiques numériques du secteur culturel. 
+
+---
+
+### Les .red[dates importantes] à retenir
+
+.red[**2011**] : Le ministère s'engage dans la politique gouvernementale en faveur de l’ouverture et du partage des données publiques. Les premiers jeux de données sont publiés par le Ministère sur data.gouv.fr
+
+.red[**2013**] : Adoption de la première feuille de route « open data culturel »
+
+.red[**2014**] : La BnF ouvre ses métadonnées descriptives en "Licence Ouverte" (plus de 12 millions de notices bibliographiques, 2,5 millions de notices d'autorité validées)
+
+.red[**2014/2015**] : Publication de la feuille de route «Métadonnées culturelles et transition Web 3.0» et diffusion des guides de référence en matière de transition technologique vers le Web sémantique
+
+.red[**2016**] : Ouverture du portail data.cuture.gouv.fr
+
+.red[**2017**] : Les Archives nationales optent pour l’ouverture et la gratuité des données
+
+.red[**2018**] : Une nouvelle feuille de route stratégique
+
+---
+
+### Un portail : .red[data.culture.gouv.fr]
+
+![](./img/data.culture.gouv.fr.png)
+
+Le portail des données ouvertes du ministère de la Culture met à disposition les données de l'administration centrale, d'une DRAC ou d'un SCN, référence les données des établissements publics et moissonne automatiquement ces données sur data.gouv.fr, pour pouvoir les exposer sur les deux plateformes à la fois. 
+
+
+*Pour toute information sur la mise à disposition de nouveaux jeux de données, contacter le département de l’innovation numérique (SG/SCPCI) via l’onglet « Contact » de la plateforme data.culture.gouv.fr.*
+
+---
+
+### .red[Pour les établissements publics] : des données hébergées sur data.gouv.fr, visibles sur data.culture.fr
+
+Pour les établissements publics, la mise à disposition des données est à effectuer sur le site .red[data.gouv.fr.]
+
+Afin d’améliorer la visibilité des données culturelles, le ministère référence également les données des établissements sur la plateforme ministérielle data.culture.gouv.fr.
+
+Cela implique la création d’une page dédiée à l'établissement, puis la publication des jeux de données conformément [aux modalités précisées par la DINSIC](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/)
+
+> **Le ministère mettra en place les mécanismes nécessaires pour que toutes les données publiées de cette façon soient ensuite automatiquement visibles sur data.culture.gouv.fr.**
+
+---
+
+### Culture : principales catégories de données .red[concernées par l’ouverture]  
+
+* Les **données statistiques** des institutions culturelles : fréquentation, entrées, équipements
+* Les **bases de données des collections** : métadonnées et plus largement les données associées aux œuvres (localisation, description, auteur, œuvres associées, prix, propriétaire) avec images ou sans image
+* Les **listes de structures** : musées, monuments, cinéma, etc.
+* Les référentiels ou nomenclatures 
+* Les données de type **agenda**, événements, programmations
+* Les **données financières** : financement, ressources, budgets annuels, subventions
+
+> Important : les œuvres protégées par le droit d’auteur ou un droit voisin ne peuvent faire l’objet d’un droit de réutilisation, mais les œuvres entrées dans le domaine public relèvent pleinement de l’ouverture des données publiques.
+
+---
+
+### Le saviez-vous .red[?]
+
+Suite à une consultation publique menée par le ministère qui invitait les citoyens à répondre à la question : “quelles sont les données publiques culturelles stratégiques que vous souhaitez voir ouvertes à la réutilisation libre et gratuite ?”
+
+La consultation avait mis en avant trois types de données publiques particulièrement recherchées :
+
+* 1- Les données statistiques et économiques des institutions culturelles (fréquentation, subventions…) 
+
+* 2- Les métadonnées culturelles
+
+* 3- Les fichiers images et copies numériques des œuvres entrées dans le domaine public.
+
+---
+class: inverse, center, middle
+
+# Merci !
