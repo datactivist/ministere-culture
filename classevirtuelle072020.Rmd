@@ -377,7 +377,7 @@ class: center, middle
 
 La France a très vite cherché à s’inscrire dans la dynamique de l'open data, non sans succès en termes de reconnaissance internationale : 
 
-* **La France se classe ainsi quatrième** selon le dernier classement (2016) de l’Open Data Index établi par l’Open Knowledge Foundation, derrière Taïwan, l’Australie et la Grande-Bretagne.
+* **La France se classe ainsi quatrième** selon le dernier classement (2019) de l’Open Data Index établi par l’Open Knowledge Foundation, derrière Taïwan, l’Australie et la Grande-Bretagne.
 
 * L’année 2016-2017, **la France prend la présidence du Partenariat pour le Gouvernement Ouvert**, une organisation internationale ayant pour objet de promouvoir une gouvernance co-construite entre citoyens et administrations et qui promeut l'ouverture des données comme outil d'information et de participation aux décisions publiques. (*Nous y reviendrons également*)
 
@@ -404,7 +404,7 @@ La France a très vite cherché à s’inscrire dans la dynamique de l'open data
 ---
 ### 2015 : la [charte internationale de l'open data](https://opendatacharter.net/)
 
-.center[.reduite[![](./img/open-data-charter_FR.png)]]
+.center[.reduite[![](https://datactivist.coop/aaf/img/odcharter.png)]]
 
 ---
 
@@ -508,7 +508,7 @@ class: center, middle
 
 ---
 
-### Un portail : .red[data.culture.gouv.fr]
+### .red[data.culture.gouv.fr] : lieu de publication des données de l'administration centrale, d'une DRAC ou d'un SCN
 
 ![](./img/data.culture.gouv.fr.png)
 
@@ -519,9 +519,8 @@ Le portail des données ouvertes du ministère de la Culture met à disposition 
 
 ---
 
-### .red[Pour les établissements publics] : des données hébergées sur data.gouv.fr, visibles sur data.culture.fr
+### .red[data.gouv.fr] : lieu de publication des établissements publics
 
-Pour les établissements publics, la mise à disposition des données est à effectuer sur le site .red[data.gouv.fr.]
 
 Afin d’améliorer la visibilité des données culturelles, le ministère référence également les données des établissements sur la plateforme ministérielle data.culture.gouv.fr.
 
@@ -629,7 +628,7 @@ L'open data est comme la Tour de Pise : un très bel édifice posé sur des fond
 ]
 
 .pull-right[
-[![](./img/rti.png)](https://www.rti-rating.org/country-data/)
+[![](https://datactivist.coop/aaf/img/rti.png)](https://www.rti-rating.org/country-data/)
 ]
 ---
 
