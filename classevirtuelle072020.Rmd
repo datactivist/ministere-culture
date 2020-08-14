@@ -1365,7 +1365,7 @@ class: middle
 
 .pull-left[
 
-* **De nombreux profils et équipes doivent s'emparer de l'open data**
+**De nombreux profils et équipes doivent s'emparer de l'open data**
 
 [![](https://datactivist.coop/aaf/img/users.png)](https://thereboot.github.io/moti-personas/)
 
@@ -1374,20 +1374,16 @@ Une bonne stratégie consiste à réduire les frictions :
 ]
 .pull-right[
 
-* ####  Rendre les données moins difficiles à trouver (*enjeu de trouvabilité*)
-
-* ####  Publier les données avec une bonne granularité temporelle et spatiale
-
-* ####  Documenter les jeux de données pour en comprendre la structure
-
-* #### Veiller à leur mise à jour la plus fréquente possible
-
-* #### Rendre les portails attractifs à tous (et pas qu'aux développeurs web) 
+* Rendre les données moins difficiles à trouver (*enjeu de trouvabilité*)
+* Publier les données avec une bonne granularité temporelle et spatiale
+* Documenter les jeux de données pour en comprendre la structure
+* Veiller à leur mise à jour la plus fréquente possible
+* Rendre les portails attractifs à tous (et pas qu'aux développeurs web) 
 
 ]
 
 ---
-### Les freins à l'ouverture des données
+### Les .red[freins] à l'ouverture des données
 
 * **Les coûts temporels et financiers** : extraction, anonymisation, hébergement des données, numérisation des œuvres ...  
 _Pour y palier : accompagner les opérateurs et évaluer les risques/bénéfices, fixer une feuille de route open data pour prioriser/rationnaliser._
