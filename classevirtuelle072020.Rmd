@@ -862,7 +862,7 @@ Le portail Data Culture basé sur la solution OpenDataSoft permet de trouver rap
 
 
 .pull-right[
-On trouvera ainsi facilement la [base Joconde](https://data.culture.gouv.fr/explore/dataset/base-joconde-extrait/information/) qui décrit les oeuvres des musées de France et contient environ 600 000 notices.
+On trouvera ainsi facilement les bases avec le plus d'enregistrements comme la [base Joconde](https://data.culture.gouv.fr/explore/dataset/base-joconde-extrait/information/) qui décrit les oeuvres des musées de France et contient environ 600 000 notices.
 
 ![](./img/joconde.png)
 
