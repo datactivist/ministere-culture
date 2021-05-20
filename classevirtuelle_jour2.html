@@ -250,24 +250,7 @@ Le contrat de licence de réutilisation permet de déterminer les droits et obli
 ---
 
 ### Etape 2 : Préparer les données
-
-#### 2.2 Renseigner les données
-
-.pull-left[
-.center[&lt;img src="./img/meta_dataculture.png" /&gt;]
-ainsi que des éléments générés automatiquement (date de publication, de modification...)
-]
-
-.pull-right[
-.center[&lt;img src="./img/meta_datagouv.png" /&gt;]
-]
-
-.red[**Ces informations sont indispensables et donnent un maximum de visibilité à vos données dans les moteurs de recherche**.]
-
----
-
-### Etape 2 : Préparer les données
-#### 2.2 Renseigner les données
+#### 2.2 Documenter les données
 
 Joindre au fichier de données, à chaque fois que cela est utile, des documents associés permettant de rendre les 
 données plus explicites, et d'en éclairer l'usage.
@@ -296,7 +279,7 @@ Le document en question pourra par exemple être dictionnaire des différentes v
 ]
 
 ---
-### 2. Préparer les données
+### Etape 2. Préparer les données
 #### 2.2 Mettre en .red[qualité] les données
 
 Quelques principes à retenir :
@@ -305,6 +288,7 @@ Quelques principes à retenir :
 * Compléter vos fichiers par les données de géolocalisation quand cela est possible ;
 * Compléter l'adresse postale par le code INSEE (afin de faciliter la géolocalisation dans le cas des noms de villes homonymes) ;
 * Utiliser la norme ISO 8601 pour les dates, format : « AAAA-MM-JJ ».
+* Faciliter au maximum le traitement par les réutilisateurs : uniformiser les saisies, rendre le fichier traitable par des machines...
 
 ---
 ### Etape 2 : Préparer les données
@@ -351,9 +335,14 @@ Microsoft a tenté d'ouvrir les formats de sa suite Microsoft Office. Toutes ses
 
 ---
 
-### [WTFCSV](https://databasic.io/en/wtfcsv/) : un outil pour prévisualiser un jeu de données en .csv
+### Exercice : .red[réalisez un fichier .csv de qualité]
 
-![](https://datactivist.coop/occitanie/img/wtfcsv.png)
+&gt; **À vous maintenant** !
+
+* Utilisez les bonnes pratiques et apprenez à réaliser un fichier de type tableur sans erreur
+* Puis, à produire ensuite un fichier .CSV répondant aux critères de publication en open data
+
+![](./img/exercice_csv2.png)
 
 ---
 ### OpenRefine : .red[pour éditer ou traiter] des données en masse
@@ -366,14 +355,9 @@ Microsoft a tenté d'ouvrir les formats de sa suite Microsoft Office. Toutes ses
 
 ---
 
-### Exercice : .red[réalisez un fichier .csv de qualité]
+### [WTFCSV](https://databasic.io/en/wtfcsv/) : un outil pour prévisualiser un jeu de données en .csv
 
-&gt; **À vous maintenant** !
-
-* Utilisez les bonnes pratiques et apprenez à réaliser un fichier de type tableur sans erreur
-* Puis, à produire ensuite un fichier .CSV répondant aux critères de publication en open data
-
-![](./img/exercice_csv.png)
+![](https://datactivist.coop/occitanie/img/wtfcsv.png)
 
 ---
 class: inverse, center, middle
@@ -384,9 +368,38 @@ class: inverse, center, middle
 
 ### Étape 3 : .red[Diffuser et valoriser] les données
 
-#### Rendre les données découvrables
-#### Soigner les métadonnées
-#### Mettre en place une API pour diffuser des données
+#### 3.1 utiliser la bonne plateforme de publication
+#### 3.2 Rendre les données découvrables
+#### 3.3 Mettre en place une API pour diffuser des données
+
+---
+
+### Étape 3 : .red[Diffuser et valoriser] les données
+
+#### 3.1 utiliser la bonne plateforme de publication
+
+.red[Le portail data.culture.gouv.fr]
+
+Le portail des données ouvertes du ministère de la Culture met à disposition les données de l'administration centrale, d'une DRAC ou d'un SCN, référence les données des établissements publics et moissonne automatiquement ces données sur data.gouv.fr, pour pouvoir les exposer sur les deux plateformes à la fois. 
+
+*Pour toute information sur la mise à disposition de nouveaux jeux de données, contacter le département de l’innovation numérique (SG/SCPCI) via l’onglet « Contact » de la plateforme data.culture.gouv.fr.*
+
+---
+
+### Étape 3 : .red[Diffuser et valoriser] les données
+
+#### 3.1 utiliser la bonne plateforme de publication
+
+.red[Le portail data.gouv.fr]
+
+Pour les établissements publics, la mise à disposition des données est à effectuer sur le site .red[data.gouv.fr.]
+
+Afin d’améliorer la visibilité des données culturelles, le ministère référence également les données des établissements sur la plateforme ministérielle data.culture.gouv.fr.
+
+Cela implique la création d’une page dédiée à l'établissement, puis la publication des jeux de données conformément [aux modalités précisées par la DINSIC](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/)
+
+&gt; **Le ministère mettra en place les mécanismes nécessaires pour que toutes les données publiées de cette façon soient ensuite automatiquement visibles sur data.culture.gouv.fr.**
+
 
 ---
 ### La découvrabilité : un .red[enjeu crucial]
@@ -414,9 +427,9 @@ Idéalement et pour faciliter les réutilisations, les données doivent être fa
 
 ---
 
-### Rendre les données trouvables 
+### Étape 3 : .red[Diffuser et valoriser] les données
 
-#### 1 - Les plateformes d'open data
+#### 3.2 Rendre les données découvrables
 
 Elles permettent de faire en sorte que les données soient faciles à trouver auprès des utilisateurs grâce à une recherche optimisée par filtres ou par texte libre **dans un catalogue**. Elles offrent aussi des flux de données découvrables et archivables qui permettent à des moteurs de recherche d’indexer les données ouvertes et de les rendre plus facile à trouver.
 
@@ -424,9 +437,9 @@ Elles permettent de faire en sorte que les données soient faciles à trouver au
 
 ---
 
-### Rendre les données trouvables 
+### Étape 3 : .red[Diffuser et valoriser] les données
 
-#### 2 - Soigner ses métadonnées
+#### 3.2 Rendre les données découvrables
 
 &gt; “Les métadonnées sont de l’information structurée qui décrit, explique, localise ou facilite autrement l’obtention, l’utilisation ou la gestion d’une ressource d’information. Les métadonnées sont souvent appelées données des données ou information sur l’information.”
 
@@ -437,39 +450,25 @@ http://www.niso.org/publications/press/UnderstandingMetadata.pdf
 
 ---
 
-### Des exemples de metadonnées
+### Étape 3 : .red[Diffuser et valoriser] les données
 
-.center[&lt;img src="./img/metadonnees_exemples.png" height="400"/&gt;]
+#### 3.2 Rendre les données découvrables
 
-*Revoir la partie sur les notices explicatives*
+.pull-left[
+.center[&lt;img src="./img/meta_dataculture.png" /&gt;]
+ainsi que des éléments générés automatiquement (date de publication, de modification...)
+]
 
----
+.pull-right[
+.center[&lt;img src="./img/meta_datagouv.png" /&gt;]
+]
 
-### En pratique : où diffuser vos données ?
-
-#### 1 - Sur le portail .red[data.culture.gouv.fr]
-
-Le portail des données ouvertes du ministère de la Culture met à disposition les données de l'administration centrale, d'une DRAC ou d'un SCN, référence les données des établissements publics et moissonne automatiquement ces données sur data.gouv.fr, pour pouvoir les exposer sur les deux plateformes à la fois. 
-
-*Pour toute information sur la mise à disposition de nouveaux jeux de données, contacter le département de l’innovation numérique (SG/SCPCI) via l’onglet « Contact » de la plateforme data.culture.gouv.fr.*
-
----
-
-### Où diffuser vos données ?
-
-#### 2 - Sur le portail .red[data.gouv.fr]
-
-Pour les établissements publics, la mise à disposition des données est à effectuer sur le site .red[data.gouv.fr.]
-
-Afin d’améliorer la visibilité des données culturelles, le ministère référence également les données des établissements sur la plateforme ministérielle data.culture.gouv.fr.
-
-Cela implique la création d’une page dédiée à l'établissement, puis la publication des jeux de données conformément [aux modalités précisées par la DINSIC](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/)
-
-&gt; **Le ministère mettra en place les mécanismes nécessaires pour que toutes les données publiées de cette façon soient ensuite automatiquement visibles sur data.culture.gouv.fr.**
+.red[**Ces informations sont indispensables et donnent un maximum de visibilité à vos données dans les moteurs de recherche**.]
 
 ---
+### Étape 3 : .red[Diffuser et valoriser] les données
 
-### Mettre en place une API pour .red[faciliter les intéractions]
+#### 3.3 Mettre en place une API pour .red[faciliter les intéractions]
 
 &gt; Le développement de normes ouvertes a permis une certaine cohérence et une uniformité d’interfaces de programmation d’application (API) pour la découverte, l’accès et l’utilisation des données.
 
