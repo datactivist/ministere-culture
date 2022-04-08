@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>L’ouverture des données publiques culturelles en pratique</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Datactivist - Anne-Laure Donzel" />
+    <meta name="date" content="2022-04-05" />
+    <script src="libs/header-attrs-2.11/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# L’ouverture des données publiques culturelles en pratique
+## Ministère de la Culture
+### Datactivist - Anne-Laure Donzel
+### 2022-04-05
+
+---
+
+
+layout: true
+
+&lt;div class='my-footer'&gt;&lt;span&gt;L'ouverture des données publiques culturelles en pratique&lt;/span&gt; &lt;center&gt;&lt;div class=logo&gt;&lt;img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'&gt;&lt;/center&gt;&lt;/span&gt;&lt;/div&gt;
+
+---
+
+class: center, middle
+
+Ces slides en ligne :
+http://datactivist.coop/ministere-culture
+
+Sources : https://github.com/datactivist/ministere-culture
+
+Les productions de Datactivist sont librement réutilisables selon les
+termes de la licence [Creative Commons 4.0
+BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+&lt;BR&gt; &lt;BR&gt;
+
+![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
+
+---
+
+### Programme de la formation
+
+#### Open Data : l'ouverture des données publiques culturelles .red[en pratique]
+
+-   Concevoir une stratégie open data
+-   Identifier des données à ouvrir
+-   Les formats de données
+-   Mettre en qualité des données
+-   Publier des données culturelles et produire des métadonnées de qualité
+-   Animer un projet d'open data et inciter à la réutilisation de
+    données
+-   Gérer la relation avec les (ré)utilisateurs
+
+---
+
+### Aujourd'hui, vous allez .red[apprendre à :]
+
+#### Concevoir une stratégie Open Data
+
+#### Comprendre la qualité nécessaire pour publier des données
+
+#### Préparer des données et s'initier au travail nécessaire à la publication
+
+#### Évaluer des opportunités d'ouverture de données
+
+#### Animer et valoriser la réutilisation
+
+---
+
+class: inverse, center, middle
+
+# 1. Quelques rappels pour commencer : L'essentiel de l'open data en 15 minutes
+
+---
+
+### Avant d'approfondir la pratique, voici un .red[bref retour sur les bases]
+
+- Comment définissez-vous l'open data ?
+- Quels sont les enjeux de l'open data ?
+- Quelles données peuvent être ouvertes dans le domaine de la culture ?
+
+---
+
+### Une ou plusieurs définitions ?
+
+-   **L'open data** se définit comme : "des données devant être
+    accessibles gratuitement, dans un format utilisable et modifiable
+    pour servir tout objectif." D'après la définition du **savoir
+    ouvert**, [l'open definition](http://opendefinition.org/od/1.1/fr/)
+
+-   **L'open content** va concerner l'ouverture des contenus culturels
+    en eux-mêmes
+
+Par exemple : l'open data va consister en l'ouverture des inventaires
+d'oeuvres et l'open content en l'ouverture des images des oeuvres. Dans
+les deux cas :
+
+.red[**Ouverture = mise à disposition + possibilité de réutilisation**]
+
+---
+
+### Les enjeux
+
+-   La transparence de la vie publique et la participation citoyenne à
+    l'action publique
+-   L'efficacité de l'action publique : amélioration de la qualité des
+    services publics
+-   Le développement de l'attractivité des territoires
+-   Le soutien à l'innovation économique et sociale
+-   Une opportunité en matière de démocratisation culturelle et de
+    transmission des savoirs
+
+
+---
+
+### Culture : principales catégories de données .red[concernées par l'ouverture]
+
+-   Les **données statistiques** des institutions culturelles :
+    fréquentation, entrées, liste des équipements
+-   Les **bases de données des collections** : métadonnées et plus
+    largement les données associées aux œuvres (localisation,
+    description, auteur, œuvres associées, prix, propriétaire)
+-   Les **contenus numérisés** (ou nativement numériques): images des
+    tableaux, archives, photos, sons, vidéos
+-   Les **listes de structures** : musées, monuments, cinéma, etc.
+-   Les **référentiels ou nomenclatures** : vocabulaires controlés,
+    thesaurii etc.
+-   Les données de type **agenda** : événements, programmations
+-   Les **données financières** : financement, ressources, budgets
+    annuels, subventions
+
+&gt; Important : pour la mise à disposition des oeuvres (numérisées ou nativement numériques), il faut tenir compte du droit de propriété intellectuelle avant l'ouverture.
+
+---
+class: inverse, center, middle
+
+&gt; ### Derrière chaque fichier se cache une découverte
+---
+
+class: inverse, center, middle
+
+# 1 - Concevoir une stratégie open data
+
+---
+
+### Réussir .red[sa stratégie d'ouverture] de données
+
+- Au-delà de l'obligation légale : .red[**poser les objectifs**] poursuivis par la stratégie
+
+- Se donner les moyens de connaître la .red[**demande de données**] pour y répondre
+
+- Travailler à la .red[**qualité des données**], garante d'usages réels
+    
+- Mener le projet d'ouverture comme un .red[**projet de modernisation**]
+
+---
+
+### Les politiques open data .red["de l'offre"]
+
+.pull-left[
+#### En théorie
+
+&gt; #### Toutes les données sont ouvertes sous leur forme brute dès leur production
+
+]
+.pull-right[
+
+
+#### En pratique
+
+&gt; #### L’administration choisit quelles données ouvrir, comment les ouvrir, quand les ouvrir et ce qu’elles contiennent
+
+]
+---
+
+### Les conséquences pour .red[les réutilisateurs :]
+
+#### Un parcours fait de frictions et de déceptions
+
+.pull-left[
+[![](https://datactivist.coop/aaf/img/users.png)](https://thereboot.github.io/moti-personas/)]
+.pull-right[]
+
+---
+
+class: inverse, center, middle
+
+# 2 - Les étapes de l'ouverture des données
+
+---
+
+class: middle
+
+### Comment ouvrir ses données : .red[les différentes étapes] pratiques à suivre
+
+-   **Étape 1** : Sélectionner les données
+-   **Étape 2** : Préparer les données
+-   **Étape 3** : Diffuser et valoriser les données
+
+---
+
+class: inverse, center, middle
+
+## Etape 1 : Sélectionner les données
+
+---
+
+### Étape 1 : .red[Selectionner les données]
+
+1.1 Effectuer un état des lieux permettant de faire .red[**l'inventaire des données existantes.**] Cette opération permet également d'identifier d'éventuelles contraintes à l'ouverture et ainsi d'envisager les actions concrètes à mener.
+
+&gt; Une cartographie de données a pour objectif de recenser les données
+&gt; issues d'un ou de plusieurs système d'information afin d'améliorer la
+&gt; connaissance d'un patrimoine de données potentiel.
+
+.center[&lt;img src="./img/tableaucarto.png" height="280"/&gt;]
+
+---
+class: center, middle
+
+# Exercice de cartographie
+
+A partir du support partagé : compléter la cartographie avec les données de votre service.
+---
+
+### Étape 1 : .red[Selectionner les données à ouvrir en priorité]
+
+1.2 .red[Cette sélection se fait en fonction des objectifs et des moyens de votre structure].
+
+&gt; Il y a plusieurs possibilités : se conformer à une stratégie formalisée, suivre les demandes des communautés de réutilisateurs...
+
+
+## .center[![](img/Template_eval.png)]
+
+---
+class: center, middle
+
+# Exercice d'évaluation des données et de priorisation
+
+1. Prenez connaissance de la cartographie fictive
+
+--
+
+2. Evaluer les jeux de données
+
+--
+
+3. Prioriser l'ouverture suivant les objectifs de votre structure
+---
+
+class: inverse, center, middle
+
+## Etape 2 : Préparer les données
+
+---
+### Etape 2 : Préparer les données
+#### 2.1 Choisir un .red[format ouvert]
+
+Les données doivent être téléchargeables dans un « standard ouvert », c'est à dire dans un format ouvert aisément réutilisable et exploitable par un système de traitement automatisé et pérenne. Les formats ouverts favorisent l’intéropérabilité : les données pourront être réutilisées indépendamment du logiciel qui a été utilisé pour les créer.
+
+Voici quelques exemples de formats « ouverts » conseillés pour la diffusion des jeux de données en ligne : 
+
+* **Texte brut** : ASCII (.txt)
+* **Texte formaté** : TeX (.tex), OpenDocument Text (.odt), Hypertext Markup
+Language (.htm ou .html), XHTML (.xhtml), Feuilles de style en cascade (.css)
+* **Images** : png (.png), jpeg (.jpg ou .jpeg)
+* **Données brutes** : CSV (.csv) / sans extension, JSON (.json), XML (.xml)
+* **Données géographiques** : KML (.kml), SHP (.shp)
+
+---
+
+### Accessibilité des formats des données .red[pour les humains et pour les machines]
+
+
+.center[&lt;img src="./img/accesibilite_formats_donnees.png" height="300"/&gt;]
+
+
+Source : Françoise Paquienséguy, Valentyna Dymytrova. Livrable 1.2 Analyse de portails métropolitains de données ouvertes à l’échelle internationale. Rapport de recherche 1.2, Equipe d’accueil lyonnaise en Sciences de l’information et de la communication. 2017. [hal-01449348](https://hal.archives-ouvertes.fr/hal-01449348)
+
+
+---
+
+### L'importance de la .red[qualité des données]
+
+#### .red[Une remarque récurrente :]
+
+&gt; **Les données publiques sont souvent incomplètes, non actualisées, de
+&gt; mauvaise qualité et fragmentaires.**
+
+&gt; Dans la plupart des cas, les catalogues ou portails de données
+&gt; ouvertes sont alimentés manuellement, conséquence d'une approche
+&gt; informelle de la gestion des données.
+
+&gt; De plus, les procédures, les calendriers et les responsabilités des
+&gt; institutions publiques chargées de leur gestion manquent souvent de
+&gt; clarté. Ainsi, de manière générale, la gestion et la publication des
+&gt; données ouvertes sont fragiles et sujettes à des erreurs multiples.
+
+Source : [Rapport mondial du 4e Open Data
+Barometer](https://opendatabarometer.org/4thedition/report/?lang=fr)
+
+---
+### Etape 2. Préparer les données
+#### 2.2 Mettre en .red[qualité] les données
+
+Quelques principes à retenir :
+
+* Mettre à disposition des séries chronologiques les plus longues possibles avec la granularité la plus fine, tout en respectant le secret de la vie privée et le secret statistique ; 
+* Compléter vos fichiers par les données de géolocalisation quand cela est possible ;
+* Compléter l'adresse postale par le code INSEE (afin de faciliter la géolocalisation dans le cas des noms de villes homonymes) ;
+* Utiliser la norme ISO 8601 pour les dates, format : « AAAA-MM-JJ ».
+* Faciliter au maximum le traitement par les réutilisateurs : uniformiser les saisies, rendre le fichier traitable par des machines...
+
+---
+
+### OpenRefine : .red[le meilleur ami de la communauté GLAM]
+
+&gt; **OpenRefine est un outil gratuit de traitement de données en masse**
+
+&gt; Il se télécharge sur l'ordinateur et permet de faire des opérations de traitement de données sur de gros fichiers, qu'Excel ne peut pas traiter. 
+
+
+![](img/open_refine.jpg)
+
+---
+
+class: center, middle
+
+# Open refine
+
+Démo
+
+
+---
+class: inverse, center, middle
+
+## Étape 3 : Diffuser et valoriser les données
+---
+
+### Étape 3 : .red[Diffuser et valoriser] les données
+
+#### 3.1 Standardiser ses données
+
+#### 3.2 Bien documenter ses données pour rendre ses données découvrables
+
+#### 3.3 Mettre en place une API pour diffuser des données
+
+---
+### Étape 3 : .red[Diffuser et valoriser] les données
+
+#### Etape 3.1 Standardiser les données .red[si possible]
+
+La standardisation permet de définir une description commune à plusieurs producteurs et pour des données de même type.
+
+Un exemple : .red[le standards des données des registres d'entrées d'archives]
+
+![](img/registre_entree.png)
+
+
+---
+
+### Exercice : .red[réalisez un fichier .csv de qualité]
+
+&gt; **À vous maintenant** !
+
+-   Utilisez les bonnes pratiques et apprenez à réaliser un fichier de
+    type tableur sans erreur
+-   Puis, à produire ensuite un fichier .CSV répondant aux critères de
+    publication en open data
+
+![](./img/exercice_csv2.png)
+
+---
+
+### Étape 3 : .red[Diffuser et valoriser] les données
+
+#### 3.2 Documenter les données
+
+Des données mal décrites vont être introuvables et donc, elles ne seront pas utilisées.
+
+![](img/metadonnees.png)
+
+---
+### Étape 3 : .red[Diffuser et valoriser] les données
+
+#### La découvrabilité : un .red[enjeu crucial]
+.pull-left[
+![](https://index.okfn.org/images/Datagapsclean.jpg)
+]
+.pull-right[
+"La découvrabilité des données est un défi majeur. Nous avons des portails et des registres de données, mais les organismes gouvernementaux qui relèvent d'un seul gouvernement national publient toujours les données de différentes façons et à différents endroits (...).
+
+**La découvrabilité des données est une condition préalable pour que les données ouvertes réalisent leur potentiel. Or, actuellement la plupart des données sont très difficiles à trouver**."]
+
+
+.footnote[Source : [Classement mondial de l'Open Data](https://index.okfn.org/insights/)]
+
+---
+
+### Étape 3 : .red[Diffuser et valoriser] les données
+
+#### Comment rendre .red[les données trouvables ?]
+
+Idéalement et pour faciliter les réutilisations, les données doivent
+être faciles à trouver notamment via les moteurs de recherche, ce qui
+implique :
+
+-   des arborescences de classement et des mots clé cohérents
+-   une stratégie de préservation à long-terme de la donnée (archivage
+    sécurisé, etc.)
+-   d'attribuer un identificateur unique et pérenne aux métadonnées
+-   des métadonnées enregistrées (ou au moins indexées) dans un lieu
+    consultable (un catalogue, un portail open data)
+
+---
+
+### Étape 3 : .red[Diffuser et valoriser] les données
+
+#### 3.1 Rendre les données découvrables
+
+&gt; "Les métadonnées sont de l'information structurée qui décrit,
+&gt; explique, localise ou facilite autrement l'obtention, l'utilisation ou
+&gt; la gestion d'une ressource d'information. Les métadonnées sont souvent
+&gt; appelées données des données ou information sur l'information."
+
+Source : National Information Standards Organization
+&lt;http://www.niso.org/publications/press/UnderstandingMetadata.pdf&gt;
+
+&gt; **Les Métadonnées descriptives décrivent une ressource à des fins de
+&gt; découverte et d'identification.**
+
+
+
+---
+
+### Étape 3 : .red[Diffuser et valoriser] les données
+
+#### 3.1 utiliser la bonne plateforme de publication
+
+.red[Le portail data.culture.gouv.fr]
+
+Le portail des données ouvertes du ministère de la Culture met à
+disposition les données de l'administration centrale, d'une DRAC ou d'un
+SCN, référence les données des établissements publics et moissonne
+automatiquement ces données sur data.gouv.fr, pour pouvoir les exposer
+sur les deux plateformes à la fois.
+
+*Pour toute information sur la mise à disposition de nouveaux jeux de
+données, contacter le département de l'innovation numérique (SG/SCPCI)
+via l'onglet « Contact » de la plateforme data.culture.gouv.fr.*
+
+---
+
+### Étape 3 : .red[Diffuser et valoriser] les données
+
+#### 3.2 Utiliser la bonne plateforme de publication
+
+.red[Le portail data.gouv.fr]
+
+Pour les établissements publics, la mise à disposition des données est à
+effectuer sur le site .red[data.gouv.fr.]
+
+Afin d'améliorer la visibilité des données culturelles, le ministère
+référence également les données des établissements sur la plateforme
+ministérielle data.culture.gouv.fr.
+
+Cela implique la création d'une page dédiée à l'établissement, puis la
+publication des jeux de données conformément [aux modalités précisées
+par la
+DINSIC](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/)
+
+&gt; **Le ministère mettra en place les mécanismes nécessaires pour que
+&gt; toutes les données publiées de cette façon soient ensuite
+&gt; automatiquement visibles sur data.culture.gouv.fr.**
+
+---
+class: center, middle
+
+# Exercice de description
+
+A partir du template *Documenter un jeu de données* et du jeu de données *exercice_métadonnees*.
+
+---
+### Étape 3 : .red[Diffuser et valoriser] les données
+
+#### 3.3 Mettre en place une API pour .red[faciliter les intéractions]
+
+&gt; Le développement de normes ouvertes a permis une certaine cohérence et une uniformité d’interfaces de programmation d’application (API) pour la découverte, l’accès et l’utilisation des données.
+
+&gt; Les données sont servies avec des formats et protocoles respectant des standards. Elle sont compréhensibles par des applications et des robots.
+
+---
+
+### .red[Data.BnF] se dote d'une API permettant les réutilisations
+
+Exemple : .red[**Gallicarte**], un projet de géolocalisation des
+résultats de recherche dans Gallica
+
+Ce projet consiste à afficher les résultats d'une recherche effectuée
+dans Gallica (Bibliothèque numérique de la BnF) sur une carte, et de
+visualiser, par exemple, l'ensemble d'un fonds photographique
+géolocalisé. Pour le grand public, la carte comme mode d'affichage est
+d'utilisation simple.
+
+.center[&lt;img src="./img/gallicarte.jpeg" height="200"/&gt;]
+
+En savoir plus : [Un projet issu du Hackathon de la
+BnF](http://gallicastudio.bnf.fr/projets-collaboratifs/gallicarte-un-projet-de-g%C3%A9olocalisation-des-r%C3%A9sultats-de-recherche-dans)
+ 
+---
+
+### Résumé : les .red[facteurs clés de succès] d'une stratégie open data
+
+#### Obtenir un soutien au plus haut niveau
+
+-   Pour mettre en oeuvre les moyens et les ressources à déployer
+
+#### Configurer l'organisation pour l'ouverture
+
+-   Organiser la gouvernance, les circuits de validation
+
+#### Faciliter la découverte et l'utilisation des données
+
+-   Faire attention au référencement, à la qualité des métadonnées
+
+#### Rester à l'écoute et interagir avec les usagers
+
+-   Prévoir des boucles de participation
+
+---
+
+class: inverse, center, middle
+
+# Animer et valoriser les réutilisations
+
+---
+
+class: middle
+
+### Étape 3 : .red[Animer et valoriser] les réutilisations
+
+-   
+
+    #### Verser une collection sur une plateforme collaborative
+
+-   
+
+    #### Animer et acculturer une communauté de réutilisateurs
+
+-   
+
+    #### Susciter les réutilisations avec un programme de partenariats
+
+---
+
+### Encourager les .red[réutilisations internes]
+
+-   Sensibiliser, faire connaître et démontrer l'intérêt de l'ouverture
+    des données auprès des décideurs et des agents.
+-   Inciter les services producteurs à ouvrir les données qu'ils
+    produisent et à utiliser les données ouvertes pour leurs propres
+    usages.
+-   Diffuser une culture de la donnée au sein de l'organisation afin
+    d'accompagner le développement des usages et favoriser la
+    transformation de l'action publique (pilotage, évaluation, etc.) à
+    partir des données.
+-   Favoriser les **échanges entre pairs** pour partager des retours
+    d'expérience et des bonnes pratiques.
+-   Animer et acculturer les communautés d'utilisateurs internes afin de
+    renforcer leur capacité à (ré)utiliser les données pour leurs
+    propres besoins.
+
+---
+
+class: inverse, center, middle
+
+### Exercice : Créer votre première datavisualisation avec les données de data.culture.gouv.fr
+
+*À partir de l'onglet « Carte » de data.culture.gouv.fr, nous allons
+apprendre à créer une carte avec plusieurs jeux de données, ou à ajouter
+plusieurs calques et filtres.*
+
+---
+
+### Susciter les .red[usages externes]
+
+-   Editorialiser les données brutes en proposant des représentations
+    visuelles facilitant leur lecture (graphiques, cartographies, etc.),
+    par exemple la carte des institutions culturelles partenaires du
+    site Histoire des Arts, les tendances clés sur la fréquentation des
+    musées.
+-   Communiquer pour promouvoir et faire connaître les données ouvertes
+    auprès des communautés des utilisateurs et réutilisateurs potentiels
+    lors d'événéments (rencontre, hackathon, concours, appel à projets,
+    etc.).
+
+---
+
+### Susciter les réutilisations avec .red[un programme de partenariats]
+
+Exemple : **impliquer une école de graphisme à réaliser des
+visualisations**
+
+-   Analyse de la [représentation du
+    genre](https://churc.github.io/MajorStudio1/) dans la collection
+    d'art moderne et contemporain du Met
+-   Une [analyse de la forme des œuvres d'art au Met's Costume
+    Institute](https://3milychu.github.io/pages/kmeansfashion.html),
+    utilisant l'apprentissage automatique pour découvrir de nouvelles
+    relations entre les objets au-delà des métadonnées disponibles.
+-   Une évaluation de l'histoire de la collecte au Met et de l'évolution
+    des pratiques de collecte au fil de l'histoire du Met
+
+.center[&lt;img src="./img/Dataviz_parsons_Met.jpg" height="200"/&gt;]
+
+---
+
+### Chateau de Versailles et Wikipedia : .red[un partenariat de valorisation de données]
+
+-   1er partenariat entre wikipedia France et un musée Français
+-   Wikipedia est la 2e source d'information des internautes sur
+    Versailles après le site internet du château
+-   Versailles s'engage dans la voie d'enrichissement de communs
+    numérique, à travers les technologies libres et participatives
+
+En février 2011, dans le cadre du partenariat, un wikipédien est venu en
+résidence 6 mois à Versailles. Son but était :
+
+-   D'améliorer les contenus de Wikipedia autour de Versailles,
+-   D'animer la communauté autour du sujet Versailles.
+-   D'expliquer, de rencontrer les équipes de Versailles, de trouver des
+    opportunités de collaboration entre conservateurs et wikipediens.
+
+---
+
+### Un bilan positif du partenariat
+
+-   Un enrichissement spectaculaire des contenus : les articles
+    concernant le château de Versailles sont passés de 70 à 380
+-   Idem pour les photos : plus de 2000 photos versées sur WikiCommons
+-   La qualité des articles et des photos a été améliorée
+-   Retombées médiatiques importantes
+
+Exemple : le [plafond de la galerie des
+batailles](http://commons.wikimedia.org/wiki/File:Schlachtengalerie_Decke.jpg?uselang=fr)
+a remporté le concours Wiki Loves Monuments en 2011 (concours photo
+mondial visant à valoriser les monuments historiques).
+
+&gt; Au-delà, cela a permis de changer les mentalités en interne :
+&gt; Wikipedia est maintenant regardé avec bienveillance par les équipes
+&gt; scientifiques du château.
+
+&lt;img src="https://datactivist.coop/SPoSGL/sections/img/Wikimedia_Versailles.JPG" height="250"/&gt;
+
+---
+
+### Open GLAM : une communauté engagée et .red[un réseau mondial]
+
+.red[**OpenGLAM**] est un réseau mondial de personnes et d'organisations
+engagées à ouvrir du contenu et des données détenues par des galeries
+d'art, des bibliothèques, des archives et des musées.
+
+.pull-left[![](./img/open-GLAM.png) **GLAM** : Galleries, Libraries,
+Archives and Museums.]
+
+.pull-right[ \&gt; Avec d'autres collections nord-américaines importantes
+comme celles du Walters Museum (2011), ou du Los Angeles County Museum
+of Art (2013), le mouvement OpenGLAM bénéficie de l'engagement de
+plusieurs grands musées aux collections majoritairement placées dans le
+domaine public. ]
+
+---
+
+### Animer et acculturer une communauté de réutilisateurs
+
+-   Communiquer sur la démarche, mobiliser et interagir avec les
+    réutilisateurs (associations, entreprises, acteurs de l'enseignement
+    et de la recherche, médias et journalistes, citoyens) pour s'assurer
+    que les données ouvertes correspondent à leurs attentes et soient
+    effectivement réutilisées et valorisées.
+-   Améliorer les données produites, compléter ou produire de nouvelles
+    données en s'appuyant sur la contribution et l'engagement citoyen
+    (crowdsourcing).
+
+---
+
+### Un exemple d'événement encourageant .red[les réutilisations]
+
+![](https://codingdavinci.de/img/english-infos/collage.jpg)
+
+Un hackathon allemand sur la thématique des données culturelles
+ouvertes. Fondé à Berlin en 2014, l'événement associe des institutions
+du patrimoine culturel au public afin de développer des prototypes à
+destination des institutions publiques du domaine de la culture et du
+patrimoine.
+
+---
+
+### Quels avantages à verser une collection sur une .red[plateforme collaborative] ?
+
+À l'instar du Metropolitan Museum of Art, **de plus en plus nombreuses
+sont les institutions qui choisissent de verser les images de leurs
+collections sous licence ouverte** sur des plates-formes collaboratives
+comme Flickr ou Wikimédia.
+
+-   Possibilités pour la recherche, l'innovation et la créativité de
+    cette rencontre entre des collections de qualité bien documentées et
+    l'encyclopédie collaborative en ligne.
+
+-   Forte augmentation des consultations et des réutilisations en
+    différentes langues, ainsi qu'un effet d'attraction vers le site du
+    musée lui-même et son portail des collections.
+
+---
+
+### Questions et .red[exercice de groupe]
+
+&gt; -   
+&gt;
+&gt;     #### Y a-t-il une offre et une demande pour les données publiques ouvertes au sein de votre service, direction ou établissement ? Si oui, qui fournit quoi à qui ?
+
+&gt; -   
+&gt;
+&gt;     #### D'après vous, quels sont les obstacles principaux pour la publication de données publiques ouvertes au sein de votre service, direction ou établissement ?
+
+---
+
+class: inverse, center, middle
+
+# Merci !
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

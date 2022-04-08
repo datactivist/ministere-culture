@@ -1,0 +1,76 @@
+---
+title: "Bibliographie et ressources"
+runningheader: "Bibliographie et ressources" # only for pdf output
+subtitle: "Cours open data - Ministère de la Culture" # only for html output
+author: "Datactivist - Anne-Laure Donzel"
+date: "`r Sys.Date()`"
+output:
+  tufte::tufte_html: default
+  tufte::tufte_handout:
+    citation_package: natbib
+    latex_engine: xelatex
+  tufte::tufte_book:
+    citation_package: natbib
+    latex_engine: xelatex
+bibliography: skeleton.bib
+link-citations: yes
+---
+
+```{r setup, include=FALSE}
+library(tufte)
+# invalidate cache when the tufte version changes
+knitr::opts_chunk$set(cache.extra = packageVersion('tufte'))
+options(htmltools.dir.version = FALSE)
+```
+
+# Bibliographie
+
+- **Feuille de route *Données et contenus culturels***, URL : <https://www.culture.gouv.fr/Espace-documentation/Documentation-administrative/Feuille-de-route-Donnees-et-contenus-culturels>
+
+-   **Guide pratique dédié à l'ouverture des données publiques
+    culturelles** Publié par le ministère de la Culture, juillet 2019,
+    URL :
+    <http://www.culture.gouv.fr/Media/Thematiques/Innovation-numerique/Folder/Guide-pratique-dedie-a-l-ouverture-des-donnees-publiques-culturelles>
+
+-   **Numérisation et valorisation des contenus culturels : guide
+    ouverture et réutilisation des informations publiques numériques du
+    secteur culturel** Publié par le ministère de la Culture, 2017, URL
+    :
+    <http://www.culture.gouv.fr/Media/Thematiques/Innovation-numerique/Folder/Livrables-GT-Numerisation/Numerisation-et-valorisation-des-contenus-culturels-guide-ouverture-et-reutilisation-des-informations-publiques-numeriques-du-secteur-culturel>
+
+-   **Guide de bonnes pratiques en matière de propriété littéraire et
+    artistique** Publié par le ministère de la Culture, 2017, URL :
+    <http://www.culture.gouv.fr/Media/Thematiques/Innovation-numerique/Folder/Livrables-GT-Numerisation/Guide-de-bonnes-pratiques-en-matiere-de-propriete-litteraire-et-artistique>
+
+
+- **Rapport « Ouverture et partage des données publiques culturelles – pour une(r)évolution numérique dans le secteur culturel »**, Camille Domange, publié par le ministère de la Culture et de la Communication, décembre 2013, URL : https://www.culture.gouv.fr/Espace-documentation/Rapports/Open-Data-ouverture-et-partage-des-donnees-publiques-culturelles
+
+* **Les musées départementaux de la Haute-Saône et Wikipédia** : de l’institution à la contribution, Nicolas Poulain, La Lettre de l’OCIM [En ligne],164 | 2016, mis en ligne le 01 mars 2017, URL : http://journals.openedition.org/ocim/1642
+
+* **Guide pratique pour la recherche et la réutilisation des images d’œuvres d’art**, INHA, 2021, URL : https://www.inha.fr/_resources/PDF/2021/2021_LIVRET_GUIDE-PRATIQUE_web_15062021.pdf
+
+* **Droits des images, histoire de l’art et société** - Rapport sur les régimes de diffusion des images patrimoniales et leur impact sur la recherche, l’enseignement et la mise en valeur des collections publiques
+Programme Images/usages, Institut national d’histoire de l’art, octobre 2018, URL : https://www.inha.fr/_attachments/rapport-final-du-programme-images-usages-article/INHA_rapport_images_usages.pdf?download=true
+
+* Martine Denoyelle, "Le droit d’auteur du photographe et le patrimoine culturel," in Numérique et recherche en histoire de l'art, 03/06/2021, https://numrha.hypotheses.org/2137
+
+# Sites internet
+
+- **Plateforme open data du Ministère** - https://data.culture.gouv.fr/pages/home/
+
+- **Open Glam** - https://openglam.org/france/
+
+- **Etalab** -
+
+- **Schema data.gouv** - https://schema.data.gouv.fr/
+
+# Ressources sur Open Refine 
+
+* OpenRefine, "Excel aux hormones" pour nettoyage de données[<https://www.patrimoine-et-numerique.fr/tutoriels/52-36-openrefine-excel-aux-hormones-pour-nettoyage-de-donnees>]
+
+* Tutoriel OpenRefine 3.4 : nettoyer, préparer et transformer des données - 06/11/2020[<http://bit.ly/tutoOpenRefine>] 
+
+* Cas concret d'utilisation d'OpenRefine pour les archives[[https://medium.com/\@seeksanusername/cas-concret-dutilisation-d-openrefine-pour-les-archives-442726996b74](https://medium.com/@seeksanusername/cas-concret-dutilisation-d-openrefine-pour-les-archives-442726996b74){.uri}]
+
+
+
