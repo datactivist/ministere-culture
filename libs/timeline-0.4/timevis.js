@@ -92,8 +92,35 @@ HTMLWidgets.widget({
               elementId + "_ids",
               timeline.itemsData.getIds()
             );
+
+            // Visible items have changed
+            var sendShinyVisible = function() {
+              Shiny.onInputChange(
+                elementId + "_visible",
+                timeline.getVisibleItems()
+              );
+            };
+            timeline.on('rangechanged', sendShinyVisible);
+            timeline.itemsData.on('add', sendShinyVisible);
+            timeline.itemsData.on('remove', sendShinyVisible);
+            setTimeout(sendShinyVisible, 0);
           }
         }
+
+        // set the custom configuration options
+        if (Array === opts.options.constructor) {
+          opts['options'] = {};
+        }
+        if (opts['height'] !== null &&
+            typeof opts['options']['height'] === "undefined") {
+          opts['options']['height'] = opts['height'];
+        }
+        if (opts['timezone'] !== null) {
+          opts['options']['moment'] = function(date) {
+            return vis.moment(date).utcOffset(opts['timezone']);
+          };
+        }
+        timeline.setOptions(opts.options);
 
         // set the data items and groups
         timeline.itemsData.clear();
@@ -112,16 +139,6 @@ HTMLWidgets.widget({
         } else {
           zoomMenu.removeAttribute("data-show-zoom");
         }
-
-        // set the custom configuration options
-        if (Array === opts.options.constructor) {
-          opts['options'] = {};
-        }
-        if (opts['height'] !== null &&
-            typeof opts['options']['height'] === "undefined") {
-          opts['options']['height'] = opts['height'];
-        }
-        timeline.setOptions(opts.options);
 
         // Now that the timeline is initialized, call any outstanding API
         // functions that the user wantd to run on the timeline before it was
@@ -200,6 +217,12 @@ HTMLWidgets.widget({
       removeCustomTime : function(params) {
         timeline.removeCustomTime(params.itemId);
       },
+      setCustomTime : function(params) {
+        timeline.setCustomTime(params.time, params.itemId);
+      },
+      setCurrentTime : function(params) {
+        timeline.setCurrentTime(params.time);
+      },
       fitWindow : function(params) {
         timeline.fit(params.options);
       },
@@ -207,6 +230,11 @@ HTMLWidgets.widget({
         timeline.moveTo(params.time, params.options);
       },
       centerItem : function(params) {
+         if (typeof params.options === 'undefined') {
+          params.options = { 'zoom' : false };
+        } else if (typeof params.options.zoom === 'undefined') {
+          params.options.zoom = false;
+        }
         timeline.focus(params.itemId, params.options);
       },
       setItems : function(params) {
@@ -214,14 +242,19 @@ HTMLWidgets.widget({
         timeline.itemsData.add(params.data);
       },
       setGroups : function(params) {
-        timeline.groupsData.clear();
-        timeline.groupsData.add(params.data);
+        timeline.setGroups(params.data);
       },
       setOptions : function(params) {
         timeline.setOptions(params.options);
       },
       setSelection : function(params) {
         timeline.setSelection(params.itemId, params.options);
+        if (HTMLWidgets.shinyMode) {
+          Shiny.onInputChange(
+            elementId + "_selected",
+            params.itemId
+          );
+        }
       },
       setWindow : function(params) {
         timeline.setWindow(params.start, params.end, params.options);
@@ -235,7 +268,7 @@ if (HTMLWidgets.shinyMode) {
   var fxns =
     ['addItem', 'addItems', 'removeItem', 'addCustomTime', 'removeCustomTime',
      'fitWindow', 'centerTime', 'centerItem', 'setItems', 'setGroups',
-     'setOptions', 'setSelection', 'setWindow'];
+     'setOptions', 'setSelection', 'setWindow', 'setCustomTime', 'setCurrentTime'];
 
   var addShinyHandler = function(fxn) {
     return function() {

@@ -506,7 +506,7 @@ class: center, middle
 
 ---
 
-### Un portail : .red[[data.culture.gouv.fr]](https://data.culture.gouv.fr/pages/home/)
+### Un portail : [data.culture.gouv.fr](https://data.culture.gouv.fr/pages/home/)
 
 ![](./img/data.culture.gouv.fr.png)
 
