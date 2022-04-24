@@ -183,7 +183,10 @@ class: inverse, center, middle
 
 .pull-left[
 [![](https://datactivist.coop/aaf/img/users.png)](https://thereboot.github.io/moti-personas/)]
-.pull-right[]
+.pull-right[
+
+![](img/dataanalys.png)
+]
 
 ---
 
@@ -496,16 +499,16 @@ class: middle
 
 ### Étape 4 : .red[Animer et valoriser] les réutilisations
 
-- #### En interne à votre structure
+#### En interne à votre structure
 
-** Utiliser des données ouvertes
+* Utiliser des données ouvertes
 
-- #### En externe à votre structure
+#### En externe à votre structure
 
-** Animer une communauté de réutilisateurs
-** Nouer des partenariats
-** Favoriser les réutilisations
-** Valoriser les réutilisations
+* Animer une communauté de réutilisateurs
+* Nouer des partenariats
+* Favoriser les réutilisations
+* Valoriser les réutilisations
 
 ---
 
@@ -533,15 +536,34 @@ plusieurs calques et filtres.*
 
 ### Susciter les .red[usages externes]
 
--   Editorialiser les données brutes en proposant des représentations
+
+.pull-left[
+
+*   Editorialiser les données brutes en proposant des représentations
     visuelles facilitant leur lecture (graphiques, cartographies, etc.),
     par exemple la carte des institutions culturelles partenaires du
     site Histoire des Arts, les tendances clés sur la fréquentation des
-    musées.
--   Communiquer pour promouvoir et faire connaître les données ouvertes
-    auprès des communautés des utilisateurs et réutilisateurs potentiels
-    lors d'événéments (rencontre, hackathon, concours, appel à projets,
-    etc.).
+    musées.]
+    
+.pull-right[
+
+* Exemple de la [Région Centre](https://data.centrevaldeloire.fr/pages/patrimoine-architectural/) sur sa plateforme open data 
+]    
+    
+---
+
+### Organiser des .red[évènements]
+
+.pull-left[
+
+* Communiquer pour promouvoir et faire connaître les données ouvertes auprès des communautés des utilisateurs et réutilisateurs potentiels lors d'événéments (rencontre, hackathon, concours, appel à projets,etc.).]
+
+.pull-right[
+
+* Hackathon des [Archives Nationales](https://www.archives-nationales.culture.gouv.fr/resultats-du-hackathon-des-archives-nationales)
+
+* Hackathon de la BNF, 3 éditions depuis 2016. Un [exemple](https://gallica.bnf.fr/blog/21032018/gallicarte-arrive-dans-gallica?mode=desktop) de production
+]
 
 ---
 
@@ -562,31 +584,12 @@ visualisations**
 
 .center[<img src="./img/Dataviz_parsons_Met.jpg" height="200"/>]
 
----
-
-### Quels avantages à verser une collection sur une .red[plateforme collaborative] ?
-
-Il existe différents types de partenariats : contributions par le versement d'images, résidence...
-
-À l'instar du Metropolitan Museum of Art, **de plus en plus nombreuses
-sont les institutions qui choisissent de verser les images de leurs
-collections sous licence ouverte** sur des plates-formes collaboratives
-comme Flickr ou Wikimédia.
-
--   Possibilités pour la recherche, l'innovation et la créativité de
-    cette rencontre entre des collections de qualité bien documentées et
-    l'encyclopédie collaborative en ligne.
-
--   Forte augmentation des consultations et des réutilisations en
-    différentes langues, ainsi qu'un effet d'attraction vers le site du
-    musée lui-même et son portail des collections.
-
 
 ---
 
-### Chateau de Versailles et Wikipedia : .red[un partenariat de valorisation de données]
+### Château de Versailles et Wikimedia : .red[un partenariat de valorisation de données]
 
--   1er partenariat entre wikipedia France et un musée Français
+-   1er partenariat entre Wikimedia France et un musée Français
 -   Wikipedia est la 2e source d'information des internautes sur
     Versailles après le site internet du château
 -   Versailles s'engage dans la voie d'enrichissement de communs
@@ -619,24 +622,6 @@ mondial visant à valoriser les monuments historiques).
 > Wikipedia est maintenant regardé avec bienveillance par les équipes
 > scientifiques du château.
 
-<img src="https://datactivist.coop/SPoSGL/sections/img/Wikimedia_Versailles.JPG" height="250"/>
-
----
-
-### Open GLAM : une communauté engagée et .red[un réseau mondial]
-
-.red[**OpenGLAM**] est un réseau mondial de personnes et d'organisations
-engagées à ouvrir du contenu et des données détenues par des galeries
-d'art, des bibliothèques, des archives et des musées.
-
-.pull-left[![](./img/open-GLAM.png) **GLAM** : Galleries, Libraries,
-Archives and Museums.]
-
-.pull-right[ \> Avec d'autres collections nord-américaines importantes
-comme celles du Walters Museum (2011), ou du Los Angeles County Museum
-of Art (2013), le mouvement OpenGLAM bénéficie de l'engagement de
-plusieurs grands musées aux collections majoritairement placées dans le
-domaine public. ]
 
 ---
 
@@ -650,18 +635,6 @@ domaine public. ]
 -   Améliorer les données produites, compléter ou produire de nouvelles
     données en s'appuyant sur la contribution et l'engagement citoyen
     (crowdsourcing).
-
----
-
-### Un exemple d'événement encourageant .red[les réutilisations]
-
-![](https://codingdavinci.de/img/english-infos/collage.jpg)
-
-Un hackathon allemand sur la thématique des données culturelles
-ouvertes. Fondé à Berlin en 2014, l'événement associe des institutions
-du patrimoine culturel au public afin de développer des prototypes à
-destination des institutions publiques du domaine de la culture et du
-patrimoine.
 
 
 ---

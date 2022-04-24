@@ -506,6 +506,21 @@ class: center, middle
 
 ---
 
+### La feuille de route **Données et contenus culturels**
+
+Cette [feuille de route](https://www.culture.gouv.fr/Espace-documentation/Documentation-administrative/Feuille-de-route-Donnees-et-contenus-culturels).
+
+La publication des feuilles de route est le fruit d’une volonté politique renouvelée et portée par le Premier ministre qui s’est vu remettre le 23 décembre 2020 le rapport de la mission parlementaire présidée par Eric Bothorel et par la publication de la circulaire d'avril 2021 du Premier Ministre.
+
+Elle s'articule autour de trois axes prioritaires :
+* Améliorer la capacité du ministère à diffuser et rendre visible les contenus
+culturels ;
+* Contribuer à l’efficacité des actions du ministère et à la simplification des
+relations entre les usagers et le service public culturel ;
+* Faire bénéficier un secteur économique de la culture fragilisé par la crise COVID-19 des opportunités de reprise et de développement présentées par l’usage des données.
+
+---
+
 ### Un portail : [data.culture.gouv.fr](https://data.culture.gouv.fr/pages/home/)
 
 ![](./img/data.culture.gouv.fr.png)
@@ -1301,10 +1316,17 @@ Publié par le ministère de la Culture, 2017, URL : http://www.culture.gouv.fr/
 
 * **Guide de bonnes pratiques en matière de propriété littéraire et artistique** Publié par le ministère de la Culture, 2017, URL : http://www.culture.gouv.fr/Media/Thematiques/Innovation-numerique/Folder/Livrables-GT-Numerisation/Guide-de-bonnes-pratiques-en-matiere-de-propriete-litteraire-et-artistique
 
+---
+
+### Bibliographie
+
 * **Retour d'expérience sur la mise en ligne des collections du musée de Bretagne**(https://musee-devoile.blog/wp-content/uploads/2021/05/fiches_juridiques_musee_de_bretagne.pdf)
 
 * **Penser demain, L’Open Innovation dans les Musées & Institutions Culturelles**, l'ICART (https://www.icart.fr/actualites/elaboration-dun-livre-blanc-sur-lopen-innovation)
 
+* **Guide pratique pour la recherche et la réutilisation des images d’œuvres d’art**, INHA (https://www.inha.fr/fr/actualites/actualites-de-l-inha/en-2021/guide-pratique-pour-la-recherche-et-la-reutilisation-des-images-d-uvres-d-art.html)
+
+* **Droits des images, histoire de l’art et société**, INHA (https://www.inha.fr/_attachments/de-nouvelles-democraties-du-savoir-actualite/rapport_images_usages221018.pdf)
 ---
 
 class: inverse, center, middle

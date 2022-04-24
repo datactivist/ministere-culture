@@ -4,7 +4,7 @@
     <title>L’ouverture des données publiques culturelles en pratique</title>
     <meta charset="utf-8" />
     <meta name="author" content="Datactivist - Anne-Laure Donzel" />
-    <meta name="date" content="2022-04-05" />
+    <meta name="date" content="2022-04-24" />
     <script src="libs/header-attrs-2.11/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/datactivist.css" rel="stylesheet" />
@@ -17,7 +17,7 @@ class: center, middle, inverse, title-slide
 # L’ouverture des données publiques culturelles en pratique
 ## Ministère de la Culture
 ### Datactivist - Anne-Laure Donzel
-### 2022-04-05
+### 2022-04-24
 
 ---
 
@@ -186,7 +186,10 @@ class: inverse, center, middle
 
 .pull-left[
 [![](https://datactivist.coop/aaf/img/users.png)](https://thereboot.github.io/moti-personas/)]
-.pull-right[]
+.pull-right[
+
+![](img/dataanalys.png)
+]
 
 ---
 
@@ -350,7 +353,7 @@ class: inverse, center, middle
 
 #### 3.2 Bien documenter ses données pour rendre ses données découvrables
 
-#### 3.3 Mettre en place une API pour diffuser des données
+#### 3.3 Utiliser la bonne plateforme
 
 ---
 ### Étape 3 : .red[Diffuser et valoriser] les données
@@ -388,9 +391,11 @@ Des données mal décrites vont être introuvables et donc, elles ne seront pas 
 ![](img/metadonnees.png)
 
 ---
+
 ### Étape 3 : .red[Diffuser et valoriser] les données
 
-#### La découvrabilité : un .red[enjeu crucial]
+#### 3.2 La découvrabilité : un .red[enjeu crucial]
+
 .pull-left[
 ![](https://index.okfn.org/images/Datagapsclean.jpg)
 ]
@@ -406,24 +411,8 @@ Des données mal décrites vont être introuvables et donc, elles ne seront pas 
 
 ### Étape 3 : .red[Diffuser et valoriser] les données
 
-#### Comment rendre .red[les données trouvables ?]
 
-Idéalement et pour faciliter les réutilisations, les données doivent
-être faciles à trouver notamment via les moteurs de recherche, ce qui
-implique :
-
--   des arborescences de classement et des mots clé cohérents
--   une stratégie de préservation à long-terme de la donnée (archivage
-    sécurisé, etc.)
--   d'attribuer un identificateur unique et pérenne aux métadonnées
--   des métadonnées enregistrées (ou au moins indexées) dans un lieu
-    consultable (un catalogue, un portail open data)
-
----
-
-### Étape 3 : .red[Diffuser et valoriser] les données
-
-#### 3.1 Rendre les données découvrables
+#### 3.2 Rendre les données découvrables
 
 &gt; "Les métadonnées sont de l'information structurée qui décrit,
 &gt; explique, localise ou facilite autrement l'obtention, l'utilisation ou
@@ -436,13 +425,32 @@ Source : National Information Standards Organization
 &gt; **Les Métadonnées descriptives décrivent une ressource à des fins de
 &gt; découverte et d'identification.**
 
+---
+class: center, middle
 
+# Exercice de description
+
+A partir du template *Documenter un jeu de données* et du jeu de données *exercice_métadonnees*.
 
 ---
 
 ### Étape 3 : .red[Diffuser et valoriser] les données
 
-#### 3.1 utiliser la bonne plateforme de publication
+
+#### 3.2 Rendre les données découvrables
+
+En complément des métadonnées, d'autres actions peuvent être menées :
+- Choix de mots clés pertinents
+- Organisation en thématique
+- Harmonisation des choix
+
+![](img/voc_mismatch.png)
+
+---
+
+### Étape 3 : .red[Diffuser et valoriser] les données
+
+#### 3.3 Utiliser la bonne plateforme de publication
 
 .red[Le portail data.culture.gouv.fr]
 
@@ -460,7 +468,7 @@ via l'onglet « Contact » de la plateforme data.culture.gouv.fr.*
 
 ### Étape 3 : .red[Diffuser et valoriser] les données
 
-#### 3.2 Utiliser la bonne plateforme de publication
+#### 3.3 Utiliser la bonne plateforme de publication
 
 .red[Le portail data.gouv.fr]
 
@@ -473,66 +481,14 @@ ministérielle data.culture.gouv.fr.
 
 Cela implique la création d'une page dédiée à l'établissement, puis la
 publication des jeux de données conformément [aux modalités précisées
-par la
-DINSIC](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/)
+par
+Etalab](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/)
 
 &gt; **Le ministère mettra en place les mécanismes nécessaires pour que
 &gt; toutes les données publiées de cette façon soient ensuite
 &gt; automatiquement visibles sur data.culture.gouv.fr.**
 
----
-class: center, middle
-
-# Exercice de description
-
-A partir du template *Documenter un jeu de données* et du jeu de données *exercice_métadonnees*.
-
----
-### Étape 3 : .red[Diffuser et valoriser] les données
-
-#### 3.3 Mettre en place une API pour .red[faciliter les intéractions]
-
-&gt; Le développement de normes ouvertes a permis une certaine cohérence et une uniformité d’interfaces de programmation d’application (API) pour la découverte, l’accès et l’utilisation des données.
-
-&gt; Les données sont servies avec des formats et protocoles respectant des standards. Elle sont compréhensibles par des applications et des robots.
-
----
-
-### .red[Data.BnF] se dote d'une API permettant les réutilisations
-
-Exemple : .red[**Gallicarte**], un projet de géolocalisation des
-résultats de recherche dans Gallica
-
-Ce projet consiste à afficher les résultats d'une recherche effectuée
-dans Gallica (Bibliothèque numérique de la BnF) sur une carte, et de
-visualiser, par exemple, l'ensemble d'un fonds photographique
-géolocalisé. Pour le grand public, la carte comme mode d'affichage est
-d'utilisation simple.
-
-.center[&lt;img src="./img/gallicarte.jpeg" height="200"/&gt;]
-
-En savoir plus : [Un projet issu du Hackathon de la
-BnF](http://gallicastudio.bnf.fr/projets-collaboratifs/gallicarte-un-projet-de-g%C3%A9olocalisation-des-r%C3%A9sultats-de-recherche-dans)
  
----
-
-### Résumé : les .red[facteurs clés de succès] d'une stratégie open data
-
-#### Obtenir un soutien au plus haut niveau
-
--   Pour mettre en oeuvre les moyens et les ressources à déployer
-
-#### Configurer l'organisation pour l'ouverture
-
--   Organiser la gouvernance, les circuits de validation
-
-#### Faciliter la découverte et l'utilisation des données
-
--   Faire attention au référencement, à la qualité des métadonnées
-
-#### Rester à l'écoute et interagir avec les usagers
-
--   Prévoir des boucles de participation
 
 ---
 
@@ -544,38 +500,30 @@ class: inverse, center, middle
 
 class: middle
 
-### Étape 3 : .red[Animer et valoriser] les réutilisations
+### Étape 4 : .red[Animer et valoriser] les réutilisations
 
--   
+#### En interne à votre structure
 
-    #### Verser une collection sur une plateforme collaborative
+* Utiliser des données ouvertes
 
--   
+#### En externe à votre structure
 
-    #### Animer et acculturer une communauté de réutilisateurs
-
--   
-
-    #### Susciter les réutilisations avec un programme de partenariats
+* Animer une communauté de réutilisateurs
+* Nouer des partenariats
+* Favoriser les réutilisations
+* Valoriser les réutilisations
 
 ---
 
-### Encourager les .red[réutilisations internes]
+class: middle
 
--   Sensibiliser, faire connaître et démontrer l'intérêt de l'ouverture
-    des données auprès des décideurs et des agents.
--   Inciter les services producteurs à ouvrir les données qu'ils
-    produisent et à utiliser les données ouvertes pour leurs propres
-    usages.
--   Diffuser une culture de la donnée au sein de l'organisation afin
-    d'accompagner le développement des usages et favoriser la
-    transformation de l'action publique (pilotage, évaluation, etc.) à
-    partir des données.
--   Favoriser les **échanges entre pairs** pour partager des retours
-    d'expérience et des bonnes pratiques.
--   Animer et acculturer les communautés d'utilisateurs internes afin de
-    renforcer leur capacité à (ré)utiliser les données pour leurs
-    propres besoins.
+### Étape 4 : .red[Animer et valoriser] les réutilisations
+
+Intégrer la réutilisation de données à votre établissement 
+
+Carte des AD13 qui utilise les données de Wikidata pour présenter les [fonds communaux conservés](intercommunales)
+
+![](img/AD13.png)
 
 ---
 
@@ -591,15 +539,34 @@ plusieurs calques et filtres.*
 
 ### Susciter les .red[usages externes]
 
--   Editorialiser les données brutes en proposant des représentations
+
+.pull-left[
+
+*   Editorialiser les données brutes en proposant des représentations
     visuelles facilitant leur lecture (graphiques, cartographies, etc.),
     par exemple la carte des institutions culturelles partenaires du
     site Histoire des Arts, les tendances clés sur la fréquentation des
-    musées.
--   Communiquer pour promouvoir et faire connaître les données ouvertes
-    auprès des communautés des utilisateurs et réutilisateurs potentiels
-    lors d'événéments (rencontre, hackathon, concours, appel à projets,
-    etc.).
+    musées.]
+    
+.pull-right[
+
+* Exemple de la [Région Centre](https://data.centrevaldeloire.fr/pages/patrimoine-architectural/) sur sa plateforme open data 
+]    
+    
+---
+
+### Organiser des .red[évènements]
+
+.pull-left[
+
+* Communiquer pour promouvoir et faire connaître les données ouvertes auprès des communautés des utilisateurs et réutilisateurs potentiels lors d'événéments (rencontre, hackathon, concours, appel à projets,etc.).]
+
+.pull-right[
+
+* Hackathon des [Archives Nationales](https://www.archives-nationales.culture.gouv.fr/resultats-du-hackathon-des-archives-nationales)
+
+* Hackathon de la BNF, 3 éditions depuis 2016. Un [exemple](https://gallica.bnf.fr/blog/21032018/gallicarte-arrive-dans-gallica?mode=desktop) de production
+]
 
 ---
 
@@ -620,11 +587,12 @@ visualisations**
 
 .center[&lt;img src="./img/Dataviz_parsons_Met.jpg" height="200"/&gt;]
 
+
 ---
 
-### Chateau de Versailles et Wikipedia : .red[un partenariat de valorisation de données]
+### Château de Versailles et Wikimedia : .red[un partenariat de valorisation de données]
 
--   1er partenariat entre wikipedia France et un musée Français
+-   1er partenariat entre Wikimedia France et un musée Français
 -   Wikipedia est la 2e source d'information des internautes sur
     Versailles après le site internet du château
 -   Versailles s'engage dans la voie d'enrichissement de communs
@@ -657,24 +625,6 @@ mondial visant à valoriser les monuments historiques).
 &gt; Wikipedia est maintenant regardé avec bienveillance par les équipes
 &gt; scientifiques du château.
 
-&lt;img src="https://datactivist.coop/SPoSGL/sections/img/Wikimedia_Versailles.JPG" height="250"/&gt;
-
----
-
-### Open GLAM : une communauté engagée et .red[un réseau mondial]
-
-.red[**OpenGLAM**] est un réseau mondial de personnes et d'organisations
-engagées à ouvrir du contenu et des données détenues par des galeries
-d'art, des bibliothèques, des archives et des musées.
-
-.pull-left[![](./img/open-GLAM.png) **GLAM** : Galleries, Libraries,
-Archives and Museums.]
-
-.pull-right[ \&gt; Avec d'autres collections nord-américaines importantes
-comme celles du Walters Museum (2011), ou du Los Angeles County Museum
-of Art (2013), le mouvement OpenGLAM bénéficie de l'engagement de
-plusieurs grands musées aux collections majoritairement placées dans le
-domaine public. ]
 
 ---
 
@@ -689,34 +639,6 @@ domaine public. ]
     données en s'appuyant sur la contribution et l'engagement citoyen
     (crowdsourcing).
 
----
-
-### Un exemple d'événement encourageant .red[les réutilisations]
-
-![](https://codingdavinci.de/img/english-infos/collage.jpg)
-
-Un hackathon allemand sur la thématique des données culturelles
-ouvertes. Fondé à Berlin en 2014, l'événement associe des institutions
-du patrimoine culturel au public afin de développer des prototypes à
-destination des institutions publiques du domaine de la culture et du
-patrimoine.
-
----
-
-### Quels avantages à verser une collection sur une .red[plateforme collaborative] ?
-
-À l'instar du Metropolitan Museum of Art, **de plus en plus nombreuses
-sont les institutions qui choisissent de verser les images de leurs
-collections sous licence ouverte** sur des plates-formes collaboratives
-comme Flickr ou Wikimédia.
-
--   Possibilités pour la recherche, l'innovation et la créativité de
-    cette rencontre entre des collections de qualité bien documentées et
-    l'encyclopédie collaborative en ligne.
-
--   Forte augmentation des consultations et des réutilisations en
-    différentes langues, ainsi qu'un effet d'attraction vers le site du
-    musée lui-même et son portail des collections.
 
 ---
 
@@ -729,6 +651,27 @@ comme Flickr ou Wikimédia.
 &gt; -   
 &gt;
 &gt;     #### D'après vous, quels sont les obstacles principaux pour la publication de données publiques ouvertes au sein de votre service, direction ou établissement ?
+
+---
+
+### Résumé : les .red[facteurs clés de succès] d'une stratégie open data
+
+#### Obtenir un soutien au plus haut niveau
+
+-   Pour mettre en oeuvre les moyens et les ressources à déployer
+
+#### Configurer l'organisation pour l'ouverture
+
+-   Organiser la gouvernance, les circuits de validation
+
+#### Faciliter la découverte et l'utilisation des données
+
+-   Faire attention au référencement, à la qualité des métadonnées
+
+#### Rester à l'écoute et interagir avec les usagers
+
+-   Prévoir des boucles de participation
+
 
 ---
 
