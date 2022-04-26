@@ -82,6 +82,22 @@ Cette définition est une des rares à s'extraire des discours entourant les don
 
 ---
 
+### .red[La pyramide] Data-Information-Knowledge-Wisdom
+
+.pull-left[
+[![largeur](./img/pyramid.svg)](https://commons.wikimedia.org/w/index.php?curid=37705247)
+]
+.pull-right[
+Attribuée à [Russell Ackoff](http://en.wikipedia.org/wiki/Russell_L._Ackoff) en 1989, elle signifie que :
+
+- Les **.red[données]** sont la matière "brute" de l'information conçues plutôt pour des machines.
+- **.red[L'information]** pourrait être définie comme des données qui ont été interprétées pour dégager du sens pour des humains.
+- En donnant du sens à de l'information, on obtient de la **.red[connaissance]**
+- En donnant du sens à la connaissance on obtient de la **.red[sagesse]**.
+] 
+
+---
+
 ### Une définition .red[des "bases de données"]
 
 Source : [Source : Guide Open Data Cnil](https://www.cnil.fr/sites/default/files/atoms/files/guide_open_data.pdf) 
@@ -94,21 +110,7 @@ Le document donne également une **définition de ce qu'est une "donnée"** :
 
 > Une donnée correspond à la représentation d'une information sous une forme conventionnelle destinée à faciliter son traitement (en anglais : data).
 
----
 
-### .red[La pyramide] Data-Information-Knowledge-Wisdom
-
-.pull-left[
-[![largeur](./img/pyramid.svg)](https://commons.wikimedia.org/w/index.php?curid=37705247)
-]
-.pull-right[
-Attribuée à [Russell Ackoff](http://en.wikipedia.org/wiki/Russell_L._Ackoff) en 1989, elle signfie que :
-
-- Les **.red[données]** sont la matière "brute" de l'information conçues plutôt pour des machines.
-- **.red[L'information]** pourrait être définie comme des données qui ont été interprétées pour dégager du sens pour des humains.
-- En donnant du sens à de l'information, on obtient de la **.red[connaissance]**
-- En donnant du sens à la connaissance on obtient de la **.red[sagesse]**.
-] 
 ---
 
 ### .red[Les données], c'est aussi tout ce qui circule dans un ordinateur
@@ -138,8 +140,7 @@ C’est en 1995 qu’on en voit le premier usage public aux Etats-Unis dans un r
 
 ### Open data, .red[les débuts]
 
-Au début des années 2010, c’est dans le cadre d’un .red[mouvement international] que l’ouverture des données publiques connaît en France un nouvel élan. L’initiative vient du monde anglo-saxon, **les États-Unis et le Royaume-Uni mettant en place au même moment des plateformes gouvernementales de partage des données
-publiques, dans une démarche dite d’open data**. 
+Au début des années 2010, c’est dans le cadre d’un .red[mouvement international] que l’ouverture des données publiques émerge en France. L’initiative vient du monde anglo-saxon, **les États-Unis et le Royaume-Uni mettant en place au même moment des plateformes gouvernementales de partage des données publiques, dans une démarche dite d’open data**. 
 
 Les objectifs de ce mouvement d’ouverture des données publiques sont à la fois
 
@@ -311,7 +312,7 @@ class: inverse, center, middle
 ---
 class: inverse, center, middle
 
-# Origines historiques de l'open data en France et dans le monde
+# Origines historiques de l'open data dans le monde et en France
 
 ---
 class: center, middle
