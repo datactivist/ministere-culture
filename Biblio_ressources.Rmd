@@ -23,7 +23,7 @@ knitr::opts_chunk$set(cache.extra = packageVersion('tufte'))
 options(htmltools.dir.version = FALSE)
 ```
 
-# Bibliographie
+# Rapports et guides pratiques
 
 - **Feuille de route *Données et contenus culturels***, URL : <https://www.culture.gouv.fr/Espace-documentation/Documentation-administrative/Feuille-de-route-Donnees-et-contenus-culturels>
 
@@ -64,6 +64,8 @@ Programme Images/usages, Institut national d’histoire de l’art, octobre 2018
 
 - **Schema data.gouv** - https://schema.data.gouv.fr/
 
+- **Iconautes** - Blog de l'INHA https://iconautes.inha.fr/fr/index.html
+
 # Ressources sur Open Refine 
 
 * OpenRefine, "Excel aux hormones" pour nettoyage de données[<https://www.patrimoine-et-numerique.fr/tutoriels/52-36-openrefine-excel-aux-hormones-pour-nettoyage-de-donnees>]
@@ -72,5 +74,11 @@ Programme Images/usages, Institut national d’histoire de l’art, octobre 2018
 
 * Cas concret d'utilisation d'OpenRefine pour les archives[[https://medium.com/\@seeksanusername/cas-concret-dutilisation-d-openrefine-pour-les-archives-442726996b74](https://medium.com/@seeksanusername/cas-concret-dutilisation-d-openrefine-pour-les-archives-442726996b74){.uri}]
 
+# Journées d'étude
 
+- Documentation de la journée Wikimédia [*Culture et Numérique 2022*](https://meta.wikimedia.org/wiki/Journ%C3%A9e_Wikimedia_Culture_et_Num%C3%A9rique_2022/Documentation)
+
+- Documentation de la journée Wikimédia [*Culture et Numérique 2021*](https://meta.wikimedia.org/wiki/Journ%C3%A9e_Wikimedia_Culture_et_Num%C3%A9rique_2021/Documentation)
+
+- Documentation de la journée Wikimédia [*Culture et Numérique 2019*](https://meta.wikimedia.org/wiki/Wikim%C3%A9dia_France/Groupes_de_travail/Groupes_th%C3%A9matiques/GLAM/Journ%C3%A9es_Wikimedia_Culture_et_Num%C3%A9rique_2019/Documentation)
 
