@@ -320,6 +320,12 @@ Quelques principes à retenir :
 
 ---
 
+### Les étapes de la .red[mise en qualité]
+
+![](img/etape_qualité.png)
+
+---
+
 ### OpenRefine : .red[le meilleur ami de la communauté GLAM]
 
 > **OpenRefine est un outil gratuit de traitement de données en masse**
