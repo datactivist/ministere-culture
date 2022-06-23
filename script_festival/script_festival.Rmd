@@ -20,13 +20,16 @@ fest <- read.csv("panorama-des-festivals(2).csv", encoding = "UTF-8", sep = ";")
 ```
 
 ```{r}
-fest <- fest %>% 
-  group_by(Domaine) %>% 
-  count(Date.de.création, name = "nbr")
+fest <- fest %>%
+  group_by(Région) %>% 
+  count(Domaine, name = "nbr")
 ```
 
 ```{r}
-fest <- fest %>% 
-  ggplot(aes(x=Date.de.création, y=nbr, group=Domaine, color=Domaine)) +
-    geom_line()
+    ggplot(fest, aes(fill=Domaine, y=nbr, x=Région)) + 
+    geom_bar(position="stack", stat="identity")
+
 ```
+
+
+
