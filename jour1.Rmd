@@ -69,7 +69,7 @@ class: inverse, center, middle
 
 ---
 
-### Imaginons...
+### .red[Imaginons...]
 
 Vous êtes journaliste (ou étudiant·e en master ou simplement avec une grande curiosité) et vous travaillez sur les festivals en France. Vous souhaitez étudier : la fréquentation, l'historique des festivals... 
 

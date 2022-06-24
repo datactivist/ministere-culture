@@ -14,22 +14,18 @@ library(hrbrthemes)
 ```
 
 ```{r}
-
-fest <- read.csv("panorama-des-festivals(2).csv", encoding = "UTF-8", sep = ";")
-
+fest <- read.csv("panorama-des-festivals.csv", encoding = "UTF-8", sep = ";") 
+ 
+fest <- fest %>% 
+   count(Région, Domaine, name = "nbr") %>% 
+   mutate(Domaine = str_to_lower(Domaine))
+ 
+   ggplot(fest, aes(fill=Domaine, y=nbr, x=Région)) + 
+     geom_bar(position="stack", stat="identity") +
+     coord_flip() +
+     labs(x ="Région", y = "Nombre de festival", title ="Nombre de festivals par domaine et par région")
 ```
 
-```{r}
-fest <- fest %>%
-  group_by(Région) %>% 
-  count(Domaine, name = "nbr")
-```
-
-```{r}
-    ggplot(fest, aes(fill=Domaine, y=nbr, x=Région)) + 
-    geom_bar(position="stack", stat="identity")
-
-```
 
 
 
