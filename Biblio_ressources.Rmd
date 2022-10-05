@@ -3,7 +3,7 @@ title: "Bibliographie et ressources"
 runningheader: "Bibliographie et ressources" # only for pdf output
 subtitle: "Cours open data - Ministère de la Culture" # only for html output
 author: "Datactivist - Anne-Laure Donzel"
-date: "`r Sys.Date()`"
+date: "Octobre 2022"
 output:
   tufte::tufte_html: default
   tufte::tufte_handout:
@@ -21,11 +21,16 @@ library(tufte)
 # invalidate cache when the tufte version changes
 knitr::opts_chunk$set(cache.extra = packageVersion('tufte'))
 options(htmltools.dir.version = FALSE)
+
 ```
+
+::: {.fullwidth}
 
 # Rapports et guides pratiques
 
 - **Feuille de route *Données et contenus culturels***, URL : <https://www.culture.gouv.fr/Espace-documentation/Documentation-administrative/Feuille-de-route-Donnees-et-contenus-culturels>
+
+- **Politique du Ministère de la Culture pour  les codes sources, algorithmes et codes sources**, URL : (https://www.culture.gouv.fr/content/download/314733/pdf_file/Politique_CALL_version_01_2022-06-29.pdf?version=1), juin 2022
 
 -   **Guide pratique dédié à l'ouverture des données publiques
     culturelles** Publié par le ministère de la Culture, juillet 2019,
@@ -74,6 +79,8 @@ Programme Images/usages, Institut national d’histoire de l’art, octobre 2018
 
 * Cas concret d'utilisation d'OpenRefine pour les archives[[https://medium.com/\@seeksanusername/cas-concret-dutilisation-d-openrefine-pour-les-archives-442726996b74](https://medium.com/@seeksanusername/cas-concret-dutilisation-d-openrefine-pour-les-archives-442726996b74){.uri}]
 
+* Cas pratique à partir d'un inventaire en pdf [https://patrimoine-et-numerique.fr/tutoriels/69-38-d-un-inventaire-pdf-a-un-fichier-xml-cas-pratique-openrefine](https://patrimoine-et-numerique.fr/tutoriels/69-38-d-un-inventaire-pdf-a-un-fichier-xml-cas-pratique-openrefine)
+
 # Journées d'étude
 
 - Documentation de la journée Wikimédia [*Culture et Numérique 2022*](https://meta.wikimedia.org/wiki/Journ%C3%A9e_Wikimedia_Culture_et_Num%C3%A9rique_2022/Documentation)
@@ -81,4 +88,52 @@ Programme Images/usages, Institut national d’histoire de l’art, octobre 2018
 - Documentation de la journée Wikimédia [*Culture et Numérique 2021*](https://meta.wikimedia.org/wiki/Journ%C3%A9e_Wikimedia_Culture_et_Num%C3%A9rique_2021/Documentation)
 
 - Documentation de la journée Wikimédia [*Culture et Numérique 2019*](https://meta.wikimedia.org/wiki/Wikim%C3%A9dia_France/Groupes_de_travail/Groupes_th%C3%A9matiques/GLAM/Journ%C3%A9es_Wikimedia_Culture_et_Num%C3%A9rique_2019/Documentation)
+
+# Exemples de réutilisation
+
+## Storymap
+
+* AD du Val-de-Marne : https://archives.valdemarne.fr/r/358/la-story-map/
+
+* AD des Bouches-du-Rhônes : https://www.archives13.fr/n/l-exposition-coloniale-de-marseille-de/n:298
+
+* Smithsonian Gardens : https://gardens.si.edu/collections/plants/living-collections-management/story-maps/
+
+## Chronologies interactives
+
+* Musée d’Orsay : https://sculptures-polychromes.musee-orsay.fr/index.php/Browse/objects
+
+* Musée des Beaux-Arts de Lyon : https://www.mba-lyon.fr/fr/type-de-collection/arts-graphiques
+
+## Cartes
+
+* Umap : carte du matrimoine parisien : https://umap.openstreetmap.fr/fr/map/le-matrimoine-parisien_273260#13/48.8592/2.3430
+
+* Carte des archives d’Angers : https://archives.angers.fr/
+
+* Carte réalisée à partir des photos en open data des AM de Marseille : https://umap.openstreetmap.fr/fr/map/carte-des-photos-en-open-data-des-am-de-marseille_628303#12/43.2947/5.4252
+
+## Utilisation de Wikidata
+
+* A partir des données des archives Nationales : https://twitter.com/daieuxdailleurs/status/1575026867228114944 ou https://twitter.com/daieuxdailleurs/status/1566456581012717569
+
+* Le moteur de recherche Crotos : https://zone47.com/crotos/
+
+## Des exemples de fichiers en open data
+
+* Inventaires du musée de Saint-Raymond : https://www.data.toulouse-metropole.fr/explore/dataset/inventaire-principal-musee-saint-raymond/information/
+
+* Cartes postales des AD des Hauts-de-Seine : https://opendata.hauts-de-seine.fr/explore/dataset/cartes-postales/images/
+
+## Autres exemples
+
+* Intégré logiciel métier : l’Encycl’O des AM d’Orléans 
+https://archives.orleans-metropole.fr/histoires-dorleans/lencyclo et Cart’O https://archives.orleans-metropole.fr/histoires-dorleans/carto--histoires
+
+* Test de tableau de bord à partir d’un jeu de données des AN : https://aldonzel.github.io/moulins/test_flex.html
+
+* La page des réutilisations des données culturelles sur data.gouv : https://www.data.gouv.fr/fr/reuses/?page_size=21&topic=culture_and_recreation
+
+:::
+
 

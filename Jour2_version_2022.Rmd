@@ -2,7 +2,7 @@
 title: "L'ouverture des données publiques culturelles en pratique"
 subtitle: "Ministère de la Culture"
 author: "Datactivist - Anne-Laure Donzel"
-date: "`r Sys.Date()`"
+date: "Octobre 2022"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -59,15 +59,15 @@ BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
 
 ### Aujourd'hui, vous allez .red[apprendre à :]
 
-#### Concevoir une stratégie Open Data
+#### - Concevoir une stratégie Open Data
 
-#### Comprendre la qualité nécessaire pour publier des données
+#### - Comprendre la qualité nécessaire pour publier des données
 
-#### Préparer des données et s'initier au travail nécessaire à la publication
+#### - Préparer des données et s'initier au travail nécessaire à la publication
 
-#### Évaluer des opportunités d'ouverture de données
+#### - Évaluer des opportunités d'ouverture de données
 
-#### Animer et valoriser la réutilisation
+#### - Animer et valoriser la réutilisation
 
 ---
 
@@ -159,6 +159,16 @@ class: inverse, center, middle
 
 ---
 
+### Surmonter les .red[difficultés]
+
+- Problèmes **organisationnels** : ouvrir des données prend du temps et vient en plus de nombreuses tâches car cela n'a pas été pensé comme une politique publique
+
+- Problèmes **techniques** : vouloir ouvrir ses données révèle souvent des problèmes de qualité ou d'interopérabilité
+
+- Problèmes **juridiques** : les données à ouvrir sont-elles protégées par des droits spécifiques ?
+
+---
+
 ### Les politiques open data .red["de l'offre"]
 
 .pull-left[
@@ -202,13 +212,19 @@ class: middle
 
 -   **Étape 1** : Sélectionner les données
 -   **Étape 2** : Préparer les données
--   **Étape 3** : Diffuser et valoriser les données
+-   **Étape 3** : Diffuser les données
+-   **Étape 4** : Animer et valoriser les réutilisations
 
 ---
 
 class: inverse, center, middle
 
 ## Etape 1 : Sélectionner les données
+
+---
+class: center, middle
+
+# Quelles données, ouvrables ou non, avez-vous dans vos services ?
 
 ---
 
@@ -225,9 +241,8 @@ class: inverse, center, middle
 ---
 class: center, middle
 
-# Exercice de cartographie
+# Exercice de cartographie de données
 
-A partir du support partagé : compléter la cartographie avec les données de votre service.
 ---
 
 ### Étape 1 : .red[Selectionner les données à ouvrir en priorité]
@@ -244,15 +259,16 @@ class: center, middle
 
 # Exercice d'évaluation des données et de priorisation
 
-1. Prenez connaissance de la cartographie fictive
+---
 
---
+## Etape 1 : les .red[outils] de la sélection de données
 
-2. Evaluer les jeux de données
+- Le modèle de cartographie du Ministère - P.24 du [Guide pratique du Ministère](https://www.culture.gouv.fr/Media/Thematiques/Innovation-numerique/Folder/Guide-pratique-dedie-a-l-ouverture-des-donnees-publiques-culturelles)
 
---
+- Orientations stratégiques de l'Etablissement ou prioriser ses ouvertures suivant les demandes et les opportunités
 
-3. Prioriser l'ouverture suivant les objectifs de votre structure
+- Grille d'analyse
+
 ---
 
 class: inverse, center, middle
@@ -260,34 +276,13 @@ class: inverse, center, middle
 ## Etape 2 : Préparer les données
 
 ---
-### Etape 2 : Préparer les données
-#### 2.1 Choisir un .red[format ouvert]
+class: center, middle
 
-Les données doivent être téléchargeables dans un « standard ouvert », c'est à dire dans un format ouvert aisément réutilisable et exploitable par un système de traitement automatisé et pérenne. Les formats ouverts favorisent l’intéropérabilité : les données pourront être réutilisées indépendamment du logiciel qui a été utilisé pour les créer.
-
-Voici quelques exemples de formats « ouverts » conseillés pour la diffusion des jeux de données en ligne : 
-
-* **Texte brut** : ASCII (.txt)
-* **Texte formaté** : TeX (.tex), OpenDocument Text (.odt), Hypertext Markup
-Language (.htm ou .html), XHTML (.xhtml), Feuilles de style en cascade (.css)
-* **Images** : png (.png), jpeg (.jpg ou .jpeg)
-* **Données brutes** : CSV (.csv) / sans extension, JSON (.json), XML (.xml)
-* **Données géographiques** : KML (.kml), SHP (.shp)
+# C'est quoi la .red[qualité des données] selon vous ?
 
 ---
 
-### Accessibilité des formats des données .red[pour les humains et pour les machines]
-
-
-.center[<img src="./img/accesibilite_formats_donnees.png" height="300"/>]
-
-
-Source : Françoise Paquienséguy, Valentyna Dymytrova. Livrable 1.2 Analyse de portails métropolitains de données ouvertes à l’échelle internationale. Rapport de recherche 1.2, Equipe d’accueil lyonnaise en Sciences de l’information et de la communication. 2017. [hal-01449348](https://hal.archives-ouvertes.fr/hal-01449348)
-
-
----
-
-### L'importance de la .red[qualité des données]
+### Etape 2 : l'importance de la .red[qualité des données]
 
 #### .red[Une remarque récurrente :]
 
@@ -307,22 +302,41 @@ Source : [Rapport mondial du 4e Open Data
 Barometer](https://opendatabarometer.org/4thedition/report/?lang=fr)
 
 ---
-### Etape 2. Préparer les données
-#### 2.2 Mettre en .red[qualité] les données
 
-Quelques principes à retenir :
+# Etape 2 : Qualité et qualité
 
-* Mettre à disposition des séries chronologiques les plus longues possibles avec la granularité la plus fine, tout en respectant le secret de la vie privée et le secret statistique ; 
-* Compléter vos fichiers par les données de géolocalisation quand cela est possible ;
-* Compléter l'adresse postale par le code INSEE (afin de faciliter la géolocalisation dans le cas des noms de villes homonymes) ;
-* Utiliser la norme ISO 8601 pour les dates, format : « AAAA-MM-JJ ».
-* Faciliter au maximum le traitement par les réutilisateurs : uniformiser les saisies, rendre le fichier traitable par des machines...
+.pull-left[
+
+**Qualité interne des données :**
+- Harmonisation
+
+- Complétude
+
+- Niveau de granularité
+
+- Types
+
+- Structure interne]
+
+.pull-right[
+
+**Qualité externe des données**
+
+- Format
+
+- Standardisation
+
+- Description
+
+]
+
+*Nous y reviendrons*
 
 ---
 
-### Les étapes de la .red[mise en qualité]
+### Etape 2 : Les critères de la .red[mise en qualité]
 
-![](img/etape_qualité.png)
+![](img/arbre_qualite.png)
 
 ---
 
@@ -343,34 +357,60 @@ class: center, middle
 
 Démo
 
+---
+## Etape 2 : les .red[outils] de la qualité des données
+
+- L'outil "couteau suisse" : Open Refine, à défaut un tableur
+
+- Les outils "coup de pousse" : DataProofer, WTF CSV
+
+- Une checklist sur la qualité des données
 
 ---
 class: inverse, center, middle
 
-## Étape 3 : Diffuser et valoriser les données
+## Étape 3 : Diffuser les données
 ---
 
-### Étape 3 : .red[Diffuser et valoriser] les données
+### Étape 3 : .red[Diffuser] les données
 
-#### 3.1 Standardiser ses données
+#### 3.1 Choisir le bon format
 
 #### 3.2 Bien documenter ses données pour rendre ses données découvrables
 
-#### 3.3 Utiliser la bonne plateforme
+#### 3.3 Choisir la bonne licence
+
+#### 3.4 Utiliser la bonne plateforme
 
 ---
-### Étape 3 : .red[Diffuser et valoriser] les données
+### Étape 3 : .red[Diffuser] les données
 
-#### Etape 3.1 Standardiser les données .red[si possible]
+#### Etape 3.1 : retour sur la qualité externe des données
 
-La standardisation permet de définir une description commune à plusieurs producteurs et pour des données de même type.
+Les données doivent être téléchargeables dans un « standard ouvert », c'est à dire dans un format ouvert aisément réutilisable et exploitable par un système de traitement automatisé et pérenne. Les formats ouverts favorisent l’intéropérabilité : les données pourront être réutilisées indépendamment du logiciel qui a été utilisé pour les créer.
 
-Un exemple : .red[le standards des données des registres d'entrées d'archives]
+Voici quelques exemples de formats « ouverts » conseillés pour la diffusion des jeux de données en ligne : 
 
-![](img/registre_entree.png)
-
+* **Texte brut** : ASCII (.txt)
+* **Texte formaté** : TeX (.tex), OpenDocument Text (.odt), Hypertext Markup
+Language (.htm ou .html), XHTML (.xhtml), Feuilles de style en cascade (.css)
+* **Images** : png (.png), jpeg (.jpg ou .jpeg)
+* **Données brutes** : CSV (.csv) / sans extension, JSON (.json), XML (.xml)
+* **Données géographiques** : KML (.kml), SHP (.shp)
 
 ---
+### Étape 3 : .red[Diffuser] les données
+
+#### Etape 3.1 : Accessibilité des formats des données .red[pour les humains et pour les machines]
+
+
+.center[<img src="./img/accesibilite_formats_donnees.png" height="300"/>]
+
+
+Source : Françoise Paquienséguy, Valentyna Dymytrova. Livrable 1.2 Analyse de portails métropolitains de données ouvertes à l’échelle internationale. Rapport de recherche 1.2, Equipe d’accueil lyonnaise en Sciences de l’information et de la communication. 2017. [hal-01449348](https://hal.archives-ouvertes.fr/hal-01449348)
+
+---
+### Étape 3 : .red[Diffuser] les données
 
 ### Exercice : .red[réalisez un fichier .csv de qualité]
 
@@ -385,10 +425,9 @@ Un exemple : .red[le standards des données des registres d'entrées d'archives]
 
 
 ---
+### Étape 3 : .red[Diffuser] les données
 
-### Étape 3 : .red[Diffuser et valoriser] les données
-
-#### 3.2 Documenter les données
+### 3.2 Documenter les données
 
 Des données mal décrites vont être introuvables et donc, elles ne seront pas utilisées.
 
@@ -396,12 +435,12 @@ Des données mal décrites vont être introuvables et donc, elles ne seront pas 
 
 ---
 
-### Étape 3 : .red[Diffuser et valoriser] les données
+### Étape 3 : .red[Diffuser] les données
 
 #### 3.2 La découvrabilité : un .red[enjeu crucial]
 
 .pull-left[
-![](https://index.okfn.org/images/Datagapsclean.jpg)
+![](img/Datagapsclean.jpg)
 ]
 .pull-right[
 "La découvrabilité des données est un défi majeur. Nous avons des portails et des registres de données, mais les organismes gouvernementaux qui relèvent d'un seul gouvernement national publient toujours les données de différentes façons et à différents endroits (...).
@@ -413,7 +452,7 @@ Des données mal décrites vont être introuvables et donc, elles ne seront pas 
 
 ---
 
-### Étape 3 : .red[Diffuser et valoriser] les données
+### Étape 3 : .red[Diffuser] les données
 
 
 #### 3.2 Rendre les données découvrables
@@ -438,7 +477,7 @@ A partir du template *Documenter un jeu de données* et du jeu de données *exer
 
 ---
 
-### Étape 3 : .red[Diffuser et valoriser] les données
+### Étape 3 : .red[Diffuser] les données
 
 
 #### 3.2 Rendre les données découvrables
@@ -451,9 +490,9 @@ En complément des métadonnées, d'autres actions peuvent être menées :
 ![](img/voc_mismatch.png)
 ---
 
-### Étape 3 : .red[Diffuser et valoriser] les données
+### Étape 3 : .red[Diffuser] les données
 
-#### Choisir la bonne licence
+#### Etape 3.3 : rendre les données (réellement) réutilisable en choisissant la bonne licence
 
 **Cas 1** :
 
@@ -461,7 +500,7 @@ Mon institution souhaite respecter strictement le cadre légale. Quelle(s) licen
 
 ---
 
-### Étape 3 : .red[Diffuser et valoriser] les données
+### Étape 3 : .red[Diffuser] les données
 
 #### Choisir la bonne licence
 
@@ -471,7 +510,7 @@ Mon institution souhaite favoriser la réutilisation des données et des contenu
 
 ---
 
-### Étape 3 : .red[Diffuser et valoriser] les données
+### Étape 3 : .red[Diffuser] les données
 
 #### Choisir la bonne licence
 
@@ -481,7 +520,7 @@ Mon institution souhaite différencier les types de réutilisations (commerciale
 
 ---
 
-### Étape 3 : .red[Diffuser et valoriser] les données
+### Étape 3 : .red[Diffuser] les données
 
 #### 3.4 Utiliser la bonne plateforme de publication
 
@@ -499,7 +538,7 @@ via l'onglet « Contact » de la plateforme data.culture.gouv.fr.*
 
 ---
 
-### Étape 3 : .red[Diffuser et valoriser] les données
+### Étape 3 : .red[Diffuser] les données
 
 #### 3.4 Utiliser la bonne plateforme de publication
 
@@ -521,7 +560,14 @@ Etalab](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/)
 > toutes les données publiées de cette façon soient ensuite
 > automatiquement visibles sur data.culture.gouv.fr.**
 
- 
+---
+## Etape 3 : les .red[outils] de la diffusion de données
+
+- Le [guide open data du Ministère de la Culture](https://www.culture.gouv.fr/Media/Thematiques/Innovation-numerique/Folder/Guide-pratique-dedie-a-l-ouverture-des-donnees-publiques-culturelles) offre de nombreux éléments sur la diffusion
+
+- Sur les conditions juridiques de [réutilisation](https://www.culture.gouv.fr/Media/Thematiques/Innovation-numerique/Folder/Livrables-GT-Numerisation/Numerisation-et-valorisation-des-contenus-culturels-guide-ouverture-et-reutilisation-des-informations-publiques-numeriques-du-secteur-culturel) et sur les [droits détenus par des tiers](https://www.culture.gouv.fr/droitsdediffusion/) 
+
+- Les plateformes : [data culture](https://data.culture.gouv.fr/pages/home/) et [data gouv](https://www.data.gouv.fr/fr/) et notamment les [pages de tutoriel](https://www.data.gouv.fr/fr/pages/onboarding/producteurs/)
 
 ---
 
@@ -531,13 +577,11 @@ class: inverse, center, middle
 
 ---
 
-class: middle
-
 ### Étape 4 : .red[Animer et valoriser] les réutilisations
 
 #### En interne à votre structure
 
-* Utiliser des données ouvertes
+* Utiliser des données ouvertes, notamment les vôtres
 
 #### En externe à votre structure
 
@@ -672,10 +716,38 @@ mondial visant à valoriser les monuments historiques).
     données en s'appuyant sur la contribution et l'engagement citoyen
     (crowdsourcing).
 
-
 ---
 
-### Questions et .red[exercice de groupe]
+## Etape 4 : les .red[outils] de la valorisation de données
+
+.pull-left[
+
+**Des datavisualisations simples et rapides**:
+
+- Directement dans data culture
+
+- Avec des outils spécifiques : [Datawrapper](https://www.datawrapper.de/), [Rawgraphs](https://www.rawgraphs.io/)
+
+- Contenus interactifs [storymap](https://storymap.knightlab.com/select/)
+]
+
+
+.pull-right[
+
+**Des cartes simples et rapides** :
+
+- [Umap](https://umap.openstreetmap.fr/fr/)
+
+- [Carto](https://carto.com/)
+
+- [Khartis](https://www.sciencespo.fr/cartographie/khartis/)
+
+]
+
+Et des outils plus experts : Rstudio, Wikidata Query, QGis...
+---
+
+### Questions pour .red[terminer]
 
 > -   
 >

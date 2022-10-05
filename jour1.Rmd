@@ -1,8 +1,8 @@
 ---
-title: "Open Data : comprendre les enjeux de l'ouverture des données publiques culturelles."
+title: "Comprendre les enjeux de l'ouverture des données publiques culturelles"
 subtitle: "Ministère de la Culture"
-author: ""
-date: ""
+author: "Datactivist"
+date: "Octobre 2022"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -539,7 +539,7 @@ relations entre les usagers et le service public culturel ;
 
 ![](./img/data.culture.gouv.fr.png)
 
-Pour les les données de l'administration centrale, d'une DRAC ou d'un SCN, la mise à disposition des données est à effectuer sur le site  .red[data.culture.gouv.fr.]
+Pour les données de l'administration centrale, d'une DRAC ou d'un SCN, la mise à disposition des données est à effectuer sur le site  .red[data.culture.gouv.fr.]
 
 Afin d’améliorer la visibilité des données culturelles, **le portail data.culture.gouv.fr est moissonné automatiquement par data.gouv.fr**, pour pouvoir les exposer sur les deux plateformes à la fois. 
 
@@ -570,19 +570,6 @@ Cela implique la création d’une page dédiée à l'établissement, puis la pu
 
 > Important : les œuvres protégées par le droit d’auteur ou un droit voisin ne peuvent faire l’objet d’un droit de réutilisation, mais les œuvres entrées dans le domaine public relèvent pleinement de l’ouverture des données publiques.
 
----
-
-### Le saviez-vous ?
-
-Suite à une consultation publique menée par le Ministère qui invitait les citoyens à répondre à la question : “quelles sont les données publiques culturelles stratégiques que vous souhaitez voir ouvertes à la réutilisation libre et gratuite ?”
-
-La consultation avait mis en avant trois types de données publiques particulièrement recherchées :
-
-* 1- Les données statistiques et économiques des institutions culturelles (fréquentation, subventions…) 
-
-* 2- Les métadonnées culturelles
-
-* 3- Les fichiers images et copies numériques des œuvres entrées dans le domaine public.
 
 ---
 
@@ -1332,12 +1319,18 @@ Une bonne stratégie consiste à réduire les frictions :
 
 ---
 
-### Bibliographie
+### Bibliographie 1/3
+
+* [Politique du Ministère de la Culture pour  les codes sources, algorithmes et codes sources](https://www.culture.gouv.fr/content/download/314733/pdf_file/Politique_CALL_version_01_2022-06-29.pdf?version=1), juin 2022
 
 * [**Feuille de route – Données et contenus culturels**](https://www.culture.gouv.fr/Espace-documentation/Documentation-administrative/Feuille-de-route-Donnees-et-contenus-culturels), Publiée par le ministère de la Culture, septembre 2021
 
 * [**Guide pratique dédié à l’ouverture des données publiques culturelles**](http://www.culture.gouv.fr/Media/Thematiques/Innovation-numerique/Folder/Guide-pratique-dedie-a-l-ouverture-des-donnees-publiques-culturelles)
 Publié par le ministère de la Culture, juillet 2019 
+
+---
+
+### Bibliographie 2/3
 
 * [**Outil pédagogique facilitant la compréhension des droits de propriété littéraire et artistique applicables aux contenus culturels dont la diffusion est souhaitée**](https://www.culture.gouv.fr/droitsdediffusion/) 
 
@@ -1349,7 +1342,7 @@ Publié par le ministère de la Culture, juillet 2019
 
 ---
 
-### Bibliographie
+### Bibliographie 3/3
 
 * [**Rapport open content dans les institutions culturelles en France**](https://upload.wikimedia.org/wikipedia/commons/9/94/Rapport_sur_l%E2%80%99open_content_dans_les_institutions_culturelles_en_France_-_%C3%89tat_des_lieux_des_pratiques_num%C3%A9riques_et_d%E2%80%99ouverture_de_contenus.pdf), Wikimédia, 2022
 
