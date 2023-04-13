@@ -2,7 +2,7 @@
 title: "Comprendre les enjeux de l'ouverture des données publiques culturelles"
 subtitle: "Ministère de la Culture"
 author: "Datactivist"
-date: "Octobre 2022"
+date: "Avril 2023"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
