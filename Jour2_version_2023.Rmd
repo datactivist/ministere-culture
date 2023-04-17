@@ -222,11 +222,6 @@ class: inverse, center, middle
 ## Etape 1 : Sélectionner les données
 
 ---
-class: center, middle
-
-# Quelles données, ouvrables ou non, avez-vous dans vos services ?
-
----
 
 ### Étape 1 : .red[Selectionner les données]
 
@@ -238,21 +233,6 @@ class: center, middle
 
 .center[<img src="./img/tableaucarto.png" height="280"/>]
 
----
-class: center, middle
-
-# Exercice de cartographie de données
-
----
-
-### Étape 1 : .red[Selectionner les données à ouvrir en priorité]
-
-1.2 .red[Cette sélection se fait en fonction des objectifs et des moyens de votre structure].
-
-> Il y a plusieurs possibilités : se conformer à une stratégie formalisée, suivre les demandes des communautés de réutilisateurs...
-
-
-## .center[![](img/Template_eval.png)]
 
 ---
 class: center, middle
