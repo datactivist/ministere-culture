@@ -207,7 +207,7 @@ class: inverse, center, middle
 
 ---
 
-### Open data : un mouvement .red[aux multiples facettes]
+### Open data : un mouvement .red[né pour répondre à différents enjeux et besoins]
 
 **Brève introduction aux principales facettes** : 
 
@@ -223,7 +223,7 @@ class: inverse, center, middle
 
 
 ---
-### [.red[Facette n°1 :]](https://books.openedition.org/cdf/5005?lang=fr) la transparence
+### [.red[Besoin n°1 :]](https://books.openedition.org/cdf/5005?lang=fr) renforcer la transparence
 
 Aller au-delà du droit d'accès et de la réédition des comptes (_accountability_) : réduire les asymétries d'information en accédant au matériau brut de l'information et du savoir
 
@@ -232,7 +232,7 @@ Aller au-delà du droit d'accès et de la réédition des comptes (_accountabili
 ]
 
 ---
-### [.red[Facette n°2 :]](https://books.openedition.org/cdf/5005?lang=fr) la libre circulation de l’information
+### [.red[Facette n°2 :]](https://books.openedition.org/cdf/5005?lang=fr) favoriser la libre circulation de l’information
 
 Dans la lignée de la cybernétique et du logiciel libre, la circulation des données comme valeur essentielle
 
@@ -240,7 +240,7 @@ Dans la lignée de la cybernétique et du logiciel libre, la circulation des don
 
 ---
 
-###  [.red[Facette n°3 :]](https://books.openedition.org/cdf/5005?lang=fr) la demande de données brutes
+###  [.red[Facette n°3 :]](https://books.openedition.org/cdf/5005?lang=fr) répondre à la demande de données brutes
 
 Dans la lignée des premières initatives de partage de données scientifiques en génétique ou en astronomie, obtenir les données sous leur forme pré-interprétative pour refaire les calculs
 
@@ -248,14 +248,14 @@ Dans la lignée des premières initatives de partage de données scientifiques e
 
 ---
 
-### [.red[Facette n°4 :]](https://books.openedition.org/cdf/5005?lang=fr) l'industrie de la donnée
+### [.red[Facette n°4 :]](https://books.openedition.org/cdf/5005?lang=fr) alimenter l'industrie de la donnée
 Le nouveau pétrole et les promesses démesurées de croissance
 
 .reduite[.center[![](https://images.pexels.com/photos/70362/oil-monahans-texas-sunset-70362.jpeg?cs=srgb&dl=dawn-drill-evening-70362.jpg&fm=jpg)]]
 
 ---
 
-### .red[Facette n°5 :] la modernisation des administrations
+### .red[Facette n°5 :] accompagner la modernisation des administrations
 
 Désiloter l'administration et ouvrir l'innovation, collaborer avec la société civile dans l'élaboration et la mise en œuvre des politiques publiques
 
@@ -303,17 +303,11 @@ class: center, middle
 .center[.reduite[![](https://datactivist.coop/aaf/img/ted.png)]]
 
 ---
-### Depuis 2010 : .red[l'ère des classements]
+### 2010 : .red[l'ère des classements]
 
 **[Le baromètre international de l'Open Data](https://index.okfn.org/place/)** est un classement de référence, tout comme l'Open Data Index de l'Open Knowledge Foundation, organisation internationale ayant pour objet de promouvoir la transparence des données publiques.
 
 ![baromètre international de l'Open Data](https://datactivist.coop/aaf/img/odb.png)
----
-
-### Depuis 2010 : .red[l'ère des classements]
-
-![Open Data Index de l'Open Knowledge Foundation](https://datactivist.coop/aaf/img/godi.png)
-
 ---
 
 ### 2013 : la [charte du G8 sur l'open data](https://www.modernisation.gouv.fr/sites/default/files/fichiers-attaches/charte-g8-ouverture-donnees-publiques-fr.pdf)
@@ -327,7 +321,7 @@ class: center, middle
 
 ---
 
-### Conclusion : des .red[principes et une définition] qui se normalisent
+### Conclusion : des .red[principes et une définition] qui se stabilisent
 
 * **.red[Une première définition du savoir ouvert] avec l'Open Definition** : "Ouvert signifie que tout le monde peut librement accéder, utiliser, modifier et partager (*des données ou informations*) dans n'importe quel but, sous réserve d'exigences qui en préservent la provenance et l'ouverture."
 
@@ -1202,7 +1196,16 @@ Ses pages sont indexées par les moteurs de recherche.
 
 > Le site permet de rassembler autour de ses pages auteur, œuvre, thème, date et lieu, des ressources de la Bibliothèque nationale de France, ainsi que des ressources extérieures. 
 
+---
 
+### Mettre à disposition des .red[données de références]
+
+Enjeux : partage, accès, interopérabilité des métadonnées.
+
+Des projets :
+* [Hadoc](https://www.culture.gouv.fr/Media/Documentation/Harmonisation-des-donnees-culturelles/Files/MCC-HADOC-REF-modele_harmonise_donnees_culturelles.pdf)
+* [OpenThéso](https://opentheso.huma-num.fr/opentheso/#)
+* Thésaurus en Skos de dataculture(http://data.culture.fr/thesaurus/)
 ---
 
 ### Profiter du potentiel du .red[web semantique]
@@ -1212,6 +1215,14 @@ Ses pages sont indexées par les moteurs de recherche.
 [Paladia](http://zone47.com/crotos/palladia/), est un moteur de recherche et d'affichage d'une partie des collections du Musée Saint-Raymond.
 
 ![](./img/crotos.png)
+---
+
+### Profiter du potentiel du .red[web semantique]
+
+Dans le futur : une aide à l'indexation ? Un exemple avec la reconnaissance des entités nommées basées sur Wikidata
+
+http://nerd.huma-num.fr/nerd/
+
 ---
 
 ### Valoriser .red[sa démarche]
@@ -1314,7 +1325,7 @@ Une bonne stratégie consiste à réduire les frictions :
 
 ### Bibliographie 1/3
 
-* [Politique du Ministère de la Culture pour  les codes sources, algorithmes et codes sources](https://www.culture.gouv.fr/content/download/314733/pdf_file/Politique_CALL_version_01_2022-06-29.pdf?version=1), juin 2022
+* [**Politique du Ministère de la Culture pour  les codes sources, algorithmes et codes sources**](https://www.culture.gouv.fr/content/download/314733/pdf_file/Politique_CALL_version_01_2022-06-29.pdf?version=1), juin 2022
 
 * [**Feuille de route – Données et contenus culturels**](https://www.culture.gouv.fr/Espace-documentation/Documentation-administrative/Feuille-de-route-Donnees-et-contenus-culturels), Publiée par le ministère de la Culture, septembre 2021
 

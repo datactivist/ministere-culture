@@ -2,7 +2,7 @@
 title: "L'ouverture des données publiques culturelles en pratique"
 subtitle: "Ministère de la Culture"
 author: "Datactivist - Anne-Laure Donzel"
-date: "Avril 2023"
+date: "Juin 2023"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -214,6 +214,17 @@ class: middle
 -   **Étape 2** : Préparer les données
 -   **Étape 3** : Diffuser les données
 -   **Étape 4** : Animer et valoriser les réutilisations
+
+---
+
+### Avant toute chose .red[quelle stratégie ?]
+
+Il est toujours important de s'interoger sur le but et les objectifs de votre ouverture.
+* Que souhaitez-vous faire ?
+* Pour quelle(s) raison(s) le faites-vous ?
+* De quels moyens disposez-vous ?
+* Quels facteurs de réussite ?
+* Quelle temporalité ?
 
 ---
 
@@ -471,8 +482,7 @@ automatiquement ces données sur data.gouv.fr, pour pouvoir les exposer
 sur les deux plateformes à la fois.
 
 *Pour toute information sur la mise à disposition de nouveaux jeux de
-données, contacter le département de l'innovation numérique (SG/SCPCI)
-via l'onglet « Contact » de la plateforme data.culture.gouv.fr.*
+données, contacter le département concerné via l'onglet « Contact » de la plateforme data.culture.gouv.fr.*
 
 ---
 
