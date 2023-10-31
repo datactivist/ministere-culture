@@ -2,7 +2,7 @@
 title: "Comprendre les enjeux de l'ouverture des données publiques culturelles"
 subtitle: "Ministère de la Culture"
 author: "Datactivist"
-date: "Juin 2023"
+date: "Novembre 2023"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -396,6 +396,12 @@ On y trouve des milliers de jeux de données, provenant principalement de produc
 .center[![](img/Datagouv2022.png)] 
 
 ---
+
+### Nouveau sur data.gouv : .red[thématique culture]
+
+[![](img/DG_theme_cult.png)](https://www.data.gouv.fr/fr/pages/donnees_culture/)
+
+---
 ### Au-delà de .red[data.gouv.fr]
 
 Data.gouv.fr est la plateforme **nationale** d'open data mais ce n'est pas la seule plateforme publique qui met à disposition des données ouvertes. Il existe :
@@ -426,6 +432,7 @@ Un portail open data est un espace de présentation des données publiques ouver
 
 * dispositifs éditoriaux pour animer le projet open data
 
+
 ---
 class: center, middle
 
@@ -450,6 +457,12 @@ class: center, middle
 
 .red[**2021**] : Une nouvelle nouvelle feuille de route "Données et contenus culturels" et nomination d'un AMDAC
 
+---
+### Un ministère qui .red[joue le jeu]
+
+Le ministère publie 2 éléments intéressants pour s'orienter et connaître sa démarche open data :
+* Le [catalogue des données du Ministère](https://data.culture.gouv.fr/explore/dataset/catalogue-des-donnees-du-ministere-de-la-culture/information/?disjunctive.sous_domaine)
+* Le [calendrier des futures publications de jeux de données](https://www.culture.gouv.fr/Thematiques/Innovation-numerique/Actualites/Open-data-decouvrez-le-calendrier-d-ouverture-du-ministere-de-la-Culture)
 ---
 
 class: inverse, center, middle
@@ -601,7 +614,7 @@ Trois grandes étapes caractérisent en France la **construction d’un droit de
 
 1. **Directive INSPIRE** de 2007
 
-1. **Directive PSI** de 2013
+1. **Directive PSI** de (2003, 2013 et 2019)
 
 1. **Loi Valter** de 2015
 
@@ -664,6 +677,17 @@ d'.red[**occulter les mentions protégées**]. L’administration n’est pas te
 Le droit de réutilisation issu de la directive PSI *se combine donc en France avec le droit d’accès aux documents administratifs* reconnu depuis 1978 : les informations contenues dans tout document administratif communicable sont, en principe, réutilisables « _par toute personne qui le souhaite à d'autres fins que celles de la mission de service public pour les besoins de laquelle les documents ont été élaborés ou sont détenus_ ». 
 
 > Par cette combinaison, le droit français garantit ainsi une liberté effective de réutilisation bien plus grande que celle imposée par la directive ISP. Le principal apport de la transposition au droit français est d’avoir mis fin à l’interdiction de réutilisation des documents administratifs à des fins commerciales.
+
+---
+### Evolution de le directive PSI en .red[2019]
+
+Maintien d'un cadre d'exception pour le secteur culturel (bibliothèques, archives, musées)
+
+>Pour les documents à l'égard desquels [...] des archives sont titulaires de droits de propriété intellectuelle [...] les États membres veillent à ce que, lorsque la réutilisation de ces documents est autorisée, ces derniers puissent être réutilisés à des fins commerciales ou non commerciales.
+
+Art. 3 de la directive
+
+PSI autorise la perception de redevances pour les données culturelles mais sous condition de critères.
 
 ---
 
