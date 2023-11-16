@@ -26,13 +26,13 @@ layout: true
 
 ### Présentation
 
-* Adaptée de la fresque du climat, cette fresque des données ouvertes permet aux agents de sensibiliser et de s’approprier les éléments contextuels et historiques, mais aussi les enjeux et les leviers qu’offre l’ouverture des données.
+* Adaptée de la fresque du climat, cette fresque des données ouvertes permet aux agents de s'acculturer et de s’approprier les éléments contextuels et historiques, mais aussi les enjeux et les leviers qu’offre l’ouverture des données.
 
-* Elle se déroule sous forme d’un atelier ludique, où vous allez utiliser des cartes qui représentant des éléments de l'écosystème des données ouvertes
+* Elle se déroule sous forme d’un atelier ludique, où vous allez utiliser des cartes qui représentant des éléments de l'écosystème des données ouvertes.
 
-* Mon rôle est de vous apporter des compléments d’informations, vous questionner, et réorienter le jeu.
+* Mon rôle est de vous apporter des compléments d’informations, vous questionner, et réorienter l'atelier.
 
-* Le but du jeu est de comprendre les relations entre les différentes cartes, les causalités, les conséquences.
+* Le but de l'atelier est de comprendre les relations entre les différentes cartes, les causalités, les conséquences.
 
 * A la fin du jeu, un temps d’échange permet de partager son expérience et son ressenti.
 
@@ -52,7 +52,7 @@ layout: true
 
 2. Disposer les cartes sur la fresque dans un ordre logique, échanges, discussions, débats. Créer des liens de causalité entre les cartes, en les dessinant au feutre (45min)
 
-3. Chaque groupe identifie ses 5 cartes coup de coeur(5min)
+3. Chaque groupe identifie ses 5 cartes coup de coeur (5min)
 
 4. Racontez-nous votre fresque. 3 questions : Qu’est ce que l’open data ? Quels sont les enjeux ? Comment on fait ? (20min)
 
