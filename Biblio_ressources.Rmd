@@ -3,7 +3,7 @@ title: "Bibliographie et ressources"
 runningheader: "Bibliographie et ressources" # only for pdf output
 subtitle: "Cours open data - Ministère de la Culture" # only for html output
 author: "Datactivist - Anne-Laure Donzel"
-date: "Avril 2023"
+date: "Novembre 2023"
 output:
   tufte::tufte_html: default
   tufte::tufte_handout:
