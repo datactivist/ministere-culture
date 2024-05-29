@@ -2,7 +2,7 @@
 title: "L'ouverture des données publiques culturelles en pratique"
 subtitle: "Ministère de la Culture"
 author: "Datactivist - Anne-Laure Donzel"
-date: "Novembre 2023"
+date: "Juin 2024"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]

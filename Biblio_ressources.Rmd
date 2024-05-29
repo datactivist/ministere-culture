@@ -1,9 +1,9 @@
 ---
 title: "Bibliographie et ressources"
 runningheader: "Bibliographie et ressources" # only for pdf output
-subtitle: "Cours open data - Ministère de la Culture" # only for html output
+subtitle: "Formation open data - Ministère de la Culture" # only for html output
 author: "Datactivist - Anne-Laure Donzel"
-date: "Novembre 2023"
+date: "Juin 2024"
 output:
   tufte::tufte_html: default
   tufte::tufte_handout:
@@ -82,6 +82,10 @@ Programme Images/usages, Institut national d’histoire de l’art, octobre 2018
 * Cas pratique à partir d'un inventaire en pdf [https://patrimoine-et-numerique.fr/tutoriels/69-38-d-un-inventaire-pdf-a-un-fichier-xml-cas-pratique-openrefine](https://patrimoine-et-numerique.fr/tutoriels/69-38-d-un-inventaire-pdf-a-un-fichier-xml-cas-pratique-openrefine)
 
 # Journées d'étude
+
+- Documentation de la journée Wikimédia [*Culture et Numérique 2024*](https://meta.wikimedia.org/wiki/Journ%C3%A9e_Wikimedia_Culture_et_Num%C3%A9rique_2024)
+
+- Documentation de la journée Wikimédia [*Culture et Numérique 2023*](https://meta.wikimedia.org/wiki/Journ%C3%A9e_Wikimedia_Culture_et_Num%C3%A9rique_2023)
 
 - Documentation de la journée Wikimédia [*Culture et Numérique 2022*](https://meta.wikimedia.org/wiki/Journ%C3%A9e_Wikimedia_Culture_et_Num%C3%A9rique_2022/Documentation)
 

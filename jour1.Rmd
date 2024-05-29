@@ -2,7 +2,7 @@
 title: "Comprendre les enjeux de l'ouverture des données publiques culturelles"
 subtitle: "Ministère de la Culture"
 author: "Datactivist"
-date: "Novembre 2023"
+date: "Juin 2024"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -355,37 +355,6 @@ est chargé d’identifier au ministère et dans les établissements culturels, 
 
 ---
 
-### .red[Gouvernement Ouvert] et Open Data
-
-Rappel : l'open data n'est pas qu'une pratique d'ouverture et de publication de données, c'est également un **mouvement et une philosophie relatif à un meilleur accès à  l'information publique**.
-
-Plus largement, l'open data s'inscrit dans le mouvement du **gouvernement ouvert**, aussi appelé **OpenGov** en anglais. Celui-ci promeut :
-
-+ La plus grande .red[**transparence de l'information**] (notamment à travers l'open data), pour permettre entre autre le suivi des politiques publiques
-
-+ Une plus forte .red[**participation des citoyens**] dans l'élaboration des politiques publiques : à la fois en étant davantage consulté mais aussi en étant acteur dans la construction de celles-ci
-
-+ Une plus forte .red[**collaboration**] au sein des administrations publiques (casser les silos) et à l'extérieur (travailler avec des acteurs associatifs, privés) pour concevoir et mettre en oeuvre les politiques publiques
-
----
-### .red[OGP/PGO] : Partenariat pour un Gouvernement Ouvert
-
-.center[<img src="https://datactivist.coop/SPoSGL/sections/img/ogp.png" height="200"/>]
-
-En septembre 2011, un partenariat multilatéral s'est créé afin de promouvoir le gouvernement ouvert et traduire ses valeurs en des actions gouvernementales concrètes : **le partenariat pour un gouvernement ouvert** (PGO), aussi appelé **Open Government Partnership** (OGP)
-
-Initialement fondé par 8 pays (Brésil, Indonésie, Mexique, Norvège, Philippines, Afrique du Sud, Royaume-Uni et États-Unis), le PGO en compte désormais 70, dont la France.
-
----
-### Le .red[plan d'action national] pour la France
-
-
-Le 17 décembre 2021, le 3e plan d’action national du Partenariat pour un gouvernement ouvert a été présenté par la ministre de la transformation et la fonction publiques.  
-
-[Lire le plan d'action 2021-2023](https://www.modernisation.gouv.fr/outils-et-formations/le-plan-daction-national-2021-2023-pour-un-gouvernement-ouvert)
-
----
-
 ### [Data.gouv.fr](https://www.data.gouv.fr/fr/)
 
 Data.gouv est la plateforme nationale ouverte des données publiques françaises.
@@ -397,7 +366,7 @@ On y trouve des milliers de jeux de données, provenant principalement de produc
 
 ---
 
-### Nouveau sur data.gouv : .red[thématique culture]
+### Data.gouv : .red[thématique culture]
 
 [![](img/DG_theme_cult.png)](https://www.data.gouv.fr/fr/pages/donnees_culture/)
 
@@ -451,7 +420,7 @@ class: center, middle
 .red[**2014**] : La BnF ouvre ses métadonnées descriptives en "Licence Ouverte" 
 .red[**2014/2015**] : Publication de la feuille de route «Métadonnées culturelles et transition Web 3.0»
 
-.red[**2016**] : Ouverture du portail [data.cuture.gouv.fr](https://data.culture.gouv.fr/))
+.red[**2016**] : Ouverture du portail [data.cuture.gouv.fr](https://data.culture.gouv.fr/)
 
 .red[**2017**] : Les Archives nationales optent pour l’ouverture et la gratuité des données
 
@@ -462,6 +431,7 @@ class: center, middle
 
 Le ministère publie 2 éléments intéressants pour s'orienter et connaître sa démarche open data :
 * Le [catalogue des données du Ministère](https://data.culture.gouv.fr/explore/dataset/catalogue-des-donnees-du-ministere-de-la-culture/information/?disjunctive.sous_domaine)
+
 * Le [calendrier des futures publications de jeux de données](https://www.culture.gouv.fr/Thematiques/Innovation-numerique/Actualites/Open-data-decouvrez-le-calendrier-d-ouverture-du-ministere-de-la-Culture)
 ---
 
@@ -491,9 +461,9 @@ class: inverse, center, middle
 
 ### .red[L’efficacité de l’action publique] : amélioration de la qualité des services publics 
 
-* Exemple : [**sauver des vies en mer**](https://damp-basin-47015.herokuapp.com/defis/2018/donneesauvetagemaritime.html) en prévenant les accidents maritimes
+* Exemple : [**Est-ce que l'on remarque plus les trains à l'heure ou ceux en retard ?**](https://data.centrevaldeloire.fr/pages/ponctualite-ter-exintercites/) 
 
-.center[![](./img/previ-sauvetage.png)]
+.center[![](img/region_centre.png)]
 
 ---
 
@@ -1253,7 +1223,8 @@ http://nerd.huma-num.fr/nerd/
 
 Le label [Culture Libre](https://www.wikimedia.fr/label-culture-libre/) de Wikimedia France valorise le travail des GLAM pour l'ouverture et le partage des savoirs
 
-1ère remise de labels le 25 avril à l'INHA à 16 institutions.
+1ère remise de labels le 25 avril 2023 à l'INHA à 16 institutions.
+2ème "promo" en 2024 avec 8 nouveaux lauréats.
 
 ![](img/Culturelibre.jpeg)
 *Photo : Wikimedia France*
