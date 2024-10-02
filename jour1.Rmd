@@ -2,7 +2,7 @@
 title: "Comprendre les enjeux de l'ouverture des données publiques culturelles"
 subtitle: "Ministère de la Culture"
 author: "Datactivist"
-date: "Juin 2024"
+date: "Octobre 2024"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -155,7 +155,7 @@ class:inverse,middle,center
 
 Le terme est apparu pour la première fois dans les années 1970 dans les accords qu’a signés la NASA avec des pays partenaires en vue du partage de données satellitaires. 
 
-C’est en 1995 qu’on en voit le premier usage public aux Etats-Unis dans un rapport de la National Academy of Science intitutlé "_On the Full and Open Exchange of Scientific Data_". Dans le langage courant, cela fait .red[**près de 10 ans**] que l'ouverture des données est devenue un élément majeur des politiques publiques numériques. 
+C’est en 1995 qu’on en voit le premier usage public aux Etats-Unis dans un rapport de la National Academy of Science intitutlé "_On the Full and Open Exchange of Scientific Data_". Dans le langage courant, cela fait .red[**près de 15 ans**] que l'ouverture des données est devenue un élément majeur des politiques publiques numériques. 
 
 ---
 
@@ -179,37 +179,9 @@ class: inverse, center, middle
 
 ---
 
-### L'influence de la .red[culture du logiciel libre]
-
-> Le mouvement de l'open data est largement **influencé par le mouvement du logiciel libre** qui le précède de quelques décennies, et dont les créateurs participèrent à en dessiner les contours, notamment en 2007, lors de la conférence de Sebastopol sur laquelle nous reviendrons. 
-
-**Comment ?**
-
-* Historiquement venu des pratiques des chercheurs en informatique des années 70-80, le partage d'information, de données est un modèle de la recherche scientifique de l'époque. 
-* À partir de 1980, des licences d'utilisation des logiciels prévues pour limiter la liberté de l'utilisateur apparaissent.
-* 1983 : Réaction d'un chercheur du MIT (Richard Stallman) avec le projet GNU (le logiciel, une forme de connaissance scientifique, qui doit être partagée) formalise le concept de Logiciel Libre.
-* 1985: Création de la Fondation pour le Logiciel Libre et rédaction de la General Public License, GPL 
-
----
-
-### .red[Les principes] du logiciel Libre 
-
-**Les quatre libertés fondamentales** 
-
-* La liberté d'utilisation d'un programme 
-* La liberté d'étudier le fonctionnement d'un programme 
-* La liberté de modifier un programme 
-* La liberté de distribuer un programme
-
-.center[<img src="./img/Linux_penguin.png" height="250"/>]
-
-> Il faut penser à travers ces principes à la libre expression et liberté d'utilisation, non pas à la gratuité
-
----
-
 ### Open data : un mouvement .red[né pour répondre à différents enjeux et besoins]
 
-**Brève introduction aux principales facettes** : 
+**Historiquement, la naissance de l'open data repose sur différentes facettes** : 
 
 * La transparence
 
@@ -220,46 +192,6 @@ class: inverse, center, middle
 * L'industrie de la donnée
 
 * La modernisation des administrations
-
-
----
-### [.red[Besoin n°1 :]](https://books.openedition.org/cdf/5005?lang=fr) renforcer la transparence
-
-Aller au-delà du droit d'accès et de la réédition des comptes (_accountability_) : réduire les asymétries d'information en accédant au matériau brut de l'information et du savoir
-
-.reduite[
-![](https://datactivist.coop/aaf/img/ddhc.png)
-]
-
----
-### [.red[Facette n°2 :]](https://books.openedition.org/cdf/5005?lang=fr) favoriser la libre circulation de l’information
-
-Dans la lignée de la cybernétique et du logiciel libre, la circulation des données comme valeur essentielle
-
-.center[<img src="https://farm7.static.flickr.com/6197/6073305958_19c2bbef40_o.jpg" height="400"/>]
-
----
-
-###  [.red[Facette n°3 :]](https://books.openedition.org/cdf/5005?lang=fr) répondre à la demande de données brutes
-
-Dans la lignée des premières initatives de partage de données scientifiques en génétique ou en astronomie, obtenir les données sous leur forme pré-interprétative pour refaire les calculs
-
-.center[<img src="http://images.wisegeek.com/physical-data.jpg" height="350"/>]
-
----
-
-### [.red[Facette n°4 :]](https://books.openedition.org/cdf/5005?lang=fr) alimenter l'industrie de la donnée
-Le nouveau pétrole et les promesses démesurées de croissance
-
-.reduite[.center[![](https://images.pexels.com/photos/70362/oil-monahans-texas-sunset-70362.jpeg?cs=srgb&dl=dawn-drill-evening-70362.jpg&fm=jpg)]]
-
----
-
-### .red[Facette n°5 :] accompagner la modernisation des administrations
-
-Désiloter l'administration et ouvrir l'innovation, collaborer avec la société civile dans l'élaboration et la mise en œuvre des politiques publiques
-
-.center[![modernisation des administrations](./img/modernisation.jpg)] 
 
 ---
 
@@ -407,7 +339,7 @@ class: center, middle
 
 ### Et au .red[Ministère de la Culture]
 
-> Le ministère de la culture s’est doté en avril 2013 d’une « feuille de route open data », comportant dix actions pour une stratégie numérique de diffusion et de réutilisation des données publiques numériques du secteur culturel. 
+> Le ministère de la culture s’est doté dès avril 2013 d’une « feuille de route open data », comportant dix actions pour une stratégie numérique de diffusion et de réutilisation des données publiques numériques du secteur culturel. 
 
 ---
 
@@ -426,13 +358,7 @@ class: center, middle
 
 .red[**2021**] : Une nouvelle nouvelle feuille de route "Données et contenus culturels" et nomination d'un AMDAC
 
----
-### Un ministère qui .red[joue le jeu]
 
-Le ministère publie 2 éléments intéressants pour s'orienter et connaître sa démarche open data :
-* Le [catalogue des données du Ministère](https://data.culture.gouv.fr/explore/dataset/catalogue-des-donnees-du-ministere-de-la-culture/information/?disjunctive.sous_domaine)
-
-* Le [calendrier des futures publications de jeux de données](https://www.culture.gouv.fr/Thematiques/Innovation-numerique/Actualites/Open-data-decouvrez-le-calendrier-d-ouverture-du-ministere-de-la-Culture)
 ---
 
 class: inverse, center, middle
@@ -492,6 +418,19 @@ class: inverse, center, middle
 
 ---
 
+### .red[Question d'actualité] : quelle place pour les données culturelles à l'ère de l'IA générative ?
+
+* Période avec beaucoup d'incertitudes sur les données d'entrainement des IA générative
+
+* Mission relative à la rémunération des contenus culturels utilisés par les
+systèmes d’intelligence artificielle confiée au Conseil supérieur de la propriété littéraire et artistique en avril 2024
+
+* Choix de la BNF de passer un [accord avec un consortium d'acteurs](https://next.ink/142051/la-bnf-un-reservoir-de-donnees-pour-les-ia/)
+
+> Sujet brûlant à suivre... Ce qu'il faut avoir en tête c'est qu'aujourd'hui les données (ouvertes mais pas que) servent aussi à ça
+
+---
+
 ### .red[Focus sur le secteur culturel :] la feuille de route **Données et contenus culturels**
 
 Cette [feuille de route](https://www.culture.gouv.fr/Espace-documentation/Documentation-administrative/Feuille-de-route-Donnees-et-contenus-culturels). Elle concerne les données, les algorithmes et les codes sources.
@@ -541,6 +480,14 @@ Cela implique la création d’une page dédiée à l'établissement, puis la pu
 * Les **données financières** : financement, ressources, budgets annuels, subventions
 
 > Important : les œuvres protégées par le droit d’auteur ou un droit voisin ne peuvent faire l’objet d’un droit de réutilisation, mais les œuvres entrées dans le domaine public relèvent pleinement de l’ouverture des données publiques.
+
+---
+### Un ministère qui .red[joue le jeu]
+
+Le ministère publie 2 éléments intéressants pour s'orienter et connaître sa démarche open data :
+* Le [catalogue des données du Ministère](https://data.culture.gouv.fr/explore/dataset/catalogue-des-donnees-du-ministere-de-la-culture/information/?disjunctive.sous_domaine)
+
+* Le [calendrier des futures publications de jeux de données](https://www.culture.gouv.fr/Thematiques/Innovation-numerique/Actualites/Open-data-decouvrez-le-calendrier-d-ouverture-du-ministere-de-la-Culture)
 
 ---
 
@@ -640,20 +587,14 @@ d'.red[**occulter les mentions protégées**]. L’administration n’est pas te
 
 > En France, elle est transposée par l'ordonnance du 6 juin 2005, qui insère dans la loi CADA de 1978 un nouveau chapitre relatif à la réutilisation des informations publiques.
 
----
-
-### Le .red[droit de réutilisation des informations publiques] 
-
-Le droit de réutilisation issu de la directive PSI *se combine donc en France avec le droit d’accès aux documents administratifs* reconnu depuis 1978 : les informations contenues dans tout document administratif communicable sont, en principe, réutilisables « _par toute personne qui le souhaite à d'autres fins que celles de la mission de service public pour les besoins de laquelle les documents ont été élaborés ou sont détenus_ ». 
-
-> Par cette combinaison, le droit français garantit ainsi une liberté effective de réutilisation bien plus grande que celle imposée par la directive ISP. Le principal apport de la transposition au droit français est d’avoir mis fin à l’interdiction de réutilisation des documents administratifs à des fins commerciales.
 
 ---
 ### Evolution de le directive PSI en .red[2019]
 
 Maintien d'un cadre d'exception pour le secteur culturel (bibliothèques, archives, musées)
 
->Pour les documents à l'égard desquels [...] des archives sont titulaires de droits de propriété intellectuelle [...] les États membres veillent à ce que, lorsque la réutilisation de ces documents est autorisée, ces derniers puissent être réutilisés à des fins commerciales ou non commerciales.
+>Pour les documents à l'égard desquels des bibliothèques, y compris des bibliothèques universitaires, des musées et
+des archive sont titulaires de droits de propriété intellectuelle [...] les États membres veillent à ce que, lorsque la réutilisation de ces documents est autorisée, ces derniers puissent être réutilisés à des fins commerciales ou non commerciales.
 
 Art. 3 de la directive
 
@@ -824,6 +765,8 @@ class: center, middle
 
 C'est le **principe d'open data par défaut** 
 
+![](img/completude.png)
+
 ---
 class: center, middle
 
@@ -831,22 +774,7 @@ class: center, middle
 
 > **Les données ouvertes sont telles que collectées à la source, non-agrégées avec le plus haut niveau de granularité**
 
----
-### .red[Trouver] des données granulaires
-
-.pull-left[
-
-Le portail Data Culture basé sur la solution OpenDataSoft permet de trouver rapidement les données plus granulaires en triant les données par le nombre d'enregistrements dans le catalogue de données. 
 ![](./img/granularite.png)
-]
-
-
-.pull-right[
-On trouvera ainsi facilement la [base Joconde](https://data.culture.gouv.fr/explore/dataset/base-joconde-extrait/information/) qui décrit les oeuvres des musées de France et contient environ 600 000 notices.
-
-![](./img/joconde.png)
-
-]
 
 ---
 class: center, middle
@@ -873,6 +801,8 @@ class: center, middle
 
 > **Les données doivent être utilisables par le plus grand nombre d’usagers potentiels**
 
+
+
 ---
 class: center, middle
 
@@ -880,20 +810,7 @@ class: center, middle
 
 > **Les données peuvent être traitées automatiquement par les machines** 
 
----
-### .red[Exemple :] le nombre de flashs par radars en France
-
-.pull-left[
-Le ministère de l'Intérieur publie les statistiques du nombre de flashs sur les radars en France mais sous la forme de fichiers PDF. Ces tableaux de données sont inexploitables par les machines, on ne peut pas les importer simplement dans un outil d'analyse de données. 
-
-![](./img/flashs_radars_MI.png)
-]
-.pull-right[
-A la suite d'une conversation sur [TeamOpenData](), un citoyen a extrait ces données avec l'outil [Tabula](tabula.technology) et les a republié sur data.gouv.fr dans un format lisible par les machines. Plusieurs cartes ont été produites à la suite. 
-
-![](./img/carto_radars_MI.jpg)
-]
-
+![](img/machine.png)
 
 
 ---
@@ -941,9 +858,9 @@ A éviter : police ou colonnes en couleur pour signifier une légende particuli�
 
 .pull-right[
 
-#### Ce fichier de la [fréquentation des musées en France](https://data.culture.gouv.fr/explore/dataset/frequentation-des-musees-de-france/information/?disjunctive.new_name) a depuis été mis à jour sur Data-Culture avec une infographie. 
+#### [Chiffres clés du Ministère](https://www.culture.gouv.fr/espace-documentation/statistiques-ministerielles-de-la-culture2/publications/Collections-d-ouvrages/chiffres-cles-statistiques-de-la-culture-et-de-la-communication-2012-2023/Chiffres-Cles-2023-de-la-culture-et-de-la-communication) dans un fichier pdf
 
-![](./img/frequentation.png)
+![](img/stat_min.png)
 
 ]
 
@@ -1235,17 +1152,6 @@ class: inverse, center, middle
 
 # 7 - Concevoir une stratégie open data
 
----
-
-class: middle
-
-### Comment ouvrir ses données : .red[les différentes étapes] pratiques à suivre
-
-* **Étape 1** : Sélectionner les données
-
-* **Étape 2** : Préparer les données
-
-* **Étape 3** : Diffuser et valoriser les données
 
 ---
 
@@ -1257,7 +1163,7 @@ class: middle
 
 - Travailler à la .red[**qualité des données**], garante d'usages réels
 
-- Mener le projet d'ouverture des données comme un projet de modernisation de l'administration (transversalité, agilité, lean...)
+- Mener le projet d'ouverture des données comme un .red[**projet de modernisation de l'administration**] (transversalité, agilité, lean...)
 
 ---
 
@@ -1271,33 +1177,6 @@ _Pour y palier : compter sur l’intelligence collective et l'interraction avec 
 
 * **La crainte d'un mauvais usage** : quelques rares cas de mauvaises réutilisations avec des données détournées de leur contexte ou utilisées à de mauvaises fins.  
 _Pour y palier : renseigner les métadonnées qui accompagnent le jeu de données._
-
----
-
-### Bien penser sa stratégie open data, c'est .red[s'assurer l'enthousiasme des gestionnaires et réutilisateurs]
-
-.pull-left[
-
-* **De nombreux profils et équipes doivent s'emparer de l'open data**
-
-[![](https://datactivist.coop/aaf/img/users.png)](https://thereboot.github.io/moti-personas/)
-
-Une bonne stratégie consiste à réduire les frictions :
-
-]
-.pull-right[
-
-* ####  Rendre les données moins difficiles à trouver (*enjeu de trouvabilité*)
-
-* ####  Publier les données avec une bonne granularité temporelle et spatiale
-
-* ####  Documenter les jeux de données pour en comprendre la structure
-
-* #### Veiller à leur mise à jour la plus fréquente possible
-
-* #### Rendre les portails attractifs à tous (et pas qu'aux développeurs web) 
-
-]
 
 ---
 
@@ -1315,6 +1194,9 @@ Une bonne stratégie consiste à réduire les frictions :
 
 #### Rester à l'écoute et interagir avec les usagers 
 * Prévoir des boucles de participation
+
+#### Penser à [mesurer l'impact des actions mises en oeuvre](https://www.data.gouv.fr/fr/posts/impact-des-donnees-ouvertes-1-6/)
+* Dès le lancement du projet en identifiant bien ses objectifs
 
 ---
 
