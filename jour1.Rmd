@@ -237,12 +237,12 @@ class: center, middle
 ---
 ### 2010 : .red[l'ère des classements]
 
-**[Le baromètre international de l'Open Data](https://index.okfn.org/place/)** est un classement de référence, tout comme l'Open Data Index de l'Open Knowledge Foundation, organisation internationale ayant pour objet de promouvoir la transparence des données publiques.
+**[Le baromètre international de l'Open Data](https://opendatabarometer.org/?_year=2017&indicator=ODB)** est un classement de référence, tout comme l'Open Data Index de l'Open Knowledge Foundation, organisation internationale ayant pour objet de promouvoir la transparence des données publiques.
 
 ![baromètre international de l'Open Data](https://datactivist.coop/aaf/img/odb.png)
 ---
 
-### 2013 : la [charte du G8 sur l'open data](https://www.modernisation.gouv.fr/sites/default/files/fichiers-attaches/charte-g8-ouverture-donnees-publiques-fr.pdf)
+### 2013 : la [charte du G8 sur l'open data](https://www.etalab.gouv.fr/leschefsdetatdug8signentunechartepourlouverturedesdonneespubliques/#:~:text=Cette%20Charte%20Open%20Data%20du,les%20formats%20ouverts%20et%20non%2D)
 
 .center[![charte G8](./img/charte_G8.png)]
 
@@ -311,7 +311,7 @@ Data.gouv.fr est la plateforme **nationale** d'open data mais ce n'est pas la se
 
 + Des plateformes open data gérées par des **ministères**. Exemple : [data.culture.gouv.fr](https://data.culture.gouv.fr/pages/home/)
 
-+ Des plateformes open data gérées par des **entreprises**. Exemple [DataNova](https://datanova.laposte.fr/page/accueil/) (La Poste)
++ Des plateformes open data gérées par des **entreprises**. Exemple [DataNova](https://datanova.laposte.fr) (La Poste)
 
 + Des jeux de données directement publiés sur le site des producteurs de données, sans plateforme dédiée.
 
@@ -588,17 +588,6 @@ d'.red[**occulter les mentions protégées**]. L’administration n’est pas te
 > En France, elle est transposée par l'ordonnance du 6 juin 2005, qui insère dans la loi CADA de 1978 un nouveau chapitre relatif à la réutilisation des informations publiques.
 
 
----
-### Evolution de le directive PSI en .red[2019]
-
-Maintien d'un cadre d'exception pour le secteur culturel (bibliothèques, archives, musées)
-
->Pour les documents à l'égard desquels des bibliothèques, y compris des bibliothèques universitaires, des musées et
-des archive sont titulaires de droits de propriété intellectuelle [...] les États membres veillent à ce que, lorsque la réutilisation de ces documents est autorisée, ces derniers puissent être réutilisés à des fins commerciales ou non commerciales.
-
-Art. 3 de la directive
-
-PSI autorise la perception de redevances pour les données culturelles mais sous condition de critères.
 
 ---
 
@@ -611,7 +600,6 @@ Elle a pour objectifs de :
 * Promouvoir une société numérique protectrice 
 * Garantir l’accès de tous au numérique (Haut débit..)
 
-[Source](http://www.vie-publique.fr/actualite/dossier/loi-internet/republique-numerique-que-change-loi-du-7-octobre-2016.html)
 
 ---
 
@@ -728,6 +716,18 @@ La mise en ligne de données à caractère personnel sans anonymisation n'est pe
 
 
 > Les données publiques nativement numériques ne peuvent pas faire l'objet d'une redevance.
+
+---
+### Evolution de le directive PSI en .red[2019]
+
+Maintien d'un cadre d'exception pour le secteur culturel (bibliothèques, archives, musées)
+
+>Pour les documents à l'égard desquels des bibliothèques, y compris des bibliothèques universitaires, des musées et
+des archive sont titulaires de droits de propriété intellectuelle [...] les États membres veillent à ce que, lorsque la réutilisation de ces documents est autorisée, ces derniers puissent être réutilisés à des fins commerciales ou non commerciales.
+
+Art. 3 de la directive
+
+PSI autorise la perception de redevances pour les données culturelles mais sous condition de critères.
 
 ---
 
@@ -934,7 +934,7 @@ Licence : Open government data licence ou CC-BY-4.0
 
 ---
 
-### .red[Rijksstudio]
+### [.red[Rijksstudio]]((https://www.rijksmuseum.nl/en/rijksstudio))
 
 Lancé en 2012 pendant la période de travaux du .red[Rijksmuseum d’Amsterdam], le Rijksstudio est d’abord le catalogue en ligne des collections de l’institution. 
 
@@ -942,14 +942,14 @@ Lancé en 2012 pendant la période de travaux du .red[Rijksmuseum d’Amsterdam]
 
 Licence : ?
 
-[En savoir plus](https://www.rijksmuseum.nl/en/rijksstudio)
+[En savoir plus sur la politique de la donnée](https://www.rijksmuseum.nl/en/research/conduct-research/data)
 
 ---
 ### .red[Cleveland Museum of Arts]
 
 Le 23 janvier 2019, le Cleveland Museum of Art a annoncé qu'il devenait une institution en libre accès, utilisant la désignation Creative Commons Zero (CC0) pour les images et les données haute résolution liées à sa collection. 
 
-Les + de la démarche : tableau de bord des effets de la [stratégie open content](https://www.clevelandart.org/art/collection/dashboard#page-0) et contenus 3D ouverts.
+Les + de la démarche : tableau de bord des effets de la [stratégie open content](https://www.clevelandart.org/virtual-cma-dashboards/collection-online-dashboard) et contenus 3D ouverts.
 
 Licence : CC0
 
@@ -1033,7 +1033,9 @@ Licence : aucune
 ### .red[Les collections en partage] du musée de Bretagne
 
 .pull-left[
-En 2017, la plateforme **collections.musee-bretagne.fr** propose ses collections en téléchargement gratuit. Une volonté de la métropole de Rennes de rendre accessibles les collections, participant ainsi à la consolidation de sa politique d’ouverture des données de la collectivité. La licence appliquée autorise la réutilisation des documents (images et notices), y compris à des fins commerciales.
+En 2017, la plateforme **collections.musee-bretagne.fr** propose ses collections en téléchargement gratuit.
+
+Important travail sur [l'origine des collections pour les rendre réutilisable](https://musee-devoile.blog/2022/04/25/des-collections-en-partage-droits-dauteur-genealogie-et-pedagogie/).
 
 Licence : de différents types
 ] 
@@ -1121,9 +1123,9 @@ Des projets :
 
 ### Profiter du potentiel du .red[web semantique]
 
-[Crotos](https://zone47.com), est un moteur de recherche qui s’appuie sur Wikidata et donne ainsi accès à des œuvres en s'appuyant sur la force du web semantique. 
+[Crotos](https://zone47.com/crotos/), est un moteur de recherche qui s’appuie sur Wikidata et donne ainsi accès à des œuvres en s'appuyant sur la force du web semantique. 
 
-[Paladia](http://zone47.com/crotos/palladia/), est un moteur de recherche et d'affichage d'une partie des collections du Musée Saint-Raymond.
+[Palladia](http://zone47.com/crotos/palladia/), est un moteur de recherche et d'affichage d'une partie des collections du Musée Saint-Raymond.
 
 ![](./img/crotos.png)
 ---
@@ -1206,7 +1208,7 @@ _Pour y palier : renseigner les métadonnées qui accompagnent le jeu de donnée
 
 * [**Feuille de route – Données et contenus culturels**](https://www.culture.gouv.fr/Espace-documentation/Documentation-administrative/Feuille-de-route-Donnees-et-contenus-culturels), Publiée par le ministère de la Culture, septembre 2021
 
-* [**Guide pratique dédié à l’ouverture des données publiques culturelles**](http://www.culture.gouv.fr/Media/Thematiques/Innovation-numerique/Folder/Guide-pratique-dedie-a-l-ouverture-des-donnees-publiques-culturelles)
+* [**Guide pratique dédié à l’ouverture des données publiques culturelles**](https://www.culture.gouv.fr/Media/Thematiques/Innovation-numerique/Folder/Guide-pratique-dedie-a-l-ouverture-des-donnees-publiques-culturelles)
 Publié par le ministère de la Culture, juillet 2019 
 
 ---
@@ -1215,9 +1217,9 @@ Publié par le ministère de la Culture, juillet 2019
 
 * [**Outil pédagogique facilitant la compréhension des droits de propriété littéraire et artistique applicables aux contenus culturels dont la diffusion est souhaitée**](https://www.culture.gouv.fr/droitsdediffusion/) 
 
-* [**Numérisation et valorisation des contenus culturels : guide ouverture et réutilisation des informations publiques numériques du secteur culturel**](http://www.culture.gouv.fr/Media/Thematiques/Innovation-numerique/Folder/Livrables-GT-Numerisation/Numerisation-et-valorisation-des-contenus-culturels-guide-ouverture-et-reutilisation-des-informations-publiques-numeriques-du-secteur-culturel),publié par le ministère de la Culture, 2017
+* [**Numérisation et valorisation des contenus culturels : guide ouverture et réutilisation des informations publiques numériques du secteur culturel**](https://www.culture.gouv.fr/Media/Thematiques/Innovation-numerique/Folder/Livrables-GT-Numerisation/Numerisation-et-valorisation-des-contenus-culturels-guide-ouverture-et-reutilisation-des-informations-publiques-numeriques-du-secteur-culturel),publié par le ministère de la Culture, 2017
 
-* [**Guide de bonnes pratiques en matière de propriété littéraire et artistique**](http://www.culture.gouv.fr/Media/Thematiques/Innovation-numerique/Folder/Livrables-GT-Numerisation/Guide-de-bonnes-pratiques-en-matiere-de-propriete-litteraire-et-artistique), publié par le ministère de la Culture, 2017
+* [**Guide de bonnes pratiques en matière de propriété littéraire et artistique**](https://www.culture.gouv.fr/Media/Thematiques/Innovation-numerique/Folder/Livrables-GT-Numerisation/Guide-de-bonnes-pratiques-en-matiere-de-propriete-litteraire-et-artistique), publié par le ministère de la Culture, 2017
 
 * [**Rapport "Ouverture et partage des données publiques culturelles"**](https://www.culture.gouv.fr/content/download/94768/file/201312_Rapport_Open_Data_Culturel.pdf), publié par le ministère de la Culture, décembre 2013
 
@@ -1231,9 +1233,9 @@ Publié par le ministère de la Culture, juillet 2019
 
 * [**Penser demain, L’Open Innovation dans les Musées & Institutions Culturelles**](https://www.icart.fr/actualites/elaboration-dun-livre-blanc-sur-lopen-innovation), l'ICART 
 
-* [**Guide pratique pour la recherche et la réutilisation des images d’œuvres d’art**](https://www.inha.fr/fr/actualites/actualites-de-l-inha/en-2021/guide-pratique-pour-la-recherche-et-la-reutilisation-des-images-d-uvres-d-art.html), INHA
+* [**Guide pratique pour la recherche et la réutilisation des images d’œuvres d’art**](https://numrha.hypotheses.org/2537), INHA
 
-* [**Droits des images, histoire de l’art et société**](https://www.inha.fr/_attachments/de-nouvelles-democraties-du-savoir-actualite/rapport_images_usages221018.pdf)
+* [**Droits des images, histoire de l’art et société**](https://iconautes.inha.fr/fr/index/rapport-images-usages.html)
 ---
 
 class: inverse, center, middle
