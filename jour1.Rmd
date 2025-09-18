@@ -2,7 +2,7 @@
 title: "Comprendre les enjeux de l'ouverture des données publiques culturelles"
 subtitle: "Ministère de la Culture"
 author: "Datactivist"
-date: "Octobre 2024"
+date: "Septembre 2025"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -14,6 +14,7 @@ output:
 params:
   event: Open Data, comprendre les enjeux de l'ouverture des données publiques culturelles
   slug: ministere-culture
+
 ---
 
 layout: true
@@ -46,7 +47,7 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 > * Découvrir des cas pratiques appliqués aux données culturelles.
 
-> * Comprendre les problématiques liées aux données du secteur culturel.
+> * Comprendre les problématiques et les enjeux liés aux données du secteur culturel.
 
 
 ---
@@ -57,24 +58,9 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 1. Comprendre la donnée : de quoi parle-t-on ? 
 2. Histoire de l'open data
 3. Les principaux enjeux de l'ouverture des données
-4. Cadre juridique de l’ouverture des données culturelles
-5. Plusieurs exemples #OpenGLAM
-6. Concevoir une stratégie d'ouverture de données : quelques grands principes.
-
----
-class: inverse, center, middle
-
-
-# De quoi parle t-on ?
-
----
-
-### .red[Imaginons...]
-
-Vous êtes journaliste (ou étudiant·e en master ou simplement avec une grande curiosité) et vous travaillez sur les festivals en France. Vous souhaitez étudier : la fréquentation, l'historique des festivals... 
-
-* De quoi avez-vous besoin ?
-* Comment allez-vous procéder ?
+4. Les outils de l'ouverture des données
+5. Cadre juridique de l’ouverture des données culturelles
+6. Plusieurs exemples #OpenGLAM
 
 ---
 
@@ -92,7 +78,6 @@ class: inverse, center, middle
  
 ##### Les données sont couramment comprises comme les *matériaux bruts produits dans l’abstraction du monde en catégories, mesures et toute autre forme de représentation-nombres, caractères, symboles, images, sons, ondes électromagnétiques, bits qui constituent les fondations sur lesquelles l’information et le savoir sont créés*.
 
-Cette définition est une des rares à s'extraire des discours entourant les données ou leurs infrastructures. L'auteur de cet ouvrage de référence en sociologie s'attache à définir précisément l'ontologie et l'épistémologie de la donnée.
 ]
 
 ---
@@ -100,7 +85,7 @@ Cette définition est une des rares à s'extraire des discours entourant les don
 ### .red[La pyramide] Data-Information-Knowledge-Wisdom
 
 .pull-left[
-[![largeur](./img/pyramid.svg)](https://commons.wikimedia.org/w/index.php?curid=37705247)
+[![largeur](./img/pyramide.png)]()
 ]
 .pull-right[
 Attribuée à [Russell Ackoff](http://en.wikipedia.org/wiki/Russell_L._Ackoff) en 1989, elle signifie que :
@@ -108,7 +93,7 @@ Attribuée à [Russell Ackoff](http://en.wikipedia.org/wiki/Russell_L._Ackoff) e
 - Les **.red[données]** sont la matière "brute" de l'information conçues plutôt pour des machines.
 - **.red[L'information]** pourrait être définie comme des données qui ont été interprétées pour dégager du sens pour des humains.
 - En donnant du sens à de l'information, on obtient de la **.red[connaissance]**
-- En donnant du sens à la connaissance on obtient de la **.red[sagesse]**.
+- En donnant du sens à la connaissance on obtient du **.red[savoir]**.
 ] 
 
 ---
@@ -117,33 +102,11 @@ Attribuée à [Russell Ackoff](http://en.wikipedia.org/wiki/Russell_L._Ackoff) e
 
 Source : [Source : Guide Open Data Cnil](https://www.cnil.fr/sites/default/files/atoms/files/guide_open_data.pdf) 
 
-> On entend par base de données un recueil d'œuvres, de données ou d'autres éléments indépendants, disposés de manière systématique ou méthodique, et individuellement accessibles par des moyens électroniques ou par tout autre moyen (art L112-3 du code de la propriété intellectuelle)
+> On entend par base de données un **recueil** d'œuvres, de données ou d'autres éléments indépendants, **disposés de manière systématique ou méthodique**, et individuellement accessibles par des moyens électroniques ou par tout autre moyen (art L112-3 du code de la propriété intellectuelle)
 
 > En d’autres termes il s’agit d’un ensemble de données organisé en vue de son utilisation par des programmes correspondant à des applications distinctes et de manière à faciliter l'évolution indépendante des données et des programmes (en anglais : data base)
 
-Le document donne également une **définition de ce qu'est une "donnée"** :
 
-> Une donnée correspond à la représentation d'une information sous une forme conventionnelle destinée à faciliter son traitement (en anglais : data).
-
-
----
-
-### .red[Les données], c'est aussi tout ce qui circule dans un ordinateur
-
-Les données ne sont pas seulement le fondement du savoir, elles sont aussi la base de l'informatique. Tout ce qui circule dans un ordinateur, ce sont des données.
-
-.pull-left[![](https://datactivist.coop/SPoSGL/sections/img/volume.png)]
-.pull-right[
-Pensez à votre abonnement téléphonique, chaque mois, vous payez pour consommer un certain volume de données quantifié en octet ou en bit. 
-
-Le volume des données créées et traitées ne cesse de croître en même temps que les capacités de calcul des ordinateurs. 
-]
-
----
-
-### A partir de ces .red[définitions]
-
-* Quelles données avez-vous dans vos services ?
 
 ---
 class:inverse,middle,center
@@ -165,33 +128,10 @@ Au début des années 2010, c’est dans le cadre d’un .red[mouvement internat
 
 Les objectifs de ce mouvement d’ouverture des données publiques sont à la fois
 
-* .red[citoyens] : une plus grande transparence de l’action publique garantit un meilleur contrôle démocratique
+* .red[politiques] : appels de citoyens pour une plus grande transparence de l’action publique qui garantit un meilleur contrôle démocratique
 * .red[économiques] : les données de l’administration peuvent être le support de nombreuses activités économiques et devraient être diffusées aussi largement que possible. 
 
-Le contexte est alors marqué par l’essor considérable des technologies et de l’économique numérique.
-
----
-class: inverse, center, middle
-
-#### L'open data s'inscrit dans une série de continuités historiques qui en font un **mouvement aux multiples facettes…**
-
-> Il est important de connaître ses fondements philosophiques pour mieux comprendre ses déclinaisons locales et verticales.
-
----
-
-### Open data : un mouvement .red[né pour répondre à différents enjeux et besoins]
-
-**Historiquement, la naissance de l'open data repose sur différentes facettes** : 
-
-* La transparence
-
-* La libre circulation de l'information
-
-* La demande de données brutes
-
-* L'industrie de la donnée
-
-* La modernisation des administrations
+Le contexte est alors marqué par l’essor considérable des technologies et de l’économie numérique.
 
 ---
 
@@ -202,7 +142,7 @@ class: inverse, center, middle
 ---
 class: center, middle
 
-## Quelques dates jalon dans .red[l'histoire mondiale de l'open data]
+## Quatre dates clés dans .red[l'histoire mondiale de l'open data]
 
 ---
 
@@ -235,34 +175,22 @@ class: center, middle
 .center[.reduite[![](https://datactivist.coop/aaf/img/ted.png)]]
 
 ---
-### 2010 : .red[l'ère des classements]
-
-**[Le baromètre international de l'Open Data](https://opendatabarometer.org/?_year=2017&indicator=ODB)** est un classement de référence, tout comme l'Open Data Index de l'Open Knowledge Foundation, organisation internationale ayant pour objet de promouvoir la transparence des données publiques.
-
-![baromètre international de l'Open Data](https://datactivist.coop/aaf/img/odb.png)
----
 
 ### 2013 : la [charte du G8 sur l'open data](https://www.etalab.gouv.fr/leschefsdetatdug8signentunechartepourlouverturedesdonneespubliques/#:~:text=Cette%20Charte%20Open%20Data%20du,les%20formats%20ouverts%20et%20non%2D)
 
 .center[![charte G8](./img/charte_G8.png)]
 
----
-### 2015 : la [charte internationale de l'open data](https://opendatacharter.net/)
-
-.center[.reduite[![](./img/open-data-charter_FR.png)]]
 
 ---
 
-### Conclusion : des .red[principes et une définition] qui se stabilisent
+### Conclusion : des .red[principes et une définition] qui se stabilisent en une dizaine d'années
 
 * **.red[Une première définition du savoir ouvert] avec l'Open Definition** : "Ouvert signifie que tout le monde peut librement accéder, utiliser, modifier et partager (*des données ou informations*) dans n'importe quel but, sous réserve d'exigences qui en préservent la provenance et l'ouverture."
 
-* **Des principes appropriables par les gouvernements** : le travail du G8 en 2013 et plus tard de la Charte Internationale de l'Open Data rend les principes intégrables par les gouvernements.  
+* **.red[Des principes appropriables par les gouvernements]** : le travail du G8 en 2013 et plus tard de la Charte Internationale de l'Open Data rend les principes intégrables par les gouvernements.  
 
 
 > Les données ouvertes deviennent des données auxquelles l’accès est totalement public et libre de droit, au même titre que l’exploitation et la réutilisation.
-
-> Les données ouvertes culturelles présentent des particularités juridiques que nous allons détailler par la suite
 
 > **Sur ces bases, la France déploie sa politique nationale de données ouvertes**
 
@@ -285,8 +213,133 @@ Au ministère de la Culture :
 * **Depnum** (Département du numérique pour la transformation des politiques culturelles et de l'administration des données) au sein du Service du numérique
 est chargé d’identifier au ministère et dans les établissements culturels, les informations produites dans le cadre des missions de service public, de coordonner leur recensement, leur qualification, et la mise à disposition en données ouvertes qui ont vocation à être librement accessibles et gratuitement réutilisables. (*n’hésitez pas à le contacter pour toute question sur l'Open data*).
 
+
+---
+class: center, middle
+
+### L'open data au .red[Ministère de la Culture]
+
+> Le ministère de la culture s’est doté dès avril 2013 d’une « feuille de route open data », comportant dix actions pour une stratégie numérique de diffusion et de réutilisation des données publiques numériques du secteur culturel. 
+
 ---
 
+### Les .red[dates importantes] à retenir 1/2
+
+.red[**2011**] : Le ministère s'engage dans la politique gouvernementale en faveur de l’ouverture et du partage des données publiques. Les premiers jeux de données sont publiés par le Ministère sur data.gouv.fr
+
+.red[**2013**] : Adoption de la première feuille de route « open data culturel ». Elle est mise à jour en [**2019**](https://www.culture.gouv.fr/Thematiques/Innovation-numerique/Actualites/Feuille-de-route-open-data2). Elle comporte 6 axes pour une stratégie numérique de diffusion et de réutilisation des données publiques numériques du secteur culturel.
+
+.red[**2014**] : La BnF ouvre ses métadonnées descriptives en "Licence Ouverte"
+
+.red[**2014/2015**] : Publication de la feuille de route «Métadonnées culturelles et transition Web 3.0»
+
+---
+
+### Les .red[dates importantes] à retenir 2/2
+
+.red[**2016**] : Ouverture du portail [data.cuture.gouv.fr](https://data.culture.gouv.fr/)
+
+.red[**2017**] : Les Archives nationales optent pour l’ouverture et la gratuité des données
+
+.red[**2021**] : Une nouvelle nouvelle feuille de route "Données et contenus culturels" et nomination d'un AMDAC
+
+.red[**2024**] : Une nouvelle nouvelle nouvelle feuille de route ["numérique et données"](https://nextcloud.datactivist.coop/s/H6tExD68sq8riHs) est rédigée
+
+---
+
+class: inverse, center, middle
+
+# 3 - Les principaux enjeux de l'open data 
+
+---
+
+## A quoi peut servir l'open data ?
+
+![](img/enjeux.png)
+
+---
+
+### .red[Focus sur le secteur culturel :] la feuille de route **Données et contenus culturels**
+
+La [feuille de route](https://www.culture.gouv.fr/Espace-documentation/Documentation-administrative/Feuille-de-route-Donnees-et-contenus-culturels) de 2021 concerne les données, les algorithmes et les codes sources.
+
+
+Elle s'articule autour de trois axes prioritaires :
+* Améliorer la capacité du ministère à diffuser et rendre visible les contenus
+culturels ;
+* Contribuer à l’efficacité des actions du ministère et à la simplification des
+relations entre les usagers et le service public culturel ;
+* Faire bénéficier un secteur économique de la culture fragilisé par la crise COVID-19 des opportunités de reprise et de développement présentées par l’usage des données.
+
+---
+
+### .red[Focus sur le secteur culturel :] la feuille de route **Données et contenus culturels**
+
+Les moyens pour atteindre ces objectifs sont :
+* Accélérer l’ouverture des données publiques, algorithmes et codes sources, tant en nombre d’institutions partageant des données qu’en quantité de données disponibles ;
+* Travailler sur la qualité des données ouvertes et les moyens techniques permettant interopérabilité et réutilisations ;
+* Acculturer le ministère et son réseau d’opérateurs à l’utilisation de la donnée non seulement comme moyen d’information, mais aussi de pilotage, d’innovation et de développement économique.
+
+---
+
+### .red[Question d'actualité] : quelle place pour les données culturelles à l'ère de l'IA générative ?
+
+* Période avec beaucoup d'incertitudes sur les données d'entrainement des IA générative
+
+* Mission relative à la rémunération des contenus culturels utilisés par les
+systèmes d’intelligence artificielle confiée au Conseil supérieur de la propriété littéraire et artistique en avril 2024 (résultats attendus été 2025)
+
+* Choix de la BNF de passer un [accord avec un consortium d'acteurs](https://next.ink/142051/la-bnf-un-reservoir-de-donnees-pour-les-ia/)
+
+* 2 juin 2025 : Lancement de la concertation entre les développeurs de modèles d'IA générative et les ayants droits culturels
+
+> Sujet brûlant à suivre... Ce qu'il faut avoir en tête c'est qu'aujourd'hui les données (ouvertes mais pas que) servent aussi à ça
+
+---
+
+### .red[Question d'actualité] : quelle place pour les données culturelles à l'ère de l'IA générative ?
+
+* Prendre la vague...
+: bénéficier des apports de l'IA qui permet de bénéficierd'un apport d'expertise et d'analyse précieux (étude des collections parexemple)
+
+* ...en veillant aux grains
+: l'IA pose de nombreux problèmes : cybersécurité,intégrité scientifique, droits d’auteur, diversité et inclusion, écologie, dignitéhumaine…
+
+Ressources : [Culture et Recherche n°147](https://www.culture.gouv.fr/thematiques/enseignement-superieur-et-recherche/la-revue-culture-et-recherche/recherche-et-intelligence-artificielle) et [Charte de l'IA générative](https://semaphore.culture.gouv.fr/system/files/database/documents/2024-06/charte-intelligence-artificielle-generative-ministere-culture.pdf)
+---
+
+### .red[Question d'actualité] : quelle place pour les données culturelles à l'ère de l'IA générative ?
+
+Le Ministère a publié une [Stratégie IA](https://www.artcena.fr/sites/default/files/medias/StrategieActionIA_VDIFF_VF.pdf) en juillet 2025, elle contient les axes suivants : 
+
+* Développer des IA et des usages responsables
+
+* Créer les conditions d'une modèle économique équitable et protecteur des créateurs
+
+* Innover et renouveler l'offre culturelle, de sa création à sa diffusion
+Utiliser l'IA comme levier de découvrabilité, de connaissance et de protection des biens culturels
+
+* Déployer l'IA au service des usagers et des agents
+
+---
+
+### Que signifie .red[“Open”] dans un contexte culturel ?
+
+* **L’Open Content** (les contenus ouverts) est la mise à disposition gratuite sur Internet des reproductions numériques des œuvres sous une licence garantissant leur libre accès et leur réutilisation par tous, sans restriction technique, juridique ou financière.
+
+* **L’Open Access** (le libre accès) est la mise à disposition gratuite en ligne de contenus numériques, sous licences libres (Creative commons, etc.) ou non.
+
+* **L’Open Knowledge** (la culture libre) est un mouvement social qui promeut la liberté de distribuer et de modifier des œuvres de l’esprit sous la forme d’œuvres libres. Il puise sa philosophie dans celle du logiciel libre en l’appliquant à la culture et à l’information.
+
+* **L’Open Data** (les données ouvertes), est la mise à disposition gratuite sur Internet de données sous une licence libre. 
+
+---
+
+class: inverse, center, middle
+
+# 4 - Les outils de l'ouverture des données
+
+---
 ### [Data.gouv.fr](https://www.data.gouv.fr/fr/)
 
 Data.gouv est la plateforme nationale ouverte des données publiques françaises.
@@ -333,119 +386,12 @@ Un portail open data est un espace de présentation des données publiques ouver
 
 * dispositifs éditoriaux pour animer le projet open data
 
+---
+### Le portail .red[data.culture.gouv.fr]
+
+![](img/dataculture.png)
 
 ---
-class: center, middle
-
-### Et au .red[Ministère de la Culture]
-
-> Le ministère de la culture s’est doté dès avril 2013 d’une « feuille de route open data », comportant dix actions pour une stratégie numérique de diffusion et de réutilisation des données publiques numériques du secteur culturel. 
-
----
-
-### Les .red[dates importantes] à retenir
-
-.red[**2011**] : Le ministère s'engage dans la politique gouvernementale en faveur de l’ouverture et du partage des données publiques. Les premiers jeux de données sont publiés par le Ministère sur data.gouv.fr
-
-.red[**2013**] : Adoption de la première feuille de route « open data culturel ». Elle est mise à jour en [**2019**](https://www.culture.gouv.fr/Thematiques/Innovation-numerique/Actualites/Feuille-de-route-open-data2). Elle comporte 6 axes pour une stratégie numérique de diffusion et de réutilisation des données publiques numériques du secteur culturel.
-
-.red[**2014**] : La BnF ouvre ses métadonnées descriptives en "Licence Ouverte" 
-.red[**2014/2015**] : Publication de la feuille de route «Métadonnées culturelles et transition Web 3.0»
-
-.red[**2016**] : Ouverture du portail [data.cuture.gouv.fr](https://data.culture.gouv.fr/)
-
-.red[**2017**] : Les Archives nationales optent pour l’ouverture et la gratuité des données
-
-.red[**2021**] : Une nouvelle nouvelle feuille de route "Données et contenus culturels" et nomination d'un AMDAC
-
-
----
-
-class: inverse, center, middle
-
-# 3 - Les principaux enjeux de l'open data 
-
----
-
-### .red[La transparence de la vie publique] et la participation citoyenne à l’action publique
-
-
-* Exemple avec les [**Données essentielles des conventions de subvention**](https://data.culture.gouv.fr/explore/dataset/donnees-essentielles-des-conventions-de-subvention/information/), année 2018
-
-.center[![](./img/donnees_conventions_subvention.png)]
-
----
-
-### La participation citoyenne .red[à l’action publique]
-
-* Exemple : [le **Grand Débat National**](https://granddebat.fr/), mars 2019
-
-
-.center[![](./img/grand_debat.png)]
-
----
-
-### .red[L’efficacité de l’action publique] : amélioration de la qualité des services publics 
-
-* Exemple : [**Est-ce que l'on remarque plus les trains à l'heure ou ceux en retard ?**](https://data.centrevaldeloire.fr/pages/ponctualite-ter-exintercites/) 
-
-.center[![](img/region_centre.png)]
-
----
-
-### Le développement de .red[l’attractivité des territoires]
-
-* Le portail [**DATAtourisme**](https://www.datatourisme.gouv.fr/)
-
-.center[![](./img/DATAtourisme.jpg)]
-
----
-
-### Le soutien à .red[l’innovation économique et sociale]
-
-* Les données des [**valeurs foncières**](https://www.meilleursagents.com/prix-immobilier/dvf/) reprises par le site meilleurs agents, avril 2019
-
-.center[![](./img/dvf_meilleurs_agents.png)]
-
-
----
-
-### Une opportunité en matière de .red[démocratisation culturelle et de transmission des savoirs]
-
-* Le projet [**UrbanHist**](https://www.urban-hist.toulouse.fr/) à Toulouse
-
-.center[![](./img/urbanhist.jpg)]
-
----
-
-### .red[Question d'actualité] : quelle place pour les données culturelles à l'ère de l'IA générative ?
-
-* Période avec beaucoup d'incertitudes sur les données d'entrainement des IA générative
-
-* Mission relative à la rémunération des contenus culturels utilisés par les
-systèmes d’intelligence artificielle confiée au Conseil supérieur de la propriété littéraire et artistique en avril 2024
-
-* Choix de la BNF de passer un [accord avec un consortium d'acteurs](https://next.ink/142051/la-bnf-un-reservoir-de-donnees-pour-les-ia/)
-
-> Sujet brûlant à suivre... Ce qu'il faut avoir en tête c'est qu'aujourd'hui les données (ouvertes mais pas que) servent aussi à ça
-
----
-
-### .red[Focus sur le secteur culturel :] la feuille de route **Données et contenus culturels**
-
-Cette [feuille de route](https://www.culture.gouv.fr/Espace-documentation/Documentation-administrative/Feuille-de-route-Donnees-et-contenus-culturels). Elle concerne les données, les algorithmes et les codes sources.
-
-La publication des feuilles de route est le fruit d’une volonté politique renouvelée et portée par le Premier ministre qui s’est vu remettre le 23 décembre 2020 le rapport de la mission parlementaire présidée par Eric Bothorel et par la publication de la circulaire d'avril 2021 du Premier Ministre.
-
-Elle s'articule autour de trois axes prioritaires :
-* Améliorer la capacité du ministère à diffuser et rendre visible les contenus
-culturels ;
-* Contribuer à l’efficacité des actions du ministère et à la simplification des
-relations entre les usagers et le service public culturel ;
-* Faire bénéficier un secteur économique de la culture fragilisé par la crise COVID-19 des opportunités de reprise et de développement présentées par l’usage des données.
-
----
-
 ### Pour les .red[services centraux, les DRAC et les SCN] : des données hébergées sur data.culture.gouv.fr
 
 ![](./img/data.culture.gouv.fr.png)
@@ -491,22 +437,9 @@ Le ministère publie 2 éléments intéressants pour s'orienter et connaître sa
 
 ---
 
-### Que signifie .red[“Open”] dans un contexte culturel ?
-
-* **L’Open Content** (les contenus ouverts) est la mise à disposition gratuite sur Internet des reproductions numériques des œuvres sous une licence garantissant leur libre accès et leur réutilisation par tous, sans restriction technique, juridique ou financière.
-
-* **L’Open Access** (le libre accès) est la mise à disposition gratuite en ligne de contenus numériques, sous licences libres (Creative commons, etc.) ou non.
-
-* **L’Open Knowledge** (la culture libre) est un mouvement social qui promeut la liberté de distribuer et de modifier des œuvres de l’esprit sous la forme d’œuvres libres. Il puise sa philosophie dans celle du logiciel libre en l’appliquant à la culture et à l’information.
-
-* **L’Open Data** (les données ouvertes), est la mise à disposition gratuite sur Internet de données sous une licence libre. 
-
-
----
-
 class: inverse, center, middle
 
-# 4 - Éléments juridiques relatifs à l'ouverture des données
+# 5 - Éléments juridiques relatifs à l'ouverture des données
 
 ---
 
@@ -1150,25 +1083,6 @@ Le label [Culture Libre](https://www.wikimedia.fr/label-culture-libre/) de Wikim
 
 ---
 
-class: inverse, center, middle
-
-# 7 - Concevoir une stratégie open data
-
-
----
-
-### .red[Réussir sa stratégie] d'ouverture des données 
-
-- Au-delà de l'obligation légale : .red[**poser les objectifs**] poursuivis par la stratégie
-
-- Se donner les moyens de connaître la .red[**demande de données**] pour y répondre 
-
-- Travailler à la .red[**qualité des données**], garante d'usages réels
-
-- Mener le projet d'ouverture des données comme un .red[**projet de modernisation de l'administration**] (transversalité, agilité, lean...)
-
----
-
 ### Les .red[freins] à l'ouverture des données
 
 * **Les ressources nécessaires (temps, RH et finances)** : extraction, anonymisation, hébergement des données, numérisation des œuvres ...  
@@ -1202,7 +1116,7 @@ _Pour y palier : renseigner les métadonnées qui accompagnent le jeu de donnée
 
 ---
 
-### Bibliographie 1/3
+### Bibliographie 1/4
 
 * [**Politique du Ministère de la Culture pour  les codes sources, algorithmes et codes sources**](https://www.culture.gouv.fr/content/download/314733/pdf_file/Politique_CALL_version_01_2022-06-29.pdf?version=1), juin 2022
 
@@ -1213,7 +1127,7 @@ Publié par le ministère de la Culture, juillet 2019
 
 ---
 
-### Bibliographie 2/3
+### Bibliographie 2/4
 
 * [**Outil pédagogique facilitant la compréhension des droits de propriété littéraire et artistique applicables aux contenus culturels dont la diffusion est souhaitée**](https://www.culture.gouv.fr/droitsdediffusion/) 
 
@@ -1225,7 +1139,7 @@ Publié par le ministère de la Culture, juillet 2019
 
 ---
 
-### Bibliographie 3/3
+### Bibliographie 3/4
 
 * [**Rapport open content dans les institutions culturelles en France**](https://upload.wikimedia.org/wikipedia/commons/9/94/Rapport_sur_l%E2%80%99open_content_dans_les_institutions_culturelles_en_France_-_%C3%89tat_des_lieux_des_pratiques_num%C3%A9riques_et_d%E2%80%99ouverture_de_contenus.pdf), Wikimédia, 2022
 
@@ -1236,6 +1150,19 @@ Publié par le ministère de la Culture, juillet 2019
 * [**Guide pratique pour la recherche et la réutilisation des images d’œuvres d’art**](https://numrha.hypotheses.org/2537), INHA
 
 * [**Droits des images, histoire de l’art et société**](https://iconautes.inha.fr/fr/index/rapport-images-usages.html)
+
+---
+
+### Bibliographie 4/4
+
+* [**Stratégie d’action IA du Ministère**](https://www.artcena.fr/sites/default/files/medias/StrategieActionIA_VDIFF_VF.pdf)
+
+* [**Charte de l'IA générative au Ministère de la Culture**](https://semaphore.culture.gouv.fr/system/files/database/documents/2024-06/charte-intelligence-artificielle-generative-ministere-culture.pdf)
+
+* [**Guide de bonne pratique de l'IA générative dans les administrations**](https://doc.incubateur.net/alliance/utiliser-lia-generative-dans-ladministration)
+
+* [**Cartographie d'outils sur étagère pour les administrations**](https://alliance.numerique.gouv.fr/cartographie/panorama-des-solutions-ia-sur-etagere-pour-les-administrations-publiques/)
+
 ---
 
 class: inverse, center, middle

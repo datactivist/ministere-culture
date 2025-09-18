@@ -2,7 +2,7 @@
 title: "L'ouverture des données publiques culturelles en pratique"
 subtitle: "Ministère de la Culture"
 author: "Datactivist - Anne-Laure Donzel"
-date: "Juin 2024"
+date: "Septembre 2025"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -114,6 +114,8 @@ les deux cas :
 -   Une opportunité en matière de démocratisation culturelle et de
     transmission des savoirs
 
+Quels autres enjeux voyez vous pour les données culturelles ?
+
 
 ---
 
@@ -135,10 +137,7 @@ les deux cas :
 
 > Important : pour la mise à disposition des oeuvres (numérisées ou nativement numériques), il faut tenir compte du droit de propriété intellectuelle avant l'ouverture.
 
----
-class: inverse, center, middle
 
-> ### Derrière chaque fichier se cache une découverte
 ---
 
 class: inverse, center, middle
@@ -167,24 +166,7 @@ class: inverse, center, middle
 
 - Problèmes **juridiques** : les données à ouvrir sont-elles protégées par des droits spécifiques ?
 
----
 
-### Les politiques open data .red["de l'offre"]
-
-.pull-left[
-#### En théorie
-
-> #### Toutes les données sont ouvertes sous leur forme brute dès leur production
-
-]
-.pull-right[
-
-
-#### En pratique
-
-> #### L’administration choisit quelles données ouvrir, comment les ouvrir, quand les ouvrir et ce qu’elles contiennent
-
-]
 ---
 
 ### Les conséquences pour .red[les réutilisateurs :]
@@ -244,11 +226,13 @@ class: inverse, center, middle
 
 .center[<img src="./img/tableaucarto.png" height="280"/>]
 
-
 ---
-class: center, middle
 
-# Exercice d'évaluation des données et de priorisation
+### Identifier vos données
+
+* Quelles données et quelles bases de données avez-vous dans vos services ?
+
+.center[![](img/jan-antonin-kolar-lRoX0shwjUQ-unsplash.jpg)]
 
 ---
 
@@ -258,7 +242,18 @@ class: center, middle
 
 - Orientations stratégiques de l'Etablissement ou prioriser ses ouvertures suivant les demandes et les opportunités
 
-- Grille d'analyse
+
+---
+
+### Prioriser les données à ouvrir
+
+Pour établir une liste de priorité, il faut s'interroger :
+
+* Sur la politique de l'établissement
+* Sur les enjeux identifiés comme prioritaires 
+* Sur les publics que l'on cible
+
+Une fois ce travail réalisé, on pourra analyser les données au prisme de ces choix
 
 ---
 
@@ -409,7 +404,6 @@ Source : Françoise Paquienséguy, Valentyna Dymytrova. Livrable 1.2 Analyse de 
 ---
 ### Étape 3 : .red[Diffuser] les données
 
-### Attention : .red[réalisez un fichier .csv de qualité]
 
 **C'est quoi un bon fichier ?**
 * Il ne possède pas de cellules fusionnées
@@ -462,10 +456,6 @@ Source : National Information Standards Organization
 > **Les Métadonnées descriptives décrivent une ressource à des fins de
 > découverte et d'identification.**
 
----
-class: center, middle
-
-# Exercice de description
 
 ---
 

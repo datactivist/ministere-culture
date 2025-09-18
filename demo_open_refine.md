@@ -3,7 +3,7 @@ title: "Demo Open Refine"
 runningheader: "Demo Open Refine" # only for pdf output
 subtitle: "Cours open data - Ministère de la Culture" # only for html output
 author: "Datactivist - Anne-Laure Donzel"
-date: "`r Sys.Date()`"
+date: "2025-09-12"
 output : 
   html_document :
     keep_md : true
