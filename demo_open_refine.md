@@ -3,7 +3,7 @@ title: "Demo Open Refine"
 runningheader: "Demo Open Refine" # only for pdf output
 subtitle: "Cours open data - Ministère de la Culture" # only for html output
 author: "Datactivist - Anne-Laure Donzel"
-date: "2025-09-12"
+date: "2025-09-19"
 output : 
   html_document :
     keep_md : true
@@ -101,3 +101,29 @@ Tentons la réconciliation sur une autre colonne : *Référence*. Wikidata intè
 Cette fois cela fonctionne mieux, on peut ensuite récupérer les coordonnées géographiques des monuments, *add columns*, *add columns from reconcilied values*
 
 ![](img/demo_OR_15.png)
+
+## Joindre 2 fichiers
+
+Il faut ouvrir les 2 fichier dans Open refine et en faire 2 projets
+
+![](img/join1.png)
+
+![](img/join2.png)
+
+
+Ensuite il faut ouvrir le projet A et "ajoutr une colonne en fonction de cette colonne", sur la colonne pivot (celle qui se trouve dans les 2 fichiers, dans mon exemple la ville)
+
+
+![](img/join3.png)
+
+
+Et c'est là que GREL intervient 😁. Il faut saisir la fonction suivante, enindiquant le titre du projet, dela colonne pivot et de la colonne contenant les données à rapatrier
+
+cell.cross("titre du projet B", "titre de la colonne pivot dans le projet B").cells["titre dans le projet B de la colonne contenant les données à rapatrier dans le projet A"].value[0]
+
+![](img/join4.png)
+
+
+Attention au nom de projet (si vous ne l'avez pas renommé) : mon fichier "fichierB**.**csv" est renommé automatiquement en projet "fichierB csv". Cela peut provoquer une erreur dans la fonction GREL
+
+![](img/join5.png)

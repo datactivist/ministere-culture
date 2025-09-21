@@ -717,17 +717,6 @@ class: center, middle
 > **Les données doivent être disponibles dès qu'elles sont produites**
 
 ---
-### .red[Un exemple de] données temps réel
-
-La ville d'Issy les Moulineaux ouvre les [données temps réel de l'affluence](https://data.issy.com/explore/dataset/affluences-temps-reel/map/?sort=open&refine.secondary_name=M%C3%A9diath%C3%A8que+d%27Issy-les-Moulineaux&location=15,48.83064,2.26653&basemap=mapbox.streets) dans ses structures dont la médiathèque. Ces données sont exploitées notamment par l'application [Affluences](https://www.affluences.com/).
-
-.reduite[
-.center[
-![](./img/issy.png)
-]
-]
-
----
 class: center, middle
 
 ### 4. Des données .red[accessibles] 
@@ -867,7 +856,7 @@ Licence : Open government data licence ou CC-BY-4.0
 
 ---
 
-### [.red[Rijksstudio]]((https://www.rijksmuseum.nl/en/rijksstudio))
+### .red[Rijksstudio](https://www.rijksmuseum.nl/en/rijksstudio)
 
 Lancé en 2012 pendant la période de travaux du .red[Rijksmuseum d’Amsterdam], le Rijksstudio est d’abord le catalogue en ligne des collections de l’institution. 
 
